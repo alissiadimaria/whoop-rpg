@@ -1,0 +1,3922 @@
+[
+  {
+    "cycle_id": 1550475332,
+    "sleep_id": "977c3bf6-7d11-489e-9d75-b7f1973cc48a",
+    "user_id": 31526255,
+    "created_at": "2026-06-06T13:18:35.860Z",
+    "updated_at": "2026-06-06T13:18:35.860Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 55.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 118.53185,
+      "spo2_percentage": 96.111115,
+      "skin_temp_celsius": 33.024
+    }
+  },
+  {
+    "cycle_id": 1547888933,
+    "sleep_id": "744b42da-c788-48a1-b924-3527262ccd06",
+    "user_id": 31526255,
+    "created_at": "2026-06-05T11:07:09.828Z",
+    "updated_at": "2026-06-05T11:37:09.272Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 125.694305,
+      "spo2_percentage": 96.14286,
+      "skin_temp_celsius": 32.221333
+    }
+  },
+  {
+    "cycle_id": 1545730537,
+    "sleep_id": "a55c5d72-81d9-4eaa-a215-aae5c6ed15a5",
+    "user_id": 31526255,
+    "created_at": "2026-06-04T11:50:45.679Z",
+    "updated_at": "2026-06-04T11:50:45.679Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 131.99283,
+      "spo2_percentage": 96.566666,
+      "skin_temp_celsius": 32.968666
+    }
+  },
+  {
+    "cycle_id": 1543549320,
+    "sleep_id": "16454481-f277-4447-a26e-0c8d461d1e61",
+    "user_id": 31526255,
+    "created_at": "2026-06-03T12:34:11.478Z",
+    "updated_at": "2026-06-03T12:34:11.478Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 47.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 113.253555,
+      "spo2_percentage": 97.431816,
+      "skin_temp_celsius": 33.559166
+    }
+  },
+  {
+    "cycle_id": 1541039641,
+    "sleep_id": "745ac2d9-18b4-46bc-af9f-3cc8f5d4efec",
+    "user_id": 31526255,
+    "created_at": "2026-06-02T11:32:38.330Z",
+    "updated_at": "2026-06-02T11:32:38.330Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 141.03505,
+      "spo2_percentage": 98.57143,
+      "skin_temp_celsius": 31.309
+    }
+  },
+  {
+    "cycle_id": 1538549302,
+    "sleep_id": "d3bfc695-5be5-4fda-bc3c-fa207d1340b6",
+    "user_id": 31526255,
+    "created_at": "2026-06-01T10:51:06.067Z",
+    "updated_at": "2026-06-01T11:33:43.479Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 70.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 132.51451,
+      "spo2_percentage": 97.411766,
+      "skin_temp_celsius": 33.083668
+    }
+  },
+  {
+    "cycle_id": 1536106028,
+    "sleep_id": "ab709ccf-36bc-48ae-9471-e0ab911779a2",
+    "user_id": 31526255,
+    "created_at": "2026-05-31T10:49:34.512Z",
+    "updated_at": "2026-05-31T11:29:48.226Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 117.33229,
+      "spo2_percentage": 98.0,
+      "skin_temp_celsius": 32.076668
+    }
+  },
+  {
+    "cycle_id": 1534024289,
+    "sleep_id": "27df9f1e-e537-46c2-8b7d-d1f77fb3b64e",
+    "user_id": 31526255,
+    "created_at": "2026-05-30T11:39:35.868Z",
+    "updated_at": "2026-05-30T11:39:35.868Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 46.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 109.54881,
+      "spo2_percentage": 96.125,
+      "skin_temp_celsius": 33.178333
+    }
+  },
+  {
+    "cycle_id": 1531890253,
+    "sleep_id": "2886b047-c249-465b-af04-88e36ecab392",
+    "user_id": 31526255,
+    "created_at": "2026-05-29T11:46:12.315Z",
+    "updated_at": "2026-05-29T11:46:12.315Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 130.14954,
+      "spo2_percentage": 97.275,
+      "skin_temp_celsius": 33.170998
+    }
+  },
+  {
+    "cycle_id": 1529106358,
+    "sleep_id": "35af6c3b-d4ab-48b4-99f3-7b4d338b7058",
+    "user_id": 31526255,
+    "created_at": "2026-05-28T09:04:53.264Z",
+    "updated_at": "2026-05-28T09:04:53.264Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 147.23215,
+      "spo2_percentage": 96.35,
+      "skin_temp_celsius": 34.596165
+    }
+  },
+  {
+    "cycle_id": 1527045452,
+    "sleep_id": "134ef435-7743-4ed0-ad72-a31e2092e10e",
+    "user_id": 31526255,
+    "created_at": "2026-05-27T10:33:32.123Z",
+    "updated_at": "2026-05-27T12:16:30.071Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 69.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 135.10028,
+      "spo2_percentage": 93.97222,
+      "skin_temp_celsius": 32.995834
+    }
+  },
+  {
+    "cycle_id": 1525192643,
+    "sleep_id": "97bcf877-9ce1-4282-b4e4-4621eeede9f0",
+    "user_id": 31526255,
+    "created_at": "2026-05-26T12:59:18.908Z",
+    "updated_at": "2026-05-26T12:59:18.908Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 67.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 136.29309,
+      "spo2_percentage": 98.382355,
+      "skin_temp_celsius": 33.004665
+    }
+  },
+  {
+    "cycle_id": 1522615047,
+    "sleep_id": "49206447-690b-438c-879b-e3982b3349db",
+    "user_id": 31526255,
+    "created_at": "2026-05-25T12:06:35.893Z",
+    "updated_at": "2026-05-25T12:06:35.893Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 42.0,
+      "hrv_rmssd_milli": 169.04633,
+      "spo2_percentage": 97.25,
+      "skin_temp_celsius": 32.52133
+    }
+  },
+  {
+    "cycle_id": 1520417251,
+    "sleep_id": "2d9c8dd6-ecea-47d0-aa19-da737c2ff7d8",
+    "user_id": 31526255,
+    "created_at": "2026-05-24T12:43:45.556Z",
+    "updated_at": "2026-05-24T12:43:45.556Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 157.98071,
+      "spo2_percentage": 96.67857,
+      "skin_temp_celsius": 32.515335
+    }
+  },
+  {
+    "cycle_id": 1518073244,
+    "sleep_id": "116add36-aaca-4b36-90ac-b887117c5630",
+    "user_id": 31526255,
+    "created_at": "2026-05-23T11:57:37.268Z",
+    "updated_at": "2026-05-23T11:57:37.268Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 53.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 118.8153,
+      "spo2_percentage": 97.5,
+      "skin_temp_celsius": 33.105
+    }
+  },
+  {
+    "cycle_id": 1516010817,
+    "sleep_id": "17d12fab-a750-4ccb-9ab0-117119aa5287",
+    "user_id": 31526255,
+    "created_at": "2026-05-22T12:25:05.093Z",
+    "updated_at": "2026-05-22T12:25:05.093Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 145.04422,
+      "spo2_percentage": 96.416664,
+      "skin_temp_celsius": 33.303665
+    }
+  },
+  {
+    "cycle_id": 1513712128,
+    "sleep_id": "f907f852-0d14-40e4-96bb-3db0f908f41a",
+    "user_id": 31526255,
+    "created_at": "2026-05-21T12:13:58.181Z",
+    "updated_at": "2026-05-21T12:13:58.181Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 140.66977,
+      "spo2_percentage": 95.75,
+      "skin_temp_celsius": 32.965916
+    }
+  },
+  {
+    "cycle_id": 1511350615,
+    "sleep_id": "4988105b-f36e-4576-9eaf-79e5e6d3f607",
+    "user_id": 31526255,
+    "created_at": "2026-05-20T11:48:37.756Z",
+    "updated_at": "2026-05-20T11:48:37.756Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 52.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 117.80292,
+      "spo2_percentage": 98.0,
+      "skin_temp_celsius": 33.342667
+    }
+  },
+  {
+    "cycle_id": 1509012086,
+    "sleep_id": "db778685-788a-48b8-bdb5-643577495ad9",
+    "user_id": 31526255,
+    "created_at": "2026-05-19T11:33:41.515Z",
+    "updated_at": "2026-05-19T11:33:41.515Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 138.2353,
+      "spo2_percentage": 94.92308,
+      "skin_temp_celsius": 32.885666
+    }
+  },
+  {
+    "cycle_id": 1506728854,
+    "sleep_id": "c0ae13b3-8f6a-4f94-bb17-bb1e4daba5ef",
+    "user_id": 31526255,
+    "created_at": "2026-05-18T11:45:38.118Z",
+    "updated_at": "2026-05-18T11:45:38.118Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 86.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 142.47299,
+      "spo2_percentage": 96.375,
+      "skin_temp_celsius": 33.955
+    }
+  },
+  {
+    "cycle_id": 1504372283,
+    "sleep_id": "6b635fca-5bf0-49b7-8876-355d10c0afd7",
+    "user_id": 31526255,
+    "created_at": "2026-05-17T12:07:34.627Z",
+    "updated_at": "2026-05-17T12:07:34.627Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 138.49046,
+      "spo2_percentage": 95.545456,
+      "skin_temp_celsius": 32.837166
+    }
+  },
+  {
+    "cycle_id": 1502191309,
+    "sleep_id": "35c63ecc-9579-4c89-b412-493e2b05a780",
+    "user_id": 31526255,
+    "created_at": "2026-05-16T12:09:34.692Z",
+    "updated_at": "2026-05-16T12:09:34.692Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 71.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 131.48885,
+      "spo2_percentage": 97.64286,
+      "skin_temp_celsius": 33.145668
+    }
+  },
+  {
+    "cycle_id": 1500213091,
+    "sleep_id": "3466d591-bb30-4a93-9e7f-b185bf6cee3b",
+    "user_id": 31526255,
+    "created_at": "2026-05-15T13:03:16.779Z",
+    "updated_at": "2026-05-15T13:03:16.779Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 75.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 134.24188,
+      "spo2_percentage": 97.210526,
+      "skin_temp_celsius": 33.132
+    }
+  },
+  {
+    "cycle_id": 1497781770,
+    "sleep_id": "120bb1ce-d3f0-400b-a209-d8ec94de4eea",
+    "user_id": 31526255,
+    "created_at": "2026-05-14T12:00:21.997Z",
+    "updated_at": "2026-05-14T12:00:21.997Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 84.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 136.76662,
+      "spo2_percentage": 98.5,
+      "skin_temp_celsius": 33.172
+    }
+  },
+  {
+    "cycle_id": 1495569825,
+    "sleep_id": "7c864c96-62a2-49d7-addb-85e3ae81df5d",
+    "user_id": 31526255,
+    "created_at": "2026-05-13T12:12:59.803Z",
+    "updated_at": "2026-05-13T12:12:59.803Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 137.99736,
+      "spo2_percentage": 96.71429,
+      "skin_temp_celsius": 32.426
+    }
+  },
+  {
+    "cycle_id": 1493289499,
+    "sleep_id": "1a6b4037-7b17-400a-bd4d-2b25191c92a8",
+    "user_id": 31526255,
+    "created_at": "2026-05-12T12:04:35.291Z",
+    "updated_at": "2026-05-12T12:04:35.291Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 148.17186,
+      "spo2_percentage": 98.0,
+      "skin_temp_celsius": 32.705334
+    }
+  },
+  {
+    "cycle_id": 1491138488,
+    "sleep_id": "7e397071-c878-4a9e-b4fc-6feba6c59b70",
+    "user_id": 31526255,
+    "created_at": "2026-05-11T12:55:16.346Z",
+    "updated_at": "2026-05-11T12:55:16.346Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 67.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 121.21187,
+      "spo2_percentage": 96.46667,
+      "skin_temp_celsius": 32.940666
+    }
+  },
+  {
+    "cycle_id": 1488469180,
+    "sleep_id": "19335856-b829-4221-b3dd-813c7a138bf3",
+    "user_id": 31526255,
+    "created_at": "2026-05-10T11:19:55.093Z",
+    "updated_at": "2026-05-10T11:19:55.093Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 67.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 119.36277,
+      "spo2_percentage": 94.15,
+      "skin_temp_celsius": 32.552166
+    }
+  },
+  {
+    "cycle_id": 1486522501,
+    "sleep_id": "a76c7f7a-6ea3-466e-b9d5-d18d4940cf79",
+    "user_id": 31526255,
+    "created_at": "2026-05-09T12:33:36.163Z",
+    "updated_at": "2026-05-09T12:33:38.141Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 142.00499,
+      "spo2_percentage": 94.55,
+      "skin_temp_celsius": 31.459667
+    }
+  },
+  {
+    "cycle_id": 1484510884,
+    "sleep_id": "f004c83c-5a67-43be-8d57-a327aa83b4cc",
+    "user_id": 31526255,
+    "created_at": "2026-05-08T13:05:03.468Z",
+    "updated_at": "2026-05-08T13:05:03.468Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 66.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 108.87203,
+      "spo2_percentage": 96.57895,
+      "skin_temp_celsius": 32.416332
+    }
+  },
+  {
+    "cycle_id": 1482264561,
+    "sleep_id": "4f53da50-92e7-4b7e-bba6-157bcf9b1d51",
+    "user_id": 31526255,
+    "created_at": "2026-05-07T12:53:11.981Z",
+    "updated_at": "2026-05-07T12:53:11.981Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 115.170074,
+      "spo2_percentage": 95.94444,
+      "skin_temp_celsius": 32.09345
+    }
+  },
+  {
+    "cycle_id": 1479916771,
+    "sleep_id": "bc425ecc-5079-4712-b509-1bae7c2040a3",
+    "user_id": 31526255,
+    "created_at": "2026-05-06T12:08:38.880Z",
+    "updated_at": "2026-05-06T12:08:38.880Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 80.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 118.80102,
+      "spo2_percentage": 97.5,
+      "skin_temp_celsius": 32.684666
+    }
+  },
+  {
+    "cycle_id": 1477719319,
+    "sleep_id": "403defa5-1163-4679-a66e-2cb0a9d22716",
+    "user_id": 31526255,
+    "created_at": "2026-05-05T12:16:04.117Z",
+    "updated_at": "2026-05-05T12:16:04.117Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 78.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 115.57791,
+      "spo2_percentage": 95.44444,
+      "skin_temp_celsius": 32.752167
+    }
+  },
+  {
+    "cycle_id": 1475157108,
+    "sleep_id": "8b519e0b-3182-485e-9936-2d16380a0357",
+    "user_id": 31526255,
+    "created_at": "2026-05-04T10:44:29.757Z",
+    "updated_at": "2026-05-04T11:14:27.543Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 38.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 88.50559,
+      "spo2_percentage": 98.375,
+      "skin_temp_celsius": 33.966
+    }
+  },
+  {
+    "cycle_id": 1472989440,
+    "sleep_id": "ae9eb208-afd9-49fe-9e32-ce83a235648a",
+    "user_id": 31526255,
+    "created_at": "2026-05-03T11:43:59.712Z",
+    "updated_at": "2026-05-03T11:43:59.712Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 98.43276,
+      "spo2_percentage": 95.52941,
+      "skin_temp_celsius": 31.58069
+    }
+  },
+  {
+    "cycle_id": 1471016686,
+    "sleep_id": "cefe98cc-c002-4249-b064-da4761d16c81",
+    "user_id": 31526255,
+    "created_at": "2026-05-02T12:40:44.990Z",
+    "updated_at": "2026-05-02T12:40:44.990Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 51.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 101.766655,
+      "spo2_percentage": 96.44444,
+      "skin_temp_celsius": 33.8205
+    }
+  },
+  {
+    "cycle_id": 1468710499,
+    "sleep_id": "72a9c9bc-b8cd-4532-b496-19def39769d0",
+    "user_id": 31526255,
+    "created_at": "2026-05-01T11:22:49.201Z",
+    "updated_at": "2026-05-01T11:22:49.201Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 12.0,
+      "resting_heart_rate": 57.0,
+      "hrv_rmssd_milli": 71.053055,
+      "spo2_percentage": 95.4375,
+      "skin_temp_celsius": 33.849
+    }
+  },
+  {
+    "cycle_id": 1467103338,
+    "sleep_id": "4a6265bb-1625-497d-a6ee-d03ff84c307a",
+    "user_id": 31526255,
+    "created_at": "2026-04-30T17:17:31.746Z",
+    "updated_at": "2026-04-30T17:17:31.746Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 121.48774,
+      "spo2_percentage": 97.85294,
+      "skin_temp_celsius": 33.790833
+    }
+  },
+  {
+    "cycle_id": 1464560920,
+    "sleep_id": "272c4e9e-26f9-47f3-982d-ce231f495528",
+    "user_id": 31526255,
+    "created_at": "2026-04-29T12:37:14.784Z",
+    "updated_at": "2026-04-29T12:37:14.784Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 75.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 120.42845,
+      "spo2_percentage": 95.3,
+      "skin_temp_celsius": 34.657166
+    }
+  },
+  {
+    "cycle_id": 1462328994,
+    "sleep_id": "b807060f-dce8-4f3f-9003-ebe6ee19f683",
+    "user_id": 31526255,
+    "created_at": "2026-04-28T12:27:44.852Z",
+    "updated_at": "2026-04-28T12:27:44.852Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 48.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 109.81084,
+      "spo2_percentage": 95.14286,
+      "skin_temp_celsius": 34.523335
+    }
+  },
+  {
+    "cycle_id": 1460048646,
+    "sleep_id": "1c7f4e13-3ec2-41a7-9d02-cf40efb72213",
+    "user_id": 31526255,
+    "created_at": "2026-04-27T12:09:04.940Z",
+    "updated_at": "2026-04-27T12:09:04.940Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 121.6965,
+      "spo2_percentage": 93.204544,
+      "skin_temp_celsius": 32.80467
+    }
+  },
+  {
+    "cycle_id": 1457827568,
+    "sleep_id": "04b002af-a3c2-4d20-820b-d2923fc9a1a8",
+    "user_id": 31526255,
+    "created_at": "2026-04-26T13:00:08.017Z",
+    "updated_at": "2026-04-26T13:00:08.017Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 62.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 119.192116,
+      "spo2_percentage": 95.8,
+      "skin_temp_celsius": 33.426
+    }
+  },
+  {
+    "cycle_id": 1455749242,
+    "sleep_id": "684a6ed3-abfb-4a19-a3ae-57c76e80db87",
+    "user_id": 31526255,
+    "created_at": "2026-04-25T13:11:26.266Z",
+    "updated_at": "2026-04-25T13:11:26.266Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 119.602615,
+      "spo2_percentage": 95.17647,
+      "skin_temp_celsius": 33.364
+    }
+  },
+  {
+    "cycle_id": 1453529911,
+    "sleep_id": "31624824-e7d6-4063-b207-45e0c1126fe9",
+    "user_id": 31526255,
+    "created_at": "2026-04-24T12:09:17.341Z",
+    "updated_at": "2026-04-24T12:09:17.341Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 115.49091,
+      "spo2_percentage": 97.333336,
+      "skin_temp_celsius": 32.930332
+    }
+  },
+  {
+    "cycle_id": 1451369833,
+    "sleep_id": "d1002780-ba17-45f2-8a23-13e84cabc193",
+    "user_id": 31526255,
+    "created_at": "2026-04-23T12:11:19.353Z",
+    "updated_at": "2026-04-23T12:11:19.353Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 120.36934,
+      "spo2_percentage": 98.34375,
+      "skin_temp_celsius": 32.214333
+    }
+  },
+  {
+    "cycle_id": 1449078231,
+    "sleep_id": "d0435bdc-696a-4b4e-a7c3-de85c5856eff",
+    "user_id": 31526255,
+    "created_at": "2026-04-22T11:36:51.946Z",
+    "updated_at": "2026-04-22T11:36:51.946Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 66.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 126.9992,
+      "spo2_percentage": 97.833336,
+      "skin_temp_celsius": 32.627335
+    }
+  },
+  {
+    "cycle_id": 1447430458,
+    "sleep_id": "340b2397-20b8-442a-bfb8-e25c956683b0",
+    "user_id": 31526255,
+    "created_at": "2026-04-21T18:35:41.135Z",
+    "updated_at": "2026-04-21T18:35:41.135Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 127.01266,
+      "spo2_percentage": 97.67857,
+      "skin_temp_celsius": 32.615322
+    }
+  },
+  {
+    "cycle_id": 1444940817,
+    "sleep_id": "2606dbf5-36dc-4872-b078-e4b59263a702",
+    "user_id": 31526255,
+    "created_at": "2026-04-20T13:04:53.755Z",
+    "updated_at": "2026-04-20T13:04:53.755Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 64.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 130.35614,
+      "spo2_percentage": 96.8421,
+      "skin_temp_celsius": 32.045666
+    }
+  },
+  {
+    "cycle_id": 1442697300,
+    "sleep_id": "14de022b-cffd-4652-9964-4b7a8b327800",
+    "user_id": 31526255,
+    "created_at": "2026-04-19T13:35:39.036Z",
+    "updated_at": "2026-04-19T13:35:39.036Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 67.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 134.91441,
+      "spo2_percentage": 93.4,
+      "skin_temp_celsius": 32.724
+    }
+  },
+  {
+    "cycle_id": 1440529294,
+    "sleep_id": "63aafe6a-fcad-4423-8e4b-2b3b2a8e1315",
+    "user_id": 31526255,
+    "created_at": "2026-04-18T13:00:11.788Z",
+    "updated_at": "2026-04-18T13:00:11.788Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 124.740204,
+      "spo2_percentage": 96.03846,
+      "skin_temp_celsius": 33.2865
+    }
+  },
+  {
+    "cycle_id": 1438509803,
+    "sleep_id": "c848e380-0beb-46c0-be80-643dd633296c",
+    "user_id": 31526255,
+    "created_at": "2026-04-17T13:02:39.439Z",
+    "updated_at": "2026-04-17T13:02:39.439Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 98.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 151.8074,
+      "spo2_percentage": 96.666664,
+      "skin_temp_celsius": 32.274
+    }
+  },
+  {
+    "cycle_id": 1436307943,
+    "sleep_id": "1ddb7af2-b8ba-41f4-9a47-6526a590e025",
+    "user_id": 31526255,
+    "created_at": "2026-04-16T12:37:24.812Z",
+    "updated_at": "2026-04-16T12:37:24.812Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 140.61324,
+      "spo2_percentage": 94.95238,
+      "skin_temp_celsius": 33.904
+    }
+  },
+  {
+    "cycle_id": 1434189467,
+    "sleep_id": "ad667303-719a-4bb0-8004-3105de8f8f72",
+    "user_id": 31526255,
+    "created_at": "2026-04-15T12:54:54.489Z",
+    "updated_at": "2026-04-15T12:54:54.489Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 139.13521,
+      "spo2_percentage": 95.47727,
+      "skin_temp_celsius": 31.950832
+    }
+  },
+  {
+    "cycle_id": 1432097007,
+    "sleep_id": "b1401bf6-2ff5-4951-8564-4336b3b8f0c0",
+    "user_id": 31526255,
+    "created_at": "2026-04-14T13:22:21.062Z",
+    "updated_at": "2026-04-14T13:22:21.062Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 86.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 139.18077,
+      "spo2_percentage": 95.947365,
+      "skin_temp_celsius": 32.390667
+    }
+  },
+  {
+    "cycle_id": 1429929175,
+    "sleep_id": "cb6f9fb3-d59c-4e9c-90ca-6e4117d3a78b",
+    "user_id": 31526255,
+    "created_at": "2026-04-13T13:25:26.748Z",
+    "updated_at": "2026-04-13T13:25:26.748Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 88.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 134.34868,
+      "spo2_percentage": 96.375,
+      "skin_temp_celsius": 32.53633
+    }
+  },
+  {
+    "cycle_id": 1427769580,
+    "sleep_id": "d20ec0be-ab9d-417f-b850-e52a1b5ce604",
+    "user_id": 31526255,
+    "created_at": "2026-04-12T14:20:49.598Z",
+    "updated_at": "2026-04-12T14:20:49.598Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 119.35735,
+      "spo2_percentage": 95.13158,
+      "skin_temp_celsius": 33.566334
+    }
+  },
+  {
+    "cycle_id": 1425602416,
+    "sleep_id": "f9aadadc-bb54-4e8b-aeb7-c95db4e026ab",
+    "user_id": 31526255,
+    "created_at": "2026-04-11T13:33:16.737Z",
+    "updated_at": "2026-04-11T13:33:16.737Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 131.38783,
+      "spo2_percentage": 97.22727,
+      "skin_temp_celsius": 34.171665
+    }
+  },
+  {
+    "cycle_id": 1423573504,
+    "sleep_id": "583674ba-0071-47b7-8ece-944b86bebe5e",
+    "user_id": 31526255,
+    "created_at": "2026-04-10T13:27:05.126Z",
+    "updated_at": "2026-04-10T13:27:05.126Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 84.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 133.77257,
+      "spo2_percentage": 97.55882,
+      "skin_temp_celsius": 33.791668
+    }
+  },
+  {
+    "cycle_id": 1421461290,
+    "sleep_id": "2dd1316a-bebb-4840-b8b5-5899e4fa8d13",
+    "user_id": 31526255,
+    "created_at": "2026-04-09T13:28:48.264Z",
+    "updated_at": "2026-04-09T13:28:48.264Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 124.25448,
+      "spo2_percentage": 96.57143,
+      "skin_temp_celsius": 33.396336
+    }
+  },
+  {
+    "cycle_id": 1419322811,
+    "sleep_id": "552ec4cf-446d-4669-b707-dcc8cd9d1fb1",
+    "user_id": 31526255,
+    "created_at": "2026-04-08T13:19:17.026Z",
+    "updated_at": "2026-04-08T13:19:17.026Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 79.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 129.34749,
+      "spo2_percentage": 97.8125,
+      "skin_temp_celsius": 32.511665
+    }
+  },
+  {
+    "cycle_id": 1417156694,
+    "sleep_id": "9ad773ff-6632-496a-a1b1-983536c05f24",
+    "user_id": 31526255,
+    "created_at": "2026-04-07T12:58:52.758Z",
+    "updated_at": "2026-04-07T12:58:52.758Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 75.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 122.73122,
+      "spo2_percentage": 96.125,
+      "skin_temp_celsius": 32.7835
+    }
+  },
+  {
+    "cycle_id": 1415051924,
+    "sleep_id": "af6874ae-5a11-4e2a-a8f8-dd036bd74bac",
+    "user_id": 31526255,
+    "created_at": "2026-04-06T13:15:41.593Z",
+    "updated_at": "2026-04-06T13:15:41.593Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 62.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 112.14589,
+      "spo2_percentage": 94.13158,
+      "skin_temp_celsius": 33.128
+    }
+  },
+  {
+    "cycle_id": 1412814062,
+    "sleep_id": "6a4ecd6f-b113-47d6-a32b-4d73ee84b134",
+    "user_id": 31526255,
+    "created_at": "2026-04-05T13:07:40.956Z",
+    "updated_at": "2026-04-05T13:07:40.956Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 30.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 80.68064,
+      "spo2_percentage": 97.17647,
+      "skin_temp_celsius": 32.431168
+    }
+  },
+  {
+    "cycle_id": 1410822529,
+    "sleep_id": "1002cbd0-720b-4529-9809-f9e834ecf2ae",
+    "user_id": 31526255,
+    "created_at": "2026-04-04T13:29:39.404Z",
+    "updated_at": "2026-04-04T13:31:42.999Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 87.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 128.46786,
+      "spo2_percentage": 97.3,
+      "skin_temp_celsius": 33.544334
+    }
+  },
+  {
+    "cycle_id": 1408680957,
+    "sleep_id": "b7b9ae50-8ee0-4e64-b498-6dcac80d358e",
+    "user_id": 31526255,
+    "created_at": "2026-04-03T12:35:50.763Z",
+    "updated_at": "2026-04-03T12:35:50.763Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 79.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 121.51981,
+      "spo2_percentage": 96.5,
+      "skin_temp_celsius": 32.612
+    }
+  },
+  {
+    "cycle_id": 1406714628,
+    "sleep_id": "7faf15cb-2753-4f1e-9cd6-c9efa0be661b",
+    "user_id": 31526255,
+    "created_at": "2026-04-02T13:08:27.230Z",
+    "updated_at": "2026-04-02T13:08:27.230Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 66.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 113.71827,
+      "spo2_percentage": 95.64706,
+      "skin_temp_celsius": 32.582
+    }
+  },
+  {
+    "cycle_id": 1404049006,
+    "sleep_id": "c62b1d7f-5c10-47f2-9e30-0ed5b960d77c",
+    "user_id": 31526255,
+    "created_at": "2026-04-01T09:35:55.350Z",
+    "updated_at": "2026-04-01T09:35:55.350Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 79.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 126.70082,
+      "spo2_percentage": 95.65,
+      "skin_temp_celsius": 32.128334
+    }
+  },
+  {
+    "cycle_id": 1402365377,
+    "sleep_id": "ba0b10b3-7e50-4d77-ad3e-0af62d4e1770",
+    "user_id": 31526255,
+    "created_at": "2026-03-31T12:04:39.157Z",
+    "updated_at": "2026-03-31T12:04:39.157Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 47.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 105.79804,
+      "spo2_percentage": 96.833336,
+      "skin_temp_celsius": 33.656334
+    }
+  },
+  {
+    "cycle_id": 1400339426,
+    "sleep_id": "3bbf25ca-9cda-478a-a15b-edf128102ab6",
+    "user_id": 31526255,
+    "created_at": "2026-03-30T12:34:06.719Z",
+    "updated_at": "2026-03-30T12:34:06.719Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 62.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 116.17236,
+      "spo2_percentage": 95.8,
+      "skin_temp_celsius": 32.897
+    }
+  },
+  {
+    "cycle_id": 1398153775,
+    "sleep_id": "0af122a1-eb1b-4eec-a0e2-a019e43b5888",
+    "user_id": 31526255,
+    "created_at": "2026-03-29T12:53:56.308Z",
+    "updated_at": "2026-03-29T12:53:56.308Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 42.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 108.94027,
+      "spo2_percentage": 96.63636,
+      "skin_temp_celsius": 32.969334
+    }
+  },
+  {
+    "cycle_id": 1396164529,
+    "sleep_id": "54c17737-b98a-4c62-8222-aead6700519b",
+    "user_id": 31526255,
+    "created_at": "2026-03-28T13:02:22.773Z",
+    "updated_at": "2026-03-28T13:02:22.773Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 50.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 112.99882,
+      "spo2_percentage": 95.70588,
+      "skin_temp_celsius": 32.918
+    }
+  },
+  {
+    "cycle_id": 1394070545,
+    "sleep_id": "7911b00b-f4ac-4684-a66e-174db35c4a61",
+    "user_id": 31526255,
+    "created_at": "2026-03-27T12:08:11.179Z",
+    "updated_at": "2026-03-27T12:08:11.179Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 129.01128,
+      "spo2_percentage": 96.35,
+      "skin_temp_celsius": 32.845833
+    }
+  },
+  {
+    "cycle_id": 1392229802,
+    "sleep_id": "fd60b099-6c70-4631-a854-6e9a2af04415",
+    "user_id": 31526255,
+    "created_at": "2026-03-26T13:37:29.824Z",
+    "updated_at": "2026-03-26T13:37:29.824Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 138.8803,
+      "spo2_percentage": 96.916664,
+      "skin_temp_celsius": 33.218998
+    }
+  },
+  {
+    "cycle_id": 1389842040,
+    "sleep_id": "64e646f6-5199-4b4f-9ef3-a6642aa6c73b",
+    "user_id": 31526255,
+    "created_at": "2026-03-25T11:41:17.670Z",
+    "updated_at": "2026-03-25T11:41:17.670Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 141.59442,
+      "spo2_percentage": 96.84615,
+      "skin_temp_celsius": 33.4265
+    }
+  },
+  {
+    "cycle_id": 1387880727,
+    "sleep_id": "df017da7-c482-4905-b822-4742eb2940a4",
+    "user_id": 31526255,
+    "created_at": "2026-03-24T12:20:27.110Z",
+    "updated_at": "2026-03-24T12:20:27.110Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 64.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 127.508385,
+      "spo2_percentage": 97.23077,
+      "skin_temp_celsius": 33.254333
+    }
+  },
+  {
+    "cycle_id": 1385620786,
+    "sleep_id": "ab741cb7-2780-426c-82d1-cc015f23a11a",
+    "user_id": 31526255,
+    "created_at": "2026-03-23T11:31:05.866Z",
+    "updated_at": "2026-03-23T11:31:05.866Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 155.8734,
+      "spo2_percentage": 93.86667,
+      "skin_temp_celsius": 33.850666
+    }
+  },
+  {
+    "cycle_id": 1383684319,
+    "sleep_id": "1662aaad-0dcb-40df-9ea7-13c35646aa44",
+    "user_id": 31526255,
+    "created_at": "2026-03-22T13:08:43.298Z",
+    "updated_at": "2026-03-22T13:08:43.298Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 141.61636,
+      "spo2_percentage": 96.875,
+      "skin_temp_celsius": 33.062336
+    }
+  },
+  {
+    "cycle_id": 1381622570,
+    "sleep_id": "cf06549f-653f-4863-ad04-4e29d1d900e9",
+    "user_id": 31526255,
+    "created_at": "2026-03-21T12:38:17.707Z",
+    "updated_at": "2026-03-21T12:38:17.707Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 134.57143,
+      "spo2_percentage": 96.72222,
+      "skin_temp_celsius": 33.190334
+    }
+  },
+  {
+    "cycle_id": 1379677839,
+    "sleep_id": "89ffedc2-ba69-417f-8d06-fbaa89ed27d5",
+    "user_id": 31526255,
+    "created_at": "2026-03-20T12:30:03.672Z",
+    "updated_at": "2026-03-20T12:30:03.672Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 70.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 124.22894,
+      "spo2_percentage": 95.09375,
+      "skin_temp_celsius": 34.232666
+    }
+  },
+  {
+    "cycle_id": 1377428003,
+    "sleep_id": "ba16483d-819b-42ac-b998-3d488b0efe31",
+    "user_id": 31526255,
+    "created_at": "2026-03-19T11:13:30.111Z",
+    "updated_at": "2026-03-19T11:13:30.111Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 81.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 133.13388,
+      "spo2_percentage": 96.111115,
+      "skin_temp_celsius": 33.741
+    }
+  },
+  {
+    "cycle_id": 1374638770,
+    "sleep_id": "f6182424-0c3d-44d4-9958-c20f0193c1b6",
+    "user_id": 31526255,
+    "created_at": "2026-03-18T08:56:17.710Z",
+    "updated_at": "2026-03-18T12:09:52.810Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 55.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 117.595894,
+      "spo2_percentage": 95.588234,
+      "skin_temp_celsius": 33.631332
+    }
+  },
+  {
+    "cycle_id": 1372862336,
+    "sleep_id": "cc8fe663-9c63-48cb-b345-c3a9fa8e5069",
+    "user_id": 31526255,
+    "created_at": "2026-03-17T11:45:02.059Z",
+    "updated_at": "2026-03-17T11:45:02.059Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 127.99846,
+      "spo2_percentage": 97.6875,
+      "skin_temp_celsius": 33.25517
+    }
+  },
+  {
+    "cycle_id": 1371664336,
+    "sleep_id": "690ffe13-2950-4147-b06e-19b472c38016",
+    "user_id": 31526255,
+    "created_at": "2026-03-17T02:57:45.359Z",
+    "updated_at": "2026-03-17T11:46:14.815Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 48.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 110.37157,
+      "spo2_percentage": 97.71875,
+      "skin_temp_celsius": 32.869667
+    }
+  },
+  {
+    "cycle_id": 1368681855,
+    "sleep_id": "4c2aa0a0-324f-4adb-9d7d-f4aa4db76d33",
+    "user_id": 31526255,
+    "created_at": "2026-03-15T12:08:30.127Z",
+    "updated_at": "2026-03-15T12:08:30.127Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 57.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 121.89361,
+      "spo2_percentage": 96.77778,
+      "skin_temp_celsius": 33.165
+    }
+  },
+  {
+    "cycle_id": 1366717912,
+    "sleep_id": "017fe3ed-8345-4cf3-a872-be58aeb1e9da",
+    "user_id": 31526255,
+    "created_at": "2026-03-14T12:10:51.388Z",
+    "updated_at": "2026-03-14T12:10:51.388Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 140.51582,
+      "spo2_percentage": 97.083336,
+      "skin_temp_celsius": 32.333168
+    }
+  },
+  {
+    "cycle_id": 1364813701,
+    "sleep_id": "4a1f1180-20ee-48e3-b03f-a2dea77e22c1",
+    "user_id": 31526255,
+    "created_at": "2026-03-13T12:06:29.619Z",
+    "updated_at": "2026-03-13T12:06:29.619Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 79.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 131.65237,
+      "spo2_percentage": 96.9375,
+      "skin_temp_celsius": 33.108
+    }
+  },
+  {
+    "cycle_id": 1362830188,
+    "sleep_id": "492bfdb2-d010-4aae-8ee0-51776454bbdf",
+    "user_id": 31526255,
+    "created_at": "2026-03-12T12:16:46.037Z",
+    "updated_at": "2026-03-12T12:16:46.037Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 59.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 118.350624,
+      "spo2_percentage": 97.3,
+      "skin_temp_celsius": 33.703
+    }
+  },
+  {
+    "cycle_id": 1360813354,
+    "sleep_id": "03958215-a77f-47cf-8340-60f63f516442",
+    "user_id": 31526255,
+    "created_at": "2026-03-11T12:24:12.058Z",
+    "updated_at": "2026-03-11T12:24:12.058Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 138.9687,
+      "spo2_percentage": 95.117645,
+      "skin_temp_celsius": 33.57467
+    }
+  },
+  {
+    "cycle_id": 1358727407,
+    "sleep_id": "c7a8f0df-1be9-48f3-af84-e9839a51c8fa",
+    "user_id": 31526255,
+    "created_at": "2026-03-10T12:05:59.320Z",
+    "updated_at": "2026-03-10T12:05:59.320Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 130.6701,
+      "spo2_percentage": 96.17647,
+      "skin_temp_celsius": 33.01
+    }
+  },
+  {
+    "cycle_id": 1356783309,
+    "sleep_id": "4778d4a0-788f-4a0d-a1fa-d7af032f9917",
+    "user_id": 31526255,
+    "created_at": "2026-03-09T12:46:51.868Z",
+    "updated_at": "2026-03-09T12:46:51.868Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 142.88974,
+      "spo2_percentage": 96.04762,
+      "skin_temp_celsius": 33.541
+    }
+  },
+  {
+    "cycle_id": 1354654424,
+    "sleep_id": "2a6ab3c1-4f10-40ee-ac7e-0782e692c435",
+    "user_id": 31526255,
+    "created_at": "2026-03-08T13:21:58.729Z",
+    "updated_at": "2026-03-08T13:21:58.729Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 69.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 115.17569,
+      "spo2_percentage": 96.82353,
+      "skin_temp_celsius": 33.401306
+    }
+  },
+  {
+    "cycle_id": 1352651225,
+    "sleep_id": "890bfa88-ef3b-4b25-9a5e-b696e9492599",
+    "user_id": 31526255,
+    "created_at": "2026-03-07T13:16:01.340Z",
+    "updated_at": "2026-03-07T13:16:01.340Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 35.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 90.068985,
+      "spo2_percentage": 97.52941,
+      "skin_temp_celsius": 33.156
+    }
+  },
+  {
+    "cycle_id": 1350776430,
+    "sleep_id": "7a16e419-3450-4ac1-9da9-d6411fc10510",
+    "user_id": 31526255,
+    "created_at": "2026-03-06T13:17:25.146Z",
+    "updated_at": "2026-03-06T13:17:25.146Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 52.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 104.44244,
+      "spo2_percentage": 96.666664,
+      "skin_temp_celsius": 32.882168
+    }
+  },
+  {
+    "cycle_id": 1348915910,
+    "sleep_id": "8c68b025-b526-4b3f-8756-a95c059da7c6",
+    "user_id": 31526255,
+    "created_at": "2026-03-05T14:18:13.376Z",
+    "updated_at": "2026-03-05T14:18:13.376Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 87.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 129.40395,
+      "spo2_percentage": 97.44444,
+      "skin_temp_celsius": 31.699
+    }
+  },
+  {
+    "cycle_id": 1346766653,
+    "sleep_id": "5a310da5-97c7-496e-8148-150dddc6c319",
+    "user_id": 31526255,
+    "created_at": "2026-03-04T13:18:37.544Z",
+    "updated_at": "2026-03-04T13:18:37.544Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 57.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 109.67396,
+      "spo2_percentage": 95.36364,
+      "skin_temp_celsius": 31.989334
+    }
+  },
+  {
+    "cycle_id": 1344745061,
+    "sleep_id": "c3721f9a-fe3c-4bca-ac13-4d7cb194527d",
+    "user_id": 31526255,
+    "created_at": "2026-03-03T13:12:12.982Z",
+    "updated_at": "2026-03-03T13:12:12.982Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 114.77362,
+      "spo2_percentage": 97.916664,
+      "skin_temp_celsius": 33.855667
+    }
+  },
+  {
+    "cycle_id": 1342847804,
+    "sleep_id": "4112cdda-4771-41a1-b66b-1f5d481736eb",
+    "user_id": 31526255,
+    "created_at": "2026-03-02T14:04:56.345Z",
+    "updated_at": "2026-03-02T14:04:56.345Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 59.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 109.18992,
+      "spo2_percentage": 95.90476,
+      "skin_temp_celsius": 33.544666
+    }
+  },
+  {
+    "cycle_id": 1340533616,
+    "sleep_id": "cb64814d-fccc-4ddc-8778-8db6c513e63e",
+    "user_id": 31526255,
+    "created_at": "2026-03-01T12:57:32.203Z",
+    "updated_at": "2026-03-01T12:57:32.203Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 38.0,
+      "resting_heart_rate": 55.0,
+      "hrv_rmssd_milli": 97.5529,
+      "spo2_percentage": 96.10526,
+      "skin_temp_celsius": 34.345
+    }
+  },
+  {
+    "cycle_id": 1338583507,
+    "sleep_id": "c7ce46de-4b71-43c7-a163-cf0e8a4c93fe",
+    "user_id": 31526255,
+    "created_at": "2026-02-28T12:46:10.820Z",
+    "updated_at": "2026-02-28T12:46:10.820Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 54.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 113.177605,
+      "spo2_percentage": 96.23077,
+      "skin_temp_celsius": 33.654
+    }
+  },
+  {
+    "cycle_id": 1336197053,
+    "sleep_id": "cf69d2f4-db34-4b4b-8213-835de8086ad2",
+    "user_id": 31526255,
+    "created_at": "2026-02-27T08:57:07.062Z",
+    "updated_at": "2026-02-27T12:30:29.858Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 123.67787,
+      "spo2_percentage": 95.76316,
+      "skin_temp_celsius": 33.21255
+    }
+  },
+  {
+    "cycle_id": 1334774884,
+    "sleep_id": "6f73e4af-2a4f-4c96-b6c7-7b3934fd5f52",
+    "user_id": 31526255,
+    "created_at": "2026-02-26T12:55:18.452Z",
+    "updated_at": "2026-02-26T12:55:18.452Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 46.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 107.75655,
+      "spo2_percentage": 95.57143,
+      "skin_temp_celsius": 32.557
+    }
+  },
+  {
+    "cycle_id": 1332793872,
+    "sleep_id": "71be612b-9616-450a-9386-a90677262105",
+    "user_id": 31526255,
+    "created_at": "2026-02-25T13:08:04.309Z",
+    "updated_at": "2026-02-25T13:08:04.309Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 119.20803,
+      "spo2_percentage": 95.25,
+      "skin_temp_celsius": 33.260914
+    }
+  },
+  {
+    "cycle_id": 1330750172,
+    "sleep_id": "e54320c0-daa7-4bb4-b3af-eb408c74d124",
+    "user_id": 31526255,
+    "created_at": "2026-02-24T12:47:38.013Z",
+    "updated_at": "2026-02-24T12:47:38.013Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 70.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 128.9855,
+      "spo2_percentage": 96.15385,
+      "skin_temp_celsius": 32.37
+    }
+  },
+  {
+    "cycle_id": 1328774651,
+    "sleep_id": "a740e9be-274b-4195-8580-d398f2c0a850",
+    "user_id": 31526255,
+    "created_at": "2026-02-23T12:58:38.775Z",
+    "updated_at": "2026-02-23T12:58:38.775Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 97.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 150.30914,
+      "spo2_percentage": 98.9375,
+      "skin_temp_celsius": 32.537666
+    }
+  },
+  {
+    "cycle_id": 1326870375,
+    "sleep_id": "0bb432cf-5d61-4f68-8456-b4142c89371e",
+    "user_id": 31526255,
+    "created_at": "2026-02-22T14:05:46.598Z",
+    "updated_at": "2026-02-22T14:05:46.598Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 77.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 131.76634,
+      "spo2_percentage": 98.25,
+      "skin_temp_celsius": 33.3455
+    }
+  },
+  {
+    "cycle_id": 1324971197,
+    "sleep_id": "2d1a9652-bd31-4dd2-acae-4a81be21e5b2",
+    "user_id": 31526255,
+    "created_at": "2026-02-21T14:10:41.278Z",
+    "updated_at": "2026-02-21T14:10:41.278Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 117.82765,
+      "spo2_percentage": 96.8,
+      "skin_temp_celsius": 33.196667
+    }
+  },
+  {
+    "cycle_id": 1322845614,
+    "sleep_id": "548fdfb4-df04-4b80-b433-6fb51786243e",
+    "user_id": 31526255,
+    "created_at": "2026-02-20T12:14:31.113Z",
+    "updated_at": "2026-02-20T12:14:31.113Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 112.208725,
+      "spo2_percentage": 94.27273,
+      "skin_temp_celsius": 33.3595
+    }
+  },
+  {
+    "cycle_id": 1321098304,
+    "sleep_id": "6f8a2089-9063-4d7a-8013-dfd82757b59f",
+    "user_id": 31526255,
+    "created_at": "2026-02-19T13:17:20.177Z",
+    "updated_at": "2026-02-19T13:17:20.177Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 86.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 140.51883,
+      "spo2_percentage": 97.458336,
+      "skin_temp_celsius": 33.761
+    }
+  },
+  {
+    "cycle_id": 1318993084,
+    "sleep_id": "9e62fa58-2633-4284-b405-b8db507324be",
+    "user_id": 31526255,
+    "created_at": "2026-02-18T12:18:32.318Z",
+    "updated_at": "2026-02-18T12:18:32.318Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 129.87193,
+      "spo2_percentage": 92.78571,
+      "skin_temp_celsius": 32.724
+    }
+  },
+  {
+    "cycle_id": 1317195475,
+    "sleep_id": "ea6a6a29-75a0-481b-be24-b4620be755be",
+    "user_id": 31526255,
+    "created_at": "2026-02-17T13:07:52.805Z",
+    "updated_at": "2026-02-17T13:07:52.805Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 71.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 125.499306,
+      "spo2_percentage": 97.045456,
+      "skin_temp_celsius": 33.656998
+    }
+  },
+  {
+    "cycle_id": 1315183380,
+    "sleep_id": "5194b666-7cc2-411c-9938-0d20b1fb8f67",
+    "user_id": 31526255,
+    "created_at": "2026-02-16T12:55:59.531Z",
+    "updated_at": "2026-02-16T12:55:59.531Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 90.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 141.03401,
+      "spo2_percentage": 95.53846,
+      "skin_temp_celsius": 33.126503
+    }
+  },
+  {
+    "cycle_id": 1313209563,
+    "sleep_id": "22e50506-e199-4d82-93c7-fce3129926cc",
+    "user_id": 31526255,
+    "created_at": "2026-02-15T13:07:20.704Z",
+    "updated_at": "2026-02-15T13:07:20.704Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 120.58599,
+      "spo2_percentage": 96.0625,
+      "skin_temp_celsius": 33.665333
+    }
+  },
+  {
+    "cycle_id": 1311155125,
+    "sleep_id": "fab39b9a-171b-4247-aa47-03a71ddd5426",
+    "user_id": 31526255,
+    "created_at": "2026-02-14T11:39:19.728Z",
+    "updated_at": "2026-02-14T11:39:19.728Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 99.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 152.25337,
+      "spo2_percentage": 97.8,
+      "skin_temp_celsius": 32.62533
+    }
+  },
+  {
+    "cycle_id": 1309410705,
+    "sleep_id": "2666f1c4-49c7-4864-903b-d1f2dccc86b4",
+    "user_id": 31526255,
+    "created_at": "2026-02-13T12:04:39.606Z",
+    "updated_at": "2026-02-13T12:04:39.606Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 111.794464,
+      "spo2_percentage": 94.40909,
+      "skin_temp_celsius": 33.875168
+    }
+  },
+  {
+    "cycle_id": 1307434769,
+    "sleep_id": "00cee0c3-a0ad-4639-a4e0-dd8c63088490",
+    "user_id": 31526255,
+    "created_at": "2026-02-12T11:32:20.449Z",
+    "updated_at": "2026-02-12T12:16:36.103Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 51.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 107.67063,
+      "spo2_percentage": 96.066666,
+      "skin_temp_celsius": 33.308666
+    }
+  },
+  {
+    "cycle_id": 1305632370,
+    "sleep_id": "defd52dd-dd0e-44a7-8b06-50ad9945b2c0",
+    "user_id": 31526255,
+    "created_at": "2026-02-11T12:06:17.280Z",
+    "updated_at": "2026-02-11T12:06:17.280Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 127.86409,
+      "spo2_percentage": 96.625,
+      "skin_temp_celsius": 33.519665
+    }
+  },
+  {
+    "cycle_id": 1303354593,
+    "sleep_id": "6b84ad89-a186-42cc-85f6-0e6ea10438f3",
+    "user_id": 31526255,
+    "created_at": "2026-02-10T08:59:24.709Z",
+    "updated_at": "2026-02-10T12:49:43.064Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 44.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 103.47114,
+      "spo2_percentage": 97.181816,
+      "skin_temp_celsius": 33.255333
+    }
+  },
+  {
+    "cycle_id": 1301936974,
+    "sleep_id": "bed00825-9f1f-44f5-bbd0-294f98f1f771",
+    "user_id": 31526255,
+    "created_at": "2026-02-09T13:02:41.309Z",
+    "updated_at": "2026-02-09T13:02:41.309Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 113.30489,
+      "spo2_percentage": 97.088234,
+      "skin_temp_celsius": 34.39542
+    }
+  },
+  {
+    "cycle_id": 1299908553,
+    "sleep_id": "094dc02f-bd88-4a14-8549-a1ec3aa13401",
+    "user_id": 31526255,
+    "created_at": "2026-02-08T13:04:14.095Z",
+    "updated_at": "2026-02-08T13:04:14.095Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 66.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 118.75417,
+      "spo2_percentage": 98.125,
+      "skin_temp_celsius": 33.272667
+    }
+  },
+  {
+    "cycle_id": 1298061638,
+    "sleep_id": "9f9e88b4-87bb-4c66-8d9d-bde2b334a3b8",
+    "user_id": 31526255,
+    "created_at": "2026-02-07T12:54:54.356Z",
+    "updated_at": "2026-02-07T12:54:54.356Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 65.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 114.61357,
+      "spo2_percentage": 97.0,
+      "skin_temp_celsius": 33.837105
+    }
+  },
+  {
+    "cycle_id": 1296225877,
+    "sleep_id": "4fc2f3b5-084a-4f21-9fb1-b792c376167e",
+    "user_id": 31526255,
+    "created_at": "2026-02-06T12:25:56.054Z",
+    "updated_at": "2026-02-06T12:25:56.054Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 55.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 110.70973,
+      "spo2_percentage": 96.39286,
+      "skin_temp_celsius": 32.870667
+    }
+  },
+  {
+    "cycle_id": 1294270037,
+    "sleep_id": "2e946b3f-ee96-4e3f-94e5-1067833ce229",
+    "user_id": 31526255,
+    "created_at": "2026-02-05T11:57:44.817Z",
+    "updated_at": "2026-02-05T11:57:44.817Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 73.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 122.95761,
+      "spo2_percentage": 95.97059,
+      "skin_temp_celsius": 32.75617
+    }
+  },
+  {
+    "cycle_id": 1292290048,
+    "sleep_id": "5a347f1e-e178-4eed-8364-515a4dc0fde8",
+    "user_id": 31526255,
+    "created_at": "2026-02-04T11:20:01.580Z",
+    "updated_at": "2026-02-04T12:15:38.115Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 43.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 99.26551,
+      "spo2_percentage": 95.78125,
+      "skin_temp_celsius": 33.974503
+    }
+  },
+  {
+    "cycle_id": 1290662463,
+    "sleep_id": "e36b10b3-88c0-4893-888c-96b17e809a89",
+    "user_id": 31526255,
+    "created_at": "2026-02-03T12:54:22.836Z",
+    "updated_at": "2026-02-03T12:54:22.836Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 114.2064,
+      "spo2_percentage": 95.97369,
+      "skin_temp_celsius": 32.99268
+    }
+  },
+  {
+    "cycle_id": 1288598190,
+    "sleep_id": "6ac28e33-e160-4448-a670-c12c6fc72798",
+    "user_id": 31526255,
+    "created_at": "2026-02-02T12:05:48.559Z",
+    "updated_at": "2026-02-02T12:05:48.559Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 43.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 98.74795,
+      "spo2_percentage": 96.31579,
+      "skin_temp_celsius": 33.075863
+    }
+  },
+  {
+    "cycle_id": 1286623607,
+    "sleep_id": "df855182-a606-49cf-9f28-cb8fc2dc998d",
+    "user_id": 31526255,
+    "created_at": "2026-02-01T12:10:51.671Z",
+    "updated_at": "2026-02-01T12:10:51.671Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 125.78158,
+      "spo2_percentage": 97.35294,
+      "skin_temp_celsius": 32.347
+    }
+  },
+  {
+    "cycle_id": 1284901116,
+    "sleep_id": "87041f4e-7510-418e-a79f-306364196c5e",
+    "user_id": 31526255,
+    "created_at": "2026-01-31T12:48:11.603Z",
+    "updated_at": "2026-01-31T12:48:11.603Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 65.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 128.60892,
+      "spo2_percentage": 96.63158,
+      "skin_temp_celsius": 32.788834
+    }
+  },
+  {
+    "cycle_id": 1282787231,
+    "sleep_id": "5c9162bf-0e8a-402f-9e00-cbc1e3e36c41",
+    "user_id": 31526255,
+    "created_at": "2026-01-30T09:54:25.974Z",
+    "updated_at": "2026-01-30T13:02:19.127Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 87.0,
+      "resting_heart_rate": 42.0,
+      "hrv_rmssd_milli": 146.35709,
+      "spo2_percentage": 98.375,
+      "skin_temp_celsius": 33.619663
+    }
+  },
+  {
+    "cycle_id": 1281181556,
+    "sleep_id": "0eed0903-f3fe-4493-9541-40c23822fb2b",
+    "user_id": 31526255,
+    "created_at": "2026-01-29T11:52:37.347Z",
+    "updated_at": "2026-01-29T11:52:37.347Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 46.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 106.69746,
+      "spo2_percentage": 96.14706,
+      "skin_temp_celsius": 32.96
+    }
+  },
+  {
+    "cycle_id": 1279340974,
+    "sleep_id": "406d3da6-1701-463f-b5d3-ec50bd3f2848",
+    "user_id": 31526255,
+    "created_at": "2026-01-28T11:57:42.451Z",
+    "updated_at": "2026-01-28T11:57:42.451Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 129.81927,
+      "spo2_percentage": 97.15385,
+      "skin_temp_celsius": 34.035
+    }
+  },
+  {
+    "cycle_id": 1277589398,
+    "sleep_id": "a8fe36bb-b765-474b-995c-3f0b0624c3e8",
+    "user_id": 31526255,
+    "created_at": "2026-01-27T12:36:21.540Z",
+    "updated_at": "2026-01-27T12:36:21.540Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 140.3356,
+      "spo2_percentage": 97.05556,
+      "skin_temp_celsius": 33.704834
+    }
+  },
+  {
+    "cycle_id": 1276186975,
+    "sleep_id": "cca69bb7-5508-4594-8056-0243ed6ca0fe",
+    "user_id": 31526255,
+    "created_at": "2026-01-26T19:02:40.889Z",
+    "updated_at": "2026-01-26T19:02:40.889Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 88.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 141.49779,
+      "spo2_percentage": 96.96875,
+      "skin_temp_celsius": 33.808
+    }
+  },
+  {
+    "cycle_id": 1273882066,
+    "sleep_id": "f771c834-f9a7-4cc1-a12a-264d03cad970",
+    "user_id": 31526255,
+    "created_at": "2026-01-25T13:35:43.756Z",
+    "updated_at": "2026-01-25T13:35:43.756Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 150.83226,
+      "spo2_percentage": 97.61539,
+      "skin_temp_celsius": 34.372833
+    }
+  },
+  {
+    "cycle_id": 1272079100,
+    "sleep_id": "34612b91-a59e-4dc5-9501-88b0f502b78b",
+    "user_id": 31526255,
+    "created_at": "2026-01-24T13:20:15.939Z",
+    "updated_at": "2026-01-24T13:20:15.939Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 138.59395,
+      "spo2_percentage": 99.0,
+      "skin_temp_celsius": 32.337666
+    }
+  },
+  {
+    "cycle_id": 1270316386,
+    "sleep_id": "f9fbdc45-6e6d-4629-b830-4d6f8ea16f85",
+    "user_id": 31526255,
+    "created_at": "2026-01-23T12:59:50.855Z",
+    "updated_at": "2026-01-23T12:59:50.855Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 69.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 130.35265,
+      "spo2_percentage": 97.26316,
+      "skin_temp_celsius": 33.293167
+    }
+  },
+  {
+    "cycle_id": 1268459384,
+    "sleep_id": "1db857d7-19fa-4ae6-a612-c17b4cab4cc3",
+    "user_id": 31526255,
+    "created_at": "2026-01-22T12:41:22.182Z",
+    "updated_at": "2026-01-22T12:41:22.182Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 131.6184,
+      "spo2_percentage": 95.954544,
+      "skin_temp_celsius": 32.836
+    }
+  },
+  {
+    "cycle_id": 1266590731,
+    "sleep_id": "c559c35b-25bf-415b-a656-e19241e3bc99",
+    "user_id": 31526255,
+    "created_at": "2026-01-21T12:26:53.288Z",
+    "updated_at": "2026-01-21T12:26:53.288Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 66.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 125.592155,
+      "spo2_percentage": 98.35714,
+      "skin_temp_celsius": 33.967167
+    }
+  },
+  {
+    "cycle_id": 1264853814,
+    "sleep_id": "951607d8-787f-4aa0-8917-3e9fdbeeabd8",
+    "user_id": 31526255,
+    "created_at": "2026-01-20T13:07:24.263Z",
+    "updated_at": "2026-01-20T13:07:24.263Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 81.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 137.98212,
+      "spo2_percentage": 96.28125,
+      "skin_temp_celsius": 33.99267
+    }
+  },
+  {
+    "cycle_id": 1262761537,
+    "sleep_id": "66bc851a-feb3-4c30-ab09-fbcf5446c9b8",
+    "user_id": 31526255,
+    "created_at": "2026-01-19T11:47:41.886Z",
+    "updated_at": "2026-01-19T11:47:41.886Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 90.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 146.8821,
+      "spo2_percentage": 96.05,
+      "skin_temp_celsius": 34.543667
+    }
+  },
+  {
+    "cycle_id": 1261125311,
+    "sleep_id": "99c14322-f5fe-4329-ad92-2fbbc211def0",
+    "user_id": 31526255,
+    "created_at": "2026-01-18T13:39:58.885Z",
+    "updated_at": "2026-01-18T13:39:58.885Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 134.28047,
+      "spo2_percentage": 96.375,
+      "skin_temp_celsius": 33.789665
+    }
+  },
+  {
+    "cycle_id": 1259176793,
+    "sleep_id": "19c104c9-70f6-4a35-98e2-1e23238593af",
+    "user_id": 31526255,
+    "created_at": "2026-01-17T12:19:36.565Z",
+    "updated_at": "2026-01-17T12:19:36.565Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 86.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 144.26395,
+      "spo2_percentage": 98.76923,
+      "skin_temp_celsius": 31.656
+    }
+  },
+  {
+    "cycle_id": 1257688883,
+    "sleep_id": "1f6d137b-51f3-43c2-988a-b0c7c7321adc",
+    "user_id": 31526255,
+    "created_at": "2026-01-16T13:43:07.686Z",
+    "updated_at": "2026-01-16T13:43:07.686Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 78.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 123.46067,
+      "spo2_percentage": 96.42105,
+      "skin_temp_celsius": 34.8005
+    }
+  },
+  {
+    "cycle_id": 1255948181,
+    "sleep_id": "094c8d71-e14b-4604-adce-5f271c08a630",
+    "user_id": 31526255,
+    "created_at": "2026-01-15T14:13:46.375Z",
+    "updated_at": "2026-01-15T14:13:46.375Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 106.00569,
+      "spo2_percentage": 97.3125,
+      "skin_temp_celsius": 33.801334
+    }
+  },
+  {
+    "cycle_id": 1254038319,
+    "sleep_id": "57917e5e-1ecb-4194-bde9-ab7d0c675545",
+    "user_id": 31526255,
+    "created_at": "2026-01-14T13:20:02.728Z",
+    "updated_at": "2026-01-14T13:20:02.728Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 135.80167,
+      "spo2_percentage": 95.0,
+      "skin_temp_celsius": 33.0525
+    }
+  },
+  {
+    "cycle_id": 1252224313,
+    "sleep_id": "c74617e5-2382-409e-b89a-c8d0d75f4145",
+    "user_id": 31526255,
+    "created_at": "2026-01-13T13:15:16.955Z",
+    "updated_at": "2026-01-13T13:15:16.955Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 115.80404,
+      "spo2_percentage": 97.44444,
+      "skin_temp_celsius": 32.215168
+    }
+  },
+  {
+    "cycle_id": 1250373092,
+    "sleep_id": "6e69a365-7ea4-49cf-a444-2969d06bc0d8",
+    "user_id": 31526255,
+    "created_at": "2026-01-12T12:59:41.137Z",
+    "updated_at": "2026-01-12T12:59:41.137Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 84.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 128.93091,
+      "spo2_percentage": 97.36667,
+      "skin_temp_celsius": 31.490667
+    }
+  },
+  {
+    "cycle_id": 1248143082,
+    "sleep_id": "2e10ebdf-e782-482f-88e8-fefd91402923",
+    "user_id": 31526255,
+    "created_at": "2026-01-11T10:25:13.600Z",
+    "updated_at": "2026-01-11T13:14:20.474Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 36.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 77.889366,
+      "spo2_percentage": 96.2619,
+      "skin_temp_celsius": 33.909668
+    }
+  },
+  {
+    "cycle_id": 1246637981,
+    "sleep_id": "27835395-01b9-42d5-a0ed-6ac25e35f908",
+    "user_id": 31526255,
+    "created_at": "2026-01-10T12:38:57.371Z",
+    "updated_at": "2026-01-10T12:38:57.371Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 80.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 122.13542,
+      "spo2_percentage": 95.052635,
+      "skin_temp_celsius": 32.4585
+    }
+  },
+  {
+    "cycle_id": 1245177545,
+    "sleep_id": "a23c3cd4-a6b4-4459-962b-6c07a77f54ef",
+    "user_id": 31526255,
+    "created_at": "2026-01-09T14:08:29.726Z",
+    "updated_at": "2026-01-09T14:08:29.726Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 51.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 92.034355,
+      "spo2_percentage": 97.225,
+      "skin_temp_celsius": 33.454666
+    }
+  },
+  {
+    "cycle_id": 1243640685,
+    "sleep_id": "ebeaa103-4539-4999-8c86-f85517b1620e",
+    "user_id": 31526255,
+    "created_at": "2026-01-08T18:56:34.667Z",
+    "updated_at": "2026-01-08T18:56:34.667Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 52.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 91.75427,
+      "spo2_percentage": 97.525,
+      "skin_temp_celsius": 33.409
+    }
+  },
+  {
+    "cycle_id": 1241581814,
+    "sleep_id": "0b45b111-77e7-48b6-b1cc-e728b43b7ab9",
+    "user_id": 31526255,
+    "created_at": "2026-01-07T13:39:31.126Z",
+    "updated_at": "2026-01-07T13:39:31.126Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 24.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 71.81393,
+      "spo2_percentage": 96.0,
+      "skin_temp_celsius": 32.177
+    }
+  },
+  {
+    "cycle_id": 1239871083,
+    "sleep_id": "aac7e4a4-ab41-4286-ae24-ead49a94e9bd",
+    "user_id": 31526255,
+    "created_at": "2026-01-06T14:14:36.901Z",
+    "updated_at": "2026-01-06T14:14:36.901Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 33.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 87.2744,
+      "spo2_percentage": 96.36,
+      "skin_temp_celsius": 32.653
+    }
+  },
+  {
+    "cycle_id": 1238162418,
+    "sleep_id": "567188be-b279-4791-9e6e-03224752dc7b",
+    "user_id": 31526255,
+    "created_at": "2026-01-05T14:56:17.145Z",
+    "updated_at": "2026-01-05T14:56:17.145Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 35.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 92.39626,
+      "spo2_percentage": 96.333336,
+      "skin_temp_celsius": 31.727333
+    }
+  },
+  {
+    "cycle_id": 1236297016,
+    "sleep_id": "210a9c28-8d78-4588-9e5a-48997681d3f9",
+    "user_id": 31526255,
+    "created_at": "2026-01-04T14:39:17.359Z",
+    "updated_at": "2026-01-04T14:39:17.359Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 55.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 109.663605,
+      "spo2_percentage": 97.57143,
+      "skin_temp_celsius": 33.605335
+    }
+  },
+  {
+    "cycle_id": 1234213942,
+    "sleep_id": "6d14a098-017f-4d35-9ffd-60e8e52e335f",
+    "user_id": 31526255,
+    "created_at": "2026-01-03T11:22:58.402Z",
+    "updated_at": "2026-01-03T15:09:46.681Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 34.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 92.36333,
+      "spo2_percentage": 97.94444,
+      "skin_temp_celsius": 34.266335
+    }
+  },
+  {
+    "cycle_id": 1232952150,
+    "sleep_id": "463be9ee-4786-4be8-96a0-acf4c0a19e91",
+    "user_id": 31526255,
+    "created_at": "2026-01-02T14:47:24.179Z",
+    "updated_at": "2026-01-02T14:47:24.179Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 62.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 115.91396,
+      "spo2_percentage": 96.8125,
+      "skin_temp_celsius": 33.699
+    }
+  },
+  {
+    "cycle_id": 1231089046,
+    "sleep_id": "5e934de9-340a-4d9e-b771-c11956cd5fbe",
+    "user_id": 31526255,
+    "created_at": "2026-01-01T14:20:09.222Z",
+    "updated_at": "2026-01-01T14:20:09.222Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 57.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 113.69782,
+      "spo2_percentage": 96.69444,
+      "skin_temp_celsius": 33.237335
+    }
+  },
+  {
+    "cycle_id": 1229526756,
+    "sleep_id": "fcf66a57-bc15-46d5-a444-048e185c4b6d",
+    "user_id": 31526255,
+    "created_at": "2025-12-31T14:00:01.496Z",
+    "updated_at": "2025-12-31T14:00:01.496Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 113.98396,
+      "spo2_percentage": 94.78571,
+      "skin_temp_celsius": 32.032
+    }
+  },
+  {
+    "cycle_id": 1227479116,
+    "sleep_id": "8c8c8024-bb88-4bd0-86e7-3ba2e00e86c0",
+    "user_id": 31526255,
+    "created_at": "2025-12-30T10:46:50.312Z",
+    "updated_at": "2025-12-30T14:27:04.825Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 32.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 95.31022,
+      "spo2_percentage": 96.72222,
+      "skin_temp_celsius": 33.250668
+    }
+  },
+  {
+    "cycle_id": 1226215980,
+    "sleep_id": "06ff5f18-401e-4def-a307-6df51c8a92f4",
+    "user_id": 31526255,
+    "created_at": "2025-12-29T14:15:30.085Z",
+    "updated_at": "2025-12-29T14:15:30.085Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 54.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 113.80484,
+      "spo2_percentage": 95.111115,
+      "skin_temp_celsius": 33.1275
+    }
+  },
+  {
+    "cycle_id": 1224513149,
+    "sleep_id": "02f386ad-c045-497e-babb-e9fd6c20f82a",
+    "user_id": 31526255,
+    "created_at": "2025-12-28T14:34:02.128Z",
+    "updated_at": "2025-12-28T14:34:02.128Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 119.27434,
+      "spo2_percentage": 95.19444,
+      "skin_temp_celsius": 32.453167
+    }
+  },
+  {
+    "cycle_id": 1222836370,
+    "sleep_id": "17fc55ab-b83b-45f5-9095-0722e726f56f",
+    "user_id": 31526255,
+    "created_at": "2025-12-27T14:12:23.769Z",
+    "updated_at": "2025-12-27T14:12:23.769Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 47.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 113.92298,
+      "spo2_percentage": 97.63158,
+      "skin_temp_celsius": 33.385334
+    }
+  },
+  {
+    "cycle_id": 1221193596,
+    "sleep_id": "10cdb0dc-8faf-4403-8330-83ba2c80e594",
+    "user_id": 31526255,
+    "created_at": "2025-12-26T14:09:43.954Z",
+    "updated_at": "2025-12-26T14:09:43.954Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 54.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 120.789406,
+      "spo2_percentage": 97.125,
+      "skin_temp_celsius": 32.538334
+    }
+  },
+  {
+    "cycle_id": 1219524881,
+    "sleep_id": "2f10878c-bfe9-4f32-b0b1-0180cbf767f2",
+    "user_id": 31526255,
+    "created_at": "2025-12-25T14:09:19.232Z",
+    "updated_at": "2025-12-25T14:09:19.232Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 135.53214,
+      "spo2_percentage": 96.5625,
+      "skin_temp_celsius": 33.207333
+    }
+  },
+  {
+    "cycle_id": 1217978284,
+    "sleep_id": "6635b3d6-33fa-4d6d-b9b3-f11dc4fe0650",
+    "user_id": 31526255,
+    "created_at": "2025-12-24T14:27:50.779Z",
+    "updated_at": "2025-12-24T14:27:50.779Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 40.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 111.10435,
+      "spo2_percentage": 95.361115,
+      "skin_temp_celsius": 32.43343
+    }
+  },
+  {
+    "cycle_id": 1216242815,
+    "sleep_id": "e1a14dfa-a6bb-4803-a2ec-6e8520cf49ec",
+    "user_id": 31526255,
+    "created_at": "2025-12-23T13:06:13.029Z",
+    "updated_at": "2025-12-23T13:06:13.029Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 75.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 135.85735,
+      "spo2_percentage": 95.97059,
+      "skin_temp_celsius": 32.856335
+    }
+  },
+  {
+    "cycle_id": 1214751435,
+    "sleep_id": "862150bc-4b87-402f-a512-4984165fe810",
+    "user_id": 31526255,
+    "created_at": "2025-12-22T14:08:35.112Z",
+    "updated_at": "2025-12-22T14:08:35.112Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 62.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 124.57315,
+      "spo2_percentage": 97.375,
+      "skin_temp_celsius": 32.280666
+    }
+  },
+  {
+    "cycle_id": 1212868020,
+    "sleep_id": "1426de53-4230-4c78-9d07-98f09611796a",
+    "user_id": 31526255,
+    "created_at": "2025-12-21T12:33:08.073Z",
+    "updated_at": "2025-12-21T12:33:08.073Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 129.7292,
+      "spo2_percentage": 96.07895,
+      "skin_temp_celsius": 32.323666
+    }
+  },
+  {
+    "cycle_id": 1211462968,
+    "sleep_id": "90e76d98-c403-4cef-9a8b-be2cbe3e59c2",
+    "user_id": 31526255,
+    "created_at": "2025-12-20T13:51:46.234Z",
+    "updated_at": "2025-12-20T13:51:47.695Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 130.50534,
+      "spo2_percentage": 95.64706,
+      "skin_temp_celsius": 31.880184
+    }
+  },
+  {
+    "cycle_id": 1209588336,
+    "sleep_id": "1e99c497-6b8a-4aca-afef-eadb7c83f05c",
+    "user_id": 31526255,
+    "created_at": "2025-12-19T10:59:58.468Z",
+    "updated_at": "2025-12-19T10:59:58.468Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 127.855225,
+      "spo2_percentage": 93.53571,
+      "skin_temp_celsius": 33.15333
+    }
+  },
+  {
+    "cycle_id": 1208312219,
+    "sleep_id": "d01534d2-038d-4c37-bc79-050dea6819d8",
+    "user_id": 31526255,
+    "created_at": "2025-12-18T13:28:37.570Z",
+    "updated_at": "2025-12-18T13:28:37.570Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 52.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 131.77525,
+      "spo2_percentage": 97.17647,
+      "skin_temp_celsius": 33.751
+    }
+  },
+  {
+    "cycle_id": 1206737275,
+    "sleep_id": "50497dc9-08fe-4bc2-a80d-ae1da292cf84",
+    "user_id": 31526255,
+    "created_at": "2025-12-17T13:47:06.836Z",
+    "updated_at": "2025-12-17T13:47:06.836Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 64.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 142.31685,
+      "spo2_percentage": 96.84091,
+      "skin_temp_celsius": 34.960335
+    }
+  },
+  {
+    "cycle_id": 1205102912,
+    "sleep_id": "ef2a7801-0806-4ab6-9bc8-94a2e5b60831",
+    "user_id": 31526255,
+    "created_at": "2025-12-16T13:35:32.615Z",
+    "updated_at": "2025-12-16T13:35:32.615Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 176.85654,
+      "spo2_percentage": 95.09375,
+      "skin_temp_celsius": 34.482334
+    }
+  },
+  {
+    "cycle_id": 1203429430,
+    "sleep_id": "925e643c-da60-4dee-add7-7f41cee388f2",
+    "user_id": 31526255,
+    "created_at": "2025-12-15T13:11:37.339Z",
+    "updated_at": "2025-12-15T13:11:38.590Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 153.59161,
+      "spo2_percentage": 96.382355,
+      "skin_temp_celsius": 33.640335
+    }
+  },
+  {
+    "cycle_id": 1201661090,
+    "sleep_id": "9fe4933a-bc0b-4864-bbc5-391a871bf4a6",
+    "user_id": 31526255,
+    "created_at": "2025-12-14T12:52:56.980Z",
+    "updated_at": "2025-12-14T12:52:56.980Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 145.33461,
+      "spo2_percentage": 96.0,
+      "skin_temp_celsius": 33.3975
+    }
+  },
+  {
+    "cycle_id": 1200042664,
+    "sleep_id": "393df47d-b8b7-4a55-8aeb-28292a329ee2",
+    "user_id": 31526255,
+    "created_at": "2025-12-13T12:20:08.522Z",
+    "updated_at": "2025-12-13T14:21:03.456Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 157.33588,
+      "spo2_percentage": 97.92105,
+      "skin_temp_celsius": 34.198997
+    }
+  },
+  {
+    "cycle_id": 1198624300,
+    "sleep_id": "52399b3f-451e-464d-b067-b81a6fe85cd7",
+    "user_id": 31526255,
+    "created_at": "2025-12-12T12:59:20.190Z",
+    "updated_at": "2025-12-12T12:59:20.190Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 148.73988,
+      "spo2_percentage": 95.0,
+      "skin_temp_celsius": 34.639668
+    }
+  },
+  {
+    "cycle_id": 1196990104,
+    "sleep_id": "2c651f56-64c3-4a8f-b198-5d681e8d9898",
+    "user_id": 31526255,
+    "created_at": "2025-12-11T12:37:52.675Z",
+    "updated_at": "2025-12-11T12:37:52.675Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 92.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 156.70772,
+      "spo2_percentage": 93.64706,
+      "skin_temp_celsius": 32.725334
+    }
+  },
+  {
+    "cycle_id": 1195448475,
+    "sleep_id": "d7cc6fd5-4244-4e81-891b-62676895eab1",
+    "user_id": 31526255,
+    "created_at": "2025-12-10T13:06:39.725Z",
+    "updated_at": "2025-12-10T13:06:39.725Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 71.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 140.12906,
+      "spo2_percentage": 95.42105,
+      "skin_temp_celsius": 34.327663
+    }
+  },
+  {
+    "cycle_id": 1193829024,
+    "sleep_id": "15ce5524-156d-4be0-be5c-4cb328de1020",
+    "user_id": 31526255,
+    "created_at": "2025-12-09T13:04:51.604Z",
+    "updated_at": "2025-12-09T13:04:51.604Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 134.27249,
+      "spo2_percentage": 96.4,
+      "skin_temp_celsius": 34.282997
+    }
+  },
+  {
+    "cycle_id": 1192226047,
+    "sleep_id": "116d226c-87e6-49b0-9c39-88b652c96dfa",
+    "user_id": 31526255,
+    "created_at": "2025-12-08T13:13:19.508Z",
+    "updated_at": "2025-12-08T13:13:19.508Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 137.03853,
+      "spo2_percentage": 97.166664,
+      "skin_temp_celsius": 33.351665
+    }
+  },
+  {
+    "cycle_id": 1190558601,
+    "sleep_id": "08d3096b-5f3c-4463-89e7-6e6e2a00b83d",
+    "user_id": 31526255,
+    "created_at": "2025-12-07T13:38:30.040Z",
+    "updated_at": "2025-12-07T13:38:30.040Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 76.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 143.34224,
+      "spo2_percentage": 96.40625,
+      "skin_temp_celsius": 34.571
+    }
+  },
+  {
+    "cycle_id": 1188982858,
+    "sleep_id": "77abca18-43a2-42ed-a50d-a5bf76c33e2d",
+    "user_id": 31526255,
+    "created_at": "2025-12-06T13:20:14.824Z",
+    "updated_at": "2025-12-06T13:20:14.824Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 43.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 115.323425,
+      "spo2_percentage": 96.02778,
+      "skin_temp_celsius": 34.107666
+    }
+  },
+  {
+    "cycle_id": 1187433641,
+    "sleep_id": "4bb1e875-72a1-499c-9758-a32fded4d736",
+    "user_id": 31526255,
+    "created_at": "2025-12-05T12:56:19.744Z",
+    "updated_at": "2025-12-05T12:56:19.744Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 152.63007,
+      "spo2_percentage": 96.289474,
+      "skin_temp_celsius": 34.722668
+    }
+  },
+  {
+    "cycle_id": 1185574544,
+    "sleep_id": "3b139875-48ad-472d-a1cc-8546d7e09542",
+    "user_id": 31526255,
+    "created_at": "2025-12-04T10:42:42.205Z",
+    "updated_at": "2025-12-04T12:57:30.274Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 77.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 139.64381,
+      "spo2_percentage": 96.225,
+      "skin_temp_celsius": 33.97167
+    }
+  },
+  {
+    "cycle_id": 1184209450,
+    "sleep_id": "493e08a6-f712-4f37-85ff-d5cc1b41630f",
+    "user_id": 31526255,
+    "created_at": "2025-12-03T12:25:38.879Z",
+    "updated_at": "2025-12-03T12:25:38.879Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 88.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 146.79662,
+      "spo2_percentage": 95.52941,
+      "skin_temp_celsius": 34.093
+    }
+  },
+  {
+    "cycle_id": 1182741272,
+    "sleep_id": "babc94ee-d300-43fc-a443-c0ab67ec95e5",
+    "user_id": 31526255,
+    "created_at": "2025-12-02T13:24:09.345Z",
+    "updated_at": "2025-12-02T13:24:09.345Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 153.21579,
+      "spo2_percentage": 97.05882,
+      "skin_temp_celsius": 34.044
+    }
+  },
+  {
+    "cycle_id": 1181148809,
+    "sleep_id": "050ce912-55b1-4c53-9d46-2b43f658f4f5",
+    "user_id": 31526255,
+    "created_at": "2025-12-01T13:22:37.809Z",
+    "updated_at": "2025-12-01T13:22:37.809Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 136.78836,
+      "spo2_percentage": 96.46667,
+      "skin_temp_celsius": 32.231335
+    }
+  },
+  {
+    "cycle_id": 1179657021,
+    "sleep_id": "eed1b3c7-487a-4828-b273-d3a747463730",
+    "user_id": 31526255,
+    "created_at": "2025-11-30T15:17:56.497Z",
+    "updated_at": "2025-11-30T15:17:56.497Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 125.806305,
+      "spo2_percentage": 95.97369,
+      "skin_temp_celsius": 32.7975
+    }
+  },
+  {
+    "cycle_id": 1177972525,
+    "sleep_id": "2c79a22a-a6f1-41b0-87a9-2ad819a4e037",
+    "user_id": 31526255,
+    "created_at": "2025-11-29T13:39:53.907Z",
+    "updated_at": "2025-11-29T13:39:53.907Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 69.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 136.194,
+      "spo2_percentage": 95.666664,
+      "skin_temp_celsius": 32.692833
+    }
+  },
+  {
+    "cycle_id": 1176431848,
+    "sleep_id": "4f487fde-534f-4fcd-89f9-58dac5544924",
+    "user_id": 31526255,
+    "created_at": "2025-11-28T13:22:27.804Z",
+    "updated_at": "2025-11-28T13:22:27.804Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 121.3695,
+      "spo2_percentage": 95.73684,
+      "skin_temp_celsius": 34.141335
+    }
+  },
+  {
+    "cycle_id": 1174947408,
+    "sleep_id": "07d890cf-ed24-478a-b8cb-1a6c11d84160",
+    "user_id": 31526255,
+    "created_at": "2025-11-27T13:52:56.584Z",
+    "updated_at": "2025-11-27T13:52:56.584Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 136.30212,
+      "spo2_percentage": 97.6579,
+      "skin_temp_celsius": 33.372665
+    }
+  },
+  {
+    "cycle_id": 1173287017,
+    "sleep_id": "bb308dbd-cfe4-4aa6-b926-565275fc956b",
+    "user_id": 31526255,
+    "created_at": "2025-11-26T12:35:42.887Z",
+    "updated_at": "2025-11-26T12:35:42.887Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 138.83151,
+      "spo2_percentage": 96.5625,
+      "skin_temp_celsius": 32.20767
+    }
+  },
+  {
+    "cycle_id": 1171520559,
+    "sleep_id": "2b80247b-c696-479d-b48b-17d7f3dac45f",
+    "user_id": 31526255,
+    "created_at": "2025-11-25T10:51:57.441Z",
+    "updated_at": "2025-11-25T10:51:57.441Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 51.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 126.10897,
+      "spo2_percentage": 96.181816,
+      "skin_temp_celsius": 32.67
+    }
+  },
+  {
+    "cycle_id": 1170149036,
+    "sleep_id": "86d7de83-56fe-4dd1-813d-78c60ba81762",
+    "user_id": 31526255,
+    "created_at": "2025-11-24T12:31:51.866Z",
+    "updated_at": "2025-11-24T12:31:51.866Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 94.0,
+      "resting_heart_rate": 41.0,
+      "hrv_rmssd_milli": 154.19086,
+      "spo2_percentage": 96.85714,
+      "skin_temp_celsius": 34.1765
+    }
+  },
+  {
+    "cycle_id": 1168465589,
+    "sleep_id": "d67b19b9-55fc-467c-912a-c2450c6cea30",
+    "user_id": 31526255,
+    "created_at": "2025-11-23T12:20:16.273Z",
+    "updated_at": "2025-11-23T12:20:16.273Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 73.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 139.04623,
+      "spo2_percentage": 95.86957,
+      "skin_temp_celsius": 34.623997
+    }
+  },
+  {
+    "cycle_id": 1166993462,
+    "sleep_id": "c00cba40-7276-4951-9f38-8538287e0220",
+    "user_id": 31526255,
+    "created_at": "2025-11-22T12:38:51.904Z",
+    "updated_at": "2025-11-22T12:38:51.904Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 59.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 132.68668,
+      "spo2_percentage": 96.78125,
+      "skin_temp_celsius": 32.507
+    }
+  },
+  {
+    "cycle_id": 1165545560,
+    "sleep_id": "cc79d31a-db14-42b0-a249-18d72e965bf2",
+    "user_id": 31526255,
+    "created_at": "2025-11-21T12:42:36.231Z",
+    "updated_at": "2025-11-21T12:42:36.231Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 81.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 147.5666,
+      "spo2_percentage": 96.882355,
+      "skin_temp_celsius": 32.402836
+    }
+  },
+  {
+    "cycle_id": 1163989620,
+    "sleep_id": "7c24118e-6a4e-47b1-be1b-ba8104e771d0",
+    "user_id": 31526255,
+    "created_at": "2025-11-20T12:38:55.751Z",
+    "updated_at": "2025-11-20T12:38:55.751Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 50.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 122.909935,
+      "spo2_percentage": 96.75,
+      "skin_temp_celsius": 33.321
+    }
+  },
+  {
+    "cycle_id": 1162391063,
+    "sleep_id": "127bf736-2163-428e-8d98-bf17de631e48",
+    "user_id": 31526255,
+    "created_at": "2025-11-19T12:20:49.114Z",
+    "updated_at": "2025-11-19T12:20:49.114Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 51.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 124.05119,
+      "spo2_percentage": 96.2,
+      "skin_temp_celsius": 34.29117
+    }
+  },
+  {
+    "cycle_id": 1160859467,
+    "sleep_id": "dc263772-d99c-4d10-9d80-1ba7e9a93078",
+    "user_id": 31526255,
+    "created_at": "2025-11-18T12:32:45.168Z",
+    "updated_at": "2025-11-18T12:32:45.168Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 145.39137,
+      "spo2_percentage": 96.63158,
+      "skin_temp_celsius": 34.682
+    }
+  },
+  {
+    "cycle_id": 1159327261,
+    "sleep_id": "1beb1703-a65c-4cf5-b657-1cdd8842f586",
+    "user_id": 31526255,
+    "created_at": "2025-11-17T12:54:50.787Z",
+    "updated_at": "2025-11-17T12:54:50.787Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 87.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 153.46875,
+      "spo2_percentage": 97.1579,
+      "skin_temp_celsius": 33.917168
+    }
+  },
+  {
+    "cycle_id": 1157620251,
+    "sleep_id": "faac34cd-54a9-407d-bfc3-ac639c0ffbc0",
+    "user_id": 31526255,
+    "created_at": "2025-11-16T12:35:42.273Z",
+    "updated_at": "2025-11-16T12:35:42.273Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 149.5471,
+      "spo2_percentage": 95.690475,
+      "skin_temp_celsius": 33.504166
+    }
+  },
+  {
+    "cycle_id": 1156208012,
+    "sleep_id": "567a7898-2d85-42c9-9d58-21f00958a029",
+    "user_id": 31526255,
+    "created_at": "2025-11-15T13:14:16.854Z",
+    "updated_at": "2025-11-15T13:14:16.854Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 158.52995,
+      "spo2_percentage": 96.72222,
+      "skin_temp_celsius": 33.559
+    }
+  },
+  {
+    "cycle_id": 1154760595,
+    "sleep_id": "c026574c-f3ee-46c7-b12a-3162a250ffe5",
+    "user_id": 31526255,
+    "created_at": "2025-11-14T13:12:45.098Z",
+    "updated_at": "2025-11-14T13:12:45.098Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 94.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 146.81862,
+      "spo2_percentage": 96.1,
+      "skin_temp_celsius": 33.200665
+    }
+  },
+  {
+    "cycle_id": 1152831069,
+    "sleep_id": "302af698-3429-4367-8db1-3db785ba3da0",
+    "user_id": 31526255,
+    "created_at": "2025-11-13T09:56:23.559Z",
+    "updated_at": "2025-11-13T12:21:09.395Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 141.80347,
+      "spo2_percentage": 96.875,
+      "skin_temp_celsius": 33.024666
+    }
+  },
+  {
+    "cycle_id": 1151527000,
+    "sleep_id": "d9da9eca-0702-46c3-b387-3a048d1d23d8",
+    "user_id": 31526255,
+    "created_at": "2025-11-12T12:09:38.663Z",
+    "updated_at": "2025-11-12T12:09:38.663Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 142.54424,
+      "spo2_percentage": 97.111115,
+      "skin_temp_celsius": 33.941
+    }
+  },
+  {
+    "cycle_id": 1150004962,
+    "sleep_id": "be31426d-dc3a-414b-917e-f68f1845c92f",
+    "user_id": 31526255,
+    "created_at": "2025-11-11T12:28:02.705Z",
+    "updated_at": "2025-11-11T12:28:02.705Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 151.8552,
+      "spo2_percentage": 96.411766,
+      "skin_temp_celsius": 33.074
+    }
+  },
+  {
+    "cycle_id": 1148491843,
+    "sleep_id": "f80706ec-2847-4526-99bf-13cbe85d00a1",
+    "user_id": 31526255,
+    "created_at": "2025-11-10T12:44:33.016Z",
+    "updated_at": "2025-11-10T12:44:33.016Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 120.11907,
+      "spo2_percentage": 95.210526,
+      "skin_temp_celsius": 33.091
+    }
+  },
+  {
+    "cycle_id": 1146894717,
+    "sleep_id": "af14f2e0-925a-47d4-a5b0-a303d8cee188",
+    "user_id": 31526255,
+    "created_at": "2025-11-09T13:15:04.586Z",
+    "updated_at": "2025-11-09T13:15:04.586Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 46.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 110.7426,
+      "spo2_percentage": 94.86667,
+      "skin_temp_celsius": 34.171665
+    }
+  },
+  {
+    "cycle_id": 1145404176,
+    "sleep_id": "067d0370-ed90-415e-8c3d-3201833a3418",
+    "user_id": 31526255,
+    "created_at": "2025-11-08T13:13:45.987Z",
+    "updated_at": "2025-11-08T13:13:45.987Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 63.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 126.227455,
+      "spo2_percentage": 97.45,
+      "skin_temp_celsius": 32.802666
+    }
+  },
+  {
+    "cycle_id": 1143868553,
+    "sleep_id": "64ea3ce4-19d1-471a-a018-0db25762e134",
+    "user_id": 31526255,
+    "created_at": "2025-11-07T12:31:59.884Z",
+    "updated_at": "2025-11-07T13:05:02.311Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 57.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 122.299774,
+      "spo2_percentage": 97.60526,
+      "skin_temp_celsius": 31.5265
+    }
+  },
+  {
+    "cycle_id": 1142311418,
+    "sleep_id": "cd753a5d-4fe3-4424-abf2-52a326b240d7",
+    "user_id": 31526255,
+    "created_at": "2025-11-06T12:20:23.448Z",
+    "updated_at": "2025-11-06T12:20:23.448Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 130.84671,
+      "spo2_percentage": 97.333336,
+      "skin_temp_celsius": 32.436333
+    }
+  },
+  {
+    "cycle_id": 1140786816,
+    "sleep_id": "663b00a3-c4b0-4adc-abed-b536237b6ba7",
+    "user_id": 31526255,
+    "created_at": "2025-11-05T12:28:45.966Z",
+    "updated_at": "2025-11-05T12:28:45.966Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 80.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 137.0618,
+      "spo2_percentage": 94.75,
+      "skin_temp_celsius": 33.9535
+    }
+  },
+  {
+    "cycle_id": 1139232912,
+    "sleep_id": "80099da8-c58f-4eca-8321-5afb6c68966a",
+    "user_id": 31526255,
+    "created_at": "2025-11-04T12:24:48.310Z",
+    "updated_at": "2025-11-04T12:24:48.310Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 89.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 142.21062,
+      "spo2_percentage": 96.09524,
+      "skin_temp_celsius": 32.33917
+    }
+  },
+  {
+    "cycle_id": 1137645500,
+    "sleep_id": "d97acac7-9acc-4185-9cfa-6b9740cd55b3",
+    "user_id": 31526255,
+    "created_at": "2025-11-03T12:10:54.882Z",
+    "updated_at": "2025-11-03T12:10:54.882Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 79.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 133.29791,
+      "spo2_percentage": 96.0,
+      "skin_temp_celsius": 34.243168
+    }
+  },
+  {
+    "cycle_id": 1136067482,
+    "sleep_id": "db3e6491-1af5-468b-af58-352e7b5ba777",
+    "user_id": 31526255,
+    "created_at": "2025-11-02T12:34:20.125Z",
+    "updated_at": "2025-11-02T12:34:20.125Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 90.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 136.9843,
+      "spo2_percentage": 98.45,
+      "skin_temp_celsius": 34.227665
+    }
+  },
+  {
+    "cycle_id": 1134566518,
+    "sleep_id": "c129315b-a732-451c-8e84-45875169291c",
+    "user_id": 31526255,
+    "created_at": "2025-11-01T12:12:45.060Z",
+    "updated_at": "2025-11-01T12:12:45.060Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 65.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 120.81394,
+      "spo2_percentage": 94.71429,
+      "skin_temp_celsius": 33.692665
+    }
+  },
+  {
+    "cycle_id": 1132870940,
+    "sleep_id": "e5b3ed31-d222-48e4-8eff-73be0867acfb",
+    "user_id": 31526255,
+    "created_at": "2025-10-31T09:57:52.151Z",
+    "updated_at": "2025-10-31T11:51:31.639Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 53.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 115.78551,
+      "spo2_percentage": 96.6,
+      "skin_temp_celsius": 32.475666
+    }
+  },
+  {
+    "cycle_id": 1131353799,
+    "sleep_id": "9d0d0d7f-5bd3-47f7-8c78-9670b5891785",
+    "user_id": 31526255,
+    "created_at": "2025-10-30T09:59:37.846Z",
+    "updated_at": "2025-10-30T11:29:38.909Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 61.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 122.85944,
+      "spo2_percentage": 96.0,
+      "skin_temp_celsius": 33.81
+    }
+  },
+  {
+    "cycle_id": 1130019832,
+    "sleep_id": "b5d6aa7a-88e0-4159-bcb7-bf8c358d3d3d",
+    "user_id": 31526255,
+    "created_at": "2025-10-29T11:28:08.550Z",
+    "updated_at": "2025-10-29T11:28:08.550Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 138.82341,
+      "spo2_percentage": 95.825,
+      "skin_temp_celsius": 32.518
+    }
+  },
+  {
+    "cycle_id": 1128524460,
+    "sleep_id": "79224abf-1c99-4c3e-a4e3-7dc7e5a5a074",
+    "user_id": 31526255,
+    "created_at": "2025-10-28T11:46:37.052Z",
+    "updated_at": "2025-10-28T11:46:37.052Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 88.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 135.03394,
+      "spo2_percentage": 96.23913,
+      "skin_temp_celsius": 34.500504
+    }
+  },
+  {
+    "cycle_id": 1126967627,
+    "sleep_id": "70c23a32-206f-494e-a16b-af3c6767b814",
+    "user_id": 31526255,
+    "created_at": "2025-10-27T11:42:53.894Z",
+    "updated_at": "2025-10-27T11:42:53.894Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 83.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 129.08624,
+      "spo2_percentage": 96.17647,
+      "skin_temp_celsius": 31.564833
+    }
+  },
+  {
+    "cycle_id": 1125309853,
+    "sleep_id": "32d8edf8-2ea2-4e34-96b0-bb28a7b3544b",
+    "user_id": 31526255,
+    "created_at": "2025-10-26T11:39:04.621Z",
+    "updated_at": "2025-10-26T11:39:04.621Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 53.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 115.11479,
+      "spo2_percentage": 96.0,
+      "skin_temp_celsius": 32.48138
+    }
+  },
+  {
+    "cycle_id": 1124034771,
+    "sleep_id": "40be38a3-e13f-4617-953f-4db000d85166",
+    "user_id": 31526255,
+    "created_at": "2025-10-25T13:17:06.184Z",
+    "updated_at": "2025-10-25T13:17:06.184Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 65.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 122.4325,
+      "spo2_percentage": 97.52381,
+      "skin_temp_celsius": 33.518665
+    }
+  },
+  {
+    "cycle_id": 1122504826,
+    "sleep_id": "fbf43235-88b6-4e18-aaa3-7c849b9dcc46",
+    "user_id": 31526255,
+    "created_at": "2025-10-24T12:23:05.877Z",
+    "updated_at": "2025-10-24T12:23:05.877Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 129.76831,
+      "spo2_percentage": 95.210526,
+      "skin_temp_celsius": 33.726997
+    }
+  },
+  {
+    "cycle_id": 1121352366,
+    "sleep_id": "4180467f-5f34-47be-a1ae-39f91ccc928f",
+    "user_id": 31526255,
+    "created_at": "2025-10-23T22:32:44.705Z",
+    "updated_at": "2025-10-23T22:32:44.705Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 112.47641,
+      "spo2_percentage": 96.388885,
+      "skin_temp_celsius": 34.502335
+    }
+  },
+  {
+    "cycle_id": 1119326190,
+    "sleep_id": "9f99a13d-5fcf-4443-91c6-25bb6eb6e760",
+    "user_id": 31526255,
+    "created_at": "2025-10-22T11:20:35.500Z",
+    "updated_at": "2025-10-22T11:20:35.500Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 116.79361,
+      "spo2_percentage": 96.13636,
+      "skin_temp_celsius": 33.352665
+    }
+  },
+  {
+    "cycle_id": 1117809475,
+    "sleep_id": "ec584de4-4e7e-4760-821b-d300ca938003",
+    "user_id": 31526255,
+    "created_at": "2025-10-21T11:29:14.009Z",
+    "updated_at": "2025-10-21T11:29:14.009Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 138.52179,
+      "spo2_percentage": 98.35714,
+      "skin_temp_celsius": 33.20067
+    }
+  },
+  {
+    "cycle_id": 1116343412,
+    "sleep_id": "05f57f04-4893-4d65-9206-d37652c9db70",
+    "user_id": 31526255,
+    "created_at": "2025-10-20T12:06:46.721Z",
+    "updated_at": "2025-10-20T12:06:46.721Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 74.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 125.889275,
+      "spo2_percentage": 98.42857,
+      "skin_temp_celsius": 32.253334
+    }
+  },
+  {
+    "cycle_id": 1114696241,
+    "sleep_id": "cb42a543-81b7-4732-92fa-d6cb08f29736",
+    "user_id": 31526255,
+    "created_at": "2025-10-19T12:06:23.363Z",
+    "updated_at": "2025-10-19T12:06:23.363Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 128.70392,
+      "spo2_percentage": 97.190475,
+      "skin_temp_celsius": 34.185
+    }
+  },
+  {
+    "cycle_id": 1113305971,
+    "sleep_id": "c69bc0e0-d91c-431c-94a5-b51916ddcdac",
+    "user_id": 31526255,
+    "created_at": "2025-10-18T12:44:33.322Z",
+    "updated_at": "2025-10-18T12:44:33.322Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 53.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 106.12316,
+      "spo2_percentage": 95.565216,
+      "skin_temp_celsius": 34.439335
+    }
+  },
+  {
+    "cycle_id": 1111860761,
+    "sleep_id": "a1fee329-e029-4083-b592-20d30ef1b077",
+    "user_id": 31526255,
+    "created_at": "2025-10-17T12:37:22.159Z",
+    "updated_at": "2025-10-17T12:37:22.159Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 80.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 129.88522,
+      "spo2_percentage": 98.0,
+      "skin_temp_celsius": 33.762
+    }
+  },
+  {
+    "cycle_id": 1110358870,
+    "sleep_id": "da2954d3-9380-451d-a191-acc0f1659243",
+    "user_id": 31526255,
+    "created_at": "2025-10-16T12:41:38.322Z",
+    "updated_at": "2025-10-16T12:41:38.322Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 61.0,
+      "resting_heart_rate": 52.0,
+      "hrv_rmssd_milli": 118.21564,
+      "spo2_percentage": 95.72,
+      "skin_temp_celsius": 33.943
+    }
+  },
+  {
+    "cycle_id": 1108723805,
+    "sleep_id": "d5ac3f32-0bac-48a9-9eb9-af9d95e9e63d",
+    "user_id": 31526255,
+    "created_at": "2025-10-15T11:50:10.245Z",
+    "updated_at": "2025-10-15T11:50:10.245Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 43.0,
+      "resting_heart_rate": 53.0,
+      "hrv_rmssd_milli": 104.62144,
+      "spo2_percentage": 95.545456,
+      "skin_temp_celsius": 32.492
+    }
+  },
+  {
+    "cycle_id": 1107225612,
+    "sleep_id": "e55e58d0-275a-4147-a988-78078907f63a",
+    "user_id": 31526255,
+    "created_at": "2025-10-14T12:05:43.555Z",
+    "updated_at": "2025-10-14T12:05:43.555Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 32.0,
+      "resting_heart_rate": 53.0,
+      "hrv_rmssd_milli": 93.88695,
+      "spo2_percentage": 98.5,
+      "skin_temp_celsius": 31.922
+    }
+  },
+  {
+    "cycle_id": 1105825776,
+    "sleep_id": "b5adea14-97bf-4e22-adb9-7751ddd88964",
+    "user_id": 31526255,
+    "created_at": "2025-10-13T13:37:14.865Z",
+    "updated_at": "2025-10-13T13:37:14.865Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 130.49393,
+      "spo2_percentage": 97.0,
+      "skin_temp_celsius": 33.439667
+    }
+  },
+  {
+    "cycle_id": 1104332590,
+    "sleep_id": "522c3f72-a478-45ca-94eb-a9b54b8009a6",
+    "user_id": 31526255,
+    "created_at": "2025-10-12T14:44:18.755Z",
+    "updated_at": "2025-10-12T14:50:12.286Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 32.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 95.390495,
+      "spo2_percentage": 97.42857,
+      "skin_temp_celsius": 33.226665
+    }
+  },
+  {
+    "cycle_id": 1102860308,
+    "sleep_id": "657daed9-69fa-4db8-a532-b0844142c96b",
+    "user_id": 31526255,
+    "created_at": "2025-10-11T14:41:02.931Z",
+    "updated_at": "2025-10-11T14:41:02.931Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 50.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 136.21217,
+      "spo2_percentage": 95.96154,
+      "skin_temp_celsius": 33.096333
+    }
+  },
+  {
+    "cycle_id": 1101200888,
+    "sleep_id": "59aba661-1e2d-4383-83cf-72bd572bcf59",
+    "user_id": 31526255,
+    "created_at": "2025-10-10T12:16:42.974Z",
+    "updated_at": "2025-10-10T12:16:42.974Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 42.0,
+      "hrv_rmssd_milli": 149.28302,
+      "spo2_percentage": 97.52941,
+      "skin_temp_celsius": 32.401333
+    }
+  },
+  {
+    "cycle_id": 1099621221,
+    "sleep_id": "8e80ccb5-8d0a-420c-a0a8-76998cbeb7b9",
+    "user_id": 31526255,
+    "created_at": "2025-10-09T11:41:21.894Z",
+    "updated_at": "2025-10-09T11:41:21.894Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 94.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 144.14066,
+      "spo2_percentage": 96.39474,
+      "skin_temp_celsius": 33.712
+    }
+  },
+  {
+    "cycle_id": 1098069681,
+    "sleep_id": "e99aac6c-411f-4a36-bad6-5b259558196b",
+    "user_id": 31526255,
+    "created_at": "2025-10-08T11:27:26.258Z",
+    "updated_at": "2025-10-08T11:27:26.258Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 91.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 139.35426,
+      "spo2_percentage": 95.69444,
+      "skin_temp_celsius": 33.361
+    }
+  },
+  {
+    "cycle_id": 1096671676,
+    "sleep_id": "85ebb25d-7fcb-4da3-9e60-0573a5a8ab71",
+    "user_id": 31526255,
+    "created_at": "2025-10-07T12:23:03.921Z",
+    "updated_at": "2025-10-07T12:23:03.921Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": true,
+      "recovery_score": 82.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 130.40828,
+      "spo2_percentage": 96.8,
+      "skin_temp_celsius": 33.271
+    }
+  },
+  {
+    "cycle_id": 1095115751,
+    "sleep_id": "33b61815-4100-48c5-8ae0-c01e4d4c12b0",
+    "user_id": 31526255,
+    "created_at": "2025-10-06T12:11:37.574Z",
+    "updated_at": "2025-10-06T12:11:37.574Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": true,
+      "recovery_score": 95.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 147.25294,
+      "spo2_percentage": 96.44444,
+      "skin_temp_celsius": 32.77833
+    }
+  },
+  {
+    "cycle_id": 1093604838,
+    "sleep_id": "69f2ee74-5e33-48f9-be4a-e51dc03e9bbf",
+    "user_id": 31526255,
+    "created_at": "2025-10-05T13:17:35.218Z",
+    "updated_at": "2025-10-05T13:17:35.218Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": true,
+      "recovery_score": 96.0,
+      "resting_heart_rate": 46.0,
+      "hrv_rmssd_milli": 139.67235,
+      "spo2_percentage": 98.0,
+      "skin_temp_celsius": 33.027668
+    }
+  }
+]
