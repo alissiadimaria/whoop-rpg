@@ -1,0 +1,47 @@
+[
+  {
+    "chapter": 1,
+    "name": "The Student",
+    "start_date": "2025-10-05",
+    "end_date": "2025-12-23",
+    "n_days": 80,
+    "mean_hrv": 134.2,
+    "mean_recovery": 71.8,
+    "mean_sws": 29.7,
+    "mean_rem": 27.5,
+    "mean_sleep_efficiency": 94.8,
+    "mean_strain": 10.3,
+    "mean_stability": 90.4,
+    "hrv_trend": "declining"
+  },
+  {
+    "chapter": 2,
+    "name": "The Crash",
+    "start_date": "2025-12-24",
+    "end_date": "2026-01-12",
+    "n_days": 20,
+    "mean_hrv": 106.0,
+    "mean_recovery": 51.1,
+    "mean_sws": 24.6,
+    "mean_rem": 29.2,
+    "mean_sleep_efficiency": 94.6,
+    "mean_strain": 9.6,
+    "mean_stability": 87.6,
+    "hrv_trend": "rising"
+  },
+  {
+    "chapter": 3,
+    "name": "Post-Grad",
+    "start_date": "2026-01-13",
+    "end_date": "2026-06-06",
+    "n_days": 144,
+    "mean_hrv": 125.3,
+    "mean_recovery": 69.8,
+    "mean_sws": 27.0,
+    "mean_rem": 26.0,
+    "mean_sleep_efficiency": 94.4,
+    "mean_strain": 11.3,
+    "mean_stability": 88.2,
+    "hrv_trend": "rising"
+  }
+]

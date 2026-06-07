@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2026-01-17",
+    "recovery_score": 86,
+    "hrv": 144.26,
+    "sws_pct": 27.42,
+    "rem_pct": 24.79,
+    "sleep_efficiency": 97.79,
+    "strain": 5.89,
+    "autonomic_recovery": 127.54,
+    "composite_z": 2.16
+  },
+  {
+    "date": "2026-01-14",
+    "recovery_score": 91,
+    "hrv": 135.8,
+    "sws_pct": 27.12,
+    "rem_pct": 27.01,
+    "sleep_efficiency": 95.29,
+    "strain": 4.56,
+    "autonomic_recovery": 117.39,
+    "composite_z": 1.98
+  },
+  {
+    "date": "2025-11-11",
+    "recovery_score": 95,
+    "hrv": 151.86,
+    "sws_pct": 25.66,
+    "rem_pct": 26.08,
+    "sleep_efficiency": 98.4,
+    "strain": 7.68,
+    "autonomic_recovery": 121.58,
+    "composite_z": 1.95
+  },
+  {
+    "date": "2026-01-19",
+    "recovery_score": 90,
+    "hrv": 146.88,
+    "sws_pct": 31.78,
+    "rem_pct": 28.1,
+    "sleep_efficiency": 96.83,
+    "strain": 14.99,
+    "autonomic_recovery": 128.99,
+    "composite_z": 1.93
+  },
+  {
+    "date": "2025-12-16",
+    "recovery_score": 95,
+    "hrv": 176.86,
+    "sws_pct": 30.4,
+    "rem_pct": 29.1,
+    "sleep_efficiency": 93.45,
+    "strain": 6.71,
+    "autonomic_recovery": 125.09,
+    "composite_z": 1.87
+  },
+  {
+    "date": "2026-03-09",
+    "recovery_score": 95,
+    "hrv": 142.89,
+    "sws_pct": 22.36,
+    "rem_pct": 33.03,
+    "sleep_efficiency": 96.13,
+    "strain": 13.55,
+    "autonomic_recovery": 118.72,
+    "composite_z": 1.75
+  },
+  {
+    "date": "2026-05-25",
+    "recovery_score": 96,
+    "hrv": 169.05,
+    "sws_pct": 22.42,
+    "rem_pct": 25.15,
+    "sleep_efficiency": 94.92,
+    "strain": 15.54,
+    "autonomic_recovery": 135.22,
+    "composite_z": 1.68
+  },
+  {
+    "date": "2026-01-18",
+    "recovery_score": 85,
+    "hrv": 134.28,
+    "sws_pct": 27.87,
+    "rem_pct": 29.96,
+    "sleep_efficiency": 93.22,
+    "strain": 5.67,
+    "autonomic_recovery": 118.49,
+    "composite_z": 1.67
+  },
+  {
+    "date": "2026-01-25",
+    "recovery_score": 96,
+    "hrv": 150.83,
+    "sws_pct": 21.12,
+    "rem_pct": 26.37,
+    "sleep_efficiency": 97.17,
+    "strain": 5.59,
+    "autonomic_recovery": 130.27,
+    "composite_z": 1.64
+  },
+  {
+    "date": "2026-03-23",
+    "recovery_score": 91,
+    "hrv": 155.87,
+    "sws_pct": 21.71,
+    "rem_pct": 25.77,
+    "sleep_efficiency": 73.18,
+    "strain": 12.63,
+    "autonomic_recovery": 125.6,
+    "composite_z": 1.63
+  },
+  {
+    "date": "2026-05-24",
+    "recovery_score": 95,
+    "hrv": 157.98,
+    "sws_pct": 23.79,
+    "rem_pct": 22.55,
+    "sleep_efficiency": 94.77,
+    "strain": 12.62,
+    "autonomic_recovery": 128.05,
+    "composite_z": 1.57
+  },
+  {
+    "date": "2026-02-23",
+    "recovery_score": 97,
+    "hrv": 150.31,
+    "sws_pct": 18.74,
+    "rem_pct": 19.68,
+    "sleep_efficiency": 96.37,
+    "strain": 13.01,
+    "autonomic_recovery": 120.72,
+    "composite_z": 1.57
+  },
+  {
+    "date": "2026-05-09",
+    "recovery_score": 96,
+    "hrv": 142.0,
+    "sws_pct": 29.52,
+    "rem_pct": 15.33,
+    "sleep_efficiency": 92.49,
+    "strain": 7.6,
+    "autonomic_recovery": 116.98,
+    "composite_z": 1.57
+  },
+  {
+    "date": "2026-01-12",
+    "recovery_score": 84,
+    "hrv": 128.93,
+    "sws_pct": 30.02,
+    "rem_pct": 28.78,
+    "sleep_efficiency": 93.86,
+    "strain": 4.64,
+    "autonomic_recovery": 109.95,
+    "composite_z": 1.56
+  },
+  {
+    "date": "2026-05-12",
+    "recovery_score": 91,
+    "hrv": 148.17,
+    "sws_pct": 34.38,
+    "rem_pct": 19.71,
+    "sleep_efficiency": 93.74,
+    "strain": 16.17,
+    "autonomic_recovery": 121.91,
+    "composite_z": 1.54
+  },
+  {
+    "date": "2026-01-16",
+    "recovery_score": 78,
+    "hrv": 123.46,
+    "sws_pct": 29.86,
+    "rem_pct": 26.11,
+    "sleep_efficiency": 92.54,
+    "strain": 13.55,
+    "autonomic_recovery": 109.55,
+    "composite_z": 1.52
+  },
+  {
+    "date": "2026-03-22",
+    "recovery_score": 96,
+    "hrv": 141.62,
+    "sws_pct": 21.27,
+    "rem_pct": 28.16,
+    "sleep_efficiency": 93.72,
+    "strain": 5.83,
+    "autonomic_recovery": 115.47,
+    "composite_z": 1.52
+  }
+]
