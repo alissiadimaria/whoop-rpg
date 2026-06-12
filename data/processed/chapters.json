@@ -14,7 +14,9 @@
     "mean_sleep_efficiency": 94.8,
     "mean_strain": 10.3,
     "mean_stability": 90.4,
-    "hrv_trend": "declining"
+    "mean_autonomic_recovery": 101.0,
+    "hrv_trend": "declining",
+    "dominant_archetype": "The Vessel"
   },
   {
     "chapter": 2,
@@ -31,23 +33,27 @@
     "mean_sleep_efficiency": 94.6,
     "mean_strain": 9.6,
     "mean_stability": 87.6,
-    "hrv_trend": "rising"
+    "mean_autonomic_recovery": 81.3,
+    "hrv_trend": "rising",
+    "dominant_archetype": "The Shadow"
   },
   {
     "chapter": 3,
     "name": "Post-Grad",
     "start_date": "2026-01-13",
-    "end_date": "2026-06-06",
-    "n_days": 144,
+    "end_date": "2026-06-07",
+    "n_days": 145,
     "start_idx": 100,
-    "end_idx": 244,
+    "end_idx": 245,
     "mean_hrv": 125.3,
-    "mean_recovery": 69.8,
+    "mean_recovery": 69.7,
     "mean_sws": 27.0,
-    "mean_rem": 26.0,
+    "mean_rem": 25.9,
     "mean_sleep_efficiency": 94.4,
-    "mean_strain": 11.3,
+    "mean_strain": 11.2,
     "mean_stability": 88.2,
-    "hrv_trend": "rising"
+    "mean_autonomic_recovery": 102.1,
+    "hrv_trend": "rising",
+    "dominant_archetype": "The Wanderer"
   }
 ]

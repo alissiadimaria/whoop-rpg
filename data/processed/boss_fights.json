@@ -8,7 +8,8 @@
     "sleep_efficiency": 89.13,
     "strain": 4.03,
     "autonomic_recovery": 57.84,
-    "composite_z": -3.31
+    "composite_z": -3.31,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-04-05",
@@ -19,7 +20,8 @@
     "sleep_efficiency": 96.13,
     "strain": 4.71,
     "autonomic_recovery": 65.04,
-    "composite_z": -2.53
+    "composite_z": -2.53,
+    "archetype": "The Shadow"
   },
   {
     "date": "2025-12-30",
@@ -30,7 +32,8 @@
     "sleep_efficiency": 94.37,
     "strain": 5.61,
     "autonomic_recovery": 70.25,
-    "composite_z": -2.2
+    "composite_z": -2.2,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-01-07",
@@ -41,7 +44,8 @@
     "sleep_efficiency": 97.11,
     "strain": 8.98,
     "autonomic_recovery": 57.57,
-    "composite_z": -2.09
+    "composite_z": -2.09,
+    "archetype": "The Shadow"
   },
   {
     "date": "2025-12-24",
@@ -52,7 +56,8 @@
     "sleep_efficiency": 95.62,
     "strain": 16.05,
     "autonomic_recovery": 80.2,
-    "composite_z": -1.98
+    "composite_z": -1.98,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-06-03",
@@ -63,7 +68,8 @@
     "sleep_efficiency": 96.33,
     "strain": 14.78,
     "autonomic_recovery": 85.78,
-    "composite_z": -1.89
+    "composite_z": -1.89,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-03-07",
@@ -74,7 +80,8 @@
     "sleep_efficiency": 95.56,
     "strain": 4.84,
     "autonomic_recovery": 75.52,
-    "composite_z": -1.88
+    "composite_z": -1.88,
+    "archetype": "The Shadow"
   },
   {
     "date": "2025-12-06",
@@ -85,7 +92,8 @@
     "sleep_efficiency": 90.75,
     "strain": 12.11,
     "autonomic_recovery": 84.0,
-    "composite_z": -1.87
+    "composite_z": -1.87,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-01-03",
@@ -96,7 +104,8 @@
     "sleep_efficiency": 90.5,
     "strain": 13.52,
     "autonomic_recovery": 70.51,
-    "composite_z": -1.84
+    "composite_z": -1.84,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-02-10",
@@ -107,7 +116,8 @@
     "sleep_efficiency": 94.94,
     "strain": 14.51,
     "autonomic_recovery": 82.44,
-    "composite_z": -1.71
+    "composite_z": -1.71,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-01-06",
@@ -118,7 +128,8 @@
     "sleep_efficiency": 95.19,
     "strain": 9.97,
     "autonomic_recovery": 68.76,
-    "composite_z": -1.68
+    "composite_z": -1.68,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-01-05",
@@ -129,7 +140,8 @@
     "sleep_efficiency": 94.25,
     "strain": 15.33,
     "autonomic_recovery": 71.74,
-    "composite_z": -1.67
+    "composite_z": -1.67,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-03-01",
@@ -140,7 +152,8 @@
     "sleep_efficiency": 96.74,
     "strain": 4.7,
     "autonomic_recovery": 81.07,
-    "composite_z": -1.62
+    "composite_z": -1.62,
+    "archetype": "The Shadow"
   },
   {
     "date": "2026-05-04",
@@ -151,7 +164,8 @@
     "sleep_efficiency": 86.24,
     "strain": 4.46,
     "autonomic_recovery": 73.54,
-    "composite_z": -1.61
+    "composite_z": -1.61,
+    "archetype": "The Shadow"
   },
   {
     "date": "2025-11-28",
@@ -162,6 +176,7 @@
     "sleep_efficiency": 97.24,
     "strain": 9.17,
     "autonomic_recovery": 89.85,
-    "composite_z": -1.51
+    "composite_z": -1.51,
+    "archetype": "The Shadow"
   }
 ]

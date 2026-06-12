@@ -289,8 +289,8 @@ def compute_fingerprints(daily_df: pd.DataFrame, chapters: list[dict]) -> list[d
         mean_sleep_efficiency=("sleep_efficiency", "mean"),
         mean_strain=("strain", "mean"),
         mean_stability=("stability", "mean"),
+        mean_autonomic_recovery=("autonomic_recovery", "mean"),
         hrv_trend=("hrv", lambda x: "rising" if x.iloc[-1] > x.iloc[0] else "declining"),
-    
     ).reset_index()
 
     # merge fingerprints back into chapter list
@@ -306,6 +306,7 @@ def compute_fingerprints(daily_df: pd.DataFrame, chapters: list[dict]) -> list[d
             "mean_sleep_efficiency": round(float(fp["mean_sleep_efficiency"]), 1),
             "mean_strain": round(float(fp["mean_strain"]), 1),
             "mean_stability": round(float(fp["mean_stability"]), 1),
+            "mean_autonomic_recovery": round(float(fp["mean_autonomic_recovery"]), 1),
             "hrv_trend": fp["hrv_trend"],
         })
 
@@ -362,6 +363,213 @@ def detect_anomalies(daily_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame
 
     return legendary, boss_fights
 
+def get_tier(value: float, series: pd.Series) -> int:
+    """
+    Return percentile tier 1–5 for value within series.
+
+    Tier boundaries (exclusive upper bound):
+        1 = bottom 20%    (< 20th percentile)
+        2 = 20th – 40th
+        3 = 40th – 65th
+        4 = 65th – 85th
+        5 = top 15%       (≥ 85th percentile)
+
+    NaN value returns 3 (middle tier) as a safe neutral default — avoids
+    spurious low-tier assignments for days where a rolling stat is still
+    warming up. NaN values in series are excluded before computing the rank.
+
+    Args:
+        value:  The value to rank.
+        series: The full reference distribution to rank against.
+
+    Returns:
+        Integer tier 1–5.
+    """
+    if pd.isna(value):
+        return 3
+    clean = series.dropna()
+    if len(clean) == 0:
+        return 3
+    pct = (clean < value).sum() / len(clean) * 100
+    if pct < 20:
+        return 1
+    if pct < 40:
+        return 2
+    if pct < 65:
+        return 3
+    if pct < 85:
+        return 4
+    return 5
+
+
+def assign_archetype(row: dict, distributions: dict) -> str:
+    """
+    Classify a single day (or chapter summary) into one of 8 archetypes.
+
+    Classification is entirely relative — all tiers are computed against the
+    user's own 244-day history, not absolute thresholds. Priority order is
+    strict: the first matching rule wins, The Vessel catches everything else.
+
+    The Phoenix rule requires a 3-day temporal lookback. Pass
+    row["prior_ar_mean"] = None to skip this check (used for chapter-level
+    summaries where a 3-day prior window is not meaningful).
+
+    Args:
+        row: Dict with keys:
+            autonomic_recovery, recovery_score, strain, sws_pct, stability,
+            prior_ar_mean (float or None).
+        distributions: Dict mapping each signal name to its full pd.Series
+            from all 244 days. Used by get_tier for percentile computation.
+
+    Returns:
+        Archetype name string — one of the 8 defined archetypes.
+    """
+    ar_tier  = get_tier(row["autonomic_recovery"], distributions["autonomic_recovery"])
+    rec_tier = get_tier(row["recovery_score"],     distributions["recovery_score"])
+    str_tier = get_tier(row["strain"],             distributions["strain"])
+    sws_tier = get_tier(row["sws_pct"],            distributions["sws_pct"])
+    sta_tier = get_tier(row["stability"],          distributions["stability"])
+
+    # The Shadow: HRV at personal nadir, recovery also suppressed — full depletion
+    if ar_tier == 1 and rec_tier <= 2:
+        return "The Shadow"
+
+    # The Hermit: worst recovery but minimal strain — body withdrawn, not active
+    if rec_tier == 1 and str_tier <= 2:
+        return "The Hermit"
+
+    # The Sovereign: peak autonomic function and high recovery — optimal state
+    if ar_tier == 5 and rec_tier >= 4:
+        return "The Sovereign"
+
+    # The Sage: exceptional deep sleep, high recovery, low strain — pure restoration
+    if sws_tier == 5 and rec_tier >= 4 and str_tier <= 2:
+        return "The Sage"
+
+    # The Warrior: high training load absorbed with adequate recovery
+    if str_tier >= 4 and rec_tier >= 3:
+        return "The Warrior"
+
+    # The Phoenix: HRV rebounding sharply after 3 days of autonomic suppression
+    # Skipped when prior_ar_mean is None (chapter-level summaries)
+    prior_ar_mean = row.get("prior_ar_mean")
+    if prior_ar_mean is not None:
+        prior_tier = get_tier(prior_ar_mean, distributions["autonomic_recovery"])
+        if ar_tier >= 4 and prior_tier <= 2:
+            return "The Phoenix"
+
+    # The Wanderer: low HRV consistency with middling recovery — no clear pattern
+    if sta_tier <= 2 and 2 <= rec_tier <= 3:
+        return "The Wanderer"
+
+    return "The Vessel"
+
+
+def classify_archetypes(
+    daily_df: pd.DataFrame,
+    legendary: pd.DataFrame,
+    boss_fights: pd.DataFrame,
+    chapters: list[dict],
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[dict]]:
+    """
+    Assign archetypes to every daily record, legendary days, boss fights,
+    and chapter summaries.
+
+    Reference distributions are built from the full daily_df so all tiers are
+    relative to the user's complete history.
+
+    For day-level records, prior_ar_mean is the mean autonomic_recovery of the
+    3 days before that day (shift(1) excludes the current day).
+
+    For chapter summaries, prior_ar_mean=None skips the Phoenix check —
+    temporal rebound patterns are not meaningful at chapter scale.
+
+    Args:
+        daily_df:    Full daily dataframe with all computed stats.
+        legendary:   Legendary days DataFrame from detect_anomalies().
+        boss_fights: Boss fights DataFrame from detect_anomalies().
+        chapters:    Chapter list from compute_fingerprints().
+
+    Returns:
+        Tuple of (daily_df, legendary, boss_fights, chapters).
+        daily_df now includes an 'archetype' column on every row.
+    """
+    distributions = {
+        "autonomic_recovery": daily_df["autonomic_recovery"],
+        "recovery_score":     daily_df["recovery_score"],
+        "strain":             daily_df["strain"],
+        "sws_pct":            daily_df["sws_pct"],
+        "stability":          daily_df["stability"],
+        "load_ratio":         daily_df["load_ratio"],
+    }
+
+    # prior 3-day mean autonomic_recovery keyed by date string
+    # shift(1) excludes the current day so the window covers t-1, t-2, t-3
+    prior_ar_series = (
+        daily_df["autonomic_recovery"]
+        .shift(1)
+        .rolling(3, min_periods=1)
+        .mean()
+    )
+    prior_ar_by_date: dict[str, float] = {
+        str(date): float(val)
+        for date, val in zip(daily_df["date"], prior_ar_series)
+        if not pd.isna(val)
+    }
+
+    def _classify_row(row: pd.Series) -> str | None:
+        """Thin adapter: pulls the needed fields from a DataFrame row.
+
+        Returns None for days where stability hasn't warmed up yet — those
+        rows lack a valid rolling window and would produce a misleading label.
+        """
+        if pd.isna(row["stability"]):
+            return None
+        return assign_archetype(
+            {
+                "autonomic_recovery": row["autonomic_recovery"],
+                "recovery_score":     row["recovery_score"],
+                "strain":             row["strain"],
+                "sws_pct":            row["sws_pct"],
+                "stability":          row["stability"],
+                "prior_ar_mean":      prior_ar_by_date.get(str(row["date"])),
+            },
+            distributions,
+        )
+
+    # Classify every day in the full daily dataframe
+    daily_df = daily_df.copy()
+    daily_df["archetype"] = daily_df.apply(_classify_row, axis=1)
+
+    legendary = legendary.copy()
+    legendary["archetype"] = legendary.apply(_classify_row, axis=1)
+
+    boss_fights = boss_fights.copy()
+    boss_fights["archetype"] = boss_fights.apply(_classify_row, axis=1)
+
+    enriched_chapters = []
+    for chapter in chapters:
+        chapter_row = {
+            "autonomic_recovery": chapter["mean_autonomic_recovery"],
+            "recovery_score":     chapter["mean_recovery"],
+            "strain":             chapter["mean_strain"],
+            "sws_pct":            chapter["mean_sws"],
+            "stability":          chapter["mean_stability"],
+            "prior_ar_mean":      None,
+        }
+        dominant = assign_archetype(chapter_row, distributions)
+        enriched_chapters.append({**chapter, "dominant_archetype": dominant})
+
+    logger.info("Archetype classification complete")
+    for c in enriched_chapters:
+        logger.info(f"  Chapter {c['chapter']} ({c['name']}): {c['dominant_archetype']}")
+    logger.info(f"  Daily archetype distribution: {daily_df['archetype'].value_counts().to_dict()}")
+    logger.info(f"  Legendary archetypes: {legendary['archetype'].value_counts().to_dict()}")
+    logger.info(f"  Boss fight archetypes: {boss_fights['archetype'].value_counts().to_dict()}")
+
+    return daily_df, legendary, boss_fights, enriched_chapters
+
+
 def main() -> None:
     """
     Run the full processing pipeline and save outputs to data/processed/.
@@ -373,7 +581,8 @@ def main() -> None:
         4. Detect health arc chapters via PELT
         5. Compute chapter fingerprints
         6. Detect legendary days and boss fights
-        7. Save all outputs to data/processed/
+        7. Assign archetypes to anomalies and chapter summaries
+        8. Save all outputs to data/processed/
     """
     PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -389,6 +598,12 @@ def main() -> None:
     # detect anomalies
     legendary, boss_fights = detect_anomalies(daily_df)
 
+    # assign archetypes to every day, anomalies, and chapter summaries
+    # must happen before date conversion and before saving
+    daily_df, legendary, boss_fights, chapters = classify_archetypes(
+        daily_df, legendary, boss_fights, chapters
+    )
+
     # convert date to string for JSON serialization
     daily_df["date"] = daily_df["date"].astype(str)
     legendary["date"] = legendary["date"].astype(str)
@@ -399,23 +614,24 @@ def main() -> None:
     daily_df.to_json(output_path, orient="records", indent=2)
     logger.info(f"Saved daily data → {output_path} ({len(daily_df)} rows)")
 
-    # save chapters
+    # save chapters (now includes dominant_archetype and mean_autonomic_recovery)
     chapters_path = PROCESSED_DATA_DIR / "chapters.json"
     with open(chapters_path, "w") as f:
         json.dump(chapters, f, indent=2)
     logger.info(f"Saved chapters → {chapters_path} ({len(chapters)} chapters)")
 
-    # save legendary days
+    # save legendary days (now includes archetype)
     legendary_cols = [
         "date", "recovery_score", "hrv", "sws_pct", "rem_pct",
-        "sleep_efficiency", "strain", "autonomic_recovery", "composite_z"
+        "sleep_efficiency", "strain", "autonomic_recovery", "composite_z",
+        "archetype",
     ]
     legendary_path = PROCESSED_DATA_DIR / "legendary.json"
     with open(legendary_path, "w") as f:
         json.dump(legendary[legendary_cols].round(2).to_dict(orient="records"), f, indent=2)
     logger.info(f"Saved legendary days → {legendary_path} ({len(legendary)} days)")
 
-    # save boss fights
+    # save boss fights (now includes archetype)
     boss_path = PROCESSED_DATA_DIR / "boss_fights.json"
     with open(boss_path, "w") as f:
         json.dump(boss_fights[legendary_cols].round(2).to_dict(orient="records"), f, indent=2)

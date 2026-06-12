@@ -1,18 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --parchment: #f5f0e8;
-  --parchment-dark: #ede8dc;
-  --charcoal: #1a1a2e;
-  --charcoal-light: #2d2d4a;
-  --text-primary: #1a1a2e;
-  --text-secondary: #5a5a7a;
-  --text-muted: #8a8aaa;
-  --purple: #6366f1;
-  --green: #10b981;
-  --red: #ef4444;
-  --gold: #f59e0b;
-  --border: #d4cfc4;
+  /* Backgrounds — deep navy throughout */
+  --parchment:      #0a0e1a;
+  --parchment-dark: #0f1628;
+
+  /* Text — light on dark */
+  --charcoal:       #F5F5F0;
+  --charcoal-light: #E0E0DC;
+  --text-primary:   #F5F5F0;
+  --text-secondary: #B0B0AC;
+  --text-muted:     #888886;
+
+  /* Accents */
+  --purple: #a78bfa;
+  --green:  #4ade80;
+  --red:    #f87171;
+  --gold:   #f0c040;
+
+  /* Structural */
+  --border: rgba(255,255,255,0.08);
 }
 
 * {
@@ -29,7 +36,7 @@ body {
 }
 
 .font-display {
-  font-family: 'Cinzel', serif;
+  font-family: 'Fraunces', serif;
 }
 
 ::-webkit-scrollbar {
@@ -49,3 +56,24 @@ body {
   background: var(--purple);
   color: white;
 }
+
+/* Archetype grid — 2 columns on mobile, 4 on desktop */
+@media (max-width: 640px) {
+  .act-two-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Players grid — 4 cols desktop, 2 mobile */
+.prologue-players-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+@media (max-width: 640px) {
+  .prologue-players-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
