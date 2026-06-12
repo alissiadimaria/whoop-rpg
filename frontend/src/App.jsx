@@ -69,10 +69,10 @@ function App() {
           ALISSIA DI MARIA
         </p>
         <div className="flex justify-center gap-6">
-          <a href="https://github.com/yourusername/whoop-rpg"
+          <a href="https://github.com/alissiadimaria"
              className="text-sm hover:underline"
              style={{ color: 'var(--text-secondary)' }}>GitHub</a>
-          <a href="https://linkedin.com/in/yourprofile"
+          <a href="https://www.linkedin.com/in/alissiadimaria"
              className="text-sm hover:underline"
              style={{ color: 'var(--text-secondary)' }}>LinkedIn</a>
         </div>
