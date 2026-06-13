@@ -44,7 +44,7 @@ function AssemblingName({ name, color }) {
 
 // ─── Share card (canvas-based) ────────────────────────────────────────────────
 
-async function downloadShareCard(archetype) {
+async function buildShareCard(archetype) {
   await document.fonts.ready
 
   const canvas  = document.createElement('canvas')
@@ -52,12 +52,9 @@ async function downloadShareCard(archetype) {
   canvas.height = 900
   const ctx     = canvas.getContext('2d')
 
-  // Background
   ctx.fillStyle = '#0a0e1a'
   ctx.fillRect(0, 0, 900, 900)
 
-  // Archetype image — draw full image, then paint over bottom-right corner
-  // to cover the Meta AI watermark badge
   await new Promise(resolve => {
     const img = new Image()
     img.crossOrigin = 'anonymous'
@@ -67,25 +64,21 @@ async function downloadShareCard(archetype) {
       const x    = (900 - size) / 2
       const y    = 100
       ctx.drawImage(img, x, y, size, size)
-
       resolve()
     }
     img.onerror = resolve
   })
 
-  // Archetype name
-  ctx.fillStyle   = archetype.color
-  ctx.font        = '600 52px Fraunces, Georgia, serif'
-  ctx.textAlign   = 'center'
+  ctx.fillStyle    = archetype.color
+  ctx.font         = '600 52px Fraunces, Georgia, serif'
+  ctx.textAlign    = 'center'
   ctx.textBaseline = 'middle'
   ctx.fillText(archetype.name, 450, 570)
 
-  // One liner
   ctx.fillStyle = 'rgba(255,255,255,0.55)'
   ctx.font      = '300 22px Inter, sans-serif'
   ctx.fillText(archetype.oneliner, 450, 630)
 
-  // Divider
   ctx.strokeStyle = 'rgba(255,255,255,0.1)'
   ctx.lineWidth   = 1
   ctx.beginPath()
@@ -93,14 +86,32 @@ async function downloadShareCard(archetype) {
   ctx.lineTo(600, 690)
   ctx.stroke()
 
-  // Watermark
   ctx.fillStyle = 'rgba(255,255,255,0.2)'
   ctx.font      = '300 16px Inter, sans-serif'
   ctx.fillText('WHOOP RPG', 450, 730)
 
+  return canvas.toDataURL('image/png')
+}
+
+async function shareCard(archetype) {
+  const dataUrl = await buildShareCard(archetype)
+
+  // Native share sheet on mobile (iOS/Android)
+  if (navigator.share) {
+    try {
+      const blob = await (await fetch(dataUrl)).blob()
+      const file = new File([blob], `whoop-rpg-${archetype.slug}.png`, { type: 'image/png' })
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ files: [file], title: `I am ${archetype.name}` })
+        return
+      }
+    } catch {}
+  }
+
+  // Fallback: download (desktop)
   const link    = document.createElement('a')
   link.download = `whoop-rpg-${archetype.slug}.png`
-  link.href     = canvas.toDataURL('image/png')
+  link.href     = dataUrl
   link.click()
 }
 
@@ -461,6 +472,7 @@ export default function ActFive() {
                 color:      'var(--text-muted)',
                 lineHeight: 1.75,
                 maxWidth:   '32rem',
+                textAlign:  'left',
               }}
             >
               {response}
@@ -474,7 +486,7 @@ export default function ActFive() {
               style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', justifyContent: 'center' }}
             >
               <button
-                onClick={() => downloadShareCard(archetype)}
+                onClick={() => shareCard(archetype)}
                 style={{
                   background:    'none',
                   border:        '1px solid rgba(255,255,255,0.12)',
@@ -490,7 +502,7 @@ export default function ActFive() {
                 onMouseEnter={e => e.target.style.color = 'rgba(255,255,255,0.6)'}
                 onMouseLeave={e => e.target.style.color = 'rgba(255,255,255,0.35)'}
               >
-                save your card
+                share your card
               </button>
 
               <button

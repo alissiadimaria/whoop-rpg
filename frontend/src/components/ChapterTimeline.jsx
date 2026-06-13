@@ -734,7 +734,7 @@ export default function ChapterTimeline({ daily, chapters }) {
           {markerPts?.map(p => {
             const arcData = ARCHETYPE_DATA[p.archetype]
             if (!arcData) return null
-            const dotR  = isMobile ? 14 : 10
+            const dotR  = isMobile ? 5 : 10
             const ringD = dotR * 3
             return (
               <div

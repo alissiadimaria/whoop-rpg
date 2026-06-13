@@ -139,13 +139,13 @@ function FlipCard({ archetype, isFlipped, isDimmed, onFlip }) {
             style={{
               position: 'relative',
               zIndex: 1,
-              padding: '1.4rem 1.2rem',
+              padding: '0.9rem 0.85rem',
               height: '100%',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              gap: '1rem',
+              gap: '0.6rem',
               textAlign: 'center',
             }}
           >
