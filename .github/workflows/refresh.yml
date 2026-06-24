@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dotenv pandas numpy ruptures scikit-learn scipy
+        run: pip install requests python-dotenv pandas numpy ruptures scikit-learn scipy fastapi uvicorn
 
       - name: Write tokens file
         run: echo '${{ secrets.WHOOP_TOKENS }}' > data/tokens.json

@@ -20,14 +20,20 @@ const PAD_BOTTOM = 20
 
 // ─── Colors ───────────────────────────────────────────────────────────────────
 
-/** Terrain line / glow colors per chapter — bright enough to glow on deep navy */
-const CH_LINE = { 1: '#4ade80', 2: '#f87171', 3: '#a78bfa' }
+/** Palette cycles automatically for any number of chapters PELT detects */
+const CHAPTER_PALETTE = [
+  '#4ade80', '#f87171', '#a78bfa', '#60a5fa', '#fb923c', '#f472b6', '#34d399', '#facc15',
+]
 
-/** Background color tint at 5% opacity — shifts with the active chapter */
-const CH_TINT = {
-  1: 'rgba(74,  222, 128, 0.05)',
-  2: 'rgba(248, 113, 113, 0.05)',
-  3: 'rgba(167, 139, 250, 0.05)',
+function chapterColor(index) {
+  return CHAPTER_PALETTE[index % CHAPTER_PALETTE.length]
+}
+
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1, 3), 16)
+  const g = parseInt(hex.slice(3, 5), 16)
+  const b = parseInt(hex.slice(5, 7), 16)
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
 // ─── Archetype display data ───────────────────────────────────────────────────
@@ -370,8 +376,8 @@ function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
       gap:            '2rem',
       padding:        '1.5rem 0 2rem',
     }}>
-      {chapters.map(ch => {
-        const color         = CH_LINE[ch.chapter]
+      {chapters.map((ch, i) => {
+        const color         = chapterColor(i)
         const archetypeName = ch.dominant_archetype ?? ''
         const arcColor      = ARCHETYPE_DATA[archetypeName]?.color ?? color
         return (
@@ -402,7 +408,7 @@ function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
               color:         color,
               fontFamily:    'Inter, sans-serif',
             }}>
-              {ch.name}
+              Chapter {ch.chapter}
             </span>
             {archetypeName && (
               <span style={{
@@ -545,18 +551,17 @@ export default function ChapterTimeline({ daily, chapters }) {
 
   // ── Gradient stops for the terrain stroke ────────────────────────────────────
   const gradientStops = useMemo(() => {
-    if (!chapterRegions || chapterRegions.length < 3) return null
-    const r = chapterRegions
-    // 40-unit transition zone around each chapter boundary for a smooth color shift
+    if (!chapterRegions || chapterRegions.length < 2) return null
     const T = 40
-    return [
-      { offset: 0,                             color: CH_LINE[1] },
-      { offset: (r[0].endX - T) / SVG_W,      color: CH_LINE[1] },
-      { offset: (r[0].endX + T) / SVG_W,      color: CH_LINE[2] },
-      { offset: (r[1].endX - T) / SVG_W,      color: CH_LINE[2] },
-      { offset: (r[1].endX + T) / SVG_W,      color: CH_LINE[3] },
-      { offset: 1,                             color: CH_LINE[3] },
-    ]
+    const stops = []
+    stops.push({ offset: 0, color: chapterColor(0) })
+    for (let i = 0; i < chapterRegions.length - 1; i++) {
+      const boundary = chapterRegions[i].endX
+      stops.push({ offset: (boundary - T) / SVG_W, color: chapterColor(i) })
+      stops.push({ offset: (boundary + T) / SVG_W, color: chapterColor(i + 1) })
+    }
+    stops.push({ offset: 1, color: chapterColor(chapterRegions.length - 1) })
+    return stops
   }, [chapterRegions])
 
   // ── Scroll-driven chapter tracking ───────────────────────────────────────────
@@ -568,12 +573,9 @@ export default function ChapterTimeline({ daily, chapters }) {
   })
 
   useMotionValueEvent(scrollYProgress, 'change', progress => {
-    if (!chapterRegions || chapterRegions.length < 3) return
-    const ch1End = chapterRegions[0].endX / SVG_W
-    const ch2End = chapterRegions[1].endX / SVG_W
-    if      (progress < ch1End) setActiveChapter(1)
-    else if (progress < ch2End) setActiveChapter(2)
-    else                        setActiveChapter(3)
+    if (!chapterRegions?.length) return
+    const active = chapterRegions.find(r => progress < r.endX / SVG_W) ?? chapterRegions[chapterRegions.length - 1]
+    setActiveChapter(active.chapter)
   })
 
   if (!points?.length) return null
@@ -632,7 +634,7 @@ export default function ChapterTimeline({ daily, chapters }) {
       {/* ── Chapter color tint — fades between chapter colors at 5% opacity ── */}
       <motion.div
         style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}
-        animate={{ backgroundColor: CH_TINT[activeChapter] }}
+        animate={{ backgroundColor: hexToRgba(chapterColor(activeChapter - 1), 0.05) }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       />
 
@@ -659,16 +661,16 @@ export default function ChapterTimeline({ daily, chapters }) {
             )}
 
             {/* Vertical fill gradients — one per chapter, chapter color fading to transparent */}
-            {[1, 2, 3].map(n => (
+            {chapters?.map((ch, i) => (
               <linearGradient
-                key={`ctFillGrad${n}`}
-                id={`ctFillGrad${n}`}
+                key={`ctFillGrad${ch.chapter}`}
+                id={`ctFillGrad${ch.chapter}`}
                 gradientUnits="userSpaceOnUse"
                 x1="0" y1={PAD_TOP}
                 x2="0" y2={SVG_H - PAD_BOTTOM}
               >
-                <stop offset="0" stopColor={CH_LINE[n]} stopOpacity="0.25" />
-                <stop offset="1" stopColor={CH_LINE[n]} stopOpacity="0"    />
+                <stop offset="0" stopColor={chapterColor(i)} stopOpacity="0.25" />
+                <stop offset="1" stopColor={chapterColor(i)} stopOpacity="0"    />
               </linearGradient>
             ))}
 
