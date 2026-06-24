@@ -52,14 +52,14 @@ const ARCHETYPE_DATA = ARCHETYPE_MAP
  *        two chronological halves so markers are spread across the timeline.
  */
 const ARCHETYPE_PICK = {
-  'The Sovereign': { field: 'autonomic_recovery', desc: true,  count: 2, splitDate: '2026-01-01' },
-  'The Warrior':   { field: 'strain',             desc: true,  count: 2 },
-  'The Sage':      { field: 'sws_pct',            desc: true,  count: 1 },
-  'The Wanderer':  { field: 'stability',          desc: false, count: 2 },
-  'The Hermit':    { field: 'recovery_score',     desc: false, count: 1 },
-  'The Shadow':    { field: 'autonomic_recovery', desc: false, count: 2 },
-  'The Phoenix':   { field: 'autonomic_recovery', desc: true,  count: 1 },
-  'The Vessel':    { field: 'stability',          desc: true,  count: 2 },
+  'The Sovereign': { field: 'autonomic_recovery', desc: true  },
+  'The Warrior':   { field: 'strain',             desc: true  },
+  'The Sage':      { field: 'sws_pct',            desc: true  },
+  'The Wanderer':  { field: 'stability',          desc: false },
+  'The Hermit':    { field: 'recovery_score',     desc: false },
+  'The Shadow':    { field: 'autonomic_recovery', desc: false },
+  'The Phoenix':   { field: 'autonomic_recovery', desc: true  },
+  'The Vessel':    { field: 'stability',          desc: true  },
 }
 
 // ─── SVG helpers ──────────────────────────────────────────────────────────────
@@ -338,6 +338,13 @@ function DayPanel({ day, onClose, isMobile }) {
   )
 }
 
+/** Formats an ISO date string as "Nov 15" */
+function fmtDate(iso) {
+  const [yr, mo, dy] = iso.split('-')
+  return new Date(parseInt(yr), parseInt(mo) - 1, parseInt(dy))
+    .toLocaleString('en-US', { month: 'short', day: 'numeric' })
+}
+
 // ─── ChapterDots ──────────────────────────────────────────────────────────────
 
 /**
@@ -351,7 +358,7 @@ function DayPanel({ day, onClose, isMobile }) {
  *   sectionEl:      HTMLElement | null,
  * }} props
  */
-function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
+function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl, chapterColors }) {
 
   /**
    * Scrolls so the selected chapter's midpoint sits near the viewport center.
@@ -376,10 +383,10 @@ function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
       gap:            '2rem',
       padding:        '1.5rem 0 2rem',
     }}>
-      {chapters.map((ch, i) => {
-        const color         = chapterColor(i)
+      {chapters.map(ch => {
+        const color         = chapterColors[ch.chapter] ?? '#ffffff'
         const archetypeName = ch.dominant_archetype ?? ''
-        const arcColor      = ARCHETYPE_DATA[archetypeName]?.color ?? color
+        const dateRange     = `${fmtDate(ch.start_date)} – ${fmtDate(ch.end_date)}`
         return (
           <button
             key={ch.chapter}
@@ -391,7 +398,7 @@ function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
               display:       'flex',
               flexDirection: 'column',
               alignItems:    'center',
-              gap:           '0.35rem',
+              gap:           '0.3rem',
               padding:       0,
             }}
           >
@@ -414,13 +421,22 @@ function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl }) {
               <span style={{
                 fontSize:      '0.58rem',
                 letterSpacing: '0.04em',
-                color:         arcColor,
+                color:         color,
                 fontFamily:    'Inter, sans-serif',
                 fontStyle:     'italic',
               }}>
                 {archetypeName}
               </span>
             )}
+            <span style={{
+              fontSize:      '0.55rem',
+              letterSpacing: '0.03em',
+              color:         `${color}80`,
+              fontFamily:    'Inter, sans-serif',
+              whiteSpace:    'nowrap',
+            }}>
+              {dateRange}
+            </span>
           </button>
         )
       })}
@@ -465,6 +481,17 @@ export default function ChapterTimeline({ daily, chapters }) {
   // Trigger the terrain draw-on animation when the SVG wrapper enters the viewport
   const isInView = useInView(svgWrapRef, { once: true, margin: '-10%' })
 
+  // Colors keyed by chapter number — archetype color with palette fallback
+  const chapterColors = useMemo(() => {
+    if (!chapters?.length) return {}
+    return Object.fromEntries(
+      chapters.map((ch, i) => [
+        ch.chapter,
+        ARCHETYPE_DATA[ch.dominant_archetype]?.color ?? CHAPTER_PALETTE[i % CHAPTER_PALETTE.length],
+      ])
+    )
+  }, [chapters])
+
   // ── Derived data ─────────────────────────────────────────────────────────────
 
   const { points, chapterRegions, markerPts, monthMarkers } = useMemo(() => {
@@ -503,29 +530,41 @@ export default function ChapterTimeline({ daily, chapters }) {
       }
     }).filter(Boolean)
 
-    // One or two representative days per archetype, picked from the daily data.
-    // For count=2, the archetype's days are split chronologically so the two
-    // picks are spread across the timeline rather than clustered.
+    // Per chapter: pick 3 diverse archetypal days spread across that chapter's date range.
+    // Runs for every chapter PELT detects, so no chapter is ever left without markers.
     const markerPts = []
-    Object.entries(ARCHETYPE_PICK).forEach(([archetype, { field, desc, count, splitDate }]) => {
-      const pool = points.filter(p => p.archetype === archetype && p[field] != null && p.stability != null)
-      if (pool.length === 0) return
+    chapters.forEach(ch => {
+      const chPool = points.filter(p =>
+        p.date >= ch.start_date &&
+        p.date <= ch.end_date &&
+        p.archetype &&
+        p.stability != null
+      )
+      if (chPool.length === 0) return
 
-      const pick = (arr) =>
-        [...arr].sort((a, b) => desc ? b[field] - a[field] : a[field] - b[field])[0]
+      // Best day per archetype present within this chapter
+      const candidates = []
+      const seenDates  = new Set()
+      Object.entries(ARCHETYPE_PICK).forEach(([arcName, { field, desc }]) => {
+        const pool = chPool.filter(p => p.archetype === arcName && p[field] != null)
+        if (pool.length === 0) return
+        const best = [...pool].sort((a, b) => desc ? b[field] - a[field] : a[field] - b[field])[0]
+        if (!seenDates.has(best.date)) {
+          candidates.push({ ...best, type: 'archetype' })
+          seenDates.add(best.date)
+        }
+      })
 
-      if (count === 1 || pool.length < 6) {
-        markerPts.push({ ...pick(pool), type: 'archetype' })
-      } else if (splitDate) {
-        // Calendar-date split: ensures picks land in distinct time periods
-        const pre  = pool.filter(p => p.date <  splitDate)
-        const post = pool.filter(p => p.date >= splitDate)
-        if (pre.length)  markerPts.push({ ...pick(pre),  type: 'archetype' })
-        if (post.length) markerPts.push({ ...pick(post), type: 'archetype' })
+      if (candidates.length === 0) return
+
+      // Sort by date and keep 3 spread across the chapter
+      candidates.sort((a, b) => a.date.localeCompare(b.date))
+      if (candidates.length <= 3) {
+        candidates.forEach(p => markerPts.push(p))
       } else {
-        const half = Math.floor(pool.length / 2)
-        markerPts.push({ ...pick(pool.slice(0, half)),  type: 'archetype' })
-        markerPts.push({ ...pick(pool.slice(half)),     type: 'archetype' })
+        markerPts.push(candidates[0])
+        markerPts.push(candidates[Math.floor(candidates.length / 2)])
+        markerPts.push(candidates[candidates.length - 1])
       }
     })
 
@@ -554,15 +593,15 @@ export default function ChapterTimeline({ daily, chapters }) {
     if (!chapterRegions || chapterRegions.length < 2) return null
     const T = 40
     const stops = []
-    stops.push({ offset: 0, color: chapterColor(0) })
+    stops.push({ offset: 0, color: chapterColors[chapterRegions[0].chapter] })
     for (let i = 0; i < chapterRegions.length - 1; i++) {
       const boundary = chapterRegions[i].endX
-      stops.push({ offset: (boundary - T) / SVG_W, color: chapterColor(i) })
-      stops.push({ offset: (boundary + T) / SVG_W, color: chapterColor(i + 1) })
+      stops.push({ offset: (boundary - T) / SVG_W, color: chapterColors[chapterRegions[i].chapter] })
+      stops.push({ offset: (boundary + T) / SVG_W, color: chapterColors[chapterRegions[i + 1].chapter] })
     }
-    stops.push({ offset: 1, color: chapterColor(chapterRegions.length - 1) })
+    stops.push({ offset: 1, color: chapterColors[chapterRegions[chapterRegions.length - 1].chapter] })
     return stops
-  }, [chapterRegions])
+  }, [chapterRegions, chapterColors])
 
   // ── Scroll-driven chapter tracking ───────────────────────────────────────────
   // Maps vertical scroll progress through the section to which chapter is "active".
@@ -634,7 +673,7 @@ export default function ChapterTimeline({ daily, chapters }) {
       {/* ── Chapter color tint — fades between chapter colors at 5% opacity ── */}
       <motion.div
         style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}
-        animate={{ backgroundColor: hexToRgba(chapterColor(activeChapter - 1), 0.05) }}
+        animate={{ backgroundColor: hexToRgba(chapterColors[activeChapter] ?? '#ffffff', 0.05) }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       />
 
@@ -661,7 +700,7 @@ export default function ChapterTimeline({ daily, chapters }) {
             )}
 
             {/* Vertical fill gradients — one per chapter, chapter color fading to transparent */}
-            {chapters?.map((ch, i) => (
+            {chapters?.map(ch => (
               <linearGradient
                 key={`ctFillGrad${ch.chapter}`}
                 id={`ctFillGrad${ch.chapter}`}
@@ -669,8 +708,8 @@ export default function ChapterTimeline({ daily, chapters }) {
                 x1="0" y1={PAD_TOP}
                 x2="0" y2={SVG_H - PAD_BOTTOM}
               >
-                <stop offset="0" stopColor={chapterColor(i)} stopOpacity="0.25" />
-                <stop offset="1" stopColor={chapterColor(i)} stopOpacity="0"    />
+                <stop offset="0" stopColor={chapterColors[ch.chapter]} stopOpacity="0.25" />
+                <stop offset="1" stopColor={chapterColors[ch.chapter]} stopOpacity="0"    />
               </linearGradient>
             ))}
 
@@ -813,6 +852,7 @@ export default function ChapterTimeline({ daily, chapters }) {
           activeChapter={activeChapter}
           chapterRegions={chapterRegions}
           sectionEl={sectionRef.current}
+          chapterColors={chapterColors}
         />
       )}
 
