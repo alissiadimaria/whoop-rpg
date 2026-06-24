@@ -9,9 +9,9 @@
     "timezone_offset": "-04:00",
     "score_state": "SCORED",
     "score": {
-      "strain": 4.0054493,
-      "kilojoule": 3076.9028,
-      "average_heart_rate": 53,
+      "strain": 4.007817,
+      "kilojoule": 3693.1077,
+      "average_heart_rate": 55,
       "max_heart_rate": 101
     }
   },
