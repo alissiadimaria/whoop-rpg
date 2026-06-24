@@ -20,7 +20,19 @@
     "sleep_efficiency": 96.13,
     "strain": 4.71,
     "autonomic_recovery": 65.04,
-    "composite_z": -2.53,
+    "composite_z": -2.52,
+    "archetype": "The Shadow"
+  },
+  {
+    "date": "2026-06-16",
+    "recovery_score": 28.0,
+    "hrv": 80.95,
+    "sws_pct": 25.45,
+    "rem_pct": 21.38,
+    "sleep_efficiency": 90.17,
+    "strain": 7.94,
+    "autonomic_recovery": 63.18,
+    "composite_z": -2.26,
     "archetype": "The Shadow"
   },
   {
@@ -33,6 +45,18 @@
     "strain": 5.61,
     "autonomic_recovery": 70.25,
     "composite_z": -2.2,
+    "archetype": "The Shadow"
+  },
+  {
+    "date": "2026-06-15",
+    "recovery_score": 33.0,
+    "hrv": 93.86,
+    "sws_pct": 25.45,
+    "rem_pct": 23.18,
+    "sleep_efficiency": 97.13,
+    "strain": 5.56,
+    "autonomic_recovery": 72.17,
+    "composite_z": -2.1,
     "archetype": "The Shadow"
   },
   {
@@ -56,6 +80,18 @@
     "sleep_efficiency": 95.62,
     "strain": 16.05,
     "autonomic_recovery": 80.2,
+    "composite_z": -1.98,
+    "archetype": "The Shadow"
+  },
+  {
+    "date": "2026-06-14",
+    "recovery_score": 36.0,
+    "hrv": 104.33,
+    "sws_pct": 29.12,
+    "rem_pct": 22.15,
+    "sleep_efficiency": 94.35,
+    "strain": 13.87,
+    "autonomic_recovery": 79.46,
     "composite_z": -1.98,
     "archetype": "The Shadow"
   },
@@ -177,6 +213,6 @@
     "strain": 9.17,
     "autonomic_recovery": 89.85,
     "composite_z": -1.51,
-    "archetype": "The Shadow"
+    "archetype": "The Vessel"
   }
 ]

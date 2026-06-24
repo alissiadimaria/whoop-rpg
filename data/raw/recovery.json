@@ -1,5 +1,277 @@
 [
   {
+    "cycle_id": 1592423761,
+    "sleep_id": "9bc5ad9b-8361-4681-9463-bf4f78069e38",
+    "user_id": 31526255,
+    "created_at": "2026-06-24T11:58:27.791Z",
+    "updated_at": "2026-06-24T11:58:27.791Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 44.0,
+      "hrv_rmssd_milli": 124.30515,
+      "spo2_percentage": 97.111115,
+      "skin_temp_celsius": 33.56867
+    }
+  },
+  {
+    "cycle_id": 1590060530,
+    "sleep_id": "6ba7751d-e47d-4832-bdcd-c47b2c79eb81",
+    "user_id": 31526255,
+    "created_at": "2026-06-23T11:56:36.953Z",
+    "updated_at": "2026-06-23T11:56:36.953Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 72.0,
+      "resting_heart_rate": 43.0,
+      "hrv_rmssd_milli": 113.101326,
+      "spo2_percentage": 95.5625,
+      "skin_temp_celsius": 32.888
+    }
+  },
+  {
+    "cycle_id": 1587666772,
+    "sleep_id": "4ac990fb-c4a9-41b7-b9f0-fab565d05e90",
+    "user_id": 31526255,
+    "created_at": "2026-06-22T12:01:55.649Z",
+    "updated_at": "2026-06-22T12:01:55.649Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 44.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 96.25843,
+      "spo2_percentage": 95.15385,
+      "skin_temp_celsius": 33.592335
+    }
+  },
+  {
+    "cycle_id": 1585345077,
+    "sleep_id": "ac6c3e86-de20-40e6-8320-575307a7c49f",
+    "user_id": 31526255,
+    "created_at": "2026-06-21T13:02:43.857Z",
+    "updated_at": "2026-06-21T13:02:43.857Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 41.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 90.36267,
+      "spo2_percentage": 95.84375,
+      "skin_temp_celsius": 33.492
+    }
+  },
+  {
+    "cycle_id": 1582970851,
+    "sleep_id": "939ccf92-8a1f-4f18-b5a0-6a0662eb830f",
+    "user_id": 31526255,
+    "created_at": "2026-06-20T12:28:44.313Z",
+    "updated_at": "2026-06-20T12:28:44.313Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 54.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 100.37887,
+      "spo2_percentage": 96.309525,
+      "skin_temp_celsius": 32.891335
+    }
+  },
+  {
+    "cycle_id": 1580762378,
+    "sleep_id": "49d4d3be-2273-496a-875e-034624120ab8",
+    "user_id": 31526255,
+    "created_at": "2026-06-19T12:36:04.760Z",
+    "updated_at": "2026-06-19T12:36:04.760Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 50.0,
+      "hrv_rmssd_milli": 101.68441,
+      "spo2_percentage": 95.71875,
+      "skin_temp_celsius": 33.61767
+    }
+  },
+  {
+    "cycle_id": 1578446322,
+    "sleep_id": "8cd281cf-3bf0-4e44-8368-df02338c2d49",
+    "user_id": 31526255,
+    "created_at": "2026-06-18T12:29:04.756Z",
+    "updated_at": "2026-06-18T12:29:04.756Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 56.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 109.87097,
+      "spo2_percentage": 96.166664,
+      "skin_temp_celsius": 32.688667
+    }
+  },
+  {
+    "cycle_id": 1576048880,
+    "sleep_id": "c696dade-568f-40fd-82b5-1f695aa4ff0c",
+    "user_id": 31526255,
+    "created_at": "2026-06-17T12:12:26.441Z",
+    "updated_at": "2026-06-17T12:12:26.441Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 60.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 111.42433,
+      "spo2_percentage": 97.77778,
+      "skin_temp_celsius": 32.839
+    }
+  },
+  {
+    "cycle_id": 1573713140,
+    "sleep_id": "159e861e-f5d7-4528-96bd-4e426574186c",
+    "user_id": 31526255,
+    "created_at": "2026-06-16T12:19:51.454Z",
+    "updated_at": "2026-06-16T12:19:51.454Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 28.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 80.947334,
+      "spo2_percentage": 97.53846,
+      "skin_temp_celsius": 34.0555
+    }
+  },
+  {
+    "cycle_id": 1571307458,
+    "sleep_id": "9d2efa19-332a-42af-8bcf-f5bb310ea907",
+    "user_id": 31526255,
+    "created_at": "2026-06-15T12:14:30.169Z",
+    "updated_at": "2026-06-15T12:14:30.169Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 33.0,
+      "resting_heart_rate": 51.0,
+      "hrv_rmssd_milli": 93.85914,
+      "spo2_percentage": 95.75,
+      "skin_temp_celsius": 33.185665
+    }
+  },
+  {
+    "cycle_id": 1568906632,
+    "sleep_id": "3280e9ec-3ca8-4f4f-ad57-c0701a44aac5",
+    "user_id": 31526255,
+    "created_at": "2026-06-14T12:48:36.541Z",
+    "updated_at": "2026-06-14T12:48:36.541Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 36.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 104.32502,
+      "spo2_percentage": 97.875,
+      "skin_temp_celsius": 33.370335
+    }
+  },
+  {
+    "cycle_id": 1566566155,
+    "sleep_id": "4cc3e057-c4de-48e3-a5ed-b45e59cb544c",
+    "user_id": 31526255,
+    "created_at": "2026-06-13T12:15:52.838Z",
+    "updated_at": "2026-06-13T12:15:52.838Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 69.0,
+      "resting_heart_rate": 48.0,
+      "hrv_rmssd_milli": 128.17134,
+      "spo2_percentage": 97.833336,
+      "skin_temp_celsius": 34.077168
+    }
+  },
+  {
+    "cycle_id": 1564289343,
+    "sleep_id": "fce79550-e8f0-4831-bae7-8a6671a0fa8f",
+    "user_id": 31526255,
+    "created_at": "2026-06-12T11:51:05.812Z",
+    "updated_at": "2026-06-12T11:51:05.812Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 49.0,
+      "resting_heart_rate": 49.0,
+      "hrv_rmssd_milli": 118.257225,
+      "spo2_percentage": 95.75,
+      "skin_temp_celsius": 33.406334
+    }
+  },
+  {
+    "cycle_id": 1562001713,
+    "sleep_id": "a1601b9d-ffa8-416a-b56d-e0dd8bbb7a9f",
+    "user_id": 31526255,
+    "created_at": "2026-06-11T12:01:11.999Z",
+    "updated_at": "2026-06-11T12:01:11.999Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 58.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 123.756004,
+      "spo2_percentage": 95.5,
+      "skin_temp_celsius": 33.034336
+    }
+  },
+  {
+    "cycle_id": 1559712734,
+    "sleep_id": "a0fd2872-ecb6-485f-ac99-066fce7a269b",
+    "user_id": 31526255,
+    "created_at": "2026-06-10T12:12:55.324Z",
+    "updated_at": "2026-06-10T12:12:55.324Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 85.0,
+      "resting_heart_rate": 45.0,
+      "hrv_rmssd_milli": 140.54457,
+      "spo2_percentage": 95.166664,
+      "skin_temp_celsius": 33.805
+    }
+  },
+  {
+    "cycle_id": 1557309757,
+    "sleep_id": "9d238948-fe65-41f5-92f1-9d2e56e70cc6",
+    "user_id": 31526255,
+    "created_at": "2026-06-09T11:53:11.333Z",
+    "updated_at": "2026-06-09T11:53:11.333Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 68.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 128.61526,
+      "spo2_percentage": 96.75,
+      "skin_temp_celsius": 32.928
+    }
+  },
+  {
+    "cycle_id": 1554795225,
+    "sleep_id": "25f502f5-9be2-46be-a0e3-27ba087ad827",
+    "user_id": 31526255,
+    "created_at": "2026-06-08T11:05:20.311Z",
+    "updated_at": "2026-06-08T11:05:20.311Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 78.0,
+      "resting_heart_rate": 47.0,
+      "hrv_rmssd_milli": 134.69257,
+      "spo2_percentage": 96.375,
+      "skin_temp_celsius": 31.947
+    }
+  },
+  {
     "cycle_id": 1552516419,
     "sleep_id": "7243e6e4-9433-41dc-bf33-e6f729c643fc",
     "user_id": 31526255,
