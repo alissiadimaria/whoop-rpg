@@ -1,5 +1,36 @@
 [
   {
+    "id": "2913bb25-5fb7-4bde-93ea-4b664ae592a1",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-06-26T21:01:42.179Z",
+    "updated_at": "2026-06-26T21:01:46.788Z",
+    "start": "2026-06-26T19:05:00.100Z",
+    "end": "2026-06-26T20:35:59.010Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.0096064,
+      "average_heart_rate": 83,
+      "max_heart_rate": 102,
+      "kilojoule": 403.76492,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 5458910,
+        "zone_one_milli": 0,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
     "id": "c5f5c15c-3cdc-4812-a768-42c7e585088a",
     "v1_id": null,
     "user_id": 31526255,
@@ -10476,6 +10507,37 @@
       }
     },
     "sport_id": 0
+  },
+  {
+    "id": "50dc8a7d-4d63-4e1d-97fc-f530ea112d61",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2025-12-27T23:52:40.830Z",
+    "updated_at": "2025-12-27T23:53:14.175Z",
+    "start": "2025-12-27T22:39:46.092Z",
+    "end": "2025-12-27T23:52:40.460Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "weightlifting",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 8.380301,
+      "average_heart_rate": 109,
+      "max_heart_rate": 152,
+      "kilojoule": 1121.4291,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 1020990,
+        "zone_one_milli": 3247940,
+        "zone_two_milli": 98990,
+        "zone_three_milli": 7000,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 45
   },
   {
     "id": "50dc8a7d-4d63-4e1d-97fc-f530ea112d61",
