@@ -2413,7 +2413,7 @@
     "load_ratio":0.2170712105,
     "cv_hrv":0.1178321692,
     "stability":88.2167830822,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-05",
@@ -2733,7 +2733,7 @@
     "load_ratio":0.1662054458,
     "cv_hrv":0.0802889113,
     "stability":91.9711088704,
-    "archetype":"The Warrior"
+    "archetype":"The Sovereign"
   },
   {
     "date":"2026-03-26",
@@ -4231,12 +4231,28 @@
     "sws_pct":18.2428320823,
     "rem_pct":33.9100112954,
     "sleep_efficiency":97.20754,
-    "strain":14.398826,
+    "strain":14.935476,
     "hrv_baseline":116.8152576333,
     "autonomic_recovery":111.5070519374,
-    "load_ratio":0.1599869556,
+    "load_ratio":0.1659497333,
     "cv_hrv":0.1314678546,
     "stability":86.8532145385,
     "archetype":"The Warrior"
+  },
+  {
+    "date":"2026-06-28",
+    "recovery_score":70.0,
+    "hrv":115.92232,
+    "rhr":45.0,
+    "sws_pct":29.4211617181,
+    "rem_pct":26.3424394933,
+    "sleep_efficiency":95.867096,
+    "strain":4.030874,
+    "hrv_baseline":116.3410169667,
+    "autonomic_recovery":99.6401123373,
+    "load_ratio":0.0575839143,
+    "cv_hrv":0.132456298,
+    "stability":86.7543702044,
+    "archetype":"The Wanderer"
   }
 ]
