@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  /* Backgrounds — deep navy throughout */
-  --parchment:      #0a0e1a;
-  --parchment-dark: #0f1628;
+  /* Backgrounds */
+  --parchment:      #07080f;
+  --parchment-dark: #0d0f1c;
 
   /* Text — light on dark */
   --charcoal:       #F5F5F0;
@@ -57,23 +57,5 @@ body {
   color: white;
 }
 
-/* Archetype grid — 2 columns on mobile, 4 on desktop */
-@media (max-width: 640px) {
-  .act-two-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-}
 
-/* Players grid — 4 cols desktop, 2 mobile */
-.prologue-players-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: clamp(1rem, 2vw, 1.5rem);
-}
-
-@media (max-width: 640px) {
-  .prologue-players-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 

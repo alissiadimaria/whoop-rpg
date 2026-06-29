@@ -1,33 +1,20 @@
 import { useRef, useMemo, useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
-import {
-  motion, AnimatePresence,
-  useScroll, useMotionValueEvent, useInView,
-} from 'framer-motion'
+import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { ARCHETYPE_MAP } from '../archetypes'
 
-// ─── SVG coordinate system ────────────────────────────────────────────────────
+// ─── SVG constants ────────────────────────────────────────────────────────────
 
-/** ViewBox width — fixed; preserveAspectRatio="none" stretches it to fill display width */
-const SVG_W = 1200
-
-/** ViewBox height — same coordinate system on all devices; visual height set via CSS */
-const SVG_H = 280
-
-/** Vertical padding so the terrain line never clips at the SVG edges */
-const PAD_TOP    = 30
-const PAD_BOTTOM = 20
+const SVG_W      = 1200
+const SVG_H      = 320
+const PAD_TOP    = 35
+const PAD_BOTTOM = 25
 
 // ─── Colors ───────────────────────────────────────────────────────────────────
 
-/** Palette cycles automatically for any number of chapters PELT detects */
 const CHAPTER_PALETTE = [
   '#4ade80', '#f87171', '#a78bfa', '#60a5fa', '#fb923c', '#f472b6', '#34d399', '#facc15',
 ]
-
-function chapterColor(index) {
-  return CHAPTER_PALETTE[index % CHAPTER_PALETTE.length]
-}
 
 function hexToRgba(hex, alpha) {
   const r = parseInt(hex.slice(1, 3), 16)
@@ -36,21 +23,8 @@ function hexToRgba(hex, alpha) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
-// ─── Archetype display data ───────────────────────────────────────────────────
-
-/**
- * Per-archetype data for the bottom panel.
- * One-liners and signals are kept in sync with Prologue.jsx.
- */
 const ARCHETYPE_DATA = ARCHETYPE_MAP
 
-/**
- * Per-archetype selection rules for choosing representative marker days.
- * field: which metric defines this archetype most clearly.
- * desc:  true = highest value wins, false = lowest value wins.
- * count: how many dots to show (1 or 2). For count=2, days are split into
- *        two chronological halves so markers are spread across the timeline.
- */
 const ARCHETYPE_PICK = {
   'The Sovereign': { field: 'autonomic_recovery', desc: true  },
   'The Warrior':   { field: 'strain',             desc: true  },
@@ -64,40 +38,15 @@ const ARCHETYPE_PICK = {
 
 // ─── SVG helpers ──────────────────────────────────────────────────────────────
 
-/**
- * Maps a day index to an x coordinate within the SVG viewBox.
- * Leaves 10 units of padding on each side so markers at extremes are not clipped.
- *
- * @param {number} index - 0-based position in the validDays array
- * @param {number} total - total number of days with valid HRV
- * @returns {number} x in the range [10, SVG_W - 10]
- */
 function getX(index, total) {
   return 10 + (index / (total - 1)) * (SVG_W - 20)
 }
 
-/**
- * Maps an HRV value to a y coordinate within the SVG viewBox.
- * High HRV maps to low y (top of chart); low HRV maps to high y (bottom).
- *
- * @param {number} hrv      - raw HRV value in ms
- * @param {number} minHrv   - dataset minimum, with margin applied
- * @param {number} maxHrv   - dataset maximum, with margin applied
- * @returns {number} y in the range [PAD_TOP, SVG_H - PAD_BOTTOM]
- */
 function getY(hrv, minHrv, maxHrv) {
   const drawH = SVG_H - PAD_TOP - PAD_BOTTOM
   return PAD_TOP + drawH * (1 - (hrv - minHrv) / (maxHrv - minHrv))
 }
 
-/**
- * Builds a smooth SVG path string through an array of {x, y} points.
- * Uses cubic bezier curves with control points at the midpoint x between
- * each pair of neighbors — produces a natural, flowing line.
- *
- * @param {{ x: number, y: number }[]} points
- * @returns {string} SVG path data
- */
 function smoothPath(points) {
   if (points.length < 2) return ''
   let d = `M ${points[0].x} ${points[0].y}`
@@ -110,13 +59,6 @@ function smoothPath(points) {
   return d
 }
 
-/**
- * Builds a closed fill region for one chapter's terrain slice.
- * Traces the terrain line, drops to the bottom edge, and closes.
- *
- * @param {{ x: number, y: number }[]} slice - terrain points for this chapter only
- * @returns {string} SVG path data for a closed fill region
- */
 function fillPath(slice) {
   if (slice.length === 0) return ''
   const bottom = SVG_H - PAD_BOTTOM
@@ -127,128 +69,86 @@ function fillPath(slice) {
   )
 }
 
+function fmtDate(iso) {
+  const [yr, mo, dy] = iso.split('-')
+  return new Date(parseInt(yr), parseInt(mo) - 1, parseInt(dy))
+    .toLocaleString('en-US', { month: 'short', day: 'numeric' })
+}
+
 // ─── DayPanel ─────────────────────────────────────────────────────────────────
 
-/**
- * Bottom panel that rises when a marked day is clicked.
- * Rendered via createPortal so position:fixed works independently
- * of any CSS transform on parent elements.
- *
- * @param {{
- *   day:     object | null,  — selected day record, or null when closed
- *   onClose: function,
- *   isMobile: boolean,
- * }} props
- */
 function DayPanel({ day, onClose, isMobile }) {
   const arcData = day?.archetype ? ARCHETYPE_DATA[day.archetype] : null
 
-  // Close on Escape key
   useEffect(() => {
     if (!day) return
-    const handleKey = e => { if (e.key === 'Escape') onClose() }
-    window.addEventListener('keydown', handleKey)
-    return () => window.removeEventListener('keydown', handleKey)
+    const handler = e => { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
   }, [day, onClose])
 
   const panelColor = arcData?.color ?? 'rgba(255,255,255,0.15)'
 
   const fullContent = arcData && (
     <div style={{
-      display: 'flex',
+      display:       'flex',
       flexDirection: isMobile ? 'column' : 'row',
-      height: '100%',
-      overflow: 'hidden',
+      height:        '100%',
+      overflow:      'hidden',
     }}>
-      {/* Left / top — archetype video + name */}
       <div style={{
-        width:           isMobile ? '100%' : '40%',
-        height:          isMobile ? '45%'  : '100%',
-        display:         'flex',
-        flexDirection:   'column',
-        alignItems:      'center',
-        justifyContent:  'center',
-        padding:         isMobile ? '0.5rem' : '1rem',
-        borderRight:     isMobile ? 'none' : '1px solid rgba(255,255,255,0.06)',
-        borderBottom:    isMobile ? '1px solid rgba(255,255,255,0.06)' : 'none',
-        flexShrink: 0,
+        width:          isMobile ? '100%' : '40%',
+        height:         isMobile ? '45%'  : '100%',
+        display:        'flex',
+        flexDirection:  'column',
+        alignItems:     'center',
+        justifyContent: 'center',
+        padding:        isMobile ? '0.5rem' : '1rem',
+        borderRight:    isMobile ? 'none' : '1px solid rgba(255,255,255,0.06)',
+        borderBottom:   isMobile ? '1px solid rgba(255,255,255,0.06)' : 'none',
+        flexShrink:     0,
       }}>
         <video
           src={`/archetypes/${arcData.slug}.mp4`}
           autoPlay muted loop playsInline
-          style={{
-            height:     isMobile ? '75%' : '80%',
-            objectFit: 'contain',
-          }}
+          style={{ height: isMobile ? '75%' : '80%', objectFit: 'contain' }}
         />
-        <p
-          className="font-display"
-          style={{
-            color:          arcData.color,
-            fontSize:       isMobile ? '0.65rem' : 'clamp(0.7rem, 1.2vw, 0.9rem)',
-            letterSpacing:  '0.12em',
-            textTransform:  'uppercase',
-            marginTop:      '0.4rem',
-            textAlign:      'center',
-          }}
-        >
+        <p className="font-display" style={{
+          color: arcData.color, fontSize: isMobile ? '0.65rem' : 'clamp(0.7rem, 1.2vw, 0.9rem)',
+          letterSpacing: '0.12em', textTransform: 'uppercase',
+          marginTop: '0.4rem', textAlign: 'center',
+        }}>
           {day.archetype}
         </p>
       </div>
 
-      {/* Right / bottom — date, one-liner, signals, raw metrics */}
       <div style={{
-        flex:           1,
-        display:        'flex',
-        flexDirection:  'column',
-        justifyContent: 'center',
-        padding:        isMobile ? '0.75rem 1rem' : '1.5rem 2rem',
-        gap:            '0.55rem',
-        overflow:       'hidden',
+        flex:          1,
+        display:       'flex',
+        flexDirection: 'column',
+        justifyContent:'center',
+        padding:       isMobile ? '0.75rem 1rem' : '1.5rem 2rem',
+        gap:           '0.55rem',
+        overflow:      'hidden',
       }}>
-        <p style={{
-          fontSize:      '0.7rem',
-          color:         'rgba(255,255,255,0.3)',
-          letterSpacing: '0.08em',
-          fontFamily:    'Inter, sans-serif',
-        }}>
+        <p style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.3)', letterSpacing: '0.08em', fontFamily: 'Inter, sans-serif' }}>
           {day.date}
         </p>
-
-        <p
-          className="font-display"
-          style={{
-            fontSize:   isMobile ? '0.85rem' : 'clamp(0.9rem, 1.6vw, 1.1rem)',
-            color:      '#fff',
-            lineHeight: 1.35,
-          }}
-        >
+        <p className="font-display" style={{ fontSize: isMobile ? '0.85rem' : 'clamp(0.9rem, 1.6vw, 1.1rem)', color: '#fff', lineHeight: 1.35 }}>
           {arcData.oneliner}
         </p>
-
-        {/* Signal arrows — ↑ green / ↓ red */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
           {arcData.signals.map(s => (
             <div key={s.label} style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <span style={{
-                fontSize:   '0.8rem',
-                fontWeight: 700,
-                color:      s.dir === 'up' ? '#4ade80' : '#f87171',
-              }}>
+              <span style={{ fontSize: '0.8rem', fontWeight: 700, color: s.dir === 'up' ? '#4ade80' : '#f87171' }}>
                 {s.dir === 'up' ? '↑' : '↓'}
               </span>
-              <span style={{
-                fontSize:  '0.72rem',
-                color:     'rgba(255,255,255,0.5)',
-                fontFamily:'Inter, sans-serif',
-              }}>
+              <span style={{ fontSize: '0.72rem', color: 'rgba(255,255,255,0.5)', fontFamily: 'Inter, sans-serif' }}>
                 {s.label}
               </span>
             </div>
           ))}
         </div>
-
-        {/* All 5 RPG stats + raw HRV for that day */}
         <div style={{
           display:             'grid',
           gridTemplateColumns: 'repeat(3, 1fr)',
@@ -258,12 +158,12 @@ function DayPanel({ day, onClose, isMobile }) {
           borderTop:           '1px solid rgba(255,255,255,0.06)',
         }}>
           {[
-            { label: 'HRV',         value: day.hrv != null          ? `${Math.round(day.hrv)}ms`           : '—' },
-            { label: 'Recovery',    value: day.recovery_score != null ? `${Math.round(day.recovery_score)}%` : '—' },
-            { label: 'Strain',      value: day.strain != null        ? day.strain.toFixed(1)                : '—' },
-            { label: 'Deep Sleep',  value: day.sws_pct != null       ? `${Math.round(day.sws_pct)}%`  : '—' },
-            { label: 'REM',         value: day.rem_pct != null       ? `${Math.round(day.rem_pct)}%`  : '—' },
-            { label: 'Stability',   value: day.stability != null     ? day.stability.toFixed(2)             : '—' },
+            { label: 'HRV',        value: day.hrv != null           ? `${Math.round(day.hrv)}ms`            : '—' },
+            { label: 'Recovery',   value: day.recovery_score != null ? `${Math.round(day.recovery_score)}%`  : '—' },
+            { label: 'Strain',     value: day.strain != null         ? day.strain.toFixed(1)                 : '—' },
+            { label: 'Deep Sleep', value: day.sws_pct != null        ? `${Math.round(day.sws_pct)}%`         : '—' },
+            { label: 'REM',        value: day.rem_pct != null        ? `${Math.round(day.rem_pct)}%`         : '—' },
+            { label: 'Stability',  value: day.stability != null      ? day.stability.toFixed(2)              : '—' },
           ].map(({ label, value }) => (
             <div key={label}>
               <p style={{ fontSize: '0.56rem', color: 'rgba(255,255,255,0.28)', letterSpacing: '0.07em', textTransform: 'uppercase', fontFamily: 'Inter, sans-serif' }}>
@@ -283,52 +183,28 @@ function DayPanel({ day, onClose, isMobile }) {
     <AnimatePresence>
       {day && (
         <>
-          {/* Invisible backdrop — click to close */}
           <motion.div
             style={{ position: 'fixed', inset: 0, zIndex: 98 }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
             onClick={onClose}
           />
-
-          {/* Rising panel */}
           <motion.div
             style={{
-              position:   'fixed',
-              bottom:     0,
-              left:       0,
-              right:      0,
-              height:     isMobile ? '50vh' : '35vh',
-              zIndex:     99,
-              background: '#0f1628',
-              borderTop:  `1px solid ${panelColor}`,
-              overflow:   'hidden',
+              position: 'fixed', bottom: 0, left: 0, right: 0,
+              height:   isMobile ? '50vh' : '35vh',
+              zIndex:   99,
+              background: 'var(--parchment-dark)',
+              borderTop: `1px solid ${panelColor}`,
+              overflow: 'hidden',
             }}
-            initial={{ y: '100%' }}
-            animate={{ y: 0 }}
-            exit={{ y: '100%' }}
+            initial={{ y: '100%' }} animate={{ y: 0 }} exit={{ y: '100%' }}
             transition={{ duration: 0.5, ease: [0.32, 0.72, 0, 1] }}
           >
-            {/* × close button */}
-            <button
-              onClick={onClose}
-              style={{
-                position:   'absolute',
-                top:        '0.9rem',
-                right:      '1.1rem',
-                background: 'none',
-                border:     'none',
-                color:      'rgba(255,255,255,0.35)',
-                fontSize:   '1.2rem',
-                lineHeight: 1,
-                cursor:     'pointer',
-                zIndex:     1,
-              }}
-            >
-              ×
-            </button>
-
+            <button onClick={onClose} style={{
+              position: 'absolute', top: '0.9rem', right: '1.1rem',
+              background: 'none', border: 'none',
+              color: 'rgba(255,255,255,0.35)', fontSize: '1.2rem', lineHeight: 1, cursor: 'pointer', zIndex: 1,
+            }}>×</button>
             {fullContent}
           </motion.div>
         </>
@@ -338,139 +214,150 @@ function DayPanel({ day, onClose, isMobile }) {
   )
 }
 
-/** Formats an ISO date string as "Nov 15" */
-function fmtDate(iso) {
-  const [yr, mo, dy] = iso.split('-')
-  return new Date(parseInt(yr), parseInt(mo) - 1, parseInt(dy))
-    .toLocaleString('en-US', { month: 'short', day: 'numeric' })
-}
-
-// ─── ChapterDots ──────────────────────────────────────────────────────────────
+// ─── ChapterTerrain ───────────────────────────────────────────────────────────
 
 /**
- * Three navigation dots — one per chapter — at the bottom of the section.
- * Active dot is larger and fully opaque. Clicking scrolls to center that chapter.
- *
- * @param {{
- *   chapters:       object[],
- *   activeChapter:  number,
- *   chapterRegions: object[],
- *   sectionEl:      HTMLElement | null,
- * }} props
+ * Full-width SVG terrain for a single chapter.
+ * The draw animation plays fresh every time this mounts (i.e. on chapter switch).
  */
-function ChapterDots({ chapters, activeChapter, chapterRegions, sectionEl, chapterColors }) {
+function ChapterTerrain({ chData, color, isMobile, onMarkerClick }) {
+  const svgRef    = useRef(null)
+  const isInView  = useInView(svgRef, { once: false, amount: 0.3 })
+  const svgH      = isMobile ? 200 : 320
 
-  /**
-   * Scrolls so the selected chapter's midpoint sits near the viewport center.
-   * Maps the chapter's x-proportion in the timeline to a vertical scroll offset
-   * within the section (since scroll progress drives chapter tracking).
-   */
-  const scrollToChapter = chNum => {
-    if (!sectionEl || !chapterRegions) return
-    const region     = chapterRegions.find(r => r.chapter === chNum)
-    if (!region) return
-    const proportion = region.midX / SVG_W
-    const sectionTop = sectionEl.offsetTop
-    const sectionH   = sectionEl.offsetHeight
-    window.scrollTo({ top: sectionTop + proportion * sectionH, behavior: 'smooth' })
-  }
+  if (!chData) return null
+  const { terrain, fill, markers, dayMarkers } = chData
+
+  // Scale dot size down when many markers are shown
+  const dotR  = markers.length > 15 ? (isMobile ? 3 : 5) : markers.length > 8 ? (isMobile ? 4 : 7) : (isMobile ? 5 : 9)
 
   return (
-    <div style={{
-      display:        'flex',
-      alignItems:     'center',
-      justifyContent: 'center',
-      gap:            '2rem',
-      padding:        '1.5rem 0 2rem',
-    }}>
-      {chapters.map(ch => {
-        const color         = chapterColors[ch.chapter] ?? '#ffffff'
-        const archetypeName = ch.dominant_archetype ?? ''
-        const dateRange     = `${fmtDate(ch.start_date)} – ${fmtDate(ch.end_date)}`
-        return (
-          <button
-            key={ch.chapter}
-            onClick={() => scrollToChapter(ch.chapter)}
-            style={{
-              background:    'none',
-              border:        'none',
-              cursor:        'pointer',
-              display:       'flex',
-              flexDirection: 'column',
-              alignItems:    'center',
-              gap:           '0.3rem',
-              padding:       0,
-            }}
-          >
-            <span style={{
-              display:      'block',
-              width:        36,
-              height:       3,
-              borderRadius: '2px',
-              background:   color,
-            }} />
-            <span style={{
-              fontSize:      '0.62rem',
-              letterSpacing: '0.08em',
-              color:         color,
-              fontFamily:    'Inter, sans-serif',
-            }}>
-              Chapter {ch.chapter}
-            </span>
-            {archetypeName && (
-              <span style={{
-                fontSize:      '0.58rem',
-                letterSpacing: '0.04em',
-                color:         color,
-                fontFamily:    'Inter, sans-serif',
-                fontStyle:     'italic',
-              }}>
-                {archetypeName}
-              </span>
-            )}
-            <span style={{
-              fontSize:      '0.55rem',
-              letterSpacing: '0.03em',
-              color:         `${color}80`,
-              fontFamily:    'Inter, sans-serif',
-              whiteSpace:    'nowrap',
-            }}>
-              {dateRange}
-            </span>
-          </button>
-        )
-      })}
+    <div ref={svgRef} style={{ position: 'relative', width: '100%' }}>
+      <svg
+        viewBox={`0 0 ${SVG_W} ${SVG_H}`}
+        preserveAspectRatio="none"
+        style={{ display: 'block', width: '100%', height: `${svgH}px` }}
+      >
+        <defs>
+          <linearGradient id="chFillGrad" gradientUnits="userSpaceOnUse" x1="0" y1={PAD_TOP} x2="0" y2={SVG_H - PAD_BOTTOM}>
+            <stop offset="0" stopColor={color} stopOpacity="0.3" />
+            <stop offset="1" stopColor={color} stopOpacity="0"   />
+          </linearGradient>
+          <filter id="chGlowBlur" x="-20%" y="-100%" width="140%" height="300%">
+            <feGaussianBlur stdDeviation="3" />
+          </filter>
+        </defs>
+
+        {/* Fill */}
+        <motion.path
+          d={fill}
+          fill="url(#chFillGrad)"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isInView ? 1 : 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        />
+
+        {/* Glow */}
+        <motion.path
+          d={terrain}
+          stroke={color} strokeWidth="5" fill="none"
+          filter="url(#chGlowBlur)"
+          initial={{ pathLength: 0, opacity: 0 }}
+          animate={isInView ? { pathLength: 1, opacity: [0.15, 0.3, 0.15] } : { pathLength: 0, opacity: 0 }}
+          transition={{
+            pathLength: { duration: 2, ease: 'easeInOut' },
+            opacity:    { duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 2 },
+          }}
+        />
+
+        {/* Crisp line */}
+        <motion.path
+          d={terrain}
+          stroke={color} strokeWidth="2.5" fill="none" strokeLinecap="round"
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: isInView ? 1 : 0 }}
+          transition={{ duration: 2, ease: 'easeInOut' }}
+        />
+      </svg>
+
+      {/* Marker dots */}
+      <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+        {markers.map(p => {
+          const arcData = ARCHETYPE_DATA[p.archetype]
+          if (!arcData) return null
+          const ringD = dotR * 3
+          return (
+            <div
+              key={`marker-${p.date}`}
+              style={{
+                position:      'absolute',
+                left:          `${(p.x / SVG_W) * 100}%`,
+                top:           `${(p.y / SVG_H) * svgH}px`,
+                transform:     'translate(-50%, -50%)',
+                width:         ringD, height: ringD,
+                cursor:        'pointer', pointerEvents: 'all',
+                display:       'flex', alignItems: 'center', justifyContent: 'center',
+              }}
+              onClick={() => onMarkerClick(p)}
+            >
+              <motion.div
+                style={{
+                  position: 'absolute', width: ringD, height: ringD,
+                  borderRadius: '50%', border: `2px solid ${arcData.color}`, pointerEvents: 'none',
+                }}
+                animate={{ scale: [1, 1.4], opacity: [0.9, 0] }}
+                transition={{ duration: 2.5, repeat: Infinity, ease: 'easeOut' }}
+              />
+              <div style={{
+                width: dotR * 2, height: dotR * 2, borderRadius: '50%',
+                background: '#ffffff', boxShadow: `0 0 6px ${arcData.color}`, pointerEvents: 'none',
+              }} />
+            </div>
+          )
+        })}
+      </div>
+
+      {/* Day x-axis — filter labels whose centres are too close to prevent overlap */}
+      <div style={{ position: 'relative', width: '100%', height: '22px' }}>
+        {(() => {
+          const minGap = isMobile ? 165 : 85 // SVG units between label centres
+          let lastX    = -Infinity
+          return dayMarkers.filter(m => {
+            if (m.x - lastX >= minGap) { lastX = m.x; return true }
+            return false
+          })
+        })().map((m, i) => (
+          <span key={`${m.label}-${i}`} style={{
+            position:  'absolute',
+            left:      `${(m.x / SVG_W) * 100}%`,
+            transform: (() => {
+              const pct = (m.x / SVG_W) * 100
+              return pct < 4 ? 'translateX(0%)' : pct > 96 ? 'translateX(-100%)' : 'translateX(-50%)'
+            })(),
+            top:       '4px',
+            fontSize:      '0.58rem',
+            color:         'rgba(255,255,255,0.6)',
+            fontFamily:    'Inter, sans-serif',
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+            whiteSpace:    'nowrap',
+            userSelect:    'none',
+          }}>
+            {m.label}
+          </span>
+        ))}
+      </div>
     </div>
   )
 }
 
 // ─── ChapterTimeline ──────────────────────────────────────────────────────────
 
-/**
- * Cinematic full-viewport timeline section.
- *
- * Layout (top → bottom):
- *   • Deep navy background (#0a0e1a) with a subtle chapter-color tint
- *   • Ghosted chapter name — enormous, nearly invisible, crossfades on scroll
- *   • SVG terrain — HRV curve with gradient stroke + glow + chapter fills
- *   • Marker layer — absolutely positioned divs for archetype / peak / crash days
- *   • Chapter dots — scroll-to-chapter navigation
- *   • DayPanel — rises from the bottom of the screen on marker click
- *
- * @param {{
- *   daily:      object[],
- *   chapters:   object[],
- * }} props
- */
 export default function ChapterTimeline({ daily, chapters }) {
-  const sectionRef = useRef(null)
-  const svgWrapRef = useRef(null)
-
-  const [isMobile,      setIsMobile]      = useState(false)
-  const [activeChapter, setActiveChapter] = useState(1)
+  const [activeChapter, setActiveChapter] = useState(null)
   const [selectedDay,   setSelectedDay]   = useState(null)
+  const [isMobile,      setIsMobile]      = useState(false)
 
-  // Detect mobile — drives SVG height and panel layout
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 768)
     check()
@@ -478,10 +365,14 @@ export default function ChapterTimeline({ daily, chapters }) {
     return () => window.removeEventListener('resize', check)
   }, [])
 
-  // Trigger the terrain draw-on animation when the SVG wrapper enters the viewport
-  const isInView = useInView(svgWrapRef, { once: true, margin: '-10%' })
+  // Default to first chapter once data loads
+  useEffect(() => {
+    if (chapters?.length && activeChapter === null) {
+      setActiveChapter(chapters[0].chapter)
+    }
+  }, [chapters, activeChapter])
 
-  // Colors keyed by chapter number — archetype color with palette fallback
+  // Chapter colors from dominant archetype
   const chapterColors = useMemo(() => {
     if (!chapters?.length) return {}
     return Object.fromEntries(
@@ -492,151 +383,93 @@ export default function ChapterTimeline({ daily, chapters }) {
     )
   }, [chapters])
 
-  // ── Derived data ─────────────────────────────────────────────────────────────
-
-  const { points, chapterRegions, markerPts, monthMarkers } = useMemo(() => {
+  // Per-chapter terrain data
+  const chapterDataMap = useMemo(() => {
     if (!daily?.length || !chapters?.length) return {}
+    const result = {}
 
-    const validDays = daily.filter(d => d.hrv != null)
-    const hrvValues = validDays.map(d => d.hrv)
-
-    // 8-unit margin so the terrain line has breathing room at the SVG edges
-    const minHrv = Math.min(...hrvValues) - 8
-    const maxHrv = Math.max(...hrvValues) + 8
-    const total  = validDays.length
-
-    const points = validDays.map((day, i) => ({
-      ...day,
-      x: getX(i, total),
-      y: getY(day.hrv, minHrv, maxHrv),
-    }))
-
-    // Chapter regions — slice of points plus boundary x coords for gradient + fill
-    const chapterRegions = chapters.map(ch => {
-      const startIdx = validDays.findIndex(d => d.date >= ch.start_date)
-      const endIdx   = validDays.findIndex(d => d.date >  ch.end_date)
-      const slice    = points.slice(
-        startIdx === -1 ? 0           : startIdx,
-        endIdx   === -1 ? points.length : endIdx,
-      )
-      if (slice.length === 0) return null
-      return {
-        ...ch,
-        slice,
-        path:   fillPath(slice),
-        startX: slice[0].x,
-        endX:   slice[slice.length - 1].x,
-        midX:   (slice[0].x + slice[slice.length - 1].x) / 2,
-      }
-    }).filter(Boolean)
-
-    // Per chapter: pick 3 diverse archetypal days spread across that chapter's date range.
-    // Runs for every chapter PELT detects, so no chapter is ever left without markers.
-    const markerPts = []
     chapters.forEach(ch => {
-      const chPool = points.filter(p =>
-        p.date >= ch.start_date &&
-        p.date <= ch.end_date &&
-        p.archetype &&
-        p.stability != null
+      const chDays = daily.filter(d =>
+        d.hrv != null &&
+        d.date >= ch.start_date &&
+        d.date <= ch.end_date
       )
-      if (chPool.length === 0) return
+      if (chDays.length === 0) return
 
-      // Best day per archetype present within this chapter
-      const candidates = []
-      const seenDates  = new Set()
-      Object.entries(ARCHETYPE_PICK).forEach(([arcName, { field, desc }]) => {
-        const pool = chPool.filter(p => p.archetype === arcName && p[field] != null)
-        if (pool.length === 0) return
-        const best = [...pool].sort((a, b) => desc ? b[field] - a[field] : a[field] - b[field])[0]
-        if (!seenDates.has(best.date)) {
-          candidates.push({ ...best, type: 'archetype' })
-          seenDates.add(best.date)
+      const hrvValues = chDays.map(d => d.hrv)
+      const minHrv    = Math.min(...hrvValues) - 8
+      const maxHrv    = Math.max(...hrvValues) + 8
+      const total     = chDays.length
+
+      const points = chDays.map((day, i) => ({
+        ...day,
+        x: getX(i, total),
+        y: getY(day.hrv, minHrv, maxHrv),
+      }))
+
+      // Day tick labels: derive interval from how many labels can cleanly fit
+      const maxLabels    = isMobile ? 5 : 10
+      const tickInterval = Math.max(1, Math.ceil(total / maxLabels))
+      const dayMarkers   = []
+      chDays.forEach((day, i) => {
+        if (i === 0 || i % tickInterval === 0) {
+          dayMarkers.push({ label: fmtDate(day.date), x: getX(i, total) })
         }
       })
+      // Append last day only if it falls more than half a tick gap after the last placed label
+      const lastIdx     = chDays.length - 1
+      const lastTickIdx = Math.floor(lastIdx / tickInterval) * tickInterval
+      if (lastIdx !== lastTickIdx && lastIdx - lastTickIdx > tickInterval * 0.5) {
+        dayMarkers.push({ label: fmtDate(chDays[lastIdx].date), x: getX(lastIdx, total) })
+      }
 
-      if (candidates.length === 0) return
+      // Multi-pass archetype picking: ~30% of chapter days, round-robin per archetype
+      const targetCount     = Math.max(3, Math.round(total * 0.3))
+      const seenDates       = new Set()
+      const archetypeRanked = {}
+      Object.entries(ARCHETYPE_PICK).forEach(([arcName, { field, desc }]) => {
+        archetypeRanked[arcName] = points
+          .filter(p => p.archetype === arcName && p[field] != null && p.stability != null)
+          .sort((a, b) => desc ? b[field] - a[field] : a[field] - b[field])
+      })
 
-      // Sort by date and keep 3 spread across the chapter
-      candidates.sort((a, b) => a.date.localeCompare(b.date))
-      if (candidates.length <= 3) {
-        candidates.forEach(p => markerPts.push(p))
-      } else {
-        markerPts.push(candidates[0])
-        markerPts.push(candidates[Math.floor(candidates.length / 2)])
-        markerPts.push(candidates[candidates.length - 1])
+      const markers = []
+      for (let pass = 0; markers.length < targetCount; pass++) {
+        let added = 0
+        for (const pool of Object.values(archetypeRanked)) {
+          if (markers.length >= targetCount) break
+          const next = pool.find(p => !seenDates.has(p.date))
+          if (next) { markers.push(next); seenDates.add(next.date); added++ }
+        }
+        if (added === 0) break
+      }
+      markers.sort((a, b) => a.date.localeCompare(b.date))
+
+      result[ch.chapter] = {
+        points,
+        terrain:    smoothPath(points),
+        fill:       fillPath(points),
+        dayMarkers,
+        markers,
       }
     })
 
-    // Month labels for the x-axis — one marker per calendar month in the dataset
-    const seenMonths  = new Set()
-    const monthMarkers = []
-    validDays.forEach((day, i) => {
-      const monthKey = day.date.slice(0, 7) // e.g. "2025-11"
-      if (!seenMonths.has(monthKey)) {
-        seenMonths.add(monthKey)
-        const [yr, mo] = monthKey.split('-')
-        const label = new Date(parseInt(yr), parseInt(mo) - 1, 1)
-          .toLocaleString('en-US', { month: 'short' })
-        monthMarkers.push({ label, x: getX(i, total) })
-      }
-    })
+    return result
+  }, [daily, chapters, isMobile])
 
-    return { points, chapterRegions, markerPts, monthMarkers }
-  }, [daily, chapters])
+  if (!chapters?.length || activeChapter === null) return null
 
-  // ── Terrain path ──────────────────────────────────────────────────────────────
-  const terrainPath = useMemo(() => (points ? smoothPath(points) : ''), [points])
-
-  // ── Gradient stops for the terrain stroke ────────────────────────────────────
-  const gradientStops = useMemo(() => {
-    if (!chapterRegions || chapterRegions.length < 2) return null
-    const T = 40
-    const stops = []
-    stops.push({ offset: 0, color: chapterColors[chapterRegions[0].chapter] })
-    for (let i = 0; i < chapterRegions.length - 1; i++) {
-      const boundary = chapterRegions[i].endX
-      stops.push({ offset: (boundary - T) / SVG_W, color: chapterColors[chapterRegions[i].chapter] })
-      stops.push({ offset: (boundary + T) / SVG_W, color: chapterColors[chapterRegions[i + 1].chapter] })
-    }
-    stops.push({ offset: 1, color: chapterColors[chapterRegions[chapterRegions.length - 1].chapter] })
-    return stops
-  }, [chapterRegions, chapterColors])
-
-  // ── Scroll-driven chapter tracking ───────────────────────────────────────────
-  // Maps vertical scroll progress through the section to which chapter is "active".
-  // Progress 0→1 runs from section entering to section exiting the viewport.
-  const { scrollYProgress } = useScroll({
-    target:  sectionRef,
-    offset:  ['start end', 'end start'],
-  })
-
-  useMotionValueEvent(scrollYProgress, 'change', progress => {
-    if (!chapterRegions?.length) return
-    const active = chapterRegions.find(r => progress < r.endX / SVG_W) ?? chapterRegions[chapterRegions.length - 1]
-    setActiveChapter(active.chapter)
-  })
-
-  if (!points?.length) return null
-
-  // Visual SVG height — viewBox stays at SVG_H, CSS height drives the visual size
-  const svgVisualH = isMobile ? 180 : 280
+  const activeCh    = chapters.find(c => c.chapter === activeChapter)
+  const activeColor = chapterColors[activeChapter] ?? '#ffffff'
 
   return (
-    <section
-      ref={sectionRef}
-      style={{
-        position:       'relative',
-        minHeight:      '100vh',
-        background:     'var(--parchment)',
-        overflow:       'hidden',
-        display:        'flex',
-        flexDirection:  'column',
-        justifyContent: 'center',
-      }}
-    >
-      {/* ── Section title + hint ── */}
-      <div style={{ textAlign: 'center', padding: '3rem 1.5rem 2rem', position: 'relative', zIndex: 1 }}>
+    <section style={{
+      background:    'var(--parchment)',
+      padding:       '4rem 0 5rem',
+      position:      'relative',
+    }}>
+      {/* Title */}
+      <div style={{ textAlign: 'center', marginBottom: '2.5rem', padding: '0 1.5rem' }}>
         <motion.h2
           className="font-display"
           initial={{ opacity: 0, y: 12 }}
@@ -648,215 +481,128 @@ export default function ChapterTimeline({ daily, chapters }) {
             color:         'var(--charcoal)',
             letterSpacing: '-0.01em',
             fontWeight:    600,
-            marginBottom:  '0.5rem',
+            marginBottom:  '0.4rem',
           }}
         >
           My data
         </motion.h2>
+        <p style={{
+          fontSize:   '0.8rem',
+          color:      'var(--text-muted)',
+          fontFamily: 'Inter, sans-serif',
+          letterSpacing: '0.04em',
+        }}>
+          Click any glowing point to explore that day.
+        </p>
+      </div>
 
-        <motion.p
+      {/* Chapter tabs */}
+      <div style={{
+        display:        'flex',
+        justifyContent: 'center',
+        gap:            '0.5rem',
+        padding:        '0 1.5rem',
+        overflowX:      'auto',
+        marginBottom:   '2rem',
+        flexWrap:       isMobile ? 'nowrap' : 'wrap',
+      }}>
+        {chapters.map(ch => {
+          const color    = chapterColors[ch.chapter]
+          const isActive = ch.chapter === activeChapter
+          return (
+            <button
+              key={ch.chapter}
+              onClick={() => setActiveChapter(ch.chapter)}
+              style={{
+                background:   isActive ? hexToRgba(color, 0.12) : 'transparent',
+                border:       `1px solid ${isActive ? color : 'rgba(255,255,255,0.1)'}`,
+                borderRadius: '0.6rem',
+                padding:      isMobile ? '0.45rem 0.9rem' : '0.55rem 1.2rem',
+                cursor:       'pointer',
+                display:      'flex',
+                flexDirection:'column',
+                alignItems:   'center',
+                gap:          '0.15rem',
+                transition:   'all 0.25s ease',
+                flexShrink:   0,
+              }}
+            >
+              <span style={{
+                fontSize:      isMobile ? '0.6rem' : '0.65rem',
+                letterSpacing: '0.08em',
+                color:         isActive ? color : 'rgba(255,255,255,0.35)',
+                fontFamily:    'Inter, sans-serif',
+                fontWeight:    600,
+                textTransform: 'uppercase',
+              }}>
+                Ch {ch.chapter}
+              </span>
+              <span style={{
+                fontSize:   isMobile ? '0.55rem' : '0.6rem',
+                color:      isActive ? color : 'rgba(255,255,255,0.2)',
+                fontFamily: 'Inter, sans-serif',
+                fontStyle:  'italic',
+                whiteSpace: 'nowrap',
+              }}>
+                {ch.dominant_archetype?.replace('The ', '') ?? '—'}
+              </span>
+            </button>
+          )
+        })}
+      </div>
+
+      {/* Terrain — AnimatePresence replays draw animation on each chapter switch */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeChapter}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: 0.35, ease: 'easeOut' }}
+        >
+          <ChapterTerrain
+            chData={chapterDataMap[activeChapter]}
+            color={activeColor}
+            isMobile={isMobile}
+            onMarkerClick={setSelectedDay}
+          />
+        </motion.div>
+      </AnimatePresence>
+
+      {/* Chapter info strip */}
+      {activeCh && (
+        <motion.div
+          key={`info-${activeChapter}`}
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.4, delay: 0.2 }}
           style={{
-            fontSize:      '0.8rem',
-            color:         'var(--text-muted)',
-            letterSpacing: '0.04em',
-            fontFamily:    'Inter, sans-serif',
+            display:        'flex',
+            justifyContent: 'center',
+            alignItems:     'center',
+            gap:            isMobile ? '1.2rem' : '3rem',
+            padding:        '1.2rem 1.5rem 0',
+            flexWrap:       'wrap',
           }}
         >
-          Click any glowing point to explore that day.
-        </motion.p>
-      </div>
-
-      {/* ── Chapter color tint — fades between chapter colors at 5% opacity ── */}
-      <motion.div
-        style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}
-        animate={{ backgroundColor: hexToRgba(chapterColors[activeChapter] ?? '#ffffff', 0.05) }}
-        transition={{ duration: 0.8, ease: 'easeOut' }}
-      />
-
-      {/* ── SVG terrain + marker layer ── */}
-      <div ref={svgWrapRef} style={{ position: 'relative', width: '100%' }}>
-
-        <svg
-          viewBox={`0 0 ${SVG_W} ${SVG_H}`}
-          preserveAspectRatio="none"
-          style={{ display: 'block', width: '100%', height: `${svgVisualH}px` }}
-        >
-          <defs>
-            {/* Horizontal gradient — color transitions smoothly at chapter boundaries */}
-            {gradientStops && (
-              <linearGradient
-                id="ctTerrainGrad"
-                gradientUnits="userSpaceOnUse"
-                x1="0" y1="0" x2={SVG_W} y2="0"
-              >
-                {gradientStops.map((s, i) => (
-                  <stop key={i} offset={s.offset} stopColor={s.color} />
-                ))}
-              </linearGradient>
-            )}
-
-            {/* Vertical fill gradients — one per chapter, chapter color fading to transparent */}
-            {chapters?.map(ch => (
-              <linearGradient
-                key={`ctFillGrad${ch.chapter}`}
-                id={`ctFillGrad${ch.chapter}`}
-                gradientUnits="userSpaceOnUse"
-                x1="0" y1={PAD_TOP}
-                x2="0" y2={SVG_H - PAD_BOTTOM}
-              >
-                <stop offset="0" stopColor={chapterColors[ch.chapter]} stopOpacity="0.25" />
-                <stop offset="1" stopColor={chapterColors[ch.chapter]} stopOpacity="0"    />
-              </linearGradient>
-            ))}
-
-            {/* Blur filter for the glow layer — soft blur only (no merge with source) */}
-            <filter id="ctGlowBlur" x="-20%" y="-100%" width="140%" height="300%">
-              <feGaussianBlur stdDeviation="3" />
-            </filter>
-          </defs>
-
-          {/* Chapter fills — atmospheric gradient regions beneath the terrain line.
-              Each fades in as the terrain draw-on animation crosses its start position. */}
-          {chapterRegions?.map(region => {
-            // Delay proportional to how far along the terrain line this chapter starts
-            const delay = (region.startX / SVG_W) * 2.5
-            return (
-              <motion.path
-                key={`fill-${region.chapter}`}
-                d={region.path}
-                fill={`url(#ctFillGrad${region.chapter})`}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: isInView ? 1 : 0 }}
-                transition={{ duration: 0.8, delay }}
-              />
-            )
-          })}
-
-          {/* Glow layer — subtle blurred halo, reduced intensity */}
-          <motion.path
-            d={terrainPath}
-            stroke="url(#ctTerrainGrad)"
-            strokeWidth="5"
-            fill="none"
-            filter="url(#ctGlowBlur)"
-            initial={{ pathLength: 0, opacity: 0 }}
-            animate={isInView
-              ? { pathLength: 1, opacity: [0.15, 0.3, 0.15] }
-              : { pathLength: 0, opacity: 0 }}
-            transition={{
-              pathLength: { duration: 2.5, ease: 'easeInOut' },
-              opacity:    { duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 2.5 },
-            }}
-          />
-
-          {/* Crisp terrain line — drawn left to right on section entry */}
-          <motion.path
-            d={terrainPath}
-            stroke="url(#ctTerrainGrad)"
-            strokeWidth="2.5"
-            fill="none"
-            strokeLinecap="round"
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: isInView ? 1 : 0 }}
-            transition={{ duration: 2.5, ease: 'easeInOut' }}
-          />
-        </svg>
-
-        {/* ── Marker layer — absolutely positioned for pixel-perfect circles
-               (avoids the oval distortion that preserveAspectRatio="none" causes
-               when SVG circles are stretched at mobile widths). ── */}
-        <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
-
-          {/* Archetype markers — white dot + colored pulsing ring, one or two per archetype */}
-          {markerPts?.map(p => {
-            const arcData = ARCHETYPE_DATA[p.archetype]
-            if (!arcData) return null
-            const dotR  = isMobile ? 5 : 10
-            const ringD = dotR * 3
-            return (
-              <div
-                key={`marker-${p.date}`}
-                style={{
-                  position:      'absolute',
-                  left:          `${(p.x / SVG_W) * 100}%`,
-                  top:           `${(p.y / SVG_H) * svgVisualH}px`,
-                  transform:     'translate(-50%, -50%)',
-                  width:         ringD,
-                  height:        ringD,
-                  cursor:        'pointer',
-                  pointerEvents: 'all',
-                  display:       'flex',
-                  alignItems:    'center',
-                  justifyContent:'center',
-                }}
-                onClick={() => setSelectedDay(p)}
-              >
-                <motion.div
-                  style={{
-                    position:     'absolute',
-                    width:        ringD,
-                    height:       ringD,
-                    borderRadius: '50%',
-                    border:       `2px solid ${arcData.color}`,
-                    pointerEvents:'none',
-                  }}
-                  animate={{ scale: [1, 1.4], opacity: [0.9, 0] }}
-                  transition={{ duration: 2.5, repeat: Infinity, ease: 'easeOut' }}
-                />
-                <div style={{
-                  width:        dotR * 2,
-                  height:       dotR * 2,
-                  borderRadius: '50%',
-                  background:   '#ffffff',
-                  boxShadow:    `0 0 6px ${arcData.color}`,
-                  pointerEvents:'none',
-                }} />
-              </div>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* ── Month axis ── */}
-      <div style={{ position: 'relative', width: '100%', height: '22px' }}>
-        {monthMarkers?.map(m => (
-          <span
-            key={m.label}
-            style={{
-              position:      'absolute',
-              left:          `${(m.x / SVG_W) * 100}%`,
-              transform:     'translateX(-50%)',
-              top:           '4px',
-              fontSize:      '0.58rem',
-              color:         'rgba(255,255,255,0.28)',
-              fontFamily:    'Inter, sans-serif',
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-              whiteSpace:    'nowrap',
-              userSelect:    'none',
-            }}
-          >
-            {m.label}
-          </span>
-        ))}
-      </div>
-
-      {/* ── Chapter navigation dots ── */}
-      {chapters && chapterRegions && (
-        <ChapterDots
-          chapters={chapters}
-          activeChapter={activeChapter}
-          chapterRegions={chapterRegions}
-          sectionEl={sectionRef.current}
-          chapterColors={chapterColors}
-        />
+          {[
+            { label: 'Chapter',   value: activeCh.chapter },
+            { label: 'Archetype', value: activeCh.dominant_archetype ?? '—', color: activeColor },
+            { label: 'Period',    value: `${fmtDate(activeCh.start_date)} – ${fmtDate(activeCh.end_date)}` },
+          ].map(({ label, value, color }) => (
+            <div key={label} style={{ textAlign: 'center' }}>
+              <p style={{ fontSize: '0.55rem', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.28)', textTransform: 'uppercase', fontFamily: 'Inter, sans-serif' }}>
+                {label}
+              </p>
+              <p style={{ fontSize: '0.8rem', color: color ?? 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif', marginTop: '0.15rem' }}>
+                {value}
+              </p>
+            </div>
+          ))}
+        </motion.div>
       )}
 
-      {/* ── Day detail panel — portaled to body ── */}
+      {/* Day detail panel */}
       <DayPanel
         day={selectedDay}
         onClose={() => setSelectedDay(null)}

@@ -1,101 +1,108 @@
 import { motion } from 'framer-motion'
 
-/**
- * Act 1 — The Hook.
- *
- * Full-viewport opening. One headline, one subtitle, scroll prompt.
- * Fires on mount (not scroll) — this is the first thing the visitor sees.
- *
- * Timing:
- *   Headline   → delay 0.4s
- *   Subtitle   → delay 1.2s
- *   Scroll CTA → delay 2.0s
- */
-
-function fadeUp(delay) {
-  return {
-    initial: { opacity: 0, y: 24 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1], delay },
-  }
-}
-
 export default function ActOne() {
   return (
     <section
       style={{
-        minHeight: '100vh',
-        background: 'var(--parchment)',
-        position: 'relative',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
+        minHeight:      '100vh',
+        background:     'radial-gradient(ellipse 90% 80% at 50% 50%, #22222a 0%, #07080f 55%, #000 100%)',
+        position:       'relative',
+        display:        'flex',
+        flexDirection:  'column',
+        alignItems:     'center',
         justifyContent: 'center',
-        padding: '0 1.5rem',
-        textAlign: 'center',
+        padding:        '0 2rem',
+        textAlign:      'center',
+        overflow:       'hidden',
       }}
     >
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.4rem', alignItems: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.8rem' }}>
 
-        {/* Main question — Fraunces, large, near-black */}
-        <motion.h1
+        {/* Two-line headline — each line slides up independently */}
+        <h1
           className="font-display"
           style={{
-            fontSize: 'clamp(2.8rem, 6vw, 5.2rem)',
-            color: 'var(--charcoal)',
-            fontWeight: 600,
-            letterSpacing: '-0.01em',
-            lineHeight: 1.1,
-            maxWidth: '16ch',
+            fontSize:      'clamp(3rem, 9.5vw, 10rem)',
+            fontWeight:    800,
+            color:         '#ffffff',
+            letterSpacing: '-0.025em',
+            lineHeight:    1.0,
+            margin:        0,
           }}
-          {...fadeUp(0.4)}
         >
-          Can your data tell a story?
-        </motion.h1>
+          <motion.span
+            style={{ display: 'block' }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+          >
+            Can your data
+          </motion.span>
+          <motion.span
+            style={{ display: 'block' }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
+          >
+            tell a story?
+          </motion.span>
+        </h1>
 
-        {/* Subtitle — Inter, muted, attribution */}
+        {/* Subtitle — Inter 300, tiny, wide tracking */}
         <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.2, delay: 1.3 }}
           style={{
-            fontSize: 'clamp(0.9rem, 1.6vw, 1.1rem)',
-            color: 'var(--text-muted)',
-            letterSpacing: '0.06em',
+            fontFamily:    'Inter, sans-serif',
+            fontWeight:    300,
+            fontSize:      'clamp(0.6rem, 1vw, 0.78rem)',
+            color:         'rgba(255,255,255,0.28)',
+            letterSpacing: '0.25em',
             textTransform: 'uppercase',
-            fontWeight: 400,
           }}
-          {...fadeUp(1.2)}
         >
-          A data biography · Alissia Di Maria
+          A data biography &middot; Alissia Di Maria
         </motion.p>
 
       </div>
 
-      {/* Scroll prompt */}
+      {/* Scroll indicator — animated descending line */}
       <motion.div
         style={{
-          position: 'absolute',
-          bottom: '2.5rem',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          color: 'var(--text-muted)',
+          position:      'absolute',
+          bottom:        '2.5rem',
+          left:          '50%',
+          transform:     'translateX(-50%)',
+          display:       'flex',
+          flexDirection: 'column',
+          alignItems:    'center',
+          gap:           '0.5rem',
         }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 2.0 }}
+        transition={{ duration: 1, delay: 2.2 }}
       >
+        <span style={{
+          fontFamily:    'Inter, sans-serif',
+          fontWeight:    300,
+          fontSize:      '0.48rem',
+          letterSpacing: '0.28em',
+          color:         'rgba(255,255,255,0.18)',
+          textTransform: 'uppercase',
+        }}>
+          scroll
+        </span>
         <motion.div
-          animate={{ y: [0, 7, 0] }}
-          transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path
-              d="M6 9L12 15L18 9"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </motion.div>
+          style={{
+            width:           1,
+            height:          44,
+            background:      'rgba(255,255,255,0.22)',
+            transformOrigin: 'top',
+          }}
+          animate={{ scaleY: [0, 1, 1, 0] }}
+          transition={{ duration: 1.9, repeat: Infinity, repeatDelay: 0.5, ease: [0.4, 0, 0.6, 1] }}
+        />
       </motion.div>
     </section>
   )

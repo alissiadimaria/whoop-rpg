@@ -1,292 +1,369 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+import {
+  motion, AnimatePresence,
+  useScroll, useVelocity, useAnimationFrame, useMotionValue,
+} from 'framer-motion'
+import { createPortal } from 'react-dom'
 import { ARCHETYPES } from '../archetypes'
 
-// ─── Part 2 sub-component ─────────────────────────────────────────────────────
+// ─── ArchetypeCardOverlay ─────────────────────────────────────────────────────
 
-/**
- * 3D flip card for a single archetype.
- *
- * Front face: looping video + name overlay + pulsing border.
- * Back face:  static image at 0.15 opacity as bg + name + oneliner +
- *             strengths pills + weaknesses pills + sustainability line.
- *             Empty strengths or weaknesses arrays render nothing.
- *
- * CSS 3D flip:
- *   - perspective on the outer container creates the 3D space
- *   - transform-style: preserve-3d on the inner wrapper propagates it to children
- *   - backface-visibility: hidden on each face hides the reverse side
- *   - back face starts at rotateY(180deg) so it's face-down initially
- *   - flipping the inner wrapper to rotateY(180deg) reveals the back face
- *
- * @param {{
- *   archetype: Object,
- *   isFlipped: boolean,
- *   isDimmed:  boolean,
- *   onFlip:    function,
- * }} props
- */
-function FlipCard({ archetype, isFlipped, isDimmed, onFlip }) {
-  const { name, color, oneliner, signals, vid, img } = archetype
+function ArchetypeCardOverlay({ archetype, onClose, isMobile }) {
+  const [isFlipped, setIsFlipped] = useState(false)
 
-  return (
-    <div
-      style={{
-        position: 'relative',
-        aspectRatio: '3 / 4',
-        cursor: 'pointer',
-        perspective: '1000px',
-        opacity: isDimmed ? 0.4 : 1,
-        transition: 'opacity 0.3s ease',
-      }}
-      onClick={onFlip}
-    >
-      {/* ── Flip inner wrapper — the element that actually rotates ── */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          transformStyle: 'preserve-3d',
-          transition: 'transform 0.6s ease',
-          transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-        }}
-      >
+  useEffect(() => {
+    if (!archetype) { setIsFlipped(false); return }
+    setIsFlipped(false)
+    const t = setTimeout(() => setIsFlipped(true), 350)
+    return () => clearTimeout(t)
+  }, [archetype])
 
-        {/* ── Front face ── */}
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            backfaceVisibility: 'hidden',
-            WebkitBackfaceVisibility: 'hidden',
-            borderRadius: '1rem',
-            overflow: 'hidden',
-          }}
-        >
-          {/* Static character image */}
-          <img
-            src={img}
-            alt={name}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+  useEffect(() => {
+    if (!archetype) return
+    const handler = e => { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [archetype, onClose])
+
+  const CARD_W = isMobile ? 220 : 300
+  const CARD_H = Math.round(CARD_W * 1.6)
+
+  return createPortal(
+    <AnimatePresence>
+      {archetype && (
+        <>
+          <motion.div
+            style={{ position: 'fixed', inset: 0, zIndex: 98, background: 'rgba(0,0,0,0.72)' }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={onClose}
           />
 
-          {/* Bottom gradient so name text is readable over the video */}
-          <div
+          <button
+            onClick={onClose}
             style={{
-              position: 'absolute',
-              bottom: 0, left: 0, right: 0,
-              padding: '2.5rem 1rem 0.85rem',
-              background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%)',
+              position: 'fixed', top: '1.2rem', right: '1.4rem', zIndex: 100,
+              background: 'none', border: 'none',
+              color: 'rgba(255,255,255,0.5)', fontSize: '1.4rem',
+              lineHeight: 1, cursor: 'pointer',
             }}
           >
-            <p
-              className="font-display"
-              style={{
-                color,
-                fontSize: 'clamp(0.65rem, 1vw, 0.8rem)',
-                letterSpacing: '0.1em',
-                textTransform: 'uppercase',
-                textAlign: 'center',
-                textShadow: '0 1px 6px rgba(0,0,0,0.6)',
-              }}
-            >
-              {name}
-            </p>
-          </div>
+            ×
+          </button>
 
-          {/* Pulsing border overlay — opacity animates independently of the card */}
-          <motion.div
+          <div
             style={{
-              position: 'absolute',
-              inset: 0,
-              borderRadius: '1rem',
-              border: `2px solid ${color}`,
+              position: 'fixed', top: '50%', left: '50%',
+              transform: 'translate(-50%, -50%)',
+              zIndex: 99,
+              width: CARD_W, height: CARD_H,
+              perspective: '1000px',
               pointerEvents: 'none',
             }}
-            animate={{ opacity: [0.3, 0.85, 0.3] }}
-            transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
-          />
-        </div>
+          >
+            <motion.div
+              style={{
+                width: '100%', height: '100%',
+                transformStyle: 'preserve-3d', position: 'relative',
+              }}
+              initial={{ opacity: 0, scale: 0.88 }}
+              animate={{ opacity: 1, scale: 1, rotateY: isFlipped ? 180 : 0 }}
+              exit={{ opacity: 0, scale: 0.88 }}
+              transition={{
+                opacity:  { duration: 0.3 },
+                scale:    { duration: 0.3, ease: 'easeOut' },
+                rotateY:  { duration: 0.65, ease: 'easeInOut' },
+              }}
+            >
+              {/* Front */}
+              <div style={{
+                position: 'absolute', inset: 0,
+                backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden',
+                borderRadius: '1rem', overflow: 'hidden',
+                border: '1px solid rgba(255,255,255,0.18)',
+                boxShadow: '0 30px 60px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.15)',
+              }}>
+                <img src={archetype.img} alt={archetype.name}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                <div style={{
+                  position: 'absolute', inset: 0,
+                  background: 'linear-gradient(135deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0) 55%)',
+                  pointerEvents: 'none',
+                }} />
+                <div style={{
+                  position: 'absolute', bottom: 0, left: 0, right: 0,
+                  padding: '3.5rem 1.1rem 1rem',
+                  background: 'linear-gradient(to top, rgba(0,0,0,0.82), transparent)',
+                }}>
+                  <p className="font-display" style={{
+                    color: archetype.color, fontSize: '0.78rem',
+                    letterSpacing: '0.1em', textTransform: 'uppercase',
+                    textAlign: 'center', textShadow: '0 1px 6px rgba(0,0,0,0.6)',
+                  }}>
+                    {archetype.name}
+                  </p>
+                </div>
+                <motion.div style={{
+                  position: 'absolute', inset: 0, borderRadius: '1rem',
+                  border: `2px solid ${archetype.color}`, pointerEvents: 'none',
+                }}
+                  animate={{ opacity: [0.3, 0.85, 0.3] }}
+                  transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
+                />
+              </div>
 
-        {/* ── Back face — starts rotated 180deg so it's hidden by default ── */}
-        <div
+              {/* Back */}
+              <div style={{
+                position: 'absolute', inset: 0,
+                backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden',
+                transform: 'rotateY(180deg)',
+                borderRadius: '1rem', overflow: 'hidden',
+                border: `1px solid ${archetype.color}40`,
+                background: 'var(--parchment-dark)',
+              }}>
+                <div style={{
+                  position: 'absolute', inset: 0,
+                  backgroundImage: `url(${archetype.img})`,
+                  backgroundSize: 'cover', backgroundPosition: 'center top',
+                  opacity: 0.12,
+                }} />
+                <div style={{
+                  position: 'relative', zIndex: 1,
+                  padding: '1.2rem 1rem', height: '100%',
+                  display: 'flex', flexDirection: 'column',
+                  alignItems: 'center', justifyContent: 'center',
+                  gap: '0.65rem', textAlign: 'center',
+                }}>
+                  <p className="font-display" style={{
+                    color: archetype.color, fontSize: '0.75rem',
+                    letterSpacing: '0.12em', textTransform: 'uppercase',
+                  }}>
+                    {archetype.name}
+                  </p>
+                  <p style={{
+                    color: 'var(--text-secondary)', fontSize: '0.85rem',
+                    fontStyle: 'italic', lineHeight: 1.55,
+                  }}>
+                    {archetype.oneliner}
+                  </p>
+                  <div style={{ width: '2rem', height: '1px', background: `${archetype.color}40` }} />
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem', justifyContent: 'center' }}>
+                    {archetype.signals.map(s => {
+                      const isUp = s.dir === 'up'
+                      const clr  = isUp ? '#16a34a' : '#dc2626'
+                      const bg   = isUp ? 'rgba(22,163,74,0.1)' : 'rgba(220,38,38,0.1)'
+                      const bdr  = isUp ? 'rgba(22,163,74,0.28)' : 'rgba(220,38,38,0.28)'
+                      return (
+                        <div key={s.label} style={{
+                          display: 'flex', alignItems: 'center', gap: '0.3rem',
+                          background: bg, border: `1px solid ${bdr}`,
+                          borderRadius: '2rem', padding: '0.35rem 0.7rem',
+                        }}>
+                          <span style={{ fontSize: '0.9rem', fontWeight: 700, color: clr }}>{isUp ? '↑' : '↓'}</span>
+                          <span style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{s.label}</span>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </>
+      )}
+    </AnimatePresence>,
+    document.body,
+  )
+}
+
+// ─── CircularGallery ──────────────────────────────────────────────────────────
+
+const N          = ARCHETYPES.length
+const BASE_SPEED = 0.007  // very slow drift — one full rotation ≈ 51 seconds
+
+function CircularGallery({ onSelect, isMobile }) {
+  const rotation       = useMotionValue(0)
+  const { scrollY }    = useScroll()
+  const scrollVelocity = useVelocity(scrollY)
+
+  useAnimationFrame((_, delta) => {
+    const boost = scrollVelocity.get() * 0.00018
+    rotation.set(rotation.get() - delta * BASE_SPEED - boost)
+  })
+
+  const CARD_W   = isMobile ? 130 : 185
+  const CARD_H   = Math.round(CARD_W * 1.65)
+  const RADIUS   = isMobile ? 250 : 330
+  const PERSP    = isMobile ? 620 : 860
+
+  return (
+    <div style={{
+      height:         '100vh',
+      display:        'flex',
+      flexDirection:  'column',
+      alignItems:     'center',
+      justifyContent: 'center',
+      background:     'var(--parchment)',
+      overflowX:      'hidden',
+      padding:        '2rem 0',
+    }}>
+      {/* Title */}
+      <motion.h2
+        className="font-display"
+        initial={{ opacity: 0, y: 12 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7, ease: 'easeOut' }}
+        viewport={{ once: true }}
+        style={{
+          fontSize:      'clamp(1.8rem, 3.5vw, 2.8rem)',
+          color:         'rgba(255,255,255,0.92)',
+          letterSpacing: '-0.01em',
+          fontWeight:    600,
+          marginBottom:  '0.5rem',
+          textAlign:     'center',
+        }}
+      >
+        Meet the players
+      </motion.h2>
+
+      <motion.p
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ once: true }}
+        style={{
+          fontSize:     '0.8rem',
+          color:        'rgba(255,255,255,0.35)',
+          letterSpacing:'0.05em',
+          fontFamily:   'Inter, sans-serif',
+          marginBottom: isMobile ? '1.5rem' : '2.5rem',
+        }}
+      >
+        Click any character to learn more
+      </motion.p>
+
+      {/* 3D scene */}
+      <div style={{ perspective: `${PERSP}px`, perspectiveOrigin: '50% 50%', width: '100%' }}>
+        <motion.div
           style={{
-            position: 'absolute',
-            inset: 0,
-            backfaceVisibility: 'hidden',
-            WebkitBackfaceVisibility: 'hidden',
-            transform: 'rotateY(180deg)',
-            borderRadius: '1rem',
-            overflow: 'hidden',
-            border: `1px solid ${color}40`,
-            background: 'var(--parchment-dark)',
+            rotateY:        rotation,
+            transformStyle: 'preserve-3d',
+            width:          CARD_W,
+            height:         CARD_H,
+            margin:         '0 auto',
+            position:       'relative',
           }}
         >
-          {/* Atmospheric background image at low opacity */}
-          <div
-            style={{
-              position: 'absolute',
-              inset: 0,
-              backgroundImage: `url(${img})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center top',
-              opacity: 0.15,
-            }}
-          />
+          {ARCHETYPES.map((archetype, i) => {
+            const angle = (i / N) * 360
+            return (
+              // No backfaceVisibility on outer wrapper — ghost stays visible on all sides
+              <div
+                key={archetype.name}
+                style={{
+                  position:  'absolute',
+                  inset:     0,
+                  transform: `rotateY(${angle}deg) translateZ(${RADIUS}px)`,
+                }}
+              >
+                {/* Ghost — always visible, gives translucent depth on back half */}
+                <div style={{
+                  position:     'absolute', inset: 0,
+                  borderRadius: '1rem',
+                  background:   'rgba(14, 16, 26, 0.5)',
+                  border:       '1px solid rgba(255,255,255,0.06)',
+                }} />
 
-          {/* Content layer sits above the background image */}
-          <div
-            style={{
-              position: 'relative',
-              zIndex: 1,
-              padding: '0.9rem 0.85rem',
-              height: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '0.6rem',
-              textAlign: 'center',
-            }}
-          >
-            {/* Archetype name */}
-            <p
-              className="font-display"
-              style={{
-                color,
-                fontSize: '0.7rem',
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-              }}
-            >
-              {name}
-            </p>
+                {/* Card image — backfaceVisibility:hidden hides it on the back half */}
+                <div
+                  onClick={() => onSelect(archetype)}
+                  style={{
+                    position:                 'absolute',
+                    inset:                    0,
+                    backfaceVisibility:       'hidden',
+                    WebkitBackfaceVisibility: 'hidden',
+                    cursor:       'pointer',
+                    borderRadius: '1rem',
+                    overflow:     'hidden',
+                    border:       '1px solid rgba(255,255,255,0.16)',
+                    boxShadow:    '0 20px 50px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.12)',
+                  }}
+                >
+                  <img
+                    src={archetype.img}
+                    alt={archetype.name}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                  />
 
-            {/* One liner */}
-            <p
-              style={{
-                color: 'var(--text-secondary)',
-                fontSize: '0.82rem',
-                fontStyle: 'italic',
-                lineHeight: 1.55,
-              }}
-            >
-              {oneliner}
-            </p>
+                  {/* Glass sheen */}
+                  <div style={{
+                    position:      'absolute', inset: 0,
+                    background:    'linear-gradient(135deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0) 55%)',
+                    pointerEvents: 'none',
+                  }} />
 
-            {/* Divider */}
-            <div style={{ width: '2rem', height: '1px', background: `${color}40` }} />
-
-            {/* Signal badges */}
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', justifyContent: 'center' }}>
-              {signals.map(s => {
-                const isUp  = s.dir === 'up'
-                const clr   = isUp ? '#16a34a' : '#dc2626'
-                const bg    = isUp ? 'rgba(22,163,74,0.1)' : 'rgba(220,38,38,0.1)'
-                const bdr   = isUp ? 'rgba(22,163,74,0.28)' : 'rgba(220,38,38,0.28)'
-                return (
-                  <div
-                    key={s.label}
-                    style={{
-                      display:      'flex',
-                      alignItems:   'center',
-                      gap:          '0.3rem',
-                      background:   bg,
-                      border:       `1px solid ${bdr}`,
-                      borderRadius: '2rem',
-                      padding:      '0.38rem 0.75rem',
-                    }}
-                  >
-                    <span style={{ fontSize: '0.9rem', fontWeight: 700, lineHeight: 1, color: clr }}>
-                      {isUp ? '↑' : '↓'}
-                    </span>
-                    <span style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', fontWeight: 500 }}>
-                      {s.label}
-                    </span>
+                  {/* Name overlay */}
+                  <div style={{
+                    position:   'absolute', bottom: 0, left: 0, right: 0,
+                    padding:    '3.5rem 0.8rem 0.8rem',
+                    background: 'linear-gradient(to top, rgba(0,0,0,0.85), transparent)',
+                  }}>
+                    <p className="font-display" style={{
+                      color:         archetype.color,
+                      fontSize:      isMobile ? '0.55rem' : '0.65rem',
+                      letterSpacing: '0.1em',
+                      textTransform: 'uppercase',
+                      textAlign:     'center',
+                      textShadow:    '0 1px 8px rgba(0,0,0,0.8)',
+                    }}>
+                      {archetype.name}
+                    </p>
                   </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
 
+                  {/* Pulsing border */}
+                  <motion.div
+                    style={{
+                      position:     'absolute', inset: 0,
+                      borderRadius: '1rem',
+                      border:       `2px solid ${archetype.color}`,
+                      pointerEvents:'none',
+                    }}
+                    animate={{ opacity: [0.15, 0.6, 0.15] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: i * 0.35 }}
+                  />
+                </div>
+              </div>
+            )
+          })}
+        </motion.div>
       </div>
+
     </div>
   )
 }
 
-// ─── Main component ───────────────────────────────────────────────────────────
+// ─── Prologue ─────────────────────────────────────────────────────────────────
 
-/**
- * @returns {JSX.Element}
- */
 export default function Prologue() {
-  /** Name of the currently flipped archetype card, or null if none flipped. */
-  const [flippedCard, setFlippedCard] = useState(null)
+  const [selected, setSelected] = useState(null)
+  const [isMobile, setIsMobile] = useState(false)
 
-  /**
-   * Toggle the flipped card. Clicking the already-flipped card collapses it.
-   * @param {string} name - archetype name
-   */
-  const handleFlip = name => setFlippedCard(prev => prev === name ? null : name)
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   return (
-    <section style={{ background: 'var(--parchment)' }}>
-
-      {/* ── Part 2: Meet the Players ────────────────────────────────────── */}
-      <div style={{ padding: '4rem 1.5rem 8rem', maxWidth: '72rem', margin: '0 auto' }}>
-
-        <motion.h2
-          className="font-display"
-          style={{
-            textAlign: 'center',
-            fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)',
-            color: 'var(--charcoal)',
-            fontWeight: 600,
-            letterSpacing: '-0.01em',
-            marginBottom: '4rem',
-          }}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: 'easeOut' }}
-          viewport={{ once: true, margin: '-80px' }}
-        >
-          Meet the players
-        </motion.h2>
-
-        {/* 4×2 flip card grid */}
-        <div className="prologue-players-grid">
-          {ARCHETYPES.map(archetype => (
-            <FlipCard
-              key={archetype.name}
-              archetype={archetype}
-              isFlipped={flippedCard === archetype.name}
-              isDimmed={flippedCard !== null && flippedCard !== archetype.name}
-              onFlip={() => handleFlip(archetype.name)}
-            />
-          ))}
-        </div>
-
-        {/* Hint — fades in below the grid */}
-        <motion.p
-          style={{
-            textAlign: 'center',
-            fontSize: '0.8rem',
-            color: 'var(--text-muted)',
-            marginTop: '2rem',
-            letterSpacing: '0.04em',
-          }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-        >
-          Click any card to flip it.
-        </motion.p>
-      </div>
-
-      {/* ── Part 3 added after Part 2 is confirmed ── */}
-
+    <section>
+      <CircularGallery onSelect={setSelected} isMobile={isMobile} />
+      <ArchetypeCardOverlay
+        archetype={selected}
+        onClose={() => setSelected(null)}
+        isMobile={isMobile}
+      />
     </section>
   )
 }
