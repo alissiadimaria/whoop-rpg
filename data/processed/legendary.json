@@ -18,7 +18,7 @@
     "sws_pct": 24.11,
     "rem_pct": 33.09,
     "sleep_efficiency": 93.85,
-    "strain": 5.96,
+    "strain": 6.33,
     "autonomic_recovery": 117.91,
     "composite_z": 2.04,
     "archetype": "The Sovereign"
@@ -69,6 +69,18 @@
     "strain": 6.71,
     "autonomic_recovery": 125.09,
     "composite_z": 1.87,
+    "archetype": "The Sovereign"
+  },
+  {
+    "date": "2026-07-01",
+    "recovery_score": 93.0,
+    "hrv": 140.28,
+    "sws_pct": 24.43,
+    "rem_pct": 25.68,
+    "sleep_efficiency": 91.05,
+    "strain": 11.36,
+    "autonomic_recovery": 119.65,
+    "composite_z": 1.83,
     "archetype": "The Sovereign"
   },
   {
