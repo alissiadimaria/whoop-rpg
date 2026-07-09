@@ -1149,7 +1149,7 @@
     "load_ratio":0.1511794719,
     "cv_hrv":0.0771624473,
     "stability":92.283755275,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2025-12-16",
@@ -1997,7 +1997,7 @@
     "load_ratio":0.1792418364,
     "cv_hrv":0.1375470204,
     "stability":86.2452979645,
-    "archetype":"The Wanderer"
+    "archetype":"The Shadow"
   },
   {
     "date":"2026-02-07",
@@ -2525,7 +2525,7 @@
     "load_ratio":0.0616094989,
     "cv_hrv":0.1309955772,
     "stability":86.9004422822,
-    "archetype":"The Sovereign"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-12",
@@ -2557,7 +2557,7 @@
     "load_ratio":0.0666068418,
     "cv_hrv":0.1314352174,
     "stability":86.856478259,
-    "archetype":"The Vessel"
+    "archetype":"The Wanderer"
   },
   {
     "date":"2026-03-14",
@@ -2845,7 +2845,7 @@
     "load_ratio":0.0756320949,
     "cv_hrv":0.109571957,
     "stability":89.0428042994,
-    "archetype":"The Sage"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-02",
@@ -2957,7 +2957,7 @@
     "load_ratio":0.0690830937,
     "cv_hrv":0.1204121937,
     "stability":87.9587806342,
-    "archetype":"The Vessel"
+    "archetype":"The Wanderer"
   },
   {
     "date":"2026-04-09",
@@ -4407,12 +4407,28 @@
     "sws_pct":21.3662101361,
     "rem_pct":26.1126301305,
     "sleep_efficiency":96.799644,
-    "strain":8.101721,
+    "strain":15.231013,
     "hrv_baseline":118.9216853,
     "autonomic_recovery":116.6055708428,
-    "load_ratio":0.0988014756,
+    "load_ratio":0.185744061,
     "cv_hrv":0.0968818518,
     "stability":90.3118148166,
+    "archetype":"The Sovereign"
+  },
+  {
+    "date":"2026-07-09",
+    "recovery_score":91.0,
+    "hrv":145.12161,
+    "rhr":44.0,
+    "sws_pct":26.9527475271,
+    "rem_pct":28.944213102,
+    "sleep_efficiency":98.62308,
+    "strain":7.12381,
+    "hrv_baseline":119.4718969667,
+    "autonomic_recovery":121.4692439683,
+    "load_ratio":0.0782836264,
+    "cv_hrv":0.0872212651,
+    "stability":91.2778734875,
     "archetype":"The Sovereign"
   }
 ]
