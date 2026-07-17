@@ -42,10 +42,16 @@ jobs:
       - name: Process data
         run: python src/process.py
 
+      - name: Copy data to frontend static
+        run: |
+          mkdir -p frontend/public/data
+          cp data/processed/daily.json frontend/public/data/
+          cp data/processed/chapters.json frontend/public/data/
+
       - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/raw/ data/processed/
+          git add data/raw/ data/processed/ frontend/public/data/
           git diff --staged --quiet || git commit -m "chore: refresh WHOOP data $(date +%Y-%m-%d)"
           git push

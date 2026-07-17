@@ -15,10 +15,9 @@ function App() {
   useEffect(() => {
     async function loadData() {
       try {
-        const API = import.meta.env.VITE_API_URL
         const [dailyRes, chaptersRes] = await Promise.all([
-          fetch(`${API}/daily`),
-          fetch(`${API}/chapters`),
+          fetch('/data/daily.json'),
+          fetch('/data/chapters.json'),
         ])
         setDaily(await dailyRes.json())
         setChapters(await chaptersRes.json())
