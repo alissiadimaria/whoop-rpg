@@ -224,14 +224,8 @@ def detect_chapters(daily_df: pd.DataFrame) -> list[dict]:
     z_signal = (raw_signal - raw_signal.mean()) / raw_signal.std()
 
     # fit PELT
-    model = rpt.Pelt(model="rbf").fit(z_signal)
-    bkps = model.predict(pen=3.0)
-
-    chapter_names = {
-        1: "The Student",
-        2: "The Crash",
-        3: "Post-Grad",
-    }
+    model = rpt.Pelt(model="rbf", min_size=14).fit(z_signal)
+    bkps = model.predict(pen=2.5)
 
     chapters = []
     prev = 0
@@ -240,7 +234,7 @@ def detect_chapters(daily_df: pd.DataFrame) -> list[dict]:
         end_date = pd.Timestamp(raw_dates[min(bp - 1, len(raw_dates) - 1)])
         chapters.append({
             "chapter": i + 1,
-            "name": chapter_names.get(i + 1, f"Chapter {i + 1}"),
+            "name": f"Chapter {i + 1}",
             "start_date": str(start_date)[:10],
             "end_date": str(end_date)[:10],
             "n_days": bp - prev,
