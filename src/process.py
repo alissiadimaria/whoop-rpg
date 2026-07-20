@@ -10,7 +10,6 @@ import json
 import logging
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import ruptures as rpt
 from dotenv import load_dotenv
@@ -225,7 +224,7 @@ def detect_chapters(daily_df: pd.DataFrame) -> list[dict]:
 
     # fit PELT
     model = rpt.Pelt(model="rbf", min_size=14).fit(z_signal)
-    bkps = model.predict(pen=2.5)
+    bkps = model.predict(pen=3.0)
 
     chapters = []
     prev = 0
@@ -277,6 +276,7 @@ def compute_fingerprints(daily_df: pd.DataFrame, chapters: list[dict]) -> list[d
     # compute per-chapter summary statistics
     fingerprints = daily_df.groupby("chapter").agg(
         mean_hrv=("hrv", "mean"),
+        std_hrv=("hrv", "std"),
         mean_recovery=("recovery_score", "mean"),
         mean_sws=("sws_pct", "mean"),
         mean_rem=("rem_pct", "mean"),
@@ -294,6 +294,7 @@ def compute_fingerprints(daily_df: pd.DataFrame, chapters: list[dict]) -> list[d
         enriched.append({
             **c,
             "mean_hrv": round(float(fp["mean_hrv"]), 1),
+            "std_hrv": round(float(fp["std_hrv"]), 1),
             "mean_recovery": round(float(fp["mean_recovery"]), 1),
             "mean_sws": round(float(fp["mean_sws"]), 1),
             "mean_rem": round(float(fp["mean_rem"]), 1),
@@ -303,6 +304,36 @@ def compute_fingerprints(daily_df: pd.DataFrame, chapters: list[dict]) -> list[d
             "mean_autonomic_recovery": round(float(fp["mean_autonomic_recovery"]), 1),
             "hrv_trend": fp["hrv_trend"],
         })
+
+    # compute transitions: what PELT actually detected at each chapter boundary
+    # (change in HRV mean and standard deviation between adjacent chapters)
+    def _pct(a, b):
+        return round((b - a) / a * 100, 1) if a and a != 0 else None
+
+    def _summary(mean_pct, std_pct):
+        if mean_pct < -15:   mean_desc = f"avg HRV dropped sharply ({mean_pct:+.0f}%)"
+        elif mean_pct < -5:  mean_desc = f"avg HRV fell ({mean_pct:+.0f}%)"
+        elif mean_pct <= 5:  mean_desc = f"avg HRV held steady ({mean_pct:+.0f}%)"
+        elif mean_pct <= 15: mean_desc = f"avg HRV rose ({mean_pct:+.0f}%)"
+        else:                mean_desc = f"avg HRV rose sharply ({mean_pct:+.0f}%)"
+        if std_pct > 20:     spread_desc = " and became more variable"
+        elif std_pct < -20:  spread_desc = " and stabilized"
+        else:                spread_desc = ""
+        return mean_desc + spread_desc
+
+    for i in range(1, len(enriched)):
+        prev, curr = enriched[i - 1], enriched[i]
+        mean_pct = _pct(prev["mean_hrv"], curr["mean_hrv"])
+        std_pct  = _pct(prev["std_hrv"],  curr["std_hrv"])
+        curr["transition"] = {
+            "hrv_mean_before": prev["mean_hrv"],
+            "hrv_mean_after":  curr["mean_hrv"],
+            "hrv_mean_change_pct": mean_pct,
+            "hrv_std_before":  prev["std_hrv"],
+            "hrv_std_after":   curr["std_hrv"],
+            "hrv_std_change_pct": std_pct,
+            "summary": _summary(mean_pct, std_pct),
+        }
 
     logger.info("Chapter fingerprints computed")
     for c in enriched:

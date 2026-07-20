@@ -602,6 +602,26 @@ export default function ChapterTimeline({ daily, chapters }) {
         </motion.div>
       )}
 
+      {/* Transition summary — why PELT split here */}
+      {activeCh?.transition?.summary && (
+        <motion.p
+          key={`transition-${activeChapter}`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.4, delay: 0.3 }}
+          style={{
+            textAlign:     'center',
+            fontFamily:    'Inter, sans-serif',
+            fontSize:      '0.62rem',
+            letterSpacing: '0.08em',
+            color:         'rgba(255,255,255,0.28)',
+            padding:       '0.6rem 2rem 0',
+          }}
+        >
+          {activeCh.transition.summary}
+        </motion.p>
+      )}
+
       {/* Day detail panel */}
       <DayPanel
         day={selectedDay}
