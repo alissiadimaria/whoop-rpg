@@ -4631,12 +4631,28 @@
     "sws_pct":29.5756374421,
     "rem_pct":22.1191405332,
     "sleep_efficiency":94.75767,
-    "strain":16.291874,
+    "strain":16.39161,
     "hrv_baseline":129.0712875333,
     "autonomic_recovery":119.5416524842,
-    "load_ratio":0.1714934105,
+    "load_ratio":0.1725432632,
     "cv_hrv":0.1361983117,
     "stability":86.3801688343,
     "archetype":"The Sovereign"
+  },
+  {
+    "date":"2026-07-23",
+    "recovery_score":82.0,
+    "hrv":144.19751,
+    "rhr":41.0,
+    "sws_pct":34.983757379,
+    "rem_pct":19.5627203095,
+    "sleep_efficiency":96.01375,
+    "strain":4.0366783,
+    "hrv_baseline":130.107827,
+    "autonomic_recovery":110.8292355079,
+    "load_ratio":0.0492277841,
+    "cv_hrv":0.1358469419,
+    "stability":86.4153058142,
+    "archetype":"The Sage"
   }
 ]
