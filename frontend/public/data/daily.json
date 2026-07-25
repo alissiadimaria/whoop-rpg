@@ -653,7 +653,7 @@
     "load_ratio":0.1193022128,
     "cv_hrv":0.0885675864,
     "stability":91.143241358,
-    "archetype":"The Vessel"
+    "archetype":"The Sovereign"
   },
   {
     "date":"2025-11-15",
@@ -749,7 +749,7 @@
     "load_ratio":0.19001202,
     "cv_hrv":0.1110936959,
     "stability":88.8906304062,
-    "archetype":"The Vessel"
+    "archetype":"The Hermit"
   },
   {
     "date":"2025-11-21",
@@ -1181,7 +1181,7 @@
     "load_ratio":0.2504123438,
     "cv_hrv":0.0961351877,
     "stability":90.3864812311,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2025-12-18",
@@ -2173,7 +2173,7 @@
     "load_ratio":0.1798892254,
     "cv_hrv":0.1199461856,
     "stability":88.0053814442,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-02-18",
@@ -2717,7 +2717,7 @@
     "load_ratio":0.297219125,
     "cv_hrv":0.0783385835,
     "stability":92.1661416481,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-25",
@@ -3149,7 +3149,7 @@
     "load_ratio":0.2362390625,
     "cv_hrv":0.0644906817,
     "stability":93.5509318343,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-21",
@@ -4663,12 +4663,28 @@
     "sws_pct":34.2471533848,
     "rem_pct":23.149039579,
     "sleep_efficiency":92.28837,
-    "strain":6.143439,
+    "strain":12.991247,
     "hrv_baseline":130.8687263333,
     "autonomic_recovery":112.4272651858,
-    "load_ratio":0.0722757529,
+    "load_ratio":0.1528382,
     "cv_hrv":0.1296939539,
     "stability":87.0306046053,
-    "archetype":"The Sage"
+    "archetype":"The Vessel"
+  },
+  {
+    "date":"2026-07-25",
+    "recovery_score":67.0,
+    "hrv":132.03477,
+    "rhr":45.0,
+    "sws_pct":29.2054561808,
+    "rem_pct":23.8490486038,
+    "sleep_efficiency":93.60462,
+    "strain":6.2096224,
+    "hrv_baseline":131.7084303333,
+    "autonomic_recovery":100.2477743193,
+    "load_ratio":0.0926809313,
+    "cv_hrv":0.1296856423,
+    "stability":87.0314357651,
+    "archetype":"The Wanderer"
   }
 ]
