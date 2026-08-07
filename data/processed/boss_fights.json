@@ -48,6 +48,18 @@
     "archetype": "The Shadow"
   },
   {
+    "date": "2026-08-06",
+    "recovery_score": 41.0,
+    "hrv": 111.54,
+    "sws_pct": 35.9,
+    "rem_pct": 21.28,
+    "sleep_efficiency": 94.17,
+    "strain": 13.05,
+    "autonomic_recovery": 81.14,
+    "composite_z": -2.12,
+    "archetype": "The Shadow"
+  },
+  {
     "date": "2026-06-15",
     "recovery_score": 33.0,
     "hrv": 93.86,

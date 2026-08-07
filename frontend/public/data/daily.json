@@ -653,7 +653,7 @@
     "load_ratio":0.1193022128,
     "cv_hrv":0.0885675864,
     "stability":91.143241358,
-    "archetype":"The Vessel"
+    "archetype":"The Sovereign"
   },
   {
     "date":"2025-11-15",
@@ -1197,7 +1197,7 @@
     "load_ratio":0.1835693846,
     "cv_hrv":0.0994173633,
     "stability":90.0582636729,
-    "archetype":"The Vessel"
+    "archetype":"The Hermit"
   },
   {
     "date":"2025-12-19",
@@ -2221,7 +2221,7 @@
     "load_ratio":0.2919835714,
     "cv_hrv":0.115393555,
     "stability":88.4606445001,
-    "archetype":"The Shadow"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-02-21",
@@ -2557,7 +2557,7 @@
     "load_ratio":0.0666068418,
     "cv_hrv":0.1314352174,
     "stability":86.856478259,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-14",
@@ -2845,7 +2845,7 @@
     "load_ratio":0.0756320949,
     "cv_hrv":0.109571957,
     "stability":89.0428042994,
-    "archetype":"The Vessel"
+    "archetype":"The Sage"
   },
   {
     "date":"2026-04-02",
@@ -2957,7 +2957,7 @@
     "load_ratio":0.0690830937,
     "cv_hrv":0.1204121937,
     "stability":87.9587806342,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-09",
@@ -4855,12 +4855,44 @@
     "sws_pct":27.5038491743,
     "rem_pct":23.8601998742,
     "sleep_efficiency":96.86505,
-    "strain":10.863548,
+    "strain":16.735992,
     "hrv_baseline":138.3778078,
     "autonomic_recovery":103.1088382367,
-    "load_ratio":0.1724372698,
+    "load_ratio":0.2656506667,
     "cv_hrv":0.0682668253,
     "stability":93.1733174747,
+    "archetype":"The Vessel"
+  },
+  {
+    "date":"2026-08-06",
+    "recovery_score":41.0,
+    "hrv":111.53617,
+    "rhr":45.0,
+    "sws_pct":35.9023144707,
+    "rem_pct":21.2762480289,
+    "sleep_efficiency":94.17209,
+    "strain":13.048409,
+    "hrv_baseline":137.4583978,
+    "autonomic_recovery":81.1417649159,
+    "load_ratio":0.318253878,
+    "cv_hrv":0.0943314603,
+    "stability":90.5668539743,
+    "archetype":"The Shadow"
+  },
+  {
+    "date":"2026-08-07",
+    "recovery_score":52.0,
+    "hrv":128.12923,
+    "rhr":44.0,
+    "sws_pct":13.8108737746,
+    "rem_pct":13.9309544253,
+    "sleep_efficiency":87.868126,
+    "strain":10.529358,
+    "hrv_baseline":137.1070618,
+    "autonomic_recovery":93.4519552223,
+    "load_ratio":0.2024876538,
+    "cv_hrv":0.0990463944,
+    "stability":90.0953605555,
     "archetype":"The Vessel"
   }
 ]
