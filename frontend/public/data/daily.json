@@ -109,7 +109,7 @@
     "load_ratio":0.19353972,
     "cv_hrv":0.0464559516,
     "stability":95.3544048408,
-    "archetype":"The Vessel"
+    "archetype":"The Hermit"
   },
   {
     "date":"2025-10-12",
@@ -381,7 +381,7 @@
     "load_ratio":0.1548500114,
     "cv_hrv":0.0850690462,
     "stability":91.4930953849,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2025-10-29",
@@ -1181,7 +1181,7 @@
     "load_ratio":0.2504123438,
     "cv_hrv":0.0961351877,
     "stability":90.3864812311,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2025-12-18",
@@ -2599,13 +2599,13 @@
     "sws_pct":22.3961030765,
     "rem_pct":29.9851206983,
     "sleep_efficiency":90.257195,
-    "strain":5.780732,
+    "strain":16.49181,
     "hrv_baseline":122.8549455,
     "autonomic_recovery":104.1866564501,
-    "load_ratio":0.0802879444,
+    "load_ratio":0.2290529167,
     "cv_hrv":0.1220937504,
     "stability":87.7906249615,
-    "archetype":"The Wanderer"
+    "archetype":"The Warrior"
   },
   {
     "date":"2026-03-18",
@@ -2717,7 +2717,7 @@
     "load_ratio":0.297219125,
     "cv_hrv":0.0783385835,
     "stability":92.1661416481,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-25",
@@ -3149,7 +3149,7 @@
     "load_ratio":0.2362390625,
     "cv_hrv":0.0644906817,
     "stability":93.5509318343,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-21",
@@ -5031,12 +5031,28 @@
     "sws_pct":26.4693382491,
     "rem_pct":24.6851973955,
     "sleep_efficiency":95.20133,
-    "strain":4.239508,
+    "strain":18.07024,
     "hrv_baseline":138.4787936,
     "autonomic_recovery":101.2553015193,
-    "load_ratio":0.055783,
+    "load_ratio":0.2377663158,
     "cv_hrv":0.0872216389,
     "stability":91.2778361059,
+    "archetype":"The Warrior"
+  },
+  {
+    "date":"2026-08-17",
+    "recovery_score":72.0,
+    "hrv":139.27565,
+    "rhr":48.0,
+    "sws_pct":23.6519314226,
+    "rem_pct":20.7943081264,
+    "sleep_efficiency":91.81907,
+    "strain":13.321608,
+    "hrv_baseline":139.1126402667,
+    "autonomic_recovery":100.1171782327,
+    "load_ratio":0.1850223333,
+    "cv_hrv":0.0855165404,
+    "stability":91.4483459567,
     "archetype":"The Vessel"
   }
 ]
