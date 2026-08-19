@@ -381,7 +381,7 @@
     "load_ratio":0.1548500114,
     "cv_hrv":0.0850690462,
     "stability":91.4930953849,
-    "archetype":"The Vessel"
+    "archetype":"The Warrior"
   },
   {
     "date":"2025-10-29",
@@ -1181,7 +1181,7 @@
     "load_ratio":0.2504123438,
     "cv_hrv":0.0961351877,
     "stability":90.3864812311,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2025-12-18",
@@ -2599,13 +2599,13 @@
     "sws_pct":26.3465645522,
     "rem_pct":23.4628842134,
     "sleep_efficiency":93.90901,
-    "strain":16.49181,
+    "strain":5.780732,
     "hrv_baseline":122.2673825,
     "autonomic_recovery":90.2706574257,
-    "load_ratio":0.343579375,
+    "load_ratio":0.1204319167,
     "cv_hrv":0.1254266329,
     "stability":87.4573367106,
-    "archetype":"The Vessel"
+    "archetype":"The Hermit"
   },
   {
     "date":"2026-03-18",
@@ -2717,7 +2717,7 @@
     "load_ratio":0.297219125,
     "cv_hrv":0.0903187085,
     "stability":90.9681291489,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-25",
@@ -3149,7 +3149,7 @@
     "load_ratio":0.2362390625,
     "cv_hrv":0.0644906817,
     "stability":93.5509318343,
-    "archetype":"The Warrior"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-21",
@@ -5063,12 +5063,28 @@
     "sws_pct":23.7079458951,
     "rem_pct":24.3315057157,
     "sleep_efficiency":91.27127,
-    "strain":4.908941,
+    "strain":6.7538843,
     "hrv_baseline":139.5997219333,
     "autonomic_recovery":107.5558302843,
-    "load_ratio":0.0527843118,
+    "load_ratio":0.0726224118,
     "cv_hrv":0.0860314061,
     "stability":91.3968593871,
+    "archetype":"The Vessel"
+  },
+  {
+    "date":"2026-08-19",
+    "recovery_score":87.0,
+    "hrv":147.05394,
+    "rhr":45.0,
+    "sws_pct":28.480656444,
+    "rem_pct":23.1187072757,
+    "sleep_efficiency":94.90124,
+    "strain":4.933917,
+    "hrv_baseline":140.7869319333,
+    "autonomic_recovery":104.4514131962,
+    "load_ratio":0.0567116897,
+    "cv_hrv":0.0877067613,
+    "stability":91.2293238702,
     "archetype":"The Vessel"
   }
 ]
