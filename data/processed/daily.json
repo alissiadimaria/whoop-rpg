@@ -2525,7 +2525,7 @@
     "load_ratio":0.0616094989,
     "cv_hrv":0.1309955772,
     "stability":86.9004422822,
-    "archetype":"The Vessel"
+    "archetype":"The Sovereign"
   },
   {
     "date":"2026-03-12",
@@ -2557,7 +2557,7 @@
     "load_ratio":0.0666068418,
     "cv_hrv":0.1314352174,
     "stability":86.856478259,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-14",
@@ -2599,13 +2599,13 @@
     "sws_pct":22.3961030765,
     "rem_pct":29.9851206983,
     "sleep_efficiency":90.257195,
-    "strain":5.780732,
+    "strain":16.49181,
     "hrv_baseline":122.8549455,
     "autonomic_recovery":104.1866564501,
-    "load_ratio":0.0802879444,
+    "load_ratio":0.2290529167,
     "cv_hrv":0.1220937504,
     "stability":87.7906249615,
-    "archetype":"The Wanderer"
+    "archetype":"The Warrior"
   },
   {
     "date":"2026-03-18",
@@ -2845,7 +2845,7 @@
     "load_ratio":0.0756320949,
     "cv_hrv":0.109571957,
     "stability":89.0428042994,
-    "archetype":"The Vessel"
+    "archetype":"The Sage"
   },
   {
     "date":"2026-04-02",
@@ -2957,7 +2957,7 @@
     "load_ratio":0.0690830937,
     "cv_hrv":0.1204121937,
     "stability":87.9587806342,
-    "archetype":"The Wanderer"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-04-09",
@@ -5095,12 +5095,28 @@
     "sws_pct":21.1725999698,
     "rem_pct":26.6755054012,
     "sleep_efficiency":97.42079,
-    "strain":4.400767,
+    "strain":4.8687906,
     "hrv_baseline":141.9716299333,
     "autonomic_recovery":112.0927188585,
-    "load_ratio":0.0449057857,
+    "load_ratio":0.0496815367,
     "cv_hrv":0.0800179205,
     "stability":91.9982079465,
+    "archetype":"The Vessel"
+  },
+  {
+    "date":"2026-08-21",
+    "recovery_score":59.0,
+    "hrv":130.21095,
+    "rhr":41.0,
+    "sws_pct":24.8833832433,
+    "rem_pct":26.4907987594,
+    "sleep_efficiency":94.78143,
+    "strain":4.867623,
+    "hrv_baseline":141.1688632667,
+    "autonomic_recovery":92.2377264978,
+    "load_ratio":0.0825020847,
+    "cv_hrv":0.0788584744,
+    "stability":92.1141525603,
     "archetype":"The Vessel"
   }
 ]
