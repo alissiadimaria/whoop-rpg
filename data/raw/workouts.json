@@ -1,5 +1,36 @@
 [
   {
+    "id": "7db4f007-f73a-4979-bd81-a24213dba1f5",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-08-21T23:51:16.760Z",
+    "updated_at": "2026-08-22T00:05:35.004Z",
+    "start": "2026-08-21T22:26:59.597Z",
+    "end": "2026-08-21T23:38:16.000Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "weightlifting",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 13.397455,
+      "average_heart_rate": 114,
+      "max_heart_rate": 146,
+      "kilojoule": 1303.4458,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 313990,
+        "zone_one_milli": 3345930,
+        "zone_two_milli": 612990,
+        "zone_three_milli": 4000,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 45
+  },
+  {
     "id": "86244982-7cde-4349-a42c-eb6e8ac4fe4e",
     "v1_id": null,
     "user_id": 31526255,
