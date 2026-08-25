@@ -1,5 +1,21 @@
 [
   {
+    "cycle_id": 1743932460,
+    "sleep_id": "02874d2f-3c7d-4def-ba9f-b65e64a77cad",
+    "user_id": 31526255,
+    "created_at": "2026-08-25T11:23:23.595Z",
+    "updated_at": "2026-08-25T11:23:23.595Z",
+    "score_state": "SCORED",
+    "score": {
+      "user_calibrating": false,
+      "recovery_score": 81.0,
+      "resting_heart_rate": 41.0,
+      "hrv_rmssd_milli": 145.8821,
+      "spo2_percentage": 96.35,
+      "skin_temp_celsius": 32.728333
+    }
+  },
+  {
     "cycle_id": 1741356757,
     "sleep_id": "daadeed2-691b-4b50-956a-7abad36753d0",
     "user_id": 31526255,
