@@ -228,6 +228,18 @@
     "archetype": "The Phoenix"
   },
   {
+    "date": "2026-09-01",
+    "recovery_score": 93.0,
+    "hrv": 154.78,
+    "sws_pct": 31.79,
+    "rem_pct": 25.79,
+    "sleep_efficiency": 92.96,
+    "strain": 4.91,
+    "autonomic_recovery": 112.41,
+    "composite_z": 1.55,
+    "archetype": "The Vessel"
+  },
+  {
     "date": "2026-05-12",
     "recovery_score": 91.0,
     "hrv": 148.17,
