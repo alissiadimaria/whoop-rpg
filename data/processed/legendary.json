@@ -176,7 +176,7 @@
     "sleep_efficiency": 73.18,
     "strain": 12.63,
     "autonomic_recovery": 125.6,
-    "composite_z": 1.63,
+    "composite_z": 1.64,
     "archetype": "The Sovereign"
   },
   {
@@ -234,10 +234,10 @@
     "sws_pct": 31.79,
     "rem_pct": 25.79,
     "sleep_efficiency": 92.96,
-    "strain": 4.91,
+    "strain": 14.54,
     "autonomic_recovery": 112.41,
     "composite_z": 1.55,
-    "archetype": "The Vessel"
+    "archetype": "The Warrior"
   },
   {
     "date": "2026-05-12",
