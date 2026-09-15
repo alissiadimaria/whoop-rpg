@@ -1,5 +1,67 @@
 [
   {
+    "id": "a7ab94fc-bd04-4f13-a4ac-8e65ed195b72",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-09-15T01:59:05.392Z",
+    "updated_at": "2026-09-15T01:59:10.240Z",
+    "start": "2026-09-15T00:41:00.640Z",
+    "end": "2026-09-15T01:40:59.560Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 7.4739966,
+      "average_heart_rate": 108,
+      "max_heart_rate": 133,
+      "kilojoule": 934.01337,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 24000,
+        "zone_one_milli": 3548920,
+        "zone_two_milli": 26000,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
+    "id": "323b7e07-fc1a-4090-9e13-bd9ffc91c86c",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-09-14T23:33:23.672Z",
+    "updated_at": "2026-09-14T23:34:41.256Z",
+    "start": "2026-09-14T22:29:42.245Z",
+    "end": "2026-09-14T23:33:23.090Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "stairmaster",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 14.296743,
+      "average_heart_rate": 138,
+      "max_heart_rate": 176,
+      "kilojoule": 2004.5359,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 6000,
+        "zone_one_milli": 1064970,
+        "zone_two_milli": 667990,
+        "zone_three_milli": 904980,
+        "zone_four_milli": 1171980,
+        "zone_five_milli": 5000
+      }
+    },
+    "sport_id": 66
+  },
+  {
     "id": "bd2e2320-27ef-4411-a478-4e8367b3a0a2",
     "v1_id": null,
     "user_id": 31526255,
