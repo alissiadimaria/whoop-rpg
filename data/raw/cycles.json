@@ -1,19 +1,37 @@
 [
   {
-    "id": 1815865535,
+    "id": 1818370818,
     "user_id": 31526255,
-    "created_at": "2026-09-22T11:35:20.598Z",
-    "updated_at": "2026-09-22T19:21:14.197Z",
-    "start": "2026-09-22T03:44:12.390Z",
+    "created_at": "2026-09-23T11:12:06.807Z",
+    "updated_at": "2026-09-23T11:12:12.235Z",
+    "start": "2026-09-23T03:54:44.660Z",
     "end": null,
     "timezone_offset": "-04:00",
     "score_state": "SCORED",
     "score": {
-      "strain": 5.6032114,
-      "kilojoule": 4326.337,
-      "average_heart_rate": 56,
+      "strain": 5.0380864,
+      "kilojoule": 4173.8237,
+      "average_heart_rate": 55,
+      "max_heart_rate": 140
+    },
+    "step_count": 7109
+  },
+  {
+    "id": 1815865535,
+    "user_id": 31526255,
+    "created_at": "2026-09-22T11:35:20.598Z",
+    "updated_at": "2026-09-23T11:12:11.917Z",
+    "start": "2026-09-22T03:44:12.390Z",
+    "end": "2026-09-23T03:54:44.660Z",
+    "timezone_offset": "-04:00",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 6.204326,
+      "kilojoule": 6658.702,
+      "average_heart_rate": 59,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 13170
   },
   {
     "id": 1813153429,
@@ -29,7 +47,8 @@
       "kilojoule": 7216.416,
       "average_heart_rate": 64,
       "max_heart_rate": 129
-    }
+    },
+    "step_count": 13831
   },
   {
     "id": 1810551074,
@@ -45,7 +64,8 @@
       "kilojoule": 6741.651,
       "average_heart_rate": 63,
       "max_heart_rate": 116
-    }
+    },
+    "step_count": 14548
   },
   {
     "id": 1808054480,
@@ -61,7 +81,8 @@
       "kilojoule": 9549.639,
       "average_heart_rate": 71,
       "max_heart_rate": 178
-    }
+    },
+    "step_count": 18864
   },
   {
     "id": 1805687576,
@@ -77,7 +98,8 @@
       "kilojoule": 7945.1797,
       "average_heart_rate": 69,
       "max_heart_rate": 147
-    }
+    },
+    "step_count": 10873
   },
   {
     "id": 1802928155,
@@ -93,7 +115,8 @@
       "kilojoule": 6793.049,
       "average_heart_rate": 63,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 12348
   },
   {
     "id": 1800320820,
@@ -109,7 +132,8 @@
       "kilojoule": 6552.5815,
       "average_heart_rate": 62,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 11033
   },
   {
     "id": 1797894238,
@@ -125,7 +149,8 @@
       "kilojoule": 7126.125,
       "average_heart_rate": 66,
       "max_heart_rate": 144
-    }
+    },
+    "step_count": 10631
   },
   {
     "id": 1795131125,
@@ -141,7 +166,8 @@
       "kilojoule": 10074.438,
       "average_heart_rate": 70,
       "max_heart_rate": 176
-    }
+    },
+    "step_count": 21234
   },
   {
     "id": 1792521388,
@@ -157,7 +183,8 @@
       "kilojoule": 9197.697,
       "average_heart_rate": 66,
       "max_heart_rate": 174
-    }
+    },
+    "step_count": 16080
   },
   {
     "id": 1790096668,
@@ -173,7 +200,8 @@
       "kilojoule": 6781.9785,
       "average_heart_rate": 63,
       "max_heart_rate": 149
-    }
+    },
+    "step_count": 12254
   },
   {
     "id": 1787545764,
@@ -189,7 +217,8 @@
       "kilojoule": 7962.057,
       "average_heart_rate": 65,
       "max_heart_rate": 148
-    }
+    },
+    "step_count": 9623
   },
   {
     "id": 1784852033,
@@ -205,7 +234,8 @@
       "kilojoule": 6779.427,
       "average_heart_rate": 59,
       "max_heart_rate": 141
-    }
+    },
+    "step_count": 8529
   },
   {
     "id": 1782293516,
@@ -221,7 +251,8 @@
       "kilojoule": 6380.8467,
       "average_heart_rate": 57,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 6307
   },
   {
     "id": 1779787061,
@@ -237,7 +268,8 @@
       "kilojoule": 7191.2686,
       "average_heart_rate": 62,
       "max_heart_rate": 137
-    }
+    },
+    "step_count": 10452
   },
   {
     "id": 1777151536,
@@ -253,7 +285,8 @@
       "kilojoule": 9050.015,
       "average_heart_rate": 66,
       "max_heart_rate": 178
-    }
+    },
+    "step_count": 16543
   },
   {
     "id": 1774676590,
@@ -269,7 +302,8 @@
       "kilojoule": 6439.5757,
       "average_heart_rate": 57,
       "max_heart_rate": 104
-    }
+    },
+    "step_count": 13651
   },
   {
     "id": 1771957494,
@@ -285,7 +319,8 @@
       "kilojoule": 6456.021,
       "average_heart_rate": 61,
       "max_heart_rate": 114
-    }
+    },
+    "step_count": 21665
   },
   {
     "id": 1769428031,
@@ -301,7 +336,8 @@
       "kilojoule": 6571.825,
       "average_heart_rate": 59,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 5995
   },
   {
     "id": 1766675182,
@@ -317,7 +353,8 @@
       "kilojoule": 7762.1294,
       "average_heart_rate": 64,
       "max_heart_rate": 145
-    }
+    },
+    "step_count": 5214
   },
   {
     "id": 1764298461,
@@ -333,7 +370,8 @@
       "kilojoule": 6654.369,
       "average_heart_rate": 60,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 9563
   },
   {
     "id": 1761812933,
@@ -349,7 +387,8 @@
       "kilojoule": 7719.751,
       "average_heart_rate": 64,
       "max_heart_rate": 147
-    }
+    },
+    "step_count": 7275
   },
   {
     "id": 1759164637,
@@ -365,7 +404,8 @@
       "kilojoule": 6792.898,
       "average_heart_rate": 60,
       "max_heart_rate": 114
-    }
+    },
+    "step_count": 12991
   },
   {
     "id": 1756584251,
@@ -381,7 +421,8 @@
       "kilojoule": 7782.9526,
       "average_heart_rate": 67,
       "max_heart_rate": 155
-    }
+    },
+    "step_count": 13210
   },
   {
     "id": 1754069837,
@@ -397,7 +438,8 @@
       "kilojoule": 7150.391,
       "average_heart_rate": 62,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 10797
   },
   {
     "id": 1751601292,
@@ -413,7 +455,8 @@
       "kilojoule": 7078.6875,
       "average_heart_rate": 62,
       "max_heart_rate": 145
-    }
+    },
+    "step_count": 9202
   },
   {
     "id": 1749020709,
@@ -429,7 +472,8 @@
       "kilojoule": 6810.8765,
       "average_heart_rate": 59,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 11692
   },
   {
     "id": 1746478942,
@@ -445,7 +489,8 @@
       "kilojoule": 6564.821,
       "average_heart_rate": 59,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 11880
   },
   {
     "id": 1743932460,
@@ -461,7 +506,8 @@
       "kilojoule": 8757.847,
       "average_heart_rate": 68,
       "max_heart_rate": 161
-    }
+    },
+    "step_count": 13752
   },
   {
     "id": 1741356757,
@@ -477,7 +523,8 @@
       "kilojoule": 6521.1055,
       "average_heart_rate": 59,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 12434
   },
   {
     "id": 1738913072,
@@ -493,7 +540,8 @@
       "kilojoule": 7359.593,
       "average_heart_rate": 67,
       "max_heart_rate": 171
-    }
+    },
+    "step_count": 15647
   },
   {
     "id": 1736759198,
@@ -509,7 +557,8 @@
       "kilojoule": 6205.631,
       "average_heart_rate": 60,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 14776
   },
   {
     "id": 1733498508,
@@ -525,7 +574,8 @@
       "kilojoule": 8435.589,
       "average_heart_rate": 62,
       "max_heart_rate": 158
-    }
+    },
+    "step_count": 8933
   },
   {
     "id": 1731293141,
@@ -541,7 +591,8 @@
       "kilojoule": 6606.4277,
       "average_heart_rate": 59,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 8928
   },
   {
     "id": 1728722660,
@@ -557,7 +608,8 @@
       "kilojoule": 6597.3174,
       "average_heart_rate": 59,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 6692
   },
   {
     "id": 1726227125,
@@ -573,7 +625,8 @@
       "kilojoule": 6729.646,
       "average_heart_rate": 60,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 9294
   },
   {
     "id": 1723705499,
@@ -589,7 +642,8 @@
       "kilojoule": 7395.8726,
       "average_heart_rate": 67,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 12452
   },
   {
     "id": 1721033511,
@@ -605,7 +659,8 @@
       "kilojoule": 9743.325,
       "average_heart_rate": 66,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 12565
   },
   {
     "id": 1718654645,
@@ -621,7 +676,8 @@
       "kilojoule": 6176.354,
       "average_heart_rate": 60,
       "max_heart_rate": 113
-    }
+    },
+    "step_count": 14558
   },
   {
     "id": 1716522442,
@@ -637,7 +693,8 @@
       "kilojoule": 7110.8486,
       "average_heart_rate": 67,
       "max_heart_rate": 139
-    }
+    },
+    "step_count": 15297
   },
   {
     "id": 1713790214,
@@ -653,7 +710,8 @@
       "kilojoule": 7911.364,
       "average_heart_rate": 68,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 15980
   },
   {
     "id": 1711316006,
@@ -669,7 +727,8 @@
       "kilojoule": 10066.478,
       "average_heart_rate": 70,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 22725
   },
   {
     "id": 1708760967,
@@ -685,7 +744,8 @@
       "kilojoule": 9535.882,
       "average_heart_rate": 73,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 13994
   },
   {
     "id": 1706324948,
@@ -701,7 +761,8 @@
       "kilojoule": 8433.56,
       "average_heart_rate": 72,
       "max_heart_rate": 156
-    }
+    },
+    "step_count": 8450
   },
   {
     "id": 1703675558,
@@ -717,7 +778,8 @@
       "kilojoule": 7448.6914,
       "average_heart_rate": 66,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 9655
   },
   {
     "id": 1701043877,
@@ -733,7 +795,8 @@
       "kilojoule": 9895.67,
       "average_heart_rate": 70,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 15663
   },
   {
     "id": 1698361017,
@@ -749,7 +812,8 @@
       "kilojoule": 7594.684,
       "average_heart_rate": 67,
       "max_heart_rate": 138
-    }
+    },
+    "step_count": 9321
   },
   {
     "id": 1696266587,
@@ -765,7 +829,8 @@
       "kilojoule": 6974.8647,
       "average_heart_rate": 66,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 12336
   },
   {
     "id": 1693809209,
@@ -781,7 +846,8 @@
       "kilojoule": 9328.511,
       "average_heart_rate": 70,
       "max_heart_rate": 161
-    }
+    },
+    "step_count": 11304
   },
   {
     "id": 1691187387,
@@ -797,7 +863,8 @@
       "kilojoule": 6850.6284,
       "average_heart_rate": 66,
       "max_heart_rate": 114
-    }
+    },
+    "step_count": 14001
   },
   {
     "id": 1688837627,
@@ -813,7 +880,8 @@
       "kilojoule": 7633.5864,
       "average_heart_rate": 68,
       "max_heart_rate": 138
-    }
+    },
+    "step_count": 11054
   },
   {
     "id": 1686133289,
@@ -829,7 +897,8 @@
       "kilojoule": 6268.1636,
       "average_heart_rate": 58,
       "max_heart_rate": 107
-    }
+    },
+    "step_count": 10281
   },
   {
     "id": 1683988946,
@@ -845,7 +914,8 @@
       "kilojoule": 7084.91,
       "average_heart_rate": 63,
       "max_heart_rate": 118
-    }
+    },
+    "step_count": 12719
   },
   {
     "id": 1681454821,
@@ -861,7 +931,8 @@
       "kilojoule": 10065.261,
       "average_heart_rate": 72,
       "max_heart_rate": 149
-    }
+    },
+    "step_count": 16522
   },
   {
     "id": 1679035486,
@@ -877,7 +948,8 @@
       "kilojoule": 7618.702,
       "average_heart_rate": 68,
       "max_heart_rate": 156
-    }
+    },
+    "step_count": 9105
   },
   {
     "id": 1676491792,
@@ -893,7 +965,8 @@
       "kilojoule": 8032.561,
       "average_heart_rate": 70,
       "max_heart_rate": 140
-    }
+    },
+    "step_count": 10487
   },
   {
     "id": 1673597733,
@@ -909,7 +982,8 @@
       "kilojoule": 6417.9736,
       "average_heart_rate": 63,
       "max_heart_rate": 114
-    }
+    },
+    "step_count": 11639
   },
   {
     "id": 1671328866,
@@ -925,7 +999,8 @@
       "kilojoule": 9407.434,
       "average_heart_rate": 67,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 26259
   },
   {
     "id": 1669101542,
@@ -941,7 +1016,8 @@
       "kilojoule": 9423.734,
       "average_heart_rate": 68,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 19010
   },
   {
     "id": 1666827393,
@@ -957,7 +1033,8 @@
       "kilojoule": 6508.136,
       "average_heart_rate": 60,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 6241
   },
   {
     "id": 1664511946,
@@ -973,7 +1050,8 @@
       "kilojoule": 6734.516,
       "average_heart_rate": 61,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 10983
   },
   {
     "id": 1661693851,
@@ -989,7 +1067,8 @@
       "kilojoule": 7322.093,
       "average_heart_rate": 61,
       "max_heart_rate": 140
-    }
+    },
+    "step_count": 14085
   },
   {
     "id": 1659113174,
@@ -1005,7 +1084,8 @@
       "kilojoule": 10114.211,
       "average_heart_rate": 66,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 23603
   },
   {
     "id": 1657242164,
@@ -1021,7 +1101,8 @@
       "kilojoule": 6209.2227,
       "average_heart_rate": 58,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 13125
   },
   {
     "id": 1654419961,
@@ -1037,7 +1118,8 @@
       "kilojoule": 5941.0215,
       "average_heart_rate": 58,
       "max_heart_rate": 131
-    }
+    },
+    "step_count": 9599
   },
   {
     "id": 1651721004,
@@ -1053,7 +1135,8 @@
       "kilojoule": 7950.0947,
       "average_heart_rate": 61,
       "max_heart_rate": 151
-    }
+    },
+    "step_count": 18145
   },
   {
     "id": 1649456819,
@@ -1069,7 +1152,8 @@
       "kilojoule": 5909.758,
       "average_heart_rate": 63,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 8673
   },
   {
     "id": 1647154847,
@@ -1085,7 +1169,8 @@
       "kilojoule": 8719.417,
       "average_heart_rate": 65,
       "max_heart_rate": 154
-    }
+    },
+    "step_count": 11974
   },
   {
     "id": 1644844523,
@@ -1101,7 +1186,8 @@
       "kilojoule": 6191.3423,
       "average_heart_rate": 59,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 9057
   },
   {
     "id": 1642529293,
@@ -1117,7 +1203,8 @@
       "kilojoule": 9105.191,
       "average_heart_rate": 65,
       "max_heart_rate": 186
-    }
+    },
+    "step_count": 18260
   },
   {
     "id": 1640004920,
@@ -1133,7 +1220,8 @@
       "kilojoule": 6885.821,
       "average_heart_rate": 58,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 11019
   },
   {
     "id": 1637626561,
@@ -1149,7 +1237,8 @@
       "kilojoule": 7946.3145,
       "average_heart_rate": 67,
       "max_heart_rate": 163
-    }
+    },
+    "step_count": 18576
   },
   {
     "id": 1635147831,
@@ -1165,7 +1254,8 @@
       "kilojoule": 8025.0405,
       "average_heart_rate": 66,
       "max_heart_rate": 153
-    }
+    },
+    "step_count": 13128
   },
   {
     "id": 1632793340,
@@ -1181,7 +1271,8 @@
       "kilojoule": 6607.6377,
       "average_heart_rate": 57,
       "max_heart_rate": 127
-    }
+    },
+    "step_count": 13440
   },
   {
     "id": 1630501249,
@@ -1197,7 +1288,8 @@
       "kilojoule": 8039.2007,
       "average_heart_rate": 64,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 17077
   },
   {
     "id": 1628112264,
@@ -1213,7 +1305,8 @@
       "kilojoule": 7980.5825,
       "average_heart_rate": 63,
       "max_heart_rate": 155
-    }
+    },
+    "step_count": 12079
   },
   {
     "id": 1625663317,
@@ -1229,7 +1322,8 @@
       "kilojoule": 8868.885,
       "average_heart_rate": 66,
       "max_heart_rate": 169
-    }
+    },
+    "step_count": 14583
   },
   {
     "id": 1623374847,
@@ -1245,7 +1339,8 @@
       "kilojoule": 6915.9307,
       "average_heart_rate": 60,
       "max_heart_rate": 150
-    }
+    },
+    "step_count": 12536
   },
   {
     "id": 1620936494,
@@ -1261,7 +1356,8 @@
       "kilojoule": 7867.4614,
       "average_heart_rate": 63,
       "max_heart_rate": 157
-    }
+    },
+    "step_count": 11530
   },
   {
     "id": 1618395338,
@@ -1277,7 +1373,8 @@
       "kilojoule": 6342.94,
       "average_heart_rate": 60,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 18882
   },
   {
     "id": 1616127342,
@@ -1293,7 +1390,8 @@
       "kilojoule": 6671.9614,
       "average_heart_rate": 58,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 10760
   },
   {
     "id": 1613854762,
@@ -1309,7 +1407,8 @@
       "kilojoule": 7487.041,
       "average_heart_rate": 60,
       "max_heart_rate": 145
-    }
+    },
+    "step_count": 14072
   },
   {
     "id": 1611471843,
@@ -1325,7 +1424,8 @@
       "kilojoule": 6508.047,
       "average_heart_rate": 56,
       "max_heart_rate": 108
-    }
+    },
+    "step_count": 15785
   },
   {
     "id": 1609042033,
@@ -1341,7 +1441,8 @@
       "kilojoule": 9575.258,
       "average_heart_rate": 64,
       "max_heart_rate": 191
-    }
+    },
+    "step_count": 16190
   },
   {
     "id": 1606650145,
@@ -1357,7 +1458,8 @@
       "kilojoule": 6511.9097,
       "average_heart_rate": 59,
       "max_heart_rate": 117
-    }
+    },
+    "step_count": 17918
   },
   {
     "id": 1604160984,
@@ -1373,7 +1475,8 @@
       "kilojoule": 6759.9414,
       "average_heart_rate": 60,
       "max_heart_rate": 152
-    }
+    },
+    "step_count": 17068
   },
   {
     "id": 1601906981,
@@ -1389,7 +1492,8 @@
       "kilojoule": 7058.786,
       "average_heart_rate": 61,
       "max_heart_rate": 156
-    }
+    },
+    "step_count": 10852
   },
   {
     "id": 1599719478,
@@ -1405,7 +1509,8 @@
       "kilojoule": 7851.686,
       "average_heart_rate": 65,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 13643
   },
   {
     "id": 1597255328,
@@ -1421,7 +1526,8 @@
       "kilojoule": 6757.6606,
       "average_heart_rate": 57,
       "max_heart_rate": 107
-    }
+    },
+    "step_count": 11983
   },
   {
     "id": 1594847436,
@@ -1437,7 +1543,8 @@
       "kilojoule": 9954.986,
       "average_heart_rate": 69,
       "max_heart_rate": 185
-    }
+    },
+    "step_count": 16504
   },
   {
     "id": 1592423761,
@@ -1453,7 +1560,8 @@
       "kilojoule": 8906.086,
       "average_heart_rate": 66,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 20845
   },
   {
     "id": 1590060530,
@@ -1469,7 +1577,8 @@
       "kilojoule": 7524.4663,
       "average_heart_rate": 63,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 16104
   },
   {
     "id": 1587666772,
@@ -1485,7 +1594,8 @@
       "kilojoule": 6237.9,
       "average_heart_rate": 60,
       "max_heart_rate": 125
-    }
+    },
+    "step_count": 13194
   },
   {
     "id": 1585345077,
@@ -1501,7 +1611,8 @@
       "kilojoule": 6416.04,
       "average_heart_rate": 60,
       "max_heart_rate": 117
-    }
+    },
+    "step_count": 25329
   },
   {
     "id": 1582970851,
@@ -1517,7 +1628,8 @@
       "kilojoule": 6708.207,
       "average_heart_rate": 60,
       "max_heart_rate": 116
-    }
+    },
+    "step_count": 22445
   },
   {
     "id": 1580762378,
@@ -1533,7 +1645,8 @@
       "kilojoule": 6040.3315,
       "average_heart_rate": 62,
       "max_heart_rate": 115
-    }
+    },
+    "step_count": 19882
   },
   {
     "id": 1578446322,
@@ -1549,7 +1662,8 @@
       "kilojoule": 8144.3965,
       "average_heart_rate": 68,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 13869
   },
   {
     "id": 1576048880,
@@ -1565,7 +1679,8 @@
       "kilojoule": 9899.322,
       "average_heart_rate": 73,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 22388
   },
   {
     "id": 1573713140,
@@ -1581,7 +1696,8 @@
       "kilojoule": 6714.166,
       "average_heart_rate": 65,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 13785
   },
   {
     "id": 1571307458,
@@ -1597,7 +1713,8 @@
       "kilojoule": 6615.0884,
       "average_heart_rate": 61,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 10844
   },
   {
     "id": 1568906632,
@@ -1613,7 +1730,8 @@
       "kilojoule": 6655.9575,
       "average_heart_rate": 67,
       "max_heart_rate": 147
-    }
+    },
+    "step_count": 11526
   },
   {
     "id": 1566566155,
@@ -1629,7 +1747,8 @@
       "kilojoule": 7522.131,
       "average_heart_rate": 66,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 21306
   },
   {
     "id": 1564289343,
@@ -1645,7 +1764,8 @@
       "kilojoule": 7300.4067,
       "average_heart_rate": 65,
       "max_heart_rate": 148
-    }
+    },
+    "step_count": 13943
   },
   {
     "id": 1562001713,
@@ -1661,7 +1781,8 @@
       "kilojoule": 8547.524,
       "average_heart_rate": 67,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 11584
   },
   {
     "id": 1559712734,
@@ -1677,7 +1798,8 @@
       "kilojoule": 6325.683,
       "average_heart_rate": 63,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 10358
   },
   {
     "id": 1557309757,
@@ -1693,7 +1815,8 @@
       "kilojoule": 6985.5254,
       "average_heart_rate": 64,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 13195
   },
   {
     "id": 1554795225,
@@ -1709,7 +1832,8 @@
       "kilojoule": 9329.822,
       "average_heart_rate": 71,
       "max_heart_rate": 176
-    }
+    },
+    "step_count": 22815
   },
   {
     "id": 1552516419,
@@ -1725,7 +1849,8 @@
       "kilojoule": 8852.201,
       "average_heart_rate": 67,
       "max_heart_rate": 179
-    }
+    },
+    "step_count": 18170
   },
   {
     "id": 1550475332,
@@ -1741,7 +1866,8 @@
       "kilojoule": 6297.358,
       "average_heart_rate": 59,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 13424
   },
   {
     "id": 1547888933,
@@ -1757,7 +1883,8 @@
       "kilojoule": 7415.579,
       "average_heart_rate": 65,
       "max_heart_rate": 140
-    }
+    },
+    "step_count": 15491
   },
   {
     "id": 1545730537,
@@ -1773,7 +1900,8 @@
       "kilojoule": 6966.2144,
       "average_heart_rate": 63,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 13997
   },
   {
     "id": 1543549320,
@@ -1789,7 +1917,8 @@
       "kilojoule": 8068.5884,
       "average_heart_rate": 65,
       "max_heart_rate": 154
-    }
+    },
+    "step_count": 12083
   },
   {
     "id": 1541039641,
@@ -1805,7 +1934,8 @@
       "kilojoule": 8786.573,
       "average_heart_rate": 69,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 25640
   },
   {
     "id": 1538549302,
@@ -1821,7 +1951,8 @@
       "kilojoule": 6937.723,
       "average_heart_rate": 62,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 16054
   },
   {
     "id": 1536106028,
@@ -1837,7 +1968,8 @@
       "kilojoule": 9384.981,
       "average_heart_rate": 67,
       "max_heart_rate": 184
-    }
+    },
+    "step_count": 21702
   },
   {
     "id": 1534024289,
@@ -1853,7 +1985,8 @@
       "kilojoule": 6443.655,
       "average_heart_rate": 60,
       "max_heart_rate": 125
-    }
+    },
+    "step_count": 10193
   },
   {
     "id": 1531890253,
@@ -1869,7 +2002,8 @@
       "kilojoule": 6834.982,
       "average_heart_rate": 60,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 14786
   },
   {
     "id": 1529106358,
@@ -1885,7 +2019,8 @@
       "kilojoule": 6908.465,
       "average_heart_rate": 65,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 9128
   },
   {
     "id": 1527045452,
@@ -1901,7 +2036,8 @@
       "kilojoule": 6788.9565,
       "average_heart_rate": 64,
       "max_heart_rate": 116
-    }
+    },
+    "step_count": 13738
   },
   {
     "id": 1525192643,
@@ -1917,7 +2053,8 @@
       "kilojoule": 6202.384,
       "average_heart_rate": 62,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 14614
   },
   {
     "id": 1522615047,
@@ -1933,7 +2070,8 @@
       "kilojoule": 8912.253,
       "average_heart_rate": 69,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 25436
   },
   {
     "id": 1520417251,
@@ -1949,7 +2087,8 @@
       "kilojoule": 6939.094,
       "average_heart_rate": 61,
       "max_heart_rate": 144
-    }
+    },
+    "step_count": 12042
   },
   {
     "id": 1518073244,
@@ -1965,7 +2104,8 @@
       "kilojoule": 9227.664,
       "average_heart_rate": 69,
       "max_heart_rate": 183
-    }
+    },
+    "step_count": 19518
   },
   {
     "id": 1516010817,
@@ -1981,7 +2121,8 @@
       "kilojoule": 7546.8125,
       "average_heart_rate": 64,
       "max_heart_rate": 137
-    }
+    },
+    "step_count": 17974
   },
   {
     "id": 1513712128,
@@ -1997,7 +2138,8 @@
       "kilojoule": 6557.814,
       "average_heart_rate": 61,
       "max_heart_rate": 118
-    }
+    },
+    "step_count": 17235
   },
   {
     "id": 1511350615,
@@ -2013,7 +2155,8 @@
       "kilojoule": 6878.38,
       "average_heart_rate": 66,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 13726
   },
   {
     "id": 1509012086,
@@ -2029,7 +2172,8 @@
       "kilojoule": 8695.594,
       "average_heart_rate": 69,
       "max_heart_rate": 169
-    }
+    },
+    "step_count": 12435
   },
   {
     "id": 1506728854,
@@ -2045,7 +2189,8 @@
       "kilojoule": 6885.893,
       "average_heart_rate": 63,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 20910
   },
   {
     "id": 1504372283,
@@ -2061,7 +2206,8 @@
       "kilojoule": 11137.43,
       "average_heart_rate": 72,
       "max_heart_rate": 182
-    }
+    },
+    "step_count": 23454
   },
   {
     "id": 1502191309,
@@ -2077,7 +2223,8 @@
       "kilojoule": 6881.1533,
       "average_heart_rate": 63,
       "max_heart_rate": 125
-    }
+    },
+    "step_count": 22275
   },
   {
     "id": 1500213091,
@@ -2093,7 +2240,8 @@
       "kilojoule": 7856.9326,
       "average_heart_rate": 68,
       "max_heart_rate": 152
-    }
+    },
+    "step_count": 13100
   },
   {
     "id": 1497781770,
@@ -2109,7 +2257,8 @@
       "kilojoule": 6498.08,
       "average_heart_rate": 65,
       "max_heart_rate": 137
-    }
+    },
+    "step_count": 11749
   },
   {
     "id": 1495569825,
@@ -2125,7 +2274,8 @@
       "kilojoule": 7846.311,
       "average_heart_rate": 68,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 19509
   },
   {
     "id": 1493289499,
@@ -2141,7 +2291,8 @@
       "kilojoule": 8376.955,
       "average_heart_rate": 72,
       "max_heart_rate": 156
-    }
+    },
+    "step_count": 11449
   },
   {
     "id": 1491138488,
@@ -2157,7 +2308,8 @@
       "kilojoule": 7779.267,
       "average_heart_rate": 70,
       "max_heart_rate": 135
-    }
+    },
+    "step_count": 11434
   },
   {
     "id": 1488469180,
@@ -2173,7 +2325,8 @@
       "kilojoule": 9872.114,
       "average_heart_rate": 73,
       "max_heart_rate": 187
-    }
+    },
+    "step_count": 18503
   },
   {
     "id": 1486522501,
@@ -2189,7 +2342,8 @@
       "kilojoule": 6775.766,
       "average_heart_rate": 65,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 12851
   },
   {
     "id": 1484510884,
@@ -2205,7 +2359,8 @@
       "kilojoule": 7973.984,
       "average_heart_rate": 68,
       "max_heart_rate": 163
-    }
+    },
+    "step_count": 17123
   },
   {
     "id": 1482264561,
@@ -2221,7 +2376,8 @@
       "kilojoule": 6621.197,
       "average_heart_rate": 62,
       "max_heart_rate": 110
-    }
+    },
+    "step_count": 12616
   },
   {
     "id": 1479916771,
@@ -2237,7 +2393,8 @@
       "kilojoule": 6235.136,
       "average_heart_rate": 59,
       "max_heart_rate": 108
-    }
+    },
+    "step_count": 10282
   },
   {
     "id": 1477719319,
@@ -2253,7 +2410,8 @@
       "kilojoule": 6592.9526,
       "average_heart_rate": 60,
       "max_heart_rate": 109
-    }
+    },
+    "step_count": 2132
   },
   {
     "id": 1475157108,
@@ -2269,7 +2427,8 @@
       "kilojoule": 6217.306,
       "average_heart_rate": 60,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 1326
   },
   {
     "id": 1472989440,
@@ -2285,7 +2444,8 @@
       "kilojoule": 6673.204,
       "average_heart_rate": 58,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 2510
   },
   {
     "id": 1471016686,
@@ -2301,7 +2461,8 @@
       "kilojoule": 6653.4395,
       "average_heart_rate": 58,
       "max_heart_rate": 111
-    }
+    },
+    "step_count": 2603
   },
   {
     "id": 1468710499,
@@ -2317,7 +2478,8 @@
       "kilojoule": 6243.7935,
       "average_heart_rate": 62,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 722
   },
   {
     "id": 1467103338,
@@ -2333,7 +2495,8 @@
       "kilojoule": 6640.837,
       "average_heart_rate": 63,
       "max_heart_rate": 127
-    }
+    },
+    "step_count": 7702
   },
   {
     "id": 1464560920,
@@ -2349,7 +2512,8 @@
       "kilojoule": 6636.5645,
       "average_heart_rate": 62,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 16386
   },
   {
     "id": 1462328994,
@@ -2365,7 +2529,8 @@
       "kilojoule": 7941.295,
       "average_heart_rate": 65,
       "max_heart_rate": 167
-    }
+    },
+    "step_count": 10547
   },
   {
     "id": 1460048646,
@@ -2381,7 +2546,8 @@
       "kilojoule": 8484.44,
       "average_heart_rate": 68,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 16527
   },
   {
     "id": 1457827568,
@@ -2397,7 +2563,8 @@
       "kilojoule": 7055.891,
       "average_heart_rate": 66,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 16906
   },
   {
     "id": 1455749242,
@@ -2413,7 +2580,8 @@
       "kilojoule": 7007.2334,
       "average_heart_rate": 66,
       "max_heart_rate": 135
-    }
+    },
+    "step_count": 24554
   },
   {
     "id": 1453529911,
@@ -2429,7 +2597,8 @@
       "kilojoule": 8546.237,
       "average_heart_rate": 66,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 13547
   },
   {
     "id": 1451369833,
@@ -2445,7 +2614,8 @@
       "kilojoule": 6947.0884,
       "average_heart_rate": 65,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 20922
   },
   {
     "id": 1449078231,
@@ -2461,7 +2631,8 @@
       "kilojoule": 6759.852,
       "average_heart_rate": 60,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 11052
   },
   {
     "id": 1447430458,
@@ -2477,7 +2648,8 @@
       "kilojoule": 6197.0747,
       "average_heart_rate": 62,
       "max_heart_rate": 118
-    }
+    },
+    "step_count": 13148
   },
   {
     "id": 1444940817,
@@ -2493,7 +2665,8 @@
       "kilojoule": 8142.551,
       "average_heart_rate": 65,
       "max_heart_rate": 152
-    }
+    },
+    "step_count": 11831
   },
   {
     "id": 1442697300,
@@ -2509,7 +2682,8 @@
       "kilojoule": 6455.1787,
       "average_heart_rate": 62,
       "max_heart_rate": 131
-    }
+    },
+    "step_count": 15848
   },
   {
     "id": 1440529294,
@@ -2525,7 +2699,8 @@
       "kilojoule": 8771.142,
       "average_heart_rate": 66,
       "max_heart_rate": 171
-    }
+    },
+    "step_count": 23482
   },
   {
     "id": 1438509803,
@@ -2541,7 +2716,8 @@
       "kilojoule": 8353.278,
       "average_heart_rate": 64,
       "max_heart_rate": 163
-    }
+    },
+    "step_count": 20451
   },
   {
     "id": 1436307943,
@@ -2557,7 +2733,8 @@
       "kilojoule": 7924.6675,
       "average_heart_rate": 63,
       "max_heart_rate": 157
-    }
+    },
+    "step_count": 11149
   },
   {
     "id": 1434189467,
@@ -2573,7 +2750,8 @@
       "kilojoule": 7043.1426,
       "average_heart_rate": 60,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 18190
   },
   {
     "id": 1432097007,
@@ -2589,7 +2767,8 @@
       "kilojoule": 7480.242,
       "average_heart_rate": 62,
       "max_heart_rate": 160
-    }
+    },
+    "step_count": 12427
   },
   {
     "id": 1429929175,
@@ -2605,7 +2784,8 @@
       "kilojoule": 8037.9067,
       "average_heart_rate": 62,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 12696
   },
   {
     "id": 1427769580,
@@ -2621,7 +2801,8 @@
       "kilojoule": 6116.9277,
       "average_heart_rate": 58,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 6307
   },
   {
     "id": 1425602416,
@@ -2637,7 +2818,8 @@
       "kilojoule": 8183.0728,
       "average_heart_rate": 62,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 14694
   },
   {
     "id": 1423573504,
@@ -2653,7 +2835,8 @@
       "kilojoule": 8589.18,
       "average_heart_rate": 64,
       "max_heart_rate": 184
-    }
+    },
+    "step_count": 10780
   },
   {
     "id": 1421461290,
@@ -2669,7 +2852,8 @@
       "kilojoule": 8228.496,
       "average_heart_rate": 64,
       "max_heart_rate": 166
-    }
+    },
+    "step_count": 16447
   },
   {
     "id": 1419322811,
@@ -2685,7 +2869,8 @@
       "kilojoule": 6754.3003,
       "average_heart_rate": 59,
       "max_heart_rate": 110
-    }
+    },
+    "step_count": 15243
   },
   {
     "id": 1417156694,
@@ -2701,7 +2886,8 @@
       "kilojoule": 7394.9,
       "average_heart_rate": 60,
       "max_heart_rate": 174
-    }
+    },
+    "step_count": 9382
   },
   {
     "id": 1415051924,
@@ -2717,7 +2903,8 @@
       "kilojoule": 8617.72,
       "average_heart_rate": 66,
       "max_heart_rate": 186
-    }
+    },
+    "step_count": 14902
   },
   {
     "id": 1412814062,
@@ -2733,7 +2920,8 @@
       "kilojoule": 6455.219,
       "average_heart_rate": 59,
       "max_heart_rate": 129
-    }
+    },
+    "step_count": 10325
   },
   {
     "id": 1410822529,
@@ -2749,7 +2937,8 @@
       "kilojoule": 7387.756,
       "average_heart_rate": 58,
       "max_heart_rate": 166
-    }
+    },
+    "step_count": 5455
   },
   {
     "id": 1408680957,
@@ -2765,7 +2954,8 @@
       "kilojoule": 6760.122,
       "average_heart_rate": 58,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 10662
   },
   {
     "id": 1406714628,
@@ -2781,7 +2971,8 @@
       "kilojoule": 7327.1104,
       "average_heart_rate": 63,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 16332
   },
   {
     "id": 1404049006,
@@ -2797,7 +2988,8 @@
       "kilojoule": 7007.2817,
       "average_heart_rate": 59,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 11778
   },
   {
     "id": 1402365377,
@@ -2813,7 +3005,8 @@
       "kilojoule": 6736.616,
       "average_heart_rate": 65,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 18395
   },
   {
     "id": 1400339426,
@@ -2829,7 +3022,8 @@
       "kilojoule": 8966.579,
       "average_heart_rate": 70,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 27599
   },
   {
     "id": 1398153775,
@@ -2845,7 +3039,8 @@
       "kilojoule": 6317.6333,
       "average_heart_rate": 61,
       "max_heart_rate": 125
-    }
+    },
+    "step_count": 14677
   },
   {
     "id": 1396164529,
@@ -2861,7 +3056,8 @@
       "kilojoule": 10136.592,
       "average_heart_rate": 71,
       "max_heart_rate": 180
-    }
+    },
+    "step_count": 24346
   },
   {
     "id": 1394070545,
@@ -2877,7 +3073,8 @@
       "kilojoule": 6911.5,
       "average_heart_rate": 62,
       "max_heart_rate": 144
-    }
+    },
+    "step_count": 12142
   },
   {
     "id": 1392229802,
@@ -2893,7 +3090,8 @@
       "kilojoule": 9054.155,
       "average_heart_rate": 67,
       "max_heart_rate": 194
-    }
+    },
+    "step_count": 21044
   },
   {
     "id": 1389842040,
@@ -2909,7 +3107,8 @@
       "kilojoule": 7552.9375,
       "average_heart_rate": 63,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 11734
   },
   {
     "id": 1387880727,
@@ -2925,7 +3124,8 @@
       "kilojoule": 9515.614,
       "average_heart_rate": 70,
       "max_heart_rate": 193
-    }
+    },
+    "step_count": 18997
   },
   {
     "id": 1385620786,
@@ -2941,7 +3141,8 @@
       "kilojoule": 7109.7197,
       "average_heart_rate": 64,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 13506
   },
   {
     "id": 1383684319,
@@ -2957,7 +3158,8 @@
       "kilojoule": 6505.8306,
       "average_heart_rate": 59,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 9297
   },
   {
     "id": 1381622570,
@@ -2973,7 +3175,8 @@
       "kilojoule": 10414.319,
       "average_heart_rate": 72,
       "max_heart_rate": 185
-    }
+    },
+    "step_count": 20254
   },
   {
     "id": 1379677839,
@@ -2989,7 +3192,8 @@
       "kilojoule": 6857.5884,
       "average_heart_rate": 67,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 14629
   },
   {
     "id": 1377428003,
@@ -3005,7 +3209,8 @@
       "kilojoule": 7028.7534,
       "average_heart_rate": 67,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 15647
   },
   {
     "id": 1374638770,
@@ -3021,7 +3226,8 @@
       "kilojoule": 8700.2,
       "average_heart_rate": 71,
       "max_heart_rate": 161
-    }
+    },
+    "step_count": 11895
   },
   {
     "id": 1372862336,
@@ -3037,7 +3243,8 @@
       "kilojoule": 9154.497,
       "average_heart_rate": 65,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 20251
   },
   {
     "id": 1371664336,
@@ -3053,7 +3260,8 @@
       "kilojoule": 6640.994,
       "average_heart_rate": 61,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 10437
   },
   {
     "id": 1368681855,
@@ -3069,7 +3277,8 @@
       "kilojoule": 6278.211,
       "average_heart_rate": 63,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 10383
   },
   {
     "id": 1366717912,
@@ -3085,7 +3294,8 @@
       "kilojoule": 7573.211,
       "average_heart_rate": 63,
       "max_heart_rate": 143
-    }
+    },
+    "step_count": 9215
   },
   {
     "id": 1364813701,
@@ -3101,7 +3311,8 @@
       "kilojoule": 6749.4927,
       "average_heart_rate": 59,
       "max_heart_rate": 115
-    }
+    },
+    "step_count": 10180
   },
   {
     "id": 1362830188,
@@ -3117,7 +3328,8 @@
       "kilojoule": 6233.729,
       "average_heart_rate": 60,
       "max_heart_rate": 118
-    }
+    },
+    "step_count": 8829
   },
   {
     "id": 1360813354,
@@ -3133,7 +3345,8 @@
       "kilojoule": 6852.8516,
       "average_heart_rate": 62,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 15750
   },
   {
     "id": 1358727407,
@@ -3149,7 +3362,8 @@
       "kilojoule": 6457.9453,
       "average_heart_rate": 59,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 11374
   },
   {
     "id": 1356783309,
@@ -3165,7 +3379,8 @@
       "kilojoule": 7232.5493,
       "average_heart_rate": 63,
       "max_heart_rate": 152
-    }
+    },
+    "step_count": 14968
   },
   {
     "id": 1354654424,
@@ -3181,7 +3396,8 @@
       "kilojoule": 8448.109,
       "average_heart_rate": 64,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 17715
   },
   {
     "id": 1352651225,
@@ -3197,7 +3413,8 @@
       "kilojoule": 6726.9297,
       "average_heart_rate": 60,
       "max_heart_rate": 127
-    }
+    },
+    "step_count": 4240
   },
   {
     "id": 1350776430,
@@ -3213,7 +3430,8 @@
       "kilojoule": 6516.3096,
       "average_heart_rate": 61,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 12646
   },
   {
     "id": 1348915910,
@@ -3229,7 +3447,8 @@
       "kilojoule": 8347.564,
       "average_heart_rate": 61,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 8528
   },
   {
     "id": 1346766653,
@@ -3245,7 +3464,8 @@
       "kilojoule": 7028.8354,
       "average_heart_rate": 62,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 11993
   },
   {
     "id": 1344745061,
@@ -3261,7 +3481,8 @@
       "kilojoule": 7131.168,
       "average_heart_rate": 65,
       "max_heart_rate": 161
-    }
+    },
+    "step_count": 13865
   },
   {
     "id": 1342847804,
@@ -3277,7 +3498,8 @@
       "kilojoule": 6520.6753,
       "average_heart_rate": 61,
       "max_heart_rate": 117
-    }
+    },
+    "step_count": 16928
   },
   {
     "id": 1340533616,
@@ -3293,7 +3515,8 @@
       "kilojoule": 6367.151,
       "average_heart_rate": 61,
       "max_heart_rate": 112
-    }
+    },
+    "step_count": 7384
   },
   {
     "id": 1338583507,
@@ -3309,7 +3532,8 @@
       "kilojoule": 10087.05,
       "average_heart_rate": 74,
       "max_heart_rate": 189
-    }
+    },
+    "step_count": 23973
   },
   {
     "id": 1336197053,
@@ -3325,7 +3549,8 @@
       "kilojoule": 6718.018,
       "average_heart_rate": 64,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 11607
   },
   {
     "id": 1334774884,
@@ -3341,7 +3566,8 @@
       "kilojoule": 10431.63,
       "average_heart_rate": 75,
       "max_heart_rate": 174
-    }
+    },
+    "step_count": 19488
   },
   {
     "id": 1332793872,
@@ -3357,7 +3583,8 @@
       "kilojoule": 8348.588,
       "average_heart_rate": 70,
       "max_heart_rate": 164
-    }
+    },
+    "step_count": 11934
   },
   {
     "id": 1330750172,
@@ -3373,7 +3600,8 @@
       "kilojoule": 7031.8345,
       "average_heart_rate": 63,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 10041
   },
   {
     "id": 1328774651,
@@ -3389,7 +3617,8 @@
       "kilojoule": 7198.8315,
       "average_heart_rate": 63,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 3735
   },
   {
     "id": 1326870375,
@@ -3405,7 +3634,8 @@
       "kilojoule": 5517.7715,
       "average_heart_rate": 59,
       "max_heart_rate": 111
-    }
+    },
+    "step_count": 3987
   },
   {
     "id": 1324971197,
@@ -3421,7 +3651,8 @@
       "kilojoule": 8721.327,
       "average_heart_rate": 68,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 16842
   },
   {
     "id": 1322845614,
@@ -3437,7 +3668,8 @@
       "kilojoule": 8179.1914,
       "average_heart_rate": 66,
       "max_heart_rate": 157
-    }
+    },
+    "step_count": 7578
   },
   {
     "id": 1321098304,
@@ -3453,7 +3685,8 @@
       "kilojoule": 9434.852,
       "average_heart_rate": 70,
       "max_heart_rate": 193
-    }
+    },
+    "step_count": 14327
   },
   {
     "id": 1318993084,
@@ -3469,7 +3702,8 @@
       "kilojoule": 6491.3057,
       "average_heart_rate": 60,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 11007
   },
   {
     "id": 1317195475,
@@ -3485,7 +3719,8 @@
       "kilojoule": 6574.609,
       "average_heart_rate": 63,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 10732
   },
   {
     "id": 1315183380,
@@ -3501,7 +3736,8 @@
       "kilojoule": 8379.466,
       "average_heart_rate": 65,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 16671
   },
   {
     "id": 1313209563,
@@ -3517,7 +3753,8 @@
       "kilojoule": 8335.637,
       "average_heart_rate": 68,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 12151
   },
   {
     "id": 1311155125,
@@ -3533,7 +3770,8 @@
       "kilojoule": 7370.9707,
       "average_heart_rate": 62,
       "max_heart_rate": 137
-    }
+    },
+    "step_count": 13406
   },
   {
     "id": 1309410705,
@@ -3549,7 +3787,8 @@
       "kilojoule": 6399.2583,
       "average_heart_rate": 61,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 8860
   },
   {
     "id": 1307434769,
@@ -3565,7 +3804,8 @@
       "kilojoule": 7279.873,
       "average_heart_rate": 68,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 12035
   },
   {
     "id": 1305632370,
@@ -3581,7 +3821,8 @@
       "kilojoule": 7790.9917,
       "average_heart_rate": 67,
       "max_heart_rate": 163
-    }
+    },
+    "step_count": 15999
   },
   {
     "id": 1303354593,
@@ -3597,7 +3838,8 @@
       "kilojoule": 7523.678,
       "average_heart_rate": 68,
       "max_heart_rate": 155
-    }
+    },
+    "step_count": 10198
   },
   {
     "id": 1301936974,
@@ -3613,7 +3855,8 @@
       "kilojoule": 7480.208,
       "average_heart_rate": 70,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 22574
   },
   {
     "id": 1299908553,
@@ -3629,7 +3872,8 @@
       "kilojoule": 7210.122,
       "average_heart_rate": 65,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 9940
   },
   {
     "id": 1298061638,
@@ -3645,7 +3889,8 @@
       "kilojoule": 6640.2773,
       "average_heart_rate": 64,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 10365
   },
   {
     "id": 1296225877,
@@ -3661,7 +3906,8 @@
       "kilojoule": 7398.5244,
       "average_heart_rate": 65,
       "max_heart_rate": 149
-    }
+    },
+    "step_count": 14922
   },
   {
     "id": 1294270037,
@@ -3677,7 +3923,8 @@
       "kilojoule": 8558.183,
       "average_heart_rate": 68,
       "max_heart_rate": 162
-    }
+    },
+    "step_count": 14237
   },
   {
     "id": 1292290048,
@@ -3693,7 +3940,8 @@
       "kilojoule": 6623.507,
       "average_heart_rate": 64,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 8384
   },
   {
     "id": 1290662463,
@@ -3709,7 +3957,8 @@
       "kilojoule": 7627.3726,
       "average_heart_rate": 66,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 12707
   },
   {
     "id": 1288598190,
@@ -3725,7 +3974,8 @@
       "kilojoule": 7118.439,
       "average_heart_rate": 63,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 9650
   },
   {
     "id": 1286623607,
@@ -3741,7 +3991,8 @@
       "kilojoule": 7273.284,
       "average_heart_rate": 66,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 9179
   },
   {
     "id": 1284901116,
@@ -3757,7 +4008,8 @@
       "kilojoule": 7024.498,
       "average_heart_rate": 58,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 8716
   },
   {
     "id": 1282787231,
@@ -3773,7 +4025,8 @@
       "kilojoule": 6818.2173,
       "average_heart_rate": 59,
       "max_heart_rate": 137
-    }
+    },
+    "step_count": 6940
   },
   {
     "id": 1281181556,
@@ -3789,7 +4042,8 @@
       "kilojoule": 7028.984,
       "average_heart_rate": 59,
       "max_heart_rate": 129
-    }
+    },
+    "step_count": 11178
   },
   {
     "id": 1279340974,
@@ -3805,7 +4059,8 @@
       "kilojoule": 6418.7266,
       "average_heart_rate": 62,
       "max_heart_rate": 132
-    }
+    },
+    "step_count": 9466
   },
   {
     "id": 1277589398,
@@ -3821,7 +4076,8 @@
       "kilojoule": 8099.3574,
       "average_heart_rate": 65,
       "max_heart_rate": 148
-    }
+    },
+    "step_count": 17091
   },
   {
     "id": 1276186975,
@@ -3837,7 +4093,8 @@
       "kilojoule": 6453.4683,
       "average_heart_rate": 58,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 8226
   },
   {
     "id": 1273882066,
@@ -3853,7 +4110,8 @@
       "kilojoule": 6023.3467,
       "average_heart_rate": 59,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 5885
   },
   {
     "id": 1272079100,
@@ -3869,7 +4127,8 @@
       "kilojoule": 7029.5557,
       "average_heart_rate": 60,
       "max_heart_rate": 135
-    }
+    },
+    "step_count": 7385
   },
   {
     "id": 1270316386,
@@ -3885,7 +4144,8 @@
       "kilojoule": 8616.085,
       "average_heart_rate": 68,
       "max_heart_rate": 178
-    }
+    },
+    "step_count": 15056
   },
   {
     "id": 1268459384,
@@ -3901,7 +4161,8 @@
       "kilojoule": 8107.2583,
       "average_heart_rate": 67,
       "max_heart_rate": 174
-    }
+    },
+    "step_count": 17174
   },
   {
     "id": 1266590731,
@@ -3917,7 +4178,8 @@
       "kilojoule": 7316.6255,
       "average_heart_rate": 61,
       "max_heart_rate": 150
-    }
+    },
+    "step_count": 10086
   },
   {
     "id": 1264853814,
@@ -3933,7 +4195,8 @@
       "kilojoule": 6380.5996,
       "average_heart_rate": 60,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 7693
   },
   {
     "id": 1262761537,
@@ -3949,7 +4212,8 @@
       "kilojoule": 8234.575,
       "average_heart_rate": 65,
       "max_heart_rate": 179
-    }
+    },
+    "step_count": 15272
   },
   {
     "id": 1261125311,
@@ -3965,7 +4229,8 @@
       "kilojoule": 6545.9575,
       "average_heart_rate": 61,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 12850
   },
   {
     "id": 1259176793,
@@ -3981,7 +4246,8 @@
       "kilojoule": 6633.4937,
       "average_heart_rate": 62,
       "max_heart_rate": 125
-    }
+    },
+    "step_count": 9906
   },
   {
     "id": 1257688883,
@@ -3997,7 +4263,8 @@
       "kilojoule": 7801.416,
       "average_heart_rate": 62,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 9240
   },
   {
     "id": 1255948181,
@@ -4013,7 +4280,8 @@
       "kilojoule": 8438.24,
       "average_heart_rate": 65,
       "max_heart_rate": 178
-    }
+    },
+    "step_count": 10238
   },
   {
     "id": 1254038319,
@@ -4029,7 +4297,8 @@
       "kilojoule": 6708.818,
       "average_heart_rate": 60,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 13641
   },
   {
     "id": 1252224313,
@@ -4045,7 +4314,8 @@
       "kilojoule": 6312.664,
       "average_heart_rate": 57,
       "max_heart_rate": 113
-    }
+    },
+    "step_count": 9246
   },
   {
     "id": 1250373092,
@@ -4061,7 +4331,8 @@
       "kilojoule": 6563.4287,
       "average_heart_rate": 56,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 6028
   },
   {
     "id": 1248143082,
@@ -4077,7 +4348,8 @@
       "kilojoule": 6791.504,
       "average_heart_rate": 60,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 8602
   },
   {
     "id": 1246637981,
@@ -4093,7 +4365,8 @@
       "kilojoule": 6527.873,
       "average_heart_rate": 60,
       "max_heart_rate": 131
-    }
+    },
+    "step_count": 11086
   },
   {
     "id": 1245177545,
@@ -4109,7 +4382,8 @@
       "kilojoule": 6108.5137,
       "average_heart_rate": 62,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 13640
   },
   {
     "id": 1243640685,
@@ -4125,7 +4399,8 @@
       "kilojoule": 7077.664,
       "average_heart_rate": 64,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 11876
   },
   {
     "id": 1241581814,
@@ -4141,7 +4416,8 @@
       "kilojoule": 7058.654,
       "average_heart_rate": 66,
       "max_heart_rate": 147
-    }
+    },
+    "step_count": 11397
   },
   {
     "id": 1239871083,
@@ -4157,7 +4433,8 @@
       "kilojoule": 7405.243,
       "average_heart_rate": 64,
       "max_heart_rate": 143
-    }
+    },
+    "step_count": 12760
   },
   {
     "id": 1238162418,
@@ -4173,7 +4450,8 @@
       "kilojoule": 8082.9624,
       "average_heart_rate": 63,
       "max_heart_rate": 183
-    }
+    },
+    "step_count": 7821
   },
   {
     "id": 1236297016,
@@ -4189,7 +4467,8 @@
       "kilojoule": 7376.6025,
       "average_heart_rate": 62,
       "max_heart_rate": 161
-    }
+    },
+    "step_count": 8515
   },
   {
     "id": 1234213942,
@@ -4205,7 +4484,8 @@
       "kilojoule": 7980.941,
       "average_heart_rate": 63,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 11805
   },
   {
     "id": 1232952150,
@@ -4221,7 +4501,8 @@
       "kilojoule": 6198.959,
       "average_heart_rate": 56,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 4336
   },
   {
     "id": 1231089046,
@@ -4237,7 +4518,8 @@
       "kilojoule": 7906.925,
       "average_heart_rate": 64,
       "max_heart_rate": 157
-    }
+    },
+    "step_count": 13044
   },
   {
     "id": 1229526756,
@@ -4253,7 +4535,8 @@
       "kilojoule": 8543.109,
       "average_heart_rate": 65,
       "max_heart_rate": 186
-    }
+    },
+    "step_count": 10928
   },
   {
     "id": 1227479116,
@@ -4269,7 +4552,8 @@
       "kilojoule": 6475.316,
       "average_heart_rate": 60,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 7657
   },
   {
     "id": 1226215980,
@@ -4285,7 +4569,8 @@
       "kilojoule": 7631.5884,
       "average_heart_rate": 63,
       "max_heart_rate": 162
-    }
+    },
+    "step_count": 5723
   },
   {
     "id": 1224513149,
@@ -4301,7 +4586,8 @@
       "kilojoule": 7817.2056,
       "average_heart_rate": 65,
       "max_heart_rate": 171
-    }
+    },
+    "step_count": 8443
   },
   {
     "id": 1222836370,
@@ -4317,7 +4603,8 @@
       "kilojoule": 7428.568,
       "average_heart_rate": 67,
       "max_heart_rate": 152
-    }
+    },
+    "step_count": 11662
   },
   {
     "id": 1221193596,
@@ -4333,7 +4620,8 @@
       "kilojoule": 8335.625,
       "average_heart_rate": 60,
       "max_heart_rate": 144
-    }
+    },
+    "step_count": 9382
   },
   {
     "id": 1219524881,
@@ -4349,7 +4637,8 @@
       "kilojoule": 6280.668,
       "average_heart_rate": 59,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 7003
   },
   {
     "id": 1217978284,
@@ -4365,7 +4654,8 @@
       "kilojoule": 8237.162,
       "average_heart_rate": 70,
       "max_heart_rate": 185
-    }
+    },
+    "step_count": 10093
   },
   {
     "id": 1216242815,
@@ -4381,7 +4671,8 @@
       "kilojoule": 6866.5,
       "average_heart_rate": 62,
       "max_heart_rate": 138
-    }
+    },
+    "step_count": 11199
   },
   {
     "id": 1214751435,
@@ -4397,7 +4688,8 @@
       "kilojoule": 7796.465,
       "average_heart_rate": 64,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 7756
   },
   {
     "id": 1212868020,
@@ -4413,7 +4705,8 @@
       "kilojoule": 7856.303,
       "average_heart_rate": 66,
       "max_heart_rate": 174
-    }
+    },
+    "step_count": 6602
   },
   {
     "id": 1211462968,
@@ -4429,7 +4722,8 @@
       "kilojoule": 8986.958,
       "average_heart_rate": 67,
       "max_heart_rate": 178
-    }
+    },
+    "step_count": 14681
   },
   {
     "id": 1209588336,
@@ -4445,7 +4739,8 @@
       "kilojoule": 6614.3013,
       "average_heart_rate": 61,
       "max_heart_rate": 154
-    }
+    },
+    "step_count": 4506
   },
   {
     "id": 1208312219,
@@ -4461,7 +4756,8 @@
       "kilojoule": 6979.4883,
       "average_heart_rate": 67,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 17923
   },
   {
     "id": 1206737275,
@@ -4477,7 +4773,8 @@
       "kilojoule": 8388.27,
       "average_heart_rate": 62,
       "max_heart_rate": 179
-    }
+    },
+    "step_count": 10459
   },
   {
     "id": 1205102912,
@@ -4493,7 +4790,8 @@
       "kilojoule": 6424.331,
       "average_heart_rate": 61,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 15476
   },
   {
     "id": 1203429430,
@@ -4509,7 +4807,8 @@
       "kilojoule": 8181.177,
       "average_heart_rate": 62,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 11354
   },
   {
     "id": 1201661090,
@@ -4525,7 +4824,8 @@
       "kilojoule": 6756.86,
       "average_heart_rate": 59,
       "max_heart_rate": 144
-    }
+    },
+    "step_count": 15813
   },
   {
     "id": 1200042664,
@@ -4541,7 +4841,8 @@
       "kilojoule": 7595.193,
       "average_heart_rate": 65,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 16579
   },
   {
     "id": 1198624300,
@@ -4557,7 +4858,8 @@
       "kilojoule": 7342.658,
       "average_heart_rate": 63,
       "max_heart_rate": 127
-    }
+    },
+    "step_count": 16484
   },
   {
     "id": 1196990104,
@@ -4573,7 +4875,8 @@
       "kilojoule": 7808.284,
       "average_heart_rate": 64,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 15128
   },
   {
     "id": 1195448475,
@@ -4589,7 +4892,8 @@
       "kilojoule": 6665.0933,
       "average_heart_rate": 62,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 12729
   },
   {
     "id": 1193829024,
@@ -4605,7 +4909,8 @@
       "kilojoule": 8688.016,
       "average_heart_rate": 67,
       "max_heart_rate": 180
-    }
+    },
+    "step_count": 16930
   },
   {
     "id": 1192226047,
@@ -4621,7 +4926,8 @@
       "kilojoule": 8162.3237,
       "average_heart_rate": 65,
       "max_heart_rate": 172
-    }
+    },
+    "step_count": 17097
   },
   {
     "id": 1190558601,
@@ -4637,7 +4943,8 @@
       "kilojoule": 6802.5312,
       "average_heart_rate": 63,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 11778
   },
   {
     "id": 1188982858,
@@ -4653,7 +4960,8 @@
       "kilojoule": 7600.125,
       "average_heart_rate": 66,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 16323
   },
   {
     "id": 1187433641,
@@ -4669,7 +4977,8 @@
       "kilojoule": 7793.725,
       "average_heart_rate": 64,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 10921
   },
   {
     "id": 1185574544,
@@ -4685,7 +4994,8 @@
       "kilojoule": 7985.5376,
       "average_heart_rate": 63,
       "max_heart_rate": 168
-    }
+    },
+    "step_count": 14315
   },
   {
     "id": 1184209450,
@@ -4701,7 +5011,8 @@
       "kilojoule": 6631.908,
       "average_heart_rate": 60,
       "max_heart_rate": 130
-    }
+    },
+    "step_count": 12809
   },
   {
     "id": 1182741272,
@@ -4717,7 +5028,8 @@
       "kilojoule": 6423.3643,
       "average_heart_rate": 59,
       "max_heart_rate": 141
-    }
+    },
+    "step_count": 11912
   },
   {
     "id": 1181148809,
@@ -4733,7 +5045,8 @@
       "kilojoule": 8159.714,
       "average_heart_rate": 62,
       "max_heart_rate": 149
-    }
+    },
+    "step_count": 8263
   },
   {
     "id": 1179657021,
@@ -4749,7 +5062,8 @@
       "kilojoule": 8352.613,
       "average_heart_rate": 64,
       "max_heart_rate": 183
-    }
+    },
+    "step_count": 8782
   },
   {
     "id": 1177972525,
@@ -4765,7 +5079,8 @@
       "kilojoule": 6419.268,
       "average_heart_rate": 59,
       "max_heart_rate": 129
-    }
+    },
+    "step_count": 10812
   },
   {
     "id": 1176431848,
@@ -4781,7 +5096,8 @@
       "kilojoule": 7166.4844,
       "average_heart_rate": 61,
       "max_heart_rate": 157
-    }
+    },
+    "step_count": 5892
   },
   {
     "id": 1174947408,
@@ -4797,7 +5113,8 @@
       "kilojoule": 8357.747,
       "average_heart_rate": 64,
       "max_heart_rate": 180
-    }
+    },
+    "step_count": 7785
   },
   {
     "id": 1173287017,
@@ -4813,7 +5130,8 @@
       "kilojoule": 7996.181,
       "average_heart_rate": 63,
       "max_heart_rate": 169
-    }
+    },
+    "step_count": 9600
   },
   {
     "id": 1171520559,
@@ -4829,7 +5147,8 @@
       "kilojoule": 6891.0996,
       "average_heart_rate": 61,
       "max_heart_rate": 122
-    }
+    },
+    "step_count": 11991
   },
   {
     "id": 1170149036,
@@ -4845,7 +5164,8 @@
       "kilojoule": 9477.34,
       "average_heart_rate": 66,
       "max_heart_rate": 182
-    }
+    },
+    "step_count": 20695
   },
   {
     "id": 1168465589,
@@ -4861,7 +5181,8 @@
       "kilojoule": 7159.339,
       "average_heart_rate": 58,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 14913
   },
   {
     "id": 1166993462,
@@ -4877,7 +5198,8 @@
       "kilojoule": 6238.1377,
       "average_heart_rate": 59,
       "max_heart_rate": 136
-    }
+    },
+    "step_count": 13313
   },
   {
     "id": 1165545560,
@@ -4893,7 +5215,8 @@
       "kilojoule": 6753.852,
       "average_heart_rate": 61,
       "max_heart_rate": 121
-    }
+    },
+    "step_count": 15854
   },
   {
     "id": 1163989620,
@@ -4909,7 +5232,8 @@
       "kilojoule": 7435.168,
       "average_heart_rate": 63,
       "max_heart_rate": 141
-    }
+    },
+    "step_count": 18728
   },
   {
     "id": 1162391063,
@@ -4925,7 +5249,8 @@
       "kilojoule": 7415.211,
       "average_heart_rate": 61,
       "max_heart_rate": 153
-    }
+    },
+    "step_count": 12804
   },
   {
     "id": 1160859467,
@@ -4941,7 +5266,8 @@
       "kilojoule": 6591.104,
       "average_heart_rate": 60,
       "max_heart_rate": 141
-    }
+    },
+    "step_count": 12990
   },
   {
     "id": 1159327261,
@@ -4957,7 +5283,8 @@
       "kilojoule": 9342.769,
       "average_heart_rate": 62,
       "max_heart_rate": 169
-    }
+    },
+    "step_count": 18769
   },
   {
     "id": 1157620251,
@@ -4973,7 +5300,8 @@
       "kilojoule": 7099.36,
       "average_heart_rate": 64,
       "max_heart_rate": 140
-    }
+    },
+    "step_count": 14548
   },
   {
     "id": 1156208012,
@@ -4989,7 +5317,8 @@
       "kilojoule": 6832.083,
       "average_heart_rate": 63,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 15656
   },
   {
     "id": 1154760595,
@@ -5005,7 +5334,8 @@
       "kilojoule": 7845.395,
       "average_heart_rate": 63,
       "max_heart_rate": 156
-    }
+    },
+    "step_count": 12018
   },
   {
     "id": 1152831069,
@@ -5021,7 +5351,8 @@
       "kilojoule": 6636.574,
       "average_heart_rate": 59,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 11465
   },
   {
     "id": 1151527000,
@@ -5037,7 +5368,8 @@
       "kilojoule": 6494.601,
       "average_heart_rate": 59,
       "max_heart_rate": 118
-    }
+    },
+    "step_count": 11993
   },
   {
     "id": 1150004962,
@@ -5053,7 +5385,8 @@
       "kilojoule": 6831.742,
       "average_heart_rate": 61,
       "max_heart_rate": 142
-    }
+    },
+    "step_count": 12322
   },
   {
     "id": 1148491843,
@@ -5069,7 +5402,8 @@
       "kilojoule": 8201.43,
       "average_heart_rate": 66,
       "max_heart_rate": 175
-    }
+    },
+    "step_count": 20317
   },
   {
     "id": 1146894717,
@@ -5085,7 +5419,8 @@
       "kilojoule": 8327.827,
       "average_heart_rate": 69,
       "max_heart_rate": 180
-    }
+    },
+    "step_count": 15021
   },
   {
     "id": 1145404176,
@@ -5101,7 +5436,8 @@
       "kilojoule": 7227.0957,
       "average_heart_rate": 63,
       "max_heart_rate": 154
-    }
+    },
+    "step_count": 15170
   },
   {
     "id": 1143868553,
@@ -5117,7 +5453,8 @@
       "kilojoule": 6675.5874,
       "average_heart_rate": 64,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 11655
   },
   {
     "id": 1142311418,
@@ -5133,7 +5470,8 @@
       "kilojoule": 7522.2734,
       "average_heart_rate": 66,
       "max_heart_rate": 141
-    }
+    },
+    "step_count": 17344
   },
   {
     "id": 1140786816,
@@ -5149,7 +5487,8 @@
       "kilojoule": 6595.492,
       "average_heart_rate": 60,
       "max_heart_rate": 129
-    }
+    },
+    "step_count": 13798
   },
   {
     "id": 1139232912,
@@ -5165,7 +5504,8 @@
       "kilojoule": 7068.892,
       "average_heart_rate": 63,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 14879
   },
   {
     "id": 1137645500,
@@ -5181,7 +5521,8 @@
       "kilojoule": 8351.137,
       "average_heart_rate": 66,
       "max_heart_rate": 167
-    }
+    },
+    "step_count": 20374
   },
   {
     "id": 1136067482,
@@ -5197,7 +5538,8 @@
       "kilojoule": 7741.882,
       "average_heart_rate": 63,
       "max_heart_rate": 151
-    }
+    },
+    "step_count": 16051
   },
   {
     "id": 1134566518,
@@ -5213,7 +5555,8 @@
       "kilojoule": 6588.3022,
       "average_heart_rate": 60,
       "max_heart_rate": 123
-    }
+    },
+    "step_count": 16136
   },
   {
     "id": 1132870940,
@@ -5229,7 +5572,8 @@
       "kilojoule": 6897.9326,
       "average_heart_rate": 63,
       "max_heart_rate": 155
-    }
+    },
+    "step_count": 19009
   },
   {
     "id": 1131353799,
@@ -5245,7 +5589,8 @@
       "kilojoule": 6991.4004,
       "average_heart_rate": 64,
       "max_heart_rate": 139
-    }
+    },
+    "step_count": 17521
   },
   {
     "id": 1130019832,
@@ -5261,7 +5606,8 @@
       "kilojoule": 7426.728,
       "average_heart_rate": 62,
       "max_heart_rate": 146
-    }
+    },
+    "step_count": 13811
   },
   {
     "id": 1128524460,
@@ -5277,7 +5623,8 @@
       "kilojoule": 7595.3555,
       "average_heart_rate": 67,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 16613
   },
   {
     "id": 1126967627,
@@ -5293,7 +5640,8 @@
       "kilojoule": 8098.2183,
       "average_heart_rate": 65,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 16193
   },
   {
     "id": 1125309853,
@@ -5309,7 +5657,8 @@
       "kilojoule": 6283.0835,
       "average_heart_rate": 62,
       "max_heart_rate": 124
-    }
+    },
+    "step_count": 11359
   },
   {
     "id": 1124034771,
@@ -5325,7 +5674,8 @@
       "kilojoule": 7524.677,
       "average_heart_rate": 65,
       "max_heart_rate": 165
-    }
+    },
+    "step_count": 19423
   },
   {
     "id": 1122504826,
@@ -5341,7 +5691,8 @@
       "kilojoule": 7204.7544,
       "average_heart_rate": 63,
       "max_heart_rate": 166
-    }
+    },
+    "step_count": 12867
   },
   {
     "id": 1121352366,
@@ -5357,7 +5708,8 @@
       "kilojoule": 6752.5234,
       "average_heart_rate": 63,
       "max_heart_rate": 153
-    }
+    },
+    "step_count": 15029
   },
   {
     "id": 1119326190,
@@ -5373,7 +5725,8 @@
       "kilojoule": 8770.336,
       "average_heart_rate": 67,
       "max_heart_rate": 170
-    }
+    },
+    "step_count": 21828
   },
   {
     "id": 1117809475,
@@ -5389,7 +5742,8 @@
       "kilojoule": 7556.7476,
       "average_heart_rate": 68,
       "max_heart_rate": 153
-    }
+    },
+    "step_count": 13405
   },
   {
     "id": 1116343412,
@@ -5405,7 +5759,8 @@
       "kilojoule": 7190.7876,
       "average_heart_rate": 63,
       "max_heart_rate": 140
-    }
+    },
+    "step_count": 11795
   },
   {
     "id": 1114696241,
@@ -5421,7 +5776,8 @@
       "kilojoule": 10124.876,
       "average_heart_rate": 72,
       "max_heart_rate": 183
-    }
+    },
+    "step_count": 24565
   },
   {
     "id": 1113305971,
@@ -5437,7 +5793,8 @@
       "kilojoule": 6705.64,
       "average_heart_rate": 64,
       "max_heart_rate": 120
-    }
+    },
+    "step_count": 11552
   },
   {
     "id": 1111860761,
@@ -5453,7 +5810,8 @@
       "kilojoule": 7146.3296,
       "average_heart_rate": 64,
       "max_heart_rate": 135
-    }
+    },
+    "step_count": 10778
   },
   {
     "id": 1110358870,
@@ -5469,7 +5827,8 @@
       "kilojoule": 7116.0884,
       "average_heart_rate": 62,
       "max_heart_rate": 134
-    }
+    },
+    "step_count": 11935
   },
   {
     "id": 1108723805,
@@ -5485,7 +5844,8 @@
       "kilojoule": 7174.451,
       "average_heart_rate": 69,
       "max_heart_rate": 133
-    }
+    },
+    "step_count": 12893
   },
   {
     "id": 1107225612,
@@ -5501,7 +5861,8 @@
       "kilojoule": 7102.092,
       "average_heart_rate": 68,
       "max_heart_rate": 135
-    }
+    },
+    "step_count": 13157
   },
   {
     "id": 1105825776,
@@ -5517,7 +5878,8 @@
       "kilojoule": 5661.0327,
       "average_heart_rate": 63,
       "max_heart_rate": 119
-    }
+    },
+    "step_count": 8009
   },
   {
     "id": 1104332590,
@@ -5533,7 +5895,8 @@
       "kilojoule": 9041.629,
       "average_heart_rate": 65,
       "max_heart_rate": 176
-    }
+    },
+    "step_count": 15120
   },
   {
     "id": 1102860308,
@@ -5549,7 +5912,8 @@
       "kilojoule": 7482.173,
       "average_heart_rate": 62,
       "max_heart_rate": 158
-    }
+    },
+    "step_count": 15180
   },
   {
     "id": 1101200888,
@@ -5565,7 +5929,8 @@
       "kilojoule": 6987.6167,
       "average_heart_rate": 59,
       "max_heart_rate": 127
-    }
+    },
+    "step_count": 10009
   },
   {
     "id": 1099621221,
@@ -5581,7 +5946,8 @@
       "kilojoule": 7590.673,
       "average_heart_rate": 65,
       "max_heart_rate": 143
-    }
+    },
+    "step_count": 16128
   },
   {
     "id": 1098069681,
@@ -5597,7 +5963,8 @@
       "kilojoule": 7094.622,
       "average_heart_rate": 63,
       "max_heart_rate": 128
-    }
+    },
+    "step_count": 13746
   },
   {
     "id": 1096671676,
@@ -5613,7 +5980,8 @@
       "kilojoule": 6698.191,
       "average_heart_rate": 64,
       "max_heart_rate": 126
-    }
+    },
+    "step_count": 10776
   },
   {
     "id": 1095115751,
@@ -5629,7 +5997,8 @@
       "kilojoule": 10044.746,
       "average_heart_rate": 69,
       "max_heart_rate": 173
-    }
+    },
+    "step_count": 23470
   },
   {
     "id": 1093604838,
@@ -5645,7 +6014,8 @@
       "kilojoule": 10568.957,
       "average_heart_rate": 74,
       "max_heart_rate": 177
-    }
+    },
+    "step_count": 27785
   },
   {
     "id": 1092225690,
@@ -5661,6 +6031,7 @@
       "kilojoule": 5084.046,
       "average_heart_rate": 81,
       "max_heart_rate": 171
-    }
+    },
+    "step_count": 12549
   }
 ]
