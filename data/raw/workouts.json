@@ -1,5 +1,98 @@
 [
   {
+    "id": "9481ca96-eabd-443b-b3a3-11d7dc155c56",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-09-25T19:05:22.734Z",
+    "updated_at": "2026-09-25T19:05:27.056Z",
+    "start": "2026-09-25T18:13:00.140Z",
+    "end": "2026-09-25T18:42:59.110Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 3.3208704,
+      "average_heart_rate": 80,
+      "max_heart_rate": 115,
+      "kilojoule": 135.8123,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 1736970,
+        "zone_one_milli": 62000,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
+    "id": "7827049d-0b87-4039-9ff6-a81998e7a518",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-09-24T21:13:57.567Z",
+    "updated_at": "2026-09-24T21:14:01.495Z",
+    "start": "2026-09-24T20:18:00.180Z",
+    "end": "2026-09-24T20:57:59.140Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.311731,
+      "average_heart_rate": 85,
+      "max_heart_rate": 125,
+      "kilojoule": 204.25395,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 2297960,
+        "zone_one_milli": 101000,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
+    "id": "22d28b69-55aa-43f3-a50f-580e173fa548",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-09-24T20:10:07.320Z",
+    "updated_at": "2026-09-24T20:10:11.607Z",
+    "start": "2026-09-24T19:37:00.220Z",
+    "end": "2026-09-24T19:51:59.210Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.1528335,
+      "average_heart_rate": 88,
+      "max_heart_rate": 101,
+      "kilojoule": 82.10321,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 898990,
+        "zone_one_milli": 0,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
     "id": "63399c04-180b-414e-a6d9-0070a0ea40e2",
     "v1_id": null,
     "user_id": 31526255,
