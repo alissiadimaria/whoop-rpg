@@ -2109,7 +2109,7 @@
     "load_ratio":0.0991792931,
     "cv_hrv":0.0864117337,
     "stability":91.3588266267,
-    "archetype":"The Shadow"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-02-14",
@@ -2509,7 +2509,7 @@
     "load_ratio":0.0671967073,
     "cv_hrv":0.1202516964,
     "stability":87.9748303625,
-    "archetype":"The Phoenix"
+    "archetype":"The Vessel"
   },
   {
     "date":"2026-03-11",
@@ -2599,13 +2599,13 @@
     "sws_pct":26.3465645522,
     "rem_pct":23.4628842134,
     "sleep_efficiency":93.90901,
-    "strain":16.49181,
+    "strain":5.780732,
     "hrv_baseline":122.2673825,
     "autonomic_recovery":90.2706574257,
-    "load_ratio":0.343579375,
+    "load_ratio":0.1204319167,
     "cv_hrv":0.1254266329,
     "stability":87.4573367106,
-    "archetype":"The Vessel"
+    "archetype":"The Hermit"
   },
   {
     "date":"2026-03-18",
@@ -5735,12 +5735,28 @@
     "sws_pct":28.9486974932,
     "rem_pct":24.7148819896,
     "sleep_efficiency":97.654274,
-    "strain":5.259906,
+    "strain":15.0922785,
     "hrv_baseline":135.1919156667,
     "autonomic_recovery":79.5202682571,
-    "load_ratio":0.1119128936,
+    "load_ratio":0.3211123085,
     "cv_hrv":0.0984382796,
     "stability":90.1561720403,
+    "archetype":"The Shadow"
+  },
+  {
+    "date":"2026-09-30",
+    "recovery_score":42.0,
+    "hrv":100.30854,
+    "rhr":47.0,
+    "sws_pct":29.713362558,
+    "rem_pct":28.7629969937,
+    "sleep_efficiency":97.345474,
+    "strain":6.3028927,
+    "hrv_baseline":133.7829713333,
+    "autonomic_recovery":74.9785559405,
+    "load_ratio":0.1500688738,
+    "cv_hrv":0.1137787667,
+    "stability":88.6221233252,
     "archetype":"The Shadow"
   }
 ]
