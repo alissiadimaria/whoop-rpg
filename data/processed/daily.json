@@ -5767,12 +5767,28 @@
     "sws_pct":34.178913661,
     "rem_pct":23.6482574794,
     "sleep_efficiency":96.60984,
-    "strain":5.0193553,
+    "strain":5.9372773,
     "hrv_baseline":132.5172552,
     "autonomic_recovery":88.1450463366,
-    "load_ratio":0.0809573435,
+    "load_ratio":0.0957625371,
     "cv_hrv":0.1155371412,
     "stability":88.4462858815,
+    "archetype":"The Shadow"
+  },
+  {
+    "date":"2026-10-02",
+    "recovery_score":61.0,
+    "hrv":116.411156,
+    "rhr":43.0,
+    "sws_pct":28.4802765816,
+    "rem_pct":24.0542485236,
+    "sleep_efficiency":95.0209,
+    "strain":4.83978,
+    "hrv_baseline":131.3390700667,
+    "autonomic_recovery":88.6340644417,
+    "load_ratio":0.0793406557,
+    "cv_hrv":0.11712162,
+    "stability":88.2878379963,
     "archetype":"The Shadow"
   }
 ]
