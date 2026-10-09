@@ -1,5 +1,36 @@
 [
   {
+    "id": "e53e0217-7744-451c-b7c9-b6ee473db338",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-10-09T13:56:07.310Z",
+    "updated_at": "2026-10-09T15:27:31.275Z",
+    "start": "2026-10-09T11:58:00.000Z",
+    "end": "2026-10-09T12:53:59.000Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "spin",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 16.245659,
+      "average_heart_rate": 153,
+      "max_heart_rate": 182,
+      "kilojoule": 2173.4949,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 12000,
+        "zone_one_milli": 372990,
+        "zone_two_milli": 511990,
+        "zone_three_milli": 649000,
+        "zone_four_milli": 1347970,
+        "zone_five_milli": 464990
+      }
+    },
+    "sport_id": 97
+  },
+  {
     "id": "26d2e6d5-cbed-4be3-8c89-33dda5c7c315",
     "v1_id": null,
     "user_id": 31526255,
