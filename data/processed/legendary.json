@@ -32,7 +32,7 @@
     "sleep_efficiency": 95.29,
     "strain": 4.56,
     "autonomic_recovery": 117.39,
-    "composite_z": 1.98,
+    "composite_z": 1.99,
     "archetype": "The Sovereign"
   },
   {
@@ -156,18 +156,6 @@
     "archetype": "The Sovereign"
   },
   {
-    "date": "2026-01-25",
-    "recovery_score": 96.0,
-    "hrv": 150.83,
-    "sws_pct": 21.12,
-    "rem_pct": 26.37,
-    "sleep_efficiency": 97.17,
-    "strain": 5.59,
-    "autonomic_recovery": 130.27,
-    "composite_z": 1.64,
-    "archetype": "The Sovereign"
-  },
-  {
     "date": "2026-03-23",
     "recovery_score": 91.0,
     "hrv": 155.87,
@@ -180,6 +168,30 @@
     "archetype": "The Sovereign"
   },
   {
+    "date": "2026-01-25",
+    "recovery_score": 96.0,
+    "hrv": 150.83,
+    "sws_pct": 21.12,
+    "rem_pct": 26.37,
+    "sleep_efficiency": 97.17,
+    "strain": 5.59,
+    "autonomic_recovery": 130.27,
+    "composite_z": 1.64,
+    "archetype": "The Sovereign"
+  },
+  {
+    "date": "2026-10-17",
+    "recovery_score": 85.0,
+    "hrv": 126.08,
+    "sws_pct": 25.72,
+    "rem_pct": 30.69,
+    "sleep_efficiency": 94.32,
+    "strain": 15.52,
+    "autonomic_recovery": 104.93,
+    "composite_z": 1.62,
+    "archetype": "The Warrior"
+  },
+  {
     "date": "2026-05-24",
     "recovery_score": 95.0,
     "hrv": 157.98,
@@ -188,7 +200,7 @@
     "sleep_efficiency": 94.77,
     "strain": 12.62,
     "autonomic_recovery": 128.05,
-    "composite_z": 1.57,
+    "composite_z": 1.58,
     "archetype": "The Sovereign"
   },
   {
