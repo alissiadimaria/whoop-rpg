@@ -192,6 +192,18 @@
     "archetype": "The Warrior"
   },
   {
+    "date": "2026-10-19",
+    "recovery_score": 83.0,
+    "hrv": 128.8,
+    "sws_pct": 28.01,
+    "rem_pct": 24.06,
+    "sleep_efficiency": 95.42,
+    "strain": 5.83,
+    "autonomic_recovery": 108.11,
+    "composite_z": 1.58,
+    "archetype": "The Phoenix"
+  },
+  {
     "date": "2026-05-24",
     "recovery_score": 95.0,
     "hrv": 157.98,
