@@ -1,5 +1,67 @@
 [
   {
+    "id": "32c204d0-8df2-49a8-bb04-e87105192f01",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-10-20T23:58:54.244Z",
+    "updated_at": "2026-10-20T23:59:12.710Z",
+    "start": "2026-10-20T22:47:27.438Z",
+    "end": "2026-10-20T23:58:53.649Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "weightlifting",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 12.277606,
+      "average_heart_rate": 98,
+      "max_heart_rate": 145,
+      "kilojoule": 725.8009,
+      "percent_recorded": 0.99995077,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 2206950,
+        "zone_one_milli": 1982990,
+        "zone_two_milli": 95990,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 45
+  },
+  {
+    "id": "c6042832-0347-416a-94ac-b0859aa6eb81",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-10-20T20:07:20.199Z",
+    "updated_at": "2026-10-20T20:07:24.799Z",
+    "start": "2026-10-20T19:13:00.600Z",
+    "end": "2026-10-20T19:53:59.570Z",
+    "timezone_offset": "-04:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.4697247,
+      "average_heart_rate": 89,
+      "max_heart_rate": 112,
+      "kilojoule": 211.72069,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 2393970,
+        "zone_one_milli": 65000,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
     "id": "e82024dd-03a9-49bd-bebe-f4ea0343cc53",
     "v1_id": null,
     "user_id": 31526255,

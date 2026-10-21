@@ -6071,12 +6071,28 @@
     "sws_pct":25.0364539663,
     "rem_pct":21.7262793045,
     "sleep_efficiency":93.38479,
-    "strain":5.244092,
+    "strain":13.274333,
     "hrv_baseline":118.9098781333,
     "autonomic_recovery":102.312130758,
-    "load_ratio":0.0699212267,
+    "load_ratio":0.1769911067,
     "cv_hrv":0.0706823192,
     "stability":92.931768085,
     "archetype":"The Vessel"
+  },
+  {
+    "date":"2026-10-21",
+    "recovery_score":80.0,
+    "hrv":125.07412,
+    "rhr":46.0,
+    "sws_pct":33.4328612603,
+    "rem_pct":21.4401811311,
+    "sleep_efficiency":96.7678,
+    "strain":5.7255106,
+    "hrv_baseline":118.4385498,
+    "autonomic_recovery":105.6025425938,
+    "load_ratio":0.0715688825,
+    "cv_hrv":0.0721772242,
+    "stability":92.7822775835,
+    "archetype":"The Sage"
   }
 ]
