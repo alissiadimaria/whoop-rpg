@@ -276,6 +276,18 @@
     "archetype": "The Sovereign"
   },
   {
+    "date": "2026-10-25",
+    "recovery_score": 82.0,
+    "hrv": 124.07,
+    "sws_pct": 26.65,
+    "rem_pct": 24.41,
+    "sleep_efficiency": 96.47,
+    "strain": 17.74,
+    "autonomic_recovery": 106.8,
+    "composite_z": 1.54,
+    "archetype": "The Warrior"
+  },
+  {
     "date": "2026-01-16",
     "recovery_score": 78.0,
     "hrv": 123.46,
