@@ -1,5 +1,40 @@
 [
   {
+    "id": "ed64582b-a922-4513-801e-d3a6ce8f57ad",
+    "cycle_id": 1920351608,
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-11-01T11:55:06.266Z",
+    "updated_at": "2026-11-01T11:55:06.266Z",
+    "start": "2026-11-01T04:10:43.820Z",
+    "end": "2026-11-01T11:38:35.410Z",
+    "timezone_offset": "-05:00",
+    "nap": false,
+    "score_state": "SCORED",
+    "score": {
+      "stage_summary": {
+        "total_in_bed_time_milli": 26871590,
+        "total_awake_time_milli": 3154010,
+        "total_no_data_time_milli": 0,
+        "total_light_sleep_time_milli": 10416220,
+        "total_slow_wave_sleep_time_milli": 6847130,
+        "total_rem_sleep_time_milli": 6454230,
+        "sleep_cycle_count": 6,
+        "disturbance_count": 7
+      },
+      "sleep_needed": {
+        "baseline_milli": 27286989,
+        "need_from_sleep_debt_milli": 2439193,
+        "need_from_recent_strain_milli": 227706,
+        "need_from_recent_nap_milli": 0
+      },
+      "respiratory_rate": 12.984375,
+      "sleep_performance_percentage": 82.0,
+      "sleep_consistency_percentage": 77.0,
+      "sleep_efficiency_percentage": 88.26266
+    }
+  },
+  {
     "id": "cf1c41f4-24e3-4e16-b454-393572c2a6d4",
     "cycle_id": 1918158968,
     "v1_id": null,
@@ -8,7 +43,7 @@
     "updated_at": "2026-10-31T13:17:22.175Z",
     "start": "2026-10-31T05:08:06.010Z",
     "end": "2026-10-31T13:00:00.790Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -43,7 +78,7 @@
     "updated_at": "2026-10-30T11:25:43.883Z",
     "start": "2026-10-30T03:32:49.940Z",
     "end": "2026-10-30T11:13:38.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -78,7 +113,7 @@
     "updated_at": "2026-10-29T11:29:05.488Z",
     "start": "2026-10-29T03:41:13.350Z",
     "end": "2026-10-29T11:12:56.000Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -113,7 +148,7 @@
     "updated_at": "2026-10-28T11:22:35.094Z",
     "start": "2026-10-28T03:51:41.330Z",
     "end": "2026-10-28T11:14:42.030Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -148,7 +183,7 @@
     "updated_at": "2026-10-27T12:06:07.199Z",
     "start": "2026-10-27T03:53:57.170Z",
     "end": "2026-10-27T11:59:42.890Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -183,7 +218,7 @@
     "updated_at": "2026-10-26T11:26:13.976Z",
     "start": "2026-10-26T03:11:29.490Z",
     "end": "2026-10-26T11:14:41.230Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -218,7 +253,7 @@
     "updated_at": "2026-10-25T12:25:02.171Z",
     "start": "2026-10-25T03:39:37.760Z",
     "end": "2026-10-25T12:14:54.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -253,7 +288,7 @@
     "updated_at": "2026-10-24T12:50:28.141Z",
     "start": "2026-10-24T03:40:57.310Z",
     "end": "2026-10-24T12:40:09.170Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -288,7 +323,7 @@
     "updated_at": "2026-10-23T12:01:34.298Z",
     "start": "2026-10-23T02:54:17.790Z",
     "end": "2026-10-23T11:51:56.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -323,7 +358,7 @@
     "updated_at": "2026-10-22T11:25:53.840Z",
     "start": "2026-10-22T03:31:31.670Z",
     "end": "2026-10-22T11:14:35.400Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -358,7 +393,7 @@
     "updated_at": "2026-10-21T11:28:25.752Z",
     "start": "2026-10-21T03:46:18.150Z",
     "end": "2026-10-21T11:14:57.890Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -393,7 +428,7 @@
     "updated_at": "2026-10-20T12:09:53.565Z",
     "start": "2026-10-20T04:38:04.200Z",
     "end": "2026-10-20T11:59:59.980Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -428,7 +463,7 @@
     "updated_at": "2026-10-19T11:32:05.285Z",
     "start": "2026-10-19T02:48:32.240Z",
     "end": "2026-10-19T11:15:04.070Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -463,7 +498,7 @@
     "updated_at": "2026-10-18T12:36:28.812Z",
     "start": "2026-10-18T03:56:18.810Z",
     "end": "2026-10-18T12:29:57.590Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -498,7 +533,7 @@
     "updated_at": "2026-10-17T12:48:40.982Z",
     "start": "2026-10-17T05:04:08.940Z",
     "end": "2026-10-17T12:42:18.570Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -533,7 +568,7 @@
     "updated_at": "2026-10-16T12:06:34.211Z",
     "start": "2026-10-16T03:30:05.770Z",
     "end": "2026-10-16T11:59:36.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -568,7 +603,7 @@
     "updated_at": "2026-10-15T11:25:23.694Z",
     "start": "2026-10-15T04:08:58.680Z",
     "end": "2026-10-15T11:16:36.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -603,7 +638,7 @@
     "updated_at": "2026-10-14T11:25:59.219Z",
     "start": "2026-10-14T04:10:30.980Z",
     "end": "2026-10-14T11:19:31.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -638,7 +673,7 @@
     "updated_at": "2026-10-13T12:22:25.368Z",
     "start": "2026-10-13T03:47:36.680Z",
     "end": "2026-10-13T12:13:28.460Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -673,7 +708,7 @@
     "updated_at": "2026-10-12T12:23:17.142Z",
     "start": "2026-10-12T04:02:13.420Z",
     "end": "2026-10-12T12:16:22.960Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -708,7 +743,7 @@
     "updated_at": "2026-10-11T12:29:03.095Z",
     "start": "2026-10-11T04:08:34.060Z",
     "end": "2026-10-11T11:59:11.760Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -743,7 +778,7 @@
     "updated_at": "2026-10-10T12:27:35.842Z",
     "start": "2026-10-10T04:15:12.160Z",
     "end": "2026-10-10T12:14:00.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -778,7 +813,7 @@
     "updated_at": "2026-10-09T11:05:59.145Z",
     "start": "2026-10-09T03:24:22.440Z",
     "end": "2026-10-09T10:58:41.170Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -813,7 +848,7 @@
     "updated_at": "2026-10-08T12:14:32.453Z",
     "start": "2026-10-08T03:33:08.210Z",
     "end": "2026-10-08T12:05:36.070Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -848,7 +883,7 @@
     "updated_at": "2026-10-07T11:22:59.092Z",
     "start": "2026-10-07T03:35:06.500Z",
     "end": "2026-10-07T11:15:02.210Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -883,7 +918,7 @@
     "updated_at": "2026-10-06T11:31:31.558Z",
     "start": "2026-10-06T03:27:46.080Z",
     "end": "2026-10-06T11:09:13.740Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -918,7 +953,7 @@
     "updated_at": "2026-10-05T11:28:18.833Z",
     "start": "2026-10-05T03:35:05.330Z",
     "end": "2026-10-05T11:03:23.060Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -953,7 +988,7 @@
     "updated_at": "2026-10-04T12:40:28.918Z",
     "start": "2026-10-04T04:55:10.140Z",
     "end": "2026-10-04T12:28:59.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -988,7 +1023,7 @@
     "updated_at": "2026-10-03T12:37:03.071Z",
     "start": "2026-10-03T03:43:20.670Z",
     "end": "2026-10-03T12:26:12.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1023,7 +1058,7 @@
     "updated_at": "2026-10-02T11:25:51.192Z",
     "start": "2026-10-02T03:52:58.270Z",
     "end": "2026-10-02T11:15:09.950Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1058,7 +1093,7 @@
     "updated_at": "2026-10-01T11:21:49.492Z",
     "start": "2026-10-01T03:37:01.580Z",
     "end": "2026-10-01T11:14:44.290Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1093,7 +1128,7 @@
     "updated_at": "2026-09-30T11:22:23.369Z",
     "start": "2026-09-30T03:04:16.330Z",
     "end": "2026-09-30T11:14:00.060Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1128,7 +1163,7 @@
     "updated_at": "2026-09-29T12:08:11.470Z",
     "start": "2026-09-29T03:06:13.140Z",
     "end": "2026-09-29T11:59:43.950Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1163,7 +1198,7 @@
     "updated_at": "2026-09-28T11:41:17.333Z",
     "start": "2026-09-28T03:43:50.260Z",
     "end": "2026-09-28T11:08:03.940Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1198,7 +1233,7 @@
     "updated_at": "2026-09-27T11:48:01.416Z",
     "start": "2026-09-27T03:23:33.210Z",
     "end": "2026-09-27T11:29:04.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1233,7 +1268,7 @@
     "updated_at": "2026-09-26T11:56:26.856Z",
     "start": "2026-09-26T03:53:31.650Z",
     "end": "2026-09-26T11:16:33.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1268,7 +1303,7 @@
     "updated_at": "2026-09-25T12:07:38.936Z",
     "start": "2026-09-25T03:47:46.790Z",
     "end": "2026-09-25T11:59:46.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1303,7 +1338,7 @@
     "updated_at": "2026-09-24T11:07:48.539Z",
     "start": "2026-09-24T03:12:46.570Z",
     "end": "2026-09-24T10:36:23.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1338,7 +1373,7 @@
     "updated_at": "2026-09-23T11:12:12.144Z",
     "start": "2026-09-23T03:54:44.660Z",
     "end": "2026-09-23T10:05:28.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1373,7 +1408,7 @@
     "updated_at": "2026-09-22T11:35:25.610Z",
     "start": "2026-09-22T03:44:12.390Z",
     "end": "2026-09-22T11:29:43.130Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1408,7 +1443,7 @@
     "updated_at": "2026-09-21T11:18:08.157Z",
     "start": "2026-09-21T02:52:22.930Z",
     "end": "2026-09-21T11:15:00.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1443,7 +1478,7 @@
     "updated_at": "2026-09-20T12:06:14.773Z",
     "start": "2026-09-20T03:15:51.990Z",
     "end": "2026-09-20T12:00:04.740Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1478,7 +1513,7 @@
     "updated_at": "2026-09-19T12:00:23.586Z",
     "start": "2026-09-19T04:30:18.670Z",
     "end": "2026-09-19T11:52:36.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1513,7 +1548,7 @@
     "updated_at": "2026-09-18T12:14:25.056Z",
     "start": "2026-09-18T04:20:17.790Z",
     "end": "2026-09-18T11:54:24.440Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1548,7 +1583,7 @@
     "updated_at": "2026-09-17T11:22:51.801Z",
     "start": "2026-09-17T03:55:04.810Z",
     "end": "2026-09-17T11:14:35.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1583,7 +1618,7 @@
     "updated_at": "2026-09-16T11:21:23.621Z",
     "start": "2026-09-16T04:01:41.140Z",
     "end": "2026-09-16T11:15:00.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1618,7 +1653,7 @@
     "updated_at": "2026-09-15T12:06:45.135Z",
     "start": "2026-09-15T04:19:50.420Z",
     "end": "2026-09-15T11:59:52.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1653,7 +1688,7 @@
     "updated_at": "2026-09-14T11:28:22.809Z",
     "start": "2026-09-14T02:52:31.020Z",
     "end": "2026-09-14T11:14:45.650Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1688,7 +1723,7 @@
     "updated_at": "2026-09-13T12:22:31.604Z",
     "start": "2026-09-13T02:57:32.860Z",
     "end": "2026-09-13T12:08:42.530Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1723,7 +1758,7 @@
     "updated_at": "2026-09-12T12:35:15.275Z",
     "start": "2026-09-12T03:35:08.540Z",
     "end": "2026-09-12T12:30:08.260Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1758,7 +1793,7 @@
     "updated_at": "2026-09-11T11:50:46.303Z",
     "start": "2026-09-11T03:45:09.140Z",
     "end": "2026-09-11T11:44:48.790Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1793,7 +1828,7 @@
     "updated_at": "2026-09-10T11:19:48.005Z",
     "start": "2026-09-10T03:08:05.630Z",
     "end": "2026-09-10T11:14:59.210Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1828,7 +1863,7 @@
     "updated_at": "2026-09-09T11:26:38.248Z",
     "start": "2026-09-09T03:28:31.310Z",
     "end": "2026-09-09T11:14:44.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1863,7 +1898,7 @@
     "updated_at": "2026-09-08T11:59:41.869Z",
     "start": "2026-09-08T02:44:10.630Z",
     "end": "2026-09-08T11:54:40.320Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1898,7 +1933,7 @@
     "updated_at": "2026-09-07T12:31:47.389Z",
     "start": "2026-09-07T04:08:07.170Z",
     "end": "2026-09-07T12:29:29.740Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1933,7 +1968,7 @@
     "updated_at": "2026-09-06T13:08:42.531Z",
     "start": "2026-09-06T04:10:39.140Z",
     "end": "2026-09-06T12:53:53.780Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -1968,7 +2003,7 @@
     "updated_at": "2026-09-05T11:51:10.580Z",
     "start": "2026-09-05T04:23:48.290Z",
     "end": "2026-09-05T11:39:15.850Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2003,7 +2038,7 @@
     "updated_at": "2026-09-04T11:20:28.571Z",
     "start": "2026-09-04T04:09:18.870Z",
     "end": "2026-09-04T11:14:03.410Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2038,7 +2073,7 @@
     "updated_at": "2026-09-03T11:38:07.982Z",
     "start": "2026-09-03T03:55:33.050Z",
     "end": "2026-09-03T11:28:25.620Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2073,7 +2108,7 @@
     "updated_at": "2026-09-02T11:18:41.941Z",
     "start": "2026-09-02T03:50:12.630Z",
     "end": "2026-09-02T11:13:47.160Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2108,7 +2143,7 @@
     "updated_at": "2026-09-01T11:39:20.139Z",
     "start": "2026-09-01T03:58:09.350Z",
     "end": "2026-09-01T11:20:10.900Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2143,7 +2178,7 @@
     "updated_at": "2026-08-31T11:20:50.276Z",
     "start": "2026-08-31T02:55:32.960Z",
     "end": "2026-08-31T11:14:22.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2178,7 +2213,7 @@
     "updated_at": "2026-08-30T12:08:11.356Z",
     "start": "2026-08-30T04:03:41.670Z",
     "end": "2026-08-30T12:00:18.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2213,7 +2248,7 @@
     "updated_at": "2026-08-29T11:48:33.035Z",
     "start": "2026-08-29T03:04:09.840Z",
     "end": "2026-08-29T11:28:10.470Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2248,7 +2283,7 @@
     "updated_at": "2026-08-28T11:29:06.353Z",
     "start": "2026-08-28T03:30:33.240Z",
     "end": "2026-08-28T11:19:58.860Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2283,7 +2318,7 @@
     "updated_at": "2026-08-27T11:18:08.864Z",
     "start": "2026-08-27T02:34:30.430Z",
     "end": "2026-08-27T11:10:07.140Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2318,7 +2353,7 @@
     "updated_at": "2026-08-26T11:17:53.110Z",
     "start": "2026-08-26T02:32:43.490Z",
     "end": "2026-08-26T11:14:58.200Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2353,7 +2388,7 @@
     "updated_at": "2026-08-25T11:23:23.595Z",
     "start": "2026-08-25T02:52:29.710Z",
     "end": "2026-08-25T11:13:50.340Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2388,7 +2423,7 @@
     "updated_at": "2026-08-24T11:17:56.067Z",
     "start": "2026-08-24T02:59:48.830Z",
     "end": "2026-08-24T11:11:51.470Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2423,7 +2458,7 @@
     "updated_at": "2026-08-23T12:36:16.742Z",
     "start": "2026-08-23T05:06:02.280Z",
     "end": "2026-08-23T12:30:02.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2458,7 +2493,7 @@
     "updated_at": "2026-08-22T14:15:10.913Z",
     "start": "2026-08-22T06:24:30.210Z",
     "end": "2026-08-22T14:12:03.770Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2493,7 +2528,7 @@
     "updated_at": "2026-08-21T11:17:16.475Z",
     "start": "2026-08-21T03:34:24.710Z",
     "end": "2026-08-21T11:14:57.220Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2528,7 +2563,7 @@
     "updated_at": "2026-08-20T11:12:31.135Z",
     "start": "2026-08-20T03:04:38.880Z",
     "end": "2026-08-20T11:09:57.470Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2563,7 +2598,7 @@
     "updated_at": "2026-08-19T11:00:38.320Z",
     "start": "2026-08-19T02:44:06.530Z",
     "end": "2026-08-19T10:46:58.080Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2598,7 +2633,7 @@
     "updated_at": "2026-08-18T11:07:52.964Z",
     "start": "2026-08-18T02:15:46.650Z",
     "end": "2026-08-18T11:03:09.630Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2633,7 +2668,7 @@
     "updated_at": "2026-08-17T11:19:23.259Z",
     "start": "2026-08-17T02:49:53.170Z",
     "end": "2026-08-17T11:08:38.700Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2668,7 +2703,7 @@
     "updated_at": "2026-08-16T23:41:46.505Z",
     "start": "2026-08-16T19:50:23.500Z",
     "end": "2026-08-16T21:14:21.490Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -2703,7 +2738,7 @@
     "updated_at": "2026-08-16T11:16:22.389Z",
     "start": "2026-08-16T02:38:50.500Z",
     "end": "2026-08-16T11:09:19.070Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2738,7 +2773,7 @@
     "updated_at": "2026-08-15T21:50:07.789Z",
     "start": "2026-08-15T18:27:28.060Z",
     "end": "2026-08-15T19:35:27.990Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -2773,7 +2808,7 @@
     "updated_at": "2026-08-15T11:29:32.698Z",
     "start": "2026-08-15T03:39:28.030Z",
     "end": "2026-08-15T11:13:38.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2808,7 +2843,7 @@
     "updated_at": "2026-08-14T12:35:46.660Z",
     "start": "2026-08-14T04:58:46.270Z",
     "end": "2026-08-14T12:25:08.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2843,7 +2878,7 @@
     "updated_at": "2026-08-13T11:22:18.837Z",
     "start": "2026-08-13T04:22:50.440Z",
     "end": "2026-08-13T10:42:04.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2878,7 +2913,7 @@
     "updated_at": "2026-08-12T11:41:01.526Z",
     "start": "2026-08-12T02:56:08.090Z",
     "end": "2026-08-12T11:32:14.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2913,7 +2948,7 @@
     "updated_at": "2026-08-11T11:29:16.171Z",
     "start": "2026-08-11T03:44:38.070Z",
     "end": "2026-08-11T11:18:25.450Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2948,7 +2983,7 @@
     "updated_at": "2026-08-10T11:58:09.993Z",
     "start": "2026-08-10T04:54:40.650Z",
     "end": "2026-08-10T11:46:16.120Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -2983,7 +3018,7 @@
     "updated_at": "2026-08-09T11:59:29.955Z",
     "start": "2026-08-09T03:31:17.730Z",
     "end": "2026-08-09T11:50:20.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3018,7 +3053,7 @@
     "updated_at": "2026-08-08T10:44:45.803Z",
     "start": "2026-08-08T03:05:39.560Z",
     "end": "2026-08-08T10:19:49.190Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3053,7 +3088,7 @@
     "updated_at": "2026-08-07T11:43:12.499Z",
     "start": "2026-08-07T03:35:04.950Z",
     "end": "2026-08-07T11:29:35.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3088,7 +3123,7 @@
     "updated_at": "2026-08-06T11:19:26.637Z",
     "start": "2026-08-06T03:21:14.860Z",
     "end": "2026-08-06T11:13:24.560Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3123,7 +3158,7 @@
     "updated_at": "2026-08-05T11:28:29.859Z",
     "start": "2026-08-05T02:49:55.810Z",
     "end": "2026-08-05T11:20:51.530Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3158,7 +3193,7 @@
     "updated_at": "2026-08-04T10:53:05.543Z",
     "start": "2026-08-04T03:10:39.070Z",
     "end": "2026-08-04T10:42:34.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3193,7 +3228,7 @@
     "updated_at": "2026-08-03T11:39:14.706Z",
     "start": "2026-08-03T03:35:04.760Z",
     "end": "2026-08-03T11:28:34.420Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3228,7 +3263,7 @@
     "updated_at": "2026-08-03T02:59:16.652Z",
     "start": "2026-08-02T18:55:00.000Z",
     "end": "2026-08-02T20:10:00.000Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -3263,7 +3298,7 @@
     "updated_at": "2026-08-02T11:10:23.443Z",
     "start": "2026-08-02T04:20:39.570Z",
     "end": "2026-08-02T10:23:18.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3298,7 +3333,7 @@
     "updated_at": "2026-08-01T12:29:34.492Z",
     "start": "2026-08-01T02:57:27.540Z",
     "end": "2026-08-01T12:21:30.410Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3333,7 +3368,7 @@
     "updated_at": "2026-07-31T11:27:27.018Z",
     "start": "2026-07-31T03:03:17.770Z",
     "end": "2026-07-31T11:19:48.510Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3368,7 +3403,7 @@
     "updated_at": "2026-07-30T11:36:29.327Z",
     "start": "2026-07-30T03:32:07.800Z",
     "end": "2026-07-30T11:29:48.580Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3403,7 +3438,7 @@
     "updated_at": "2026-07-29T11:14:24.847Z",
     "start": "2026-07-29T03:11:53.940Z",
     "end": "2026-07-29T10:55:32.780Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3438,7 +3473,7 @@
     "updated_at": "2026-07-28T11:39:43.954Z",
     "start": "2026-07-28T03:46:28.030Z",
     "end": "2026-07-28T11:22:46.650Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3473,7 +3508,7 @@
     "updated_at": "2026-07-27T10:21:22.164Z",
     "start": "2026-07-27T02:34:45.020Z",
     "end": "2026-07-27T10:06:07.760Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3508,7 +3543,7 @@
     "updated_at": "2026-07-26T12:17:28.740Z",
     "start": "2026-07-26T03:51:37.770Z",
     "end": "2026-07-26T12:04:49.470Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3543,7 +3578,7 @@
     "updated_at": "2026-07-25T12:48:17.084Z",
     "start": "2026-07-25T04:15:37.700Z",
     "end": "2026-07-25T12:46:12.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3578,7 +3613,7 @@
     "updated_at": "2026-07-24T12:47:01.762Z",
     "start": "2026-07-24T04:55:52.460Z",
     "end": "2026-07-24T12:30:23.080Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3613,7 +3648,7 @@
     "updated_at": "2026-07-23T10:53:07.681Z",
     "start": "2026-07-23T04:41:34.360Z",
     "end": "2026-07-23T10:33:13.870Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3648,7 +3683,7 @@
     "updated_at": "2026-07-22T10:14:11.715Z",
     "start": "2026-07-22T02:14:31.730Z",
     "end": "2026-07-22T10:04:50.450Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3683,7 +3718,7 @@
     "updated_at": "2026-07-21T13:12:32.567Z",
     "start": "2026-07-21T03:26:23.760Z",
     "end": "2026-07-21T12:51:57.560Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3718,7 +3753,7 @@
     "updated_at": "2026-07-20T13:59:28.942Z",
     "start": "2026-07-20T05:59:32.690Z",
     "end": "2026-07-20T13:47:24.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3753,7 +3788,7 @@
     "updated_at": "2026-07-19T11:37:46.856Z",
     "start": "2026-07-19T03:12:49.460Z",
     "end": "2026-07-19T11:27:47.160Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3788,7 +3823,7 @@
     "updated_at": "2026-07-18T11:08:17.617Z",
     "start": "2026-07-18T06:14:06.760Z",
     "end": "2026-07-18T10:56:27.230Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3823,7 +3858,7 @@
     "updated_at": "2026-07-17T11:15:07.232Z",
     "start": "2026-07-17T03:16:11.540Z",
     "end": "2026-07-17T11:07:30.320Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3858,7 +3893,7 @@
     "updated_at": "2026-07-16T11:44:55.391Z",
     "start": "2026-07-16T04:15:32.940Z",
     "end": "2026-07-16T11:38:52.590Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3893,7 +3928,7 @@
     "updated_at": "2026-07-15T12:22:43.271Z",
     "start": "2026-07-15T03:32:36.380Z",
     "end": "2026-07-15T12:08:01.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3928,7 +3963,7 @@
     "updated_at": "2026-07-14T11:52:22.636Z",
     "start": "2026-07-14T03:20:18.600Z",
     "end": "2026-07-14T11:31:58.300Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3963,7 +3998,7 @@
     "updated_at": "2026-07-13T12:15:09.431Z",
     "start": "2026-07-13T04:09:55.760Z",
     "end": "2026-07-13T12:09:15.490Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -3998,7 +4033,7 @@
     "updated_at": "2026-07-12T12:50:47.257Z",
     "start": "2026-07-12T04:19:11.260Z",
     "end": "2026-07-12T12:42:12.140Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4033,7 +4068,7 @@
     "updated_at": "2026-07-11T12:37:08.830Z",
     "start": "2026-07-11T03:53:13.050Z",
     "end": "2026-07-11T12:29:35.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4068,7 +4103,7 @@
     "updated_at": "2026-07-10T12:36:04.831Z",
     "start": "2026-07-10T03:50:00.190Z",
     "end": "2026-07-10T12:29:26.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4103,7 +4138,7 @@
     "updated_at": "2026-07-09T12:37:27.944Z",
     "start": "2026-07-09T04:01:17.720Z",
     "end": "2026-07-09T12:29:40.590Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4138,7 +4173,7 @@
     "updated_at": "2026-07-08T12:23:05.316Z",
     "start": "2026-07-08T03:39:38.680Z",
     "end": "2026-07-08T12:11:13.420Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4173,7 +4208,7 @@
     "updated_at": "2026-07-07T13:09:05.116Z",
     "start": "2026-07-07T03:35:40.000Z",
     "end": "2026-07-07T13:00:10.910Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4208,7 +4243,7 @@
     "updated_at": "2026-07-06T13:05:46.778Z",
     "start": "2026-07-06T03:48:53.140Z",
     "end": "2026-07-06T12:59:46.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4243,7 +4278,7 @@
     "updated_at": "2026-07-05T13:04:18.187Z",
     "start": "2026-07-05T04:30:18.080Z",
     "end": "2026-07-05T12:55:50.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4278,7 +4313,7 @@
     "updated_at": "2026-07-04T13:07:07.715Z",
     "start": "2026-07-04T04:16:03.720Z",
     "end": "2026-07-04T13:00:01.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4313,7 +4348,7 @@
     "updated_at": "2026-07-03T13:15:34.702Z",
     "start": "2026-07-03T04:36:15.420Z",
     "end": "2026-07-03T13:08:15.260Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4348,7 +4383,7 @@
     "updated_at": "2026-07-02T12:57:18.787Z",
     "start": "2026-07-02T04:19:34.480Z",
     "end": "2026-07-02T12:55:09.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4383,7 +4418,7 @@
     "updated_at": "2026-07-01T12:39:00.072Z",
     "start": "2026-07-01T03:50:02.290Z",
     "end": "2026-07-01T12:30:00.070Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4418,7 +4453,7 @@
     "updated_at": "2026-06-30T12:34:15.934Z",
     "start": "2026-06-30T04:03:32.420Z",
     "end": "2026-06-30T12:29:35.230Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4453,7 +4488,7 @@
     "updated_at": "2026-06-29T12:02:54.541Z",
     "start": "2026-06-29T04:06:05.720Z",
     "end": "2026-06-29T11:54:27.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4488,7 +4523,7 @@
     "updated_at": "2026-06-28T13:33:10.779Z",
     "start": "2026-06-28T05:00:25.800Z",
     "end": "2026-06-28T13:29:44.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4523,7 +4558,7 @@
     "updated_at": "2026-06-27T14:13:26.423Z",
     "start": "2026-06-27T05:24:28.920Z",
     "end": "2026-06-27T14:03:45.650Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4558,7 +4593,7 @@
     "updated_at": "2026-06-26T12:43:07.324Z",
     "start": "2026-06-26T04:05:36.580Z",
     "end": "2026-06-26T12:38:43.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4593,7 +4628,7 @@
     "updated_at": "2026-06-25T12:19:41.729Z",
     "start": "2026-06-25T04:23:12.220Z",
     "end": "2026-06-25T12:04:57.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4628,7 +4663,7 @@
     "updated_at": "2026-06-24T11:58:27.791Z",
     "start": "2026-06-24T03:45:37.010Z",
     "end": "2026-06-24T11:40:11.700Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4663,7 +4698,7 @@
     "updated_at": "2026-06-23T11:56:36.953Z",
     "start": "2026-06-23T03:25:07.460Z",
     "end": "2026-06-23T11:48:26.120Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4698,7 +4733,7 @@
     "updated_at": "2026-06-22T12:01:55.649Z",
     "start": "2026-06-22T04:16:39.740Z",
     "end": "2026-06-22T11:45:37.400Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4733,7 +4768,7 @@
     "updated_at": "2026-06-21T13:02:43.857Z",
     "start": "2026-06-21T04:13:06.240Z",
     "end": "2026-06-21T12:49:50.070Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4768,7 +4803,7 @@
     "updated_at": "2026-06-20T12:28:44.313Z",
     "start": "2026-06-20T03:26:25.660Z",
     "end": "2026-06-20T12:20:57.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4803,7 +4838,7 @@
     "updated_at": "2026-06-19T12:36:04.760Z",
     "start": "2026-06-19T04:58:05.610Z",
     "end": "2026-06-19T12:30:32.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4838,7 +4873,7 @@
     "updated_at": "2026-06-18T12:29:04.756Z",
     "start": "2026-06-18T03:24:25.960Z",
     "end": "2026-06-18T12:17:26.720Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4873,7 +4908,7 @@
     "updated_at": "2026-06-17T12:12:26.441Z",
     "start": "2026-06-17T03:36:11.200Z",
     "end": "2026-06-17T12:07:18.040Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4908,7 +4943,7 @@
     "updated_at": "2026-06-16T12:19:51.454Z",
     "start": "2026-06-16T03:35:29.210Z",
     "end": "2026-06-16T12:15:41.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -4943,7 +4978,7 @@
     "updated_at": "2026-06-15T22:45:22.305Z",
     "start": "2026-06-15T19:04:29.500Z",
     "end": "2026-06-15T20:38:01.530Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -4978,7 +5013,7 @@
     "updated_at": "2026-06-15T12:14:30.169Z",
     "start": "2026-06-15T03:16:59.020Z",
     "end": "2026-06-15T12:03:42.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5013,7 +5048,7 @@
     "updated_at": "2026-06-14T12:48:36.541Z",
     "start": "2026-06-14T06:12:44.260Z",
     "end": "2026-06-14T12:33:35.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5048,7 +5083,7 @@
     "updated_at": "2026-06-13T12:15:52.838Z",
     "start": "2026-06-13T04:30:44.630Z",
     "end": "2026-06-13T12:10:49.340Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5083,7 +5118,7 @@
     "updated_at": "2026-06-12T11:51:05.812Z",
     "start": "2026-06-12T03:35:08.350Z",
     "end": "2026-06-12T11:46:19.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5118,7 +5153,7 @@
     "updated_at": "2026-06-11T12:01:11.999Z",
     "start": "2026-06-11T03:23:08.960Z",
     "end": "2026-06-11T11:53:21.830Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5153,7 +5188,7 @@
     "updated_at": "2026-06-10T12:12:55.324Z",
     "start": "2026-06-10T04:30:08.230Z",
     "end": "2026-06-10T11:55:19.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5188,7 +5223,7 @@
     "updated_at": "2026-06-09T11:53:11.333Z",
     "start": "2026-06-09T03:34:26.420Z",
     "end": "2026-06-09T11:36:02.110Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5223,7 +5258,7 @@
     "updated_at": "2026-06-08T11:05:20.311Z",
     "start": "2026-06-08T03:32:54.170Z",
     "end": "2026-06-08T11:03:44.768Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5258,7 +5293,7 @@
     "updated_at": "2026-06-07T12:09:27.933Z",
     "start": "2026-06-07T04:01:59.070Z",
     "end": "2026-06-07T12:02:15.710Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5293,7 +5328,7 @@
     "updated_at": "2026-06-06T13:18:35.860Z",
     "start": "2026-06-06T04:46:27.700Z",
     "end": "2026-06-06T13:15:13.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5328,7 +5363,7 @@
     "updated_at": "2026-06-05T11:37:09.272Z",
     "start": "2026-06-05T03:51:06.560Z",
     "end": "2026-06-05T10:58:59.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5363,7 +5398,7 @@
     "updated_at": "2026-06-04T22:32:32.617Z",
     "start": "2026-06-04T20:54:36.810Z",
     "end": "2026-06-04T22:11:27.850Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -5398,7 +5433,7 @@
     "updated_at": "2026-06-04T11:50:45.679Z",
     "start": "2026-06-04T04:10:56.690Z",
     "end": "2026-06-04T11:32:40.320Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5433,7 +5468,7 @@
     "updated_at": "2026-06-03T12:34:11.478Z",
     "start": "2026-06-03T03:33:41.660Z",
     "end": "2026-06-03T12:25:50.410Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5468,7 +5503,7 @@
     "updated_at": "2026-06-02T11:32:38.330Z",
     "start": "2026-06-02T03:44:52.650Z",
     "end": "2026-06-02T11:15:24.380Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5503,7 +5538,7 @@
     "updated_at": "2026-06-01T11:33:43.479Z",
     "start": "2026-06-01T03:00:48.940Z",
     "end": "2026-06-01T11:17:08.620Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5538,7 +5573,7 @@
     "updated_at": "2026-05-31T11:29:48.226Z",
     "start": "2026-05-31T03:59:38.280Z",
     "end": "2026-05-31T11:17:42.860Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5573,7 +5608,7 @@
     "updated_at": "2026-05-30T11:39:35.868Z",
     "start": "2026-05-30T04:25:06.260Z",
     "end": "2026-05-30T11:35:29.950Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5608,7 +5643,7 @@
     "updated_at": "2026-05-29T11:46:12.315Z",
     "start": "2026-05-29T02:58:50.980Z",
     "end": "2026-05-29T11:41:25.740Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5643,7 +5678,7 @@
     "updated_at": "2026-05-28T09:04:53.264Z",
     "start": "2026-05-28T03:45:11.370Z",
     "end": "2026-05-28T08:41:07.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5678,7 +5713,7 @@
     "updated_at": "2026-05-27T12:16:30.071Z",
     "start": "2026-05-27T03:37:34.110Z",
     "end": "2026-05-27T12:09:55.860Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5713,7 +5748,7 @@
     "updated_at": "2026-05-26T12:59:18.908Z",
     "start": "2026-05-26T04:39:06.960Z",
     "end": "2026-05-26T12:51:20.420Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5748,7 +5783,7 @@
     "updated_at": "2026-05-25T12:06:35.893Z",
     "start": "2026-05-25T03:51:46.780Z",
     "end": "2026-05-25T11:54:03.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5783,7 +5818,7 @@
     "updated_at": "2026-05-24T12:43:45.556Z",
     "start": "2026-05-24T03:25:16.860Z",
     "end": "2026-05-24T12:40:19.650Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5818,7 +5853,7 @@
     "updated_at": "2026-05-23T11:57:37.268Z",
     "start": "2026-05-23T04:55:09.380Z",
     "end": "2026-05-23T11:43:11.030Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5853,7 +5888,7 @@
     "updated_at": "2026-05-22T12:25:05.093Z",
     "start": "2026-05-22T04:12:20.860Z",
     "end": "2026-05-22T12:18:51.560Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5888,7 +5923,7 @@
     "updated_at": "2026-05-21T12:13:58.181Z",
     "start": "2026-05-21T03:35:48.900Z",
     "end": "2026-05-21T12:03:09.670Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5923,7 +5958,7 @@
     "updated_at": "2026-05-20T11:48:37.756Z",
     "start": "2026-05-20T03:45:43.700Z",
     "end": "2026-05-20T11:39:08.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5958,7 +5993,7 @@
     "updated_at": "2026-05-19T11:33:41.515Z",
     "start": "2026-05-19T03:32:17.200Z",
     "end": "2026-05-19T11:25:43.110Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -5993,7 +6028,7 @@
     "updated_at": "2026-05-18T11:45:38.118Z",
     "start": "2026-05-18T03:44:44.050Z",
     "end": "2026-05-18T11:37:35.720Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6028,7 +6063,7 @@
     "updated_at": "2026-05-17T12:07:34.627Z",
     "start": "2026-05-17T03:01:11.640Z",
     "end": "2026-05-17T11:58:16.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6063,7 +6098,7 @@
     "updated_at": "2026-05-16T12:09:34.692Z",
     "start": "2026-05-16T03:52:11.830Z",
     "end": "2026-05-16T12:01:08.520Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6098,7 +6133,7 @@
     "updated_at": "2026-05-15T13:03:16.779Z",
     "start": "2026-05-15T02:35:11.540Z",
     "end": "2026-05-15T12:46:35.380Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6133,7 +6168,7 @@
     "updated_at": "2026-05-14T12:00:21.997Z",
     "start": "2026-05-14T04:21:55.540Z",
     "end": "2026-05-14T11:53:21.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6168,7 +6203,7 @@
     "updated_at": "2026-05-13T12:12:59.803Z",
     "start": "2026-05-13T03:09:22.300Z",
     "end": "2026-05-13T12:08:09.220Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6203,7 +6238,7 @@
     "updated_at": "2026-05-12T12:04:35.291Z",
     "start": "2026-05-12T03:51:25.390Z",
     "end": "2026-05-12T11:59:05.130Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6238,7 +6273,7 @@
     "updated_at": "2026-05-11T12:55:16.346Z",
     "start": "2026-05-11T03:22:09.730Z",
     "end": "2026-05-11T12:29:02.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6273,7 +6308,7 @@
     "updated_at": "2026-05-10T11:19:55.093Z",
     "start": "2026-05-10T03:59:51.980Z",
     "end": "2026-05-10T10:54:26.570Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6308,7 +6343,7 @@
     "updated_at": "2026-05-09T12:33:38.141Z",
     "start": "2026-05-09T04:10:48.230Z",
     "end": "2026-05-09T12:03:28.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6343,7 +6378,7 @@
     "updated_at": "2026-05-08T13:05:03.468Z",
     "start": "2026-05-08T04:27:20.310Z",
     "end": "2026-05-08T12:59:51.040Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6378,7 +6413,7 @@
     "updated_at": "2026-05-07T12:53:11.981Z",
     "start": "2026-05-07T03:41:18.180Z",
     "end": "2026-05-07T12:47:40.040Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6413,7 +6448,7 @@
     "updated_at": "2026-05-06T12:08:38.880Z",
     "start": "2026-05-06T04:17:46.540Z",
     "end": "2026-05-06T12:00:30.200Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6448,7 +6483,7 @@
     "updated_at": "2026-05-05T12:16:04.117Z",
     "start": "2026-05-05T03:40:03.060Z",
     "end": "2026-05-05T12:07:22.780Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6483,7 +6518,7 @@
     "updated_at": "2026-05-04T20:24:59.090Z",
     "start": "2026-05-04T15:54:01.710Z",
     "end": "2026-05-04T20:10:32.130Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -6518,7 +6553,7 @@
     "updated_at": "2026-05-04T11:14:27.543Z",
     "start": "2026-05-04T04:25:29.780Z",
     "end": "2026-05-04T11:02:17.960Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6553,7 +6588,7 @@
     "updated_at": "2026-05-03T23:43:43.202Z",
     "start": "2026-05-03T20:27:00.150Z",
     "end": "2026-05-03T21:36:38.200Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -6588,7 +6623,7 @@
     "updated_at": "2026-05-03T11:43:59.712Z",
     "start": "2026-05-03T03:40:28.510Z",
     "end": "2026-05-03T11:40:10.210Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6623,7 +6658,7 @@
     "updated_at": "2026-05-02T12:40:44.990Z",
     "start": "2026-05-02T02:47:25.350Z",
     "end": "2026-05-02T12:39:04.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6658,7 +6693,7 @@
     "updated_at": "2026-05-01T11:22:49.201Z",
     "start": "2026-05-01T03:27:23.780Z",
     "end": "2026-05-01T11:16:58.490Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6693,7 +6728,7 @@
     "updated_at": "2026-04-30T17:17:31.746Z",
     "start": "2026-04-30T04:00:11.550Z",
     "end": "2026-04-30T12:51:17.360Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6728,7 +6763,7 @@
     "updated_at": "2026-04-29T12:37:14.784Z",
     "start": "2026-04-29T04:22:09.170Z",
     "end": "2026-04-29T12:31:22.960Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6763,7 +6798,7 @@
     "updated_at": "2026-04-28T12:27:44.852Z",
     "start": "2026-04-28T03:27:35.070Z",
     "end": "2026-04-28T12:22:32.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6798,7 +6833,7 @@
     "updated_at": "2026-04-27T12:09:04.940Z",
     "start": "2026-04-27T03:09:48.970Z",
     "end": "2026-04-27T12:02:03.830Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6833,7 +6868,7 @@
     "updated_at": "2026-04-26T13:00:08.017Z",
     "start": "2026-04-26T03:55:21.860Z",
     "end": "2026-04-26T12:54:59.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6868,7 +6903,7 @@
     "updated_at": "2026-04-25T13:11:26.266Z",
     "start": "2026-04-25T05:11:19.940Z",
     "end": "2026-04-25T13:03:48.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6903,7 +6938,7 @@
     "updated_at": "2026-04-24T12:09:17.341Z",
     "start": "2026-04-24T03:46:37.320Z",
     "end": "2026-04-24T12:05:20.040Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6938,7 +6973,7 @@
     "updated_at": "2026-04-23T12:11:19.353Z",
     "start": "2026-04-23T03:27:35.190Z",
     "end": "2026-04-23T12:05:39.950Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -6973,7 +7008,7 @@
     "updated_at": "2026-04-22T11:36:51.946Z",
     "start": "2026-04-22T02:59:16.280Z",
     "end": "2026-04-22T11:35:16.734Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7008,7 +7043,7 @@
     "updated_at": "2026-04-21T18:35:41.135Z",
     "start": "2026-04-21T04:09:10.720Z",
     "end": "2026-04-21T13:01:03.520Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7043,7 +7078,7 @@
     "updated_at": "2026-04-20T13:04:53.755Z",
     "start": "2026-04-20T03:51:10.530Z",
     "end": "2026-04-20T12:57:42.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7078,7 +7113,7 @@
     "updated_at": "2026-04-19T13:35:39.036Z",
     "start": "2026-04-19T04:29:04.590Z",
     "end": "2026-04-19T13:23:01.450Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7113,7 +7148,7 @@
     "updated_at": "2026-04-18T13:00:11.788Z",
     "start": "2026-04-18T05:07:08.590Z",
     "end": "2026-04-18T12:54:32.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7148,7 +7183,7 @@
     "updated_at": "2026-04-17T13:02:39.439Z",
     "start": "2026-04-17T03:05:19.610Z",
     "end": "2026-04-17T12:59:48.620Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7183,7 +7218,7 @@
     "updated_at": "2026-04-16T12:37:24.812Z",
     "start": "2026-04-16T03:49:37.240Z",
     "end": "2026-04-16T12:33:35.130Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7218,7 +7253,7 @@
     "updated_at": "2026-04-15T12:54:54.489Z",
     "start": "2026-04-15T03:20:05.320Z",
     "end": "2026-04-15T12:49:24.180Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7253,7 +7288,7 @@
     "updated_at": "2026-04-14T13:22:21.062Z",
     "start": "2026-04-14T03:54:05.520Z",
     "end": "2026-04-14T13:15:35.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7288,7 +7323,7 @@
     "updated_at": "2026-04-13T13:25:26.748Z",
     "start": "2026-04-13T03:50:04.340Z",
     "end": "2026-04-13T13:17:11.240Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7323,7 +7358,7 @@
     "updated_at": "2026-04-12T14:20:49.598Z",
     "start": "2026-04-12T05:18:01.260Z",
     "end": "2026-04-12T13:30:04.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7358,7 +7393,7 @@
     "updated_at": "2026-04-11T13:33:16.737Z",
     "start": "2026-04-11T06:04:30.950Z",
     "end": "2026-04-11T13:16:40.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7393,7 +7428,7 @@
     "updated_at": "2026-04-10T13:27:05.126Z",
     "start": "2026-04-10T05:14:08.620Z",
     "end": "2026-04-10T13:13:54.330Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7428,7 +7463,7 @@
     "updated_at": "2026-04-09T13:28:48.264Z",
     "start": "2026-04-09T05:01:51.800Z",
     "end": "2026-04-09T13:16:23.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7463,7 +7498,7 @@
     "updated_at": "2026-04-08T13:19:17.026Z",
     "start": "2026-04-08T04:02:49.850Z",
     "end": "2026-04-08T12:39:36.700Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7498,7 +7533,7 @@
     "updated_at": "2026-04-07T12:58:52.758Z",
     "start": "2026-04-07T04:09:12.850Z",
     "end": "2026-04-07T12:51:45.590Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7533,7 +7568,7 @@
     "updated_at": "2026-04-06T13:15:41.593Z",
     "start": "2026-04-06T04:39:56.870Z",
     "end": "2026-04-06T13:10:19.730Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7568,7 +7603,7 @@
     "updated_at": "2026-04-05T13:07:40.956Z",
     "start": "2026-04-05T04:49:24.640Z",
     "end": "2026-04-05T13:00:12.530Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7603,7 +7638,7 @@
     "updated_at": "2026-04-04T19:15:41.847Z",
     "start": "2026-04-04T15:51:18.760Z",
     "end": "2026-04-04T16:54:02.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -7638,7 +7673,7 @@
     "updated_at": "2026-04-04T13:31:42.999Z",
     "start": "2026-04-04T04:40:18.000Z",
     "end": "2026-04-04T13:23:10.910Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7673,7 +7708,7 @@
     "updated_at": "2026-04-03T12:35:50.763Z",
     "start": "2026-04-03T03:58:51.850Z",
     "end": "2026-04-03T12:21:09.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7708,7 +7743,7 @@
     "updated_at": "2026-04-02T13:08:27.230Z",
     "start": "2026-04-02T04:49:23.840Z",
     "end": "2026-04-02T12:52:44.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7743,7 +7778,7 @@
     "updated_at": "2026-04-01T09:35:55.350Z",
     "start": "2026-04-01T03:26:22.170Z",
     "end": "2026-04-01T09:29:10.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7778,7 +7813,7 @@
     "updated_at": "2026-03-31T12:04:39.157Z",
     "start": "2026-03-31T03:30:16.070Z",
     "end": "2026-03-31T11:57:18.830Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7813,7 +7848,7 @@
     "updated_at": "2026-03-30T12:34:06.719Z",
     "start": "2026-03-30T03:25:10.000Z",
     "end": "2026-03-30T12:23:31.850Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7848,7 +7883,7 @@
     "updated_at": "2026-03-29T12:53:56.308Z",
     "start": "2026-03-29T04:37:45.130Z",
     "end": "2026-03-29T11:58:09.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7883,7 +7918,7 @@
     "updated_at": "2026-03-28T13:02:22.773Z",
     "start": "2026-03-28T03:54:42.660Z",
     "end": "2026-03-28T11:30:12.240Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7918,7 +7953,7 @@
     "updated_at": "2026-03-27T12:08:11.179Z",
     "start": "2026-03-27T03:02:37.900Z",
     "end": "2026-03-27T12:03:45.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7953,7 +7988,7 @@
     "updated_at": "2026-03-26T13:37:29.824Z",
     "start": "2026-03-26T03:21:31.200Z",
     "end": "2026-03-26T12:11:51.000Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -7988,7 +8023,7 @@
     "updated_at": "2026-03-25T11:41:17.670Z",
     "start": "2026-03-25T03:22:40.020Z",
     "end": "2026-03-25T11:28:24.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8023,7 +8058,7 @@
     "updated_at": "2026-03-24T12:20:27.110Z",
     "start": "2026-03-24T04:59:07.390Z",
     "end": "2026-03-24T12:11:38.990Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8058,7 +8093,7 @@
     "updated_at": "2026-03-23T11:31:05.866Z",
     "start": "2026-03-23T03:57:27.560Z",
     "end": "2026-03-23T10:59:19.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8093,7 +8128,7 @@
     "updated_at": "2026-03-22T13:08:43.298Z",
     "start": "2026-03-22T03:55:24.960Z",
     "end": "2026-03-22T13:05:20.910Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8128,7 +8163,7 @@
     "updated_at": "2026-03-21T12:38:17.707Z",
     "start": "2026-03-21T03:24:38.960Z",
     "end": "2026-03-21T12:26:29.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8163,7 +8198,7 @@
     "updated_at": "2026-03-20T12:30:03.672Z",
     "start": "2026-03-20T04:13:45.980Z",
     "end": "2026-03-20T12:22:05.760Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8198,7 +8233,7 @@
     "updated_at": "2026-03-19T23:59:13.280Z",
     "start": "2026-03-19T19:45:06.980Z",
     "end": "2026-03-19T21:53:12.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -8233,7 +8268,7 @@
     "updated_at": "2026-03-19T11:13:30.111Z",
     "start": "2026-03-19T04:24:36.740Z",
     "end": "2026-03-19T10:54:39.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8268,7 +8303,7 @@
     "updated_at": "2026-03-18T12:09:52.810Z",
     "start": "2026-03-18T04:20:58.080Z",
     "end": "2026-03-18T11:58:07.720Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8303,7 +8338,7 @@
     "updated_at": "2026-03-17T11:45:02.059Z",
     "start": "2026-03-17T03:36:45.950Z",
     "end": "2026-03-17T11:39:31.730Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8338,7 +8373,7 @@
     "updated_at": "2026-03-17T11:46:14.815Z",
     "start": "2026-03-16T03:03:12.340Z",
     "end": "2026-03-16T12:55:48.000Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8373,7 +8408,7 @@
     "updated_at": "2026-03-15T12:08:30.127Z",
     "start": "2026-03-15T04:53:20.890Z",
     "end": "2026-03-15T11:54:20.100Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8408,7 +8443,7 @@
     "updated_at": "2026-03-14T12:10:51.388Z",
     "start": "2026-03-14T04:16:28.940Z",
     "end": "2026-03-14T12:03:24.750Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8443,7 +8478,7 @@
     "updated_at": "2026-03-13T23:39:31.607Z",
     "start": "2026-03-13T19:40:59.200Z",
     "end": "2026-03-13T21:27:13.280Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -8478,7 +8513,7 @@
     "updated_at": "2026-03-13T12:06:29.619Z",
     "start": "2026-03-13T03:10:56.630Z",
     "end": "2026-03-13T11:57:15.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8513,7 +8548,7 @@
     "updated_at": "2026-03-12T12:16:46.037Z",
     "start": "2026-03-12T04:29:34.730Z",
     "end": "2026-03-12T12:14:42.052Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8548,7 +8583,7 @@
     "updated_at": "2026-03-11T12:24:12.058Z",
     "start": "2026-03-11T03:23:01.810Z",
     "end": "2026-03-11T12:19:41.630Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8583,7 +8618,7 @@
     "updated_at": "2026-03-10T12:05:59.320Z",
     "start": "2026-03-10T03:51:23.160Z",
     "end": "2026-03-10T11:57:15.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8618,7 +8653,7 @@
     "updated_at": "2026-03-09T12:46:51.868Z",
     "start": "2026-03-09T04:04:41.830Z",
     "end": "2026-03-09T12:44:44.580Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8653,7 +8688,7 @@
     "updated_at": "2026-03-08T13:21:58.729Z",
     "start": "2026-03-08T05:06:25.920Z",
     "end": "2026-03-08T13:15:32.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8688,7 +8723,7 @@
     "updated_at": "2026-03-07T13:16:01.340Z",
     "start": "2026-03-07T04:22:23.700Z",
     "end": "2026-03-07T13:13:27.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8723,7 +8758,7 @@
     "updated_at": "2026-03-06T13:17:25.146Z",
     "start": "2026-03-06T05:05:00.960Z",
     "end": "2026-03-06T13:04:16.770Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8758,7 +8793,7 @@
     "updated_at": "2026-03-05T14:18:13.376Z",
     "start": "2026-03-05T04:31:59.470Z",
     "end": "2026-03-05T14:12:48.470Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8793,7 +8828,7 @@
     "updated_at": "2026-03-04T13:18:37.544Z",
     "start": "2026-03-04T03:06:37.120Z",
     "end": "2026-03-04T13:14:57.910Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8828,7 +8863,7 @@
     "updated_at": "2026-03-03T13:12:12.982Z",
     "start": "2026-03-03T04:39:05.310Z",
     "end": "2026-03-03T13:04:20.080Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8863,7 +8898,7 @@
     "updated_at": "2026-03-02T14:04:56.345Z",
     "start": "2026-03-02T04:35:33.080Z",
     "end": "2026-03-02T13:58:48.030Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8898,7 +8933,7 @@
     "updated_at": "2026-03-01T12:57:32.203Z",
     "start": "2026-03-01T04:50:41.330Z",
     "end": "2026-03-01T12:48:25.130Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8933,7 +8968,7 @@
     "updated_at": "2026-02-28T12:46:10.820Z",
     "start": "2026-02-28T04:42:01.400Z",
     "end": "2026-02-28T12:38:48.200Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -8968,7 +9003,7 @@
     "updated_at": "2026-02-27T12:30:29.858Z",
     "start": "2026-02-27T04:16:11.450Z",
     "end": "2026-02-27T12:28:54.593Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9003,7 +9038,7 @@
     "updated_at": "2026-02-26T12:55:18.452Z",
     "start": "2026-02-26T04:54:04.370Z",
     "end": "2026-02-26T12:49:53.180Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9038,7 +9073,7 @@
     "updated_at": "2026-02-25T13:08:04.309Z",
     "start": "2026-02-25T04:47:46.440Z",
     "end": "2026-02-25T12:58:42.290Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9073,7 +9108,7 @@
     "updated_at": "2026-02-24T12:47:38.013Z",
     "start": "2026-02-24T04:00:41.820Z",
     "end": "2026-02-24T12:32:51.640Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9108,7 +9143,7 @@
     "updated_at": "2026-02-23T12:58:38.775Z",
     "start": "2026-02-23T03:39:47.940Z",
     "end": "2026-02-23T12:52:36.910Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9143,7 +9178,7 @@
     "updated_at": "2026-02-23T00:20:26.043Z",
     "start": "2026-02-22T21:01:11.760Z",
     "end": "2026-02-22T22:03:33.770Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -9178,7 +9213,7 @@
     "updated_at": "2026-02-22T14:05:46.598Z",
     "start": "2026-02-22T07:00:44.320Z",
     "end": "2026-02-22T13:52:19.010Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9213,7 +9248,7 @@
     "updated_at": "2026-02-21T14:10:41.278Z",
     "start": "2026-02-21T05:46:42.420Z",
     "end": "2026-02-21T14:00:08.260Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9248,7 +9283,7 @@
     "updated_at": "2026-02-20T12:14:31.113Z",
     "start": "2026-02-20T04:02:04.170Z",
     "end": "2026-02-20T12:07:35.960Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9283,7 +9318,7 @@
     "updated_at": "2026-02-19T13:17:20.177Z",
     "start": "2026-02-19T03:44:53.770Z",
     "end": "2026-02-19T13:03:13.610Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9318,7 +9353,7 @@
     "updated_at": "2026-02-18T12:18:32.318Z",
     "start": "2026-02-18T04:16:54.780Z",
     "end": "2026-02-18T12:16:53.715Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9353,7 +9388,7 @@
     "updated_at": "2026-02-17T13:07:52.805Z",
     "start": "2026-02-17T05:19:44.380Z",
     "end": "2026-02-17T12:59:51.090Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9388,7 +9423,7 @@
     "updated_at": "2026-02-16T12:55:59.531Z",
     "start": "2026-02-16T05:07:02.810Z",
     "end": "2026-02-16T12:53:49.086Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9423,7 +9458,7 @@
     "updated_at": "2026-02-15T13:07:20.704Z",
     "start": "2026-02-15T05:17:49.440Z",
     "end": "2026-02-15T12:53:43.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9458,7 +9493,7 @@
     "updated_at": "2026-02-14T11:39:19.728Z",
     "start": "2026-02-14T04:01:40.710Z",
     "end": "2026-02-14T11:34:54.280Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9493,7 +9528,7 @@
     "updated_at": "2026-02-14T00:24:41.980Z",
     "start": "2026-02-13T20:53:10.930Z",
     "end": "2026-02-13T22:14:41.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -9528,7 +9563,7 @@
     "updated_at": "2026-02-13T12:04:39.606Z",
     "start": "2026-02-13T04:32:10.650Z",
     "end": "2026-02-13T12:00:48.360Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9563,7 +9598,7 @@
     "updated_at": "2026-02-12T12:16:36.103Z",
     "start": "2026-02-12T04:31:59.450Z",
     "end": "2026-02-12T12:13:00.210Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9598,7 +9633,7 @@
     "updated_at": "2026-02-11T12:06:17.280Z",
     "start": "2026-02-11T03:41:57.220Z",
     "end": "2026-02-11T11:59:52.000Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9633,7 +9668,7 @@
     "updated_at": "2026-02-10T12:49:43.064Z",
     "start": "2026-02-10T04:30:22.360Z",
     "end": "2026-02-10T12:44:35.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9668,7 +9703,7 @@
     "updated_at": "2026-02-09T13:02:41.309Z",
     "start": "2026-02-09T05:11:08.230Z",
     "end": "2026-02-09T12:59:59.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9703,7 +9738,7 @@
     "updated_at": "2026-02-08T13:04:14.095Z",
     "start": "2026-02-08T04:15:36.300Z",
     "end": "2026-02-08T12:59:22.150Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9738,7 +9773,7 @@
     "updated_at": "2026-02-07T12:54:54.356Z",
     "start": "2026-02-07T05:00:21.330Z",
     "end": "2026-02-07T12:44:15.080Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9773,7 +9808,7 @@
     "updated_at": "2026-02-06T12:25:56.054Z",
     "start": "2026-02-06T04:40:49.420Z",
     "end": "2026-02-06T12:13:34.120Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9808,7 +9843,7 @@
     "updated_at": "2026-02-05T11:57:44.817Z",
     "start": "2026-02-05T03:12:58.340Z",
     "end": "2026-02-05T11:51:52.600Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9843,7 +9878,7 @@
     "updated_at": "2026-02-04T12:15:38.115Z",
     "start": "2026-02-04T04:33:50.100Z",
     "end": "2026-02-04T12:08:51.010Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9878,7 +9913,7 @@
     "updated_at": "2026-02-03T12:54:22.836Z",
     "start": "2026-02-03T04:10:47.480Z",
     "end": "2026-02-03T12:46:25.300Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9913,7 +9948,7 @@
     "updated_at": "2026-02-02T12:05:48.559Z",
     "start": "2026-02-02T03:15:08.470Z",
     "end": "2026-02-02T11:56:51.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9948,7 +9983,7 @@
     "updated_at": "2026-02-01T12:10:51.671Z",
     "start": "2026-02-01T04:34:06.140Z",
     "end": "2026-02-01T12:06:24.790Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -9983,7 +10018,7 @@
     "updated_at": "2026-01-31T12:48:11.603Z",
     "start": "2026-01-31T04:38:34.110Z",
     "end": "2026-01-31T12:40:50.960Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10018,7 +10053,7 @@
     "updated_at": "2026-01-30T13:02:19.127Z",
     "start": "2026-01-30T05:24:43.950Z",
     "end": "2026-01-30T12:59:48.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10053,7 +10088,7 @@
     "updated_at": "2026-01-29T11:52:37.347Z",
     "start": "2026-01-29T03:47:42.210Z",
     "end": "2026-01-29T11:48:04.930Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10088,7 +10123,7 @@
     "updated_at": "2026-01-28T11:57:42.451Z",
     "start": "2026-01-28T05:15:00.070Z",
     "end": "2026-01-28T11:38:13.620Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10123,7 +10158,7 @@
     "updated_at": "2026-01-27T12:36:21.540Z",
     "start": "2026-01-27T03:43:55.610Z",
     "end": "2026-01-27T12:29:58.360Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10158,7 +10193,7 @@
     "updated_at": "2026-01-26T19:02:40.889Z",
     "start": "2026-01-26T03:57:54.700Z",
     "end": "2026-01-26T12:28:35.450Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10193,7 +10228,7 @@
     "updated_at": "2026-01-25T13:35:43.756Z",
     "start": "2026-01-25T06:05:52.640Z",
     "end": "2026-01-25T13:29:48.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10228,7 +10263,7 @@
     "updated_at": "2026-01-24T13:20:15.939Z",
     "start": "2026-01-24T05:03:20.140Z",
     "end": "2026-01-24T13:16:38.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10263,7 +10298,7 @@
     "updated_at": "2026-01-23T12:59:50.855Z",
     "start": "2026-01-23T04:26:42.240Z",
     "end": "2026-01-23T12:52:36.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10298,7 +10333,7 @@
     "updated_at": "2026-01-22T12:41:22.182Z",
     "start": "2026-01-22T04:45:50.440Z",
     "end": "2026-01-22T12:29:28.110Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10333,7 +10368,7 @@
     "updated_at": "2026-01-21T12:26:53.288Z",
     "start": "2026-01-21T04:12:55.120Z",
     "end": "2026-01-21T12:12:04.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10368,7 +10403,7 @@
     "updated_at": "2026-01-20T13:07:24.263Z",
     "start": "2026-01-20T04:30:52.910Z",
     "end": "2026-01-20T12:54:31.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10403,7 +10438,7 @@
     "updated_at": "2026-01-19T11:47:41.886Z",
     "start": "2026-01-19T05:08:07.080Z",
     "end": "2026-01-19T11:27:01.660Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10438,7 +10473,7 @@
     "updated_at": "2026-01-18T13:39:58.885Z",
     "start": "2026-01-18T05:19:53.760Z",
     "end": "2026-01-18T13:27:20.940Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10473,7 +10508,7 @@
     "updated_at": "2026-01-17T12:19:36.565Z",
     "start": "2026-01-17T05:04:51.410Z",
     "end": "2026-01-17T12:15:04.730Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10508,7 +10543,7 @@
     "updated_at": "2026-01-16T13:43:07.686Z",
     "start": "2026-01-16T05:19:07.230Z",
     "end": "2026-01-16T13:15:28.750Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10543,7 +10578,7 @@
     "updated_at": "2026-01-15T14:13:46.375Z",
     "start": "2026-01-15T05:34:07.560Z",
     "end": "2026-01-15T14:07:09.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10578,7 +10613,7 @@
     "updated_at": "2026-01-14T13:20:02.728Z",
     "start": "2026-01-14T04:40:06.020Z",
     "end": "2026-01-14T12:59:47.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10613,7 +10648,7 @@
     "updated_at": "2026-01-14T00:19:13.235Z",
     "start": "2026-01-13T20:34:23.360Z",
     "end": "2026-01-13T22:12:01.450Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -10648,7 +10683,7 @@
     "updated_at": "2026-01-13T13:15:16.955Z",
     "start": "2026-01-13T05:25:23.110Z",
     "end": "2026-01-13T13:08:36.770Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10683,7 +10718,7 @@
     "updated_at": "2026-01-12T12:59:41.137Z",
     "start": "2026-01-12T04:55:51.110Z",
     "end": "2026-01-12T12:50:27.810Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10718,7 +10753,7 @@
     "updated_at": "2026-01-11T13:14:20.474Z",
     "start": "2026-01-11T04:13:04.670Z",
     "end": "2026-01-11T12:57:54.420Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10753,7 +10788,7 @@
     "updated_at": "2026-01-10T12:38:57.371Z",
     "start": "2026-01-10T04:15:44.320Z",
     "end": "2026-01-10T12:17:22.560Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10788,7 +10823,7 @@
     "updated_at": "2026-01-09T14:08:29.726Z",
     "start": "2026-01-09T06:03:41.300Z",
     "end": "2026-01-09T13:59:51.050Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10823,7 +10858,7 @@
     "updated_at": "2026-01-08T18:56:34.667Z",
     "start": "2026-01-08T04:43:38.590Z",
     "end": "2026-01-08T13:28:27.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10858,7 +10893,7 @@
     "updated_at": "2026-01-07T13:39:31.126Z",
     "start": "2026-01-07T04:48:29.100Z",
     "end": "2026-01-07T13:29:04.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10893,7 +10928,7 @@
     "updated_at": "2026-01-06T14:14:36.901Z",
     "start": "2026-01-06T04:49:56.690Z",
     "end": "2026-01-06T14:01:26.590Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10928,7 +10963,7 @@
     "updated_at": "2026-01-05T14:56:17.145Z",
     "start": "2026-01-05T05:23:53.550Z",
     "end": "2026-01-05T14:32:10.400Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10963,7 +10998,7 @@
     "updated_at": "2026-01-04T14:39:17.359Z",
     "start": "2026-01-04T05:44:31.440Z",
     "end": "2026-01-04T14:28:58.190Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -10998,7 +11033,7 @@
     "updated_at": "2026-01-04T04:24:02.830Z",
     "start": "2026-01-04T01:09:31.550Z",
     "end": "2026-01-04T02:11:36.560Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -11033,7 +11068,7 @@
     "updated_at": "2026-01-03T15:09:46.681Z",
     "start": "2026-01-03T05:46:59.070Z",
     "end": "2026-01-03T14:43:48.930Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11068,7 +11103,7 @@
     "updated_at": "2026-01-02T14:47:24.179Z",
     "start": "2026-01-02T06:31:26.990Z",
     "end": "2026-01-02T14:29:18.740Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11103,7 +11138,7 @@
     "updated_at": "2026-01-01T14:20:09.222Z",
     "start": "2026-01-01T06:11:59.990Z",
     "end": "2026-01-01T14:08:24.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11138,7 +11173,7 @@
     "updated_at": "2025-12-31T14:00:01.496Z",
     "start": "2025-12-31T05:20:34.610Z",
     "end": "2025-12-31T13:52:40.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11173,7 +11208,7 @@
     "updated_at": "2025-12-30T14:27:04.825Z",
     "start": "2025-12-30T05:51:33.010Z",
     "end": "2025-12-30T14:00:00.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11208,7 +11243,7 @@
     "updated_at": "2025-12-29T14:15:30.085Z",
     "start": "2025-12-29T05:40:32.960Z",
     "end": "2025-12-29T14:02:41.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11243,7 +11278,7 @@
     "updated_at": "2025-12-28T14:34:02.128Z",
     "start": "2025-12-28T05:48:25.150Z",
     "end": "2025-12-28T14:19:07.880Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11278,7 +11313,7 @@
     "updated_at": "2025-12-27T14:12:23.769Z",
     "start": "2025-12-27T06:54:47.790Z",
     "end": "2025-12-27T14:02:50.580Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11313,7 +11348,7 @@
     "updated_at": "2025-12-27T04:11:42.275Z",
     "start": "2025-12-26T23:26:56.830Z",
     "end": "2025-12-27T02:05:57.060Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -11348,7 +11383,7 @@
     "updated_at": "2025-12-26T14:09:43.954Z",
     "start": "2025-12-26T04:59:24.440Z",
     "end": "2025-12-26T14:00:02.300Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11383,7 +11418,7 @@
     "updated_at": "2025-12-25T14:09:19.232Z",
     "start": "2025-12-25T05:54:22.520Z",
     "end": "2025-12-25T13:59:53.280Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11418,7 +11453,7 @@
     "updated_at": "2025-12-24T14:27:50.779Z",
     "start": "2025-12-24T06:43:51.540Z",
     "end": "2025-12-24T14:22:18.260Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11453,7 +11488,7 @@
     "updated_at": "2025-12-23T13:06:13.029Z",
     "start": "2025-12-23T05:50:19.710Z",
     "end": "2025-12-23T12:45:03.370Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11488,7 +11523,7 @@
     "updated_at": "2025-12-22T14:08:35.112Z",
     "start": "2025-12-22T05:18:28.610Z",
     "end": "2025-12-22T14:00:12.510Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11523,7 +11558,7 @@
     "updated_at": "2025-12-21T12:33:08.073Z",
     "start": "2025-12-21T05:05:11.210Z",
     "end": "2025-12-21T12:24:46.530Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11558,7 +11593,7 @@
     "updated_at": "2025-12-20T13:51:47.695Z",
     "start": "2025-12-20T04:17:49.050Z",
     "end": "2025-12-20T13:29:46.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11593,7 +11628,7 @@
     "updated_at": "2025-12-20T01:10:53.213Z",
     "start": "2025-12-19T21:45:40.260Z",
     "end": "2025-12-19T22:59:13.310Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -11628,7 +11663,7 @@
     "updated_at": "2025-12-19T10:59:58.468Z",
     "start": "2025-12-19T04:46:38.250Z",
     "end": "2025-12-19T10:48:32.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11663,7 +11698,7 @@
     "updated_at": "2025-12-18T13:28:37.570Z",
     "start": "2025-12-18T05:09:22.410Z",
     "end": "2025-12-18T13:11:52.080Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11698,7 +11733,7 @@
     "updated_at": "2025-12-17T13:47:06.836Z",
     "start": "2025-12-17T05:41:32.440Z",
     "end": "2025-12-17T13:29:25.140Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11733,7 +11768,7 @@
     "updated_at": "2025-12-16T13:35:32.615Z",
     "start": "2025-12-16T06:35:00.840Z",
     "end": "2025-12-16T13:27:19.380Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11768,7 +11803,7 @@
     "updated_at": "2025-12-15T13:11:38.590Z",
     "start": "2025-12-15T05:28:59.160Z",
     "end": "2025-12-15T13:00:51.890Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11803,7 +11838,7 @@
     "updated_at": "2025-12-15T01:13:17.675Z",
     "start": "2025-12-14T21:29:59.400Z",
     "end": "2025-12-14T23:01:31.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -11838,7 +11873,7 @@
     "updated_at": "2025-12-14T12:52:56.980Z",
     "start": "2025-12-14T05:25:28.040Z",
     "end": "2025-12-14T12:26:28.700Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11873,7 +11908,7 @@
     "updated_at": "2025-12-13T14:21:03.456Z",
     "start": "2025-12-13T06:09:32.290Z",
     "end": "2025-12-13T14:05:27.270Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11908,7 +11943,7 @@
     "updated_at": "2025-12-12T12:59:20.190Z",
     "start": "2025-12-12T04:49:59.730Z",
     "end": "2025-12-12T12:46:23.950Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11943,7 +11978,7 @@
     "updated_at": "2025-12-11T12:37:52.675Z",
     "start": "2025-12-11T04:59:56.070Z",
     "end": "2025-12-11T11:55:42.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -11978,7 +12013,7 @@
     "updated_at": "2025-12-10T13:06:39.725Z",
     "start": "2025-12-10T05:41:24.780Z",
     "end": "2025-12-10T12:55:07.460Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12013,7 +12048,7 @@
     "updated_at": "2025-12-09T13:04:51.604Z",
     "start": "2025-12-09T05:43:08.780Z",
     "end": "2025-12-09T12:33:09.420Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12048,7 +12083,7 @@
     "updated_at": "2025-12-08T13:13:19.508Z",
     "start": "2025-12-08T04:54:17.450Z",
     "end": "2025-12-08T13:06:20.210Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12083,7 +12118,7 @@
     "updated_at": "2025-12-07T13:38:30.040Z",
     "start": "2025-12-07T05:54:39.270Z",
     "end": "2025-12-07T13:29:39.970Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12118,7 +12153,7 @@
     "updated_at": "2025-12-06T13:20:14.824Z",
     "start": "2025-12-06T05:11:53.590Z",
     "end": "2025-12-06T13:14:44.050Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12153,7 +12188,7 @@
     "updated_at": "2025-12-05T12:56:19.744Z",
     "start": "2025-12-05T05:29:41.990Z",
     "end": "2025-12-05T12:47:54.670Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12188,7 +12223,7 @@
     "updated_at": "2025-12-04T12:57:30.274Z",
     "start": "2025-12-04T04:11:10.660Z",
     "end": "2025-12-04T12:43:40.370Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12223,7 +12258,7 @@
     "updated_at": "2025-12-03T12:25:38.879Z",
     "start": "2025-12-03T04:35:07.840Z",
     "end": "2025-12-03T12:04:28.990Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12258,7 +12293,7 @@
     "updated_at": "2025-12-02T13:24:09.345Z",
     "start": "2025-12-02T06:18:06.410Z",
     "end": "2025-12-02T13:14:37.100Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12293,7 +12328,7 @@
     "updated_at": "2025-12-01T13:22:37.809Z",
     "start": "2025-12-01T04:45:43.100Z",
     "end": "2025-12-01T13:14:42.120Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12328,7 +12363,7 @@
     "updated_at": "2025-11-30T15:17:56.497Z",
     "start": "2025-11-30T04:52:31.750Z",
     "end": "2025-11-30T15:09:09.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12363,7 +12398,7 @@
     "updated_at": "2025-11-29T13:39:53.907Z",
     "start": "2025-11-29T05:38:30.410Z",
     "end": "2025-11-29T13:29:55.160Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12398,7 +12433,7 @@
     "updated_at": "2025-11-28T13:22:27.804Z",
     "start": "2025-11-28T05:39:31.320Z",
     "end": "2025-11-28T13:13:36.050Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12433,7 +12468,7 @@
     "updated_at": "2025-11-27T13:52:56.584Z",
     "start": "2025-11-27T04:42:49.780Z",
     "end": "2025-11-27T13:41:17.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12468,7 +12503,7 @@
     "updated_at": "2025-11-26T12:35:42.887Z",
     "start": "2025-11-26T04:37:01.310Z",
     "end": "2025-11-26T12:26:29.730Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12503,7 +12538,7 @@
     "updated_at": "2025-11-25T10:51:57.441Z",
     "start": "2025-11-25T03:50:50.210Z",
     "end": "2025-11-25T10:44:52.360Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12538,7 +12573,7 @@
     "updated_at": "2025-11-24T12:31:51.866Z",
     "start": "2025-11-24T04:55:24.660Z",
     "end": "2025-11-24T11:58:20.310Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12573,7 +12608,7 @@
     "updated_at": "2025-11-23T12:20:16.273Z",
     "start": "2025-11-23T03:35:22.800Z",
     "end": "2025-11-23T12:11:43.680Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12608,7 +12643,7 @@
     "updated_at": "2025-11-22T12:38:51.904Z",
     "start": "2025-11-22T05:12:40.660Z",
     "end": "2025-11-22T12:12:46.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12643,7 +12678,7 @@
     "updated_at": "2025-11-21T12:42:36.231Z",
     "start": "2025-11-21T04:48:55.690Z",
     "end": "2025-11-21T12:06:58.390Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12678,7 +12713,7 @@
     "updated_at": "2025-11-20T12:38:55.751Z",
     "start": "2025-11-20T04:06:53.200Z",
     "end": "2025-11-20T12:28:21.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12713,7 +12748,7 @@
     "updated_at": "2025-11-19T12:20:49.114Z",
     "start": "2025-11-19T04:35:31.380Z",
     "end": "2025-11-19T11:58:49.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12748,7 +12783,7 @@
     "updated_at": "2025-11-18T12:32:45.168Z",
     "start": "2025-11-18T05:02:04.770Z",
     "end": "2025-11-18T12:21:21.550Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12783,7 +12818,7 @@
     "updated_at": "2025-11-17T12:54:50.787Z",
     "start": "2025-11-17T03:28:04.020Z",
     "end": "2025-11-17T12:47:08.840Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12818,7 +12853,7 @@
     "updated_at": "2025-11-16T12:35:42.273Z",
     "start": "2025-11-16T04:51:30.710Z",
     "end": "2025-11-16T12:29:24.360Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12853,7 +12888,7 @@
     "updated_at": "2025-11-15T13:14:16.854Z",
     "start": "2025-11-15T05:15:54.440Z",
     "end": "2025-11-15T12:55:25.690Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12888,7 +12923,7 @@
     "updated_at": "2025-11-14T13:12:45.098Z",
     "start": "2025-11-14T04:41:25.140Z",
     "end": "2025-11-14T12:59:36.920Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12923,7 +12958,7 @@
     "updated_at": "2025-11-13T12:21:09.395Z",
     "start": "2025-11-13T04:23:22.420Z",
     "end": "2025-11-13T12:13:58.520Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12958,7 +12993,7 @@
     "updated_at": "2025-11-12T12:09:38.663Z",
     "start": "2025-11-12T04:32:07.390Z",
     "end": "2025-11-12T11:56:18.100Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -12993,7 +13028,7 @@
     "updated_at": "2025-11-11T12:28:02.705Z",
     "start": "2025-11-11T04:28:15.880Z",
     "end": "2025-11-11T12:16:04.630Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13028,7 +13063,7 @@
     "updated_at": "2025-11-10T12:44:33.016Z",
     "start": "2025-11-10T04:58:44.310Z",
     "end": "2025-11-10T12:31:05.020Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13063,7 +13098,7 @@
     "updated_at": "2025-11-09T13:15:04.586Z",
     "start": "2025-11-09T06:38:34.280Z",
     "end": "2025-11-09T12:41:20.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13098,7 +13133,7 @@
     "updated_at": "2025-11-08T13:13:45.987Z",
     "start": "2025-11-08T04:55:50.190Z",
     "end": "2025-11-08T12:58:05.820Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13133,7 +13168,7 @@
     "updated_at": "2025-11-07T13:05:02.311Z",
     "start": "2025-11-07T04:45:13.910Z",
     "end": "2025-11-07T12:59:37.580Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13168,7 +13203,7 @@
     "updated_at": "2025-11-06T12:20:23.448Z",
     "start": "2025-11-06T04:53:26.190Z",
     "end": "2025-11-06T12:12:43.250Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13203,7 +13238,7 @@
     "updated_at": "2025-11-05T12:28:45.966Z",
     "start": "2025-11-05T04:34:25.180Z",
     "end": "2025-11-05T12:14:55.700Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13238,7 +13273,7 @@
     "updated_at": "2025-11-04T12:24:48.310Z",
     "start": "2025-11-04T04:18:07.930Z",
     "end": "2025-11-04T12:14:38.600Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13273,7 +13308,7 @@
     "updated_at": "2025-11-03T12:10:54.882Z",
     "start": "2025-11-03T05:05:41.790Z",
     "end": "2025-11-03T11:54:24.430Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13308,7 +13343,7 @@
     "updated_at": "2025-11-02T12:34:20.125Z",
     "start": "2025-11-02T04:26:20.750Z",
     "end": "2025-11-02T12:21:11.480Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13343,7 +13378,7 @@
     "updated_at": "2025-11-01T12:12:45.060Z",
     "start": "2025-11-01T04:09:49.150Z",
     "end": "2025-11-01T11:59:49.870Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13378,7 +13413,7 @@
     "updated_at": "2025-10-31T11:51:31.639Z",
     "start": "2025-10-31T04:02:17.840Z",
     "end": "2025-10-31T11:44:48.570Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13413,7 +13448,7 @@
     "updated_at": "2025-10-30T11:29:38.909Z",
     "start": "2025-10-30T03:37:24.080Z",
     "end": "2025-10-30T11:22:54.760Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13448,7 +13483,7 @@
     "updated_at": "2025-10-29T11:28:08.550Z",
     "start": "2025-10-29T02:49:52.150Z",
     "end": "2025-10-29T11:15:15.380Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13483,7 +13518,7 @@
     "updated_at": "2025-10-28T11:46:37.052Z",
     "start": "2025-10-28T03:26:48.820Z",
     "end": "2025-10-28T11:25:48.540Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13518,7 +13553,7 @@
     "updated_at": "2025-10-27T11:42:53.894Z",
     "start": "2025-10-27T03:53:23.300Z",
     "end": "2025-10-27T11:35:02.040Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13553,7 +13588,7 @@
     "updated_at": "2025-10-27T00:04:18.002Z",
     "start": "2025-10-26T19:56:22.180Z",
     "end": "2025-10-26T21:54:53.280Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": true,
     "score_state": "SCORED",
     "score": {
@@ -13588,7 +13623,7 @@
     "updated_at": "2025-10-26T11:39:04.621Z",
     "start": "2025-10-26T04:24:20.210Z",
     "end": "2025-10-26T11:32:28.930Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13623,7 +13658,7 @@
     "updated_at": "2025-10-25T13:17:06.184Z",
     "start": "2025-10-25T03:49:19.620Z",
     "end": "2025-10-25T12:29:41.460Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13658,7 +13693,7 @@
     "updated_at": "2025-10-24T12:23:05.877Z",
     "start": "2025-10-24T03:48:40.780Z",
     "end": "2025-10-24T11:59:47.490Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13693,7 +13728,7 @@
     "updated_at": "2025-10-23T22:32:44.705Z",
     "start": "2025-10-23T04:12:34.730Z",
     "end": "2025-10-23T11:08:19.370Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13728,7 +13763,7 @@
     "updated_at": "2025-10-22T11:20:35.500Z",
     "start": "2025-10-22T03:13:32.880Z",
     "end": "2025-10-22T10:56:20.620Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13763,7 +13798,7 @@
     "updated_at": "2025-10-21T11:29:14.009Z",
     "start": "2025-10-21T04:52:51.440Z",
     "end": "2025-10-21T11:03:14.010Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13798,7 +13833,7 @@
     "updated_at": "2025-10-20T12:06:46.721Z",
     "start": "2025-10-20T03:16:49.610Z",
     "end": "2025-10-20T11:54:50.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13833,7 +13868,7 @@
     "updated_at": "2025-10-19T12:06:23.363Z",
     "start": "2025-10-19T03:48:34.830Z",
     "end": "2025-10-19T11:58:24.090Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13868,7 +13903,7 @@
     "updated_at": "2025-10-18T12:44:33.322Z",
     "start": "2025-10-18T03:37:50.900Z",
     "end": "2025-10-18T12:26:57.610Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13903,7 +13938,7 @@
     "updated_at": "2025-10-17T12:37:22.159Z",
     "start": "2025-10-17T04:21:58.640Z",
     "end": "2025-10-17T12:06:59.350Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13938,7 +13973,7 @@
     "updated_at": "2025-10-16T12:41:38.322Z",
     "start": "2025-10-16T03:34:56.440Z",
     "end": "2025-10-16T12:29:57.290Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -13973,7 +14008,7 @@
     "updated_at": "2025-10-15T11:50:10.245Z",
     "start": "2025-10-15T03:38:02.580Z",
     "end": "2025-10-15T11:30:03.380Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14008,7 +14043,7 @@
     "updated_at": "2025-10-14T12:05:43.555Z",
     "start": "2025-10-14T03:10:59.400Z",
     "end": "2025-10-14T11:45:00.240Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14043,7 +14078,7 @@
     "updated_at": "2025-10-13T13:37:14.865Z",
     "start": "2025-10-13T06:57:08.660Z",
     "end": "2025-10-13T13:18:09.140Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14078,7 +14113,7 @@
     "updated_at": "2025-10-12T14:50:12.286Z",
     "start": "2025-10-12T06:01:00.900Z",
     "end": "2025-10-12T14:37:31.500Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14113,7 +14148,7 @@
     "updated_at": "2025-10-11T14:41:02.931Z",
     "start": "2025-10-11T05:24:00.380Z",
     "end": "2025-10-11T10:00:00.800Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14148,7 +14183,7 @@
     "updated_at": "2025-10-10T12:16:42.974Z",
     "start": "2025-10-10T04:04:50.310Z",
     "end": "2025-10-10T12:02:51.010Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14183,7 +14218,7 @@
     "updated_at": "2025-10-09T11:41:21.894Z",
     "start": "2025-10-09T04:13:08.100Z",
     "end": "2025-10-09T11:26:38.780Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14218,7 +14253,7 @@
     "updated_at": "2025-10-08T11:27:26.258Z",
     "start": "2025-10-08T03:10:39.140Z",
     "end": "2025-10-08T11:16:09.770Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14253,7 +14288,7 @@
     "updated_at": "2025-10-07T12:23:03.921Z",
     "start": "2025-10-07T05:03:37.880Z",
     "end": "2025-10-07T12:14:38.520Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14288,7 +14323,7 @@
     "updated_at": "2025-10-06T12:11:37.574Z",
     "start": "2025-10-06T04:09:23.460Z",
     "end": "2025-10-06T12:01:24.050Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
@@ -14323,7 +14358,7 @@
     "updated_at": "2025-10-05T13:17:35.218Z",
     "start": "2025-10-05T03:42:02.070Z",
     "end": "2025-10-05T11:48:02.850Z",
-    "timezone_offset": "-04:00",
+    "timezone_offset": "-05:00",
     "nap": false,
     "score_state": "SCORED",
     "score": {
