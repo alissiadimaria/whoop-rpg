@@ -1,5 +1,67 @@
 [
   {
+    "id": "174feec9-6469-402d-a58a-26165e765e31",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-11-09T19:51:41.443Z",
+    "updated_at": "2026-11-09T19:51:45.889Z",
+    "start": "2026-11-09T19:07:00.190Z",
+    "end": "2026-11-09T19:31:59.160Z",
+    "timezone_offset": "-05:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.8185477,
+      "average_heart_rate": 96,
+      "max_heart_rate": 128,
+      "kilojoule": 213.65602,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 1073970,
+        "zone_one_milli": 425000,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
+    "id": "8101f7c8-4e4f-40e2-814f-ac9a20a63ccd",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-11-08T21:10:12.118Z",
+    "updated_at": "2026-11-09T03:31:13.598Z",
+    "start": "2026-11-08T20:15:00.000Z",
+    "end": "2026-11-08T21:15:59.000Z",
+    "timezone_offset": "-05:00",
+    "sport_name": "cleaning",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 6.176321,
+      "average_heart_rate": 98,
+      "max_heart_rate": 123,
+      "kilojoule": 607.97705,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 1749980,
+        "zone_one_milli": 1908960,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 270
+  },
+  {
     "id": "76cc5a36-b8e1-4b4b-b64b-ffa65ffe192c",
     "v1_id": null,
     "user_id": 31526255,
