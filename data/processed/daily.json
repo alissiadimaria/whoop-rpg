@@ -6439,12 +6439,28 @@
     "sws_pct":41.3466204262,
     "rem_pct":18.062162559,
     "sleep_efficiency":94.69422,
-    "strain":6.355562,
+    "strain":7.0979033,
     "hrv_baseline":111.2474267333,
     "autonomic_recovery":105.2517019388,
-    "load_ratio":0.0775068537,
+    "load_ratio":0.0865597963,
     "cv_hrv":0.0883411279,
     "stability":91.1658872073,
     "archetype":"The Sage"
+  },
+  {
+    "date":"2026-11-13",
+    "recovery_score":50.0,
+    "hrv":102.092926,
+    "rhr":44.0,
+    "sws_pct":40.1088684793,
+    "rem_pct":16.0313069332,
+    "sleep_efficiency":90.84699,
+    "strain":5.5713587,
+    "hrv_baseline":110.7748394,
+    "autonomic_recovery":92.1625583508,
+    "load_ratio":0.111427174,
+    "cv_hrv":0.0884742682,
+    "stability":91.1525731808,
+    "archetype":"The Hermit"
   }
 ]
