@@ -310,17 +310,5 @@
     "autonomic_recovery": 115.47,
     "composite_z": 1.52,
     "archetype": "The Sovereign"
-  },
-  {
-    "date": "2025-11-15",
-    "recovery_score": 89.0,
-    "hrv": 158.53,
-    "sws_pct": 34.55,
-    "rem_pct": 23.77,
-    "sleep_efficiency": 93.64,
-    "strain": 8.38,
-    "autonomic_recovery": 122.28,
-    "composite_z": 1.5,
-    "archetype": "The Sovereign"
   }
 ]
