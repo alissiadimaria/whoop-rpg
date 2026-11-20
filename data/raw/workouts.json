@@ -1,5 +1,36 @@
 [
   {
+    "id": "f946ca9c-e16c-4da4-be2c-5addab0d3648",
+    "v1_id": null,
+    "user_id": 31526255,
+    "created_at": "2026-11-20T01:08:50.603Z",
+    "updated_at": "2026-11-20T01:08:55.088Z",
+    "start": "2026-11-20T00:06:00.820Z",
+    "end": "2026-11-20T00:51:59.770Z",
+    "timezone_offset": "-05:00",
+    "sport_name": "walking",
+    "score_state": "SCORED",
+    "score": {
+      "strain": 4.4053116,
+      "average_heart_rate": 83,
+      "max_heart_rate": 110,
+      "kilojoule": 240.23108,
+      "percent_recorded": 1.0,
+      "distance_meter": null,
+      "altitude_gain_meter": null,
+      "altitude_change_meter": null,
+      "zone_durations": {
+        "zone_zero_milli": 2687950,
+        "zone_one_milli": 71000,
+        "zone_two_milli": 0,
+        "zone_three_milli": 0,
+        "zone_four_milli": 0,
+        "zone_five_milli": 0
+      }
+    },
+    "sport_id": 63
+  },
+  {
     "id": "58bccb5a-b6c9-4394-991f-6df9641149be",
     "v1_id": null,
     "user_id": 31526255,
@@ -234,7 +265,7 @@
       "kilojoule": 1903.618,
       "percent_recorded": 1.0,
       "distance_meter": 492.38644,
-      "altitude_gain_meter": 39.31422,
+      "altitude_gain_meter": 1.674966,
       "altitude_change_meter": -0.44445,
       "zone_durations": {
         "zone_zero_milli": 0,
@@ -575,7 +606,7 @@
       "kilojoule": 2681.8901,
       "percent_recorded": 1.0,
       "distance_meter": 9944.265,
-      "altitude_gain_meter": 272.84076,
+      "altitude_gain_meter": 11.2352,
       "altitude_change_meter": 1.839184,
       "zone_durations": {
         "zone_zero_milli": 23000,
@@ -730,7 +761,7 @@
       "kilojoule": 2432.6992,
       "percent_recorded": 1.0,
       "distance_meter": 9974.618,
-      "altitude_gain_meter": 333.90143,
+      "altitude_gain_meter": 7.68693,
       "altitude_change_meter": 0.984841,
       "zone_durations": {
         "zone_zero_milli": 0,
@@ -1133,7 +1164,7 @@
       "kilojoule": 2632.325,
       "percent_recorded": 0.9998883,
       "distance_meter": 9968.065,
-      "altitude_gain_meter": 232.82265,
+      "altitude_gain_meter": 11.373638,
       "altitude_change_meter": 1.116383,
       "zone_durations": {
         "zone_zero_milli": 22000,
@@ -1536,7 +1567,7 @@
       "kilojoule": 2545.9917,
       "percent_recorded": 1.0,
       "distance_meter": 10076.143,
-      "altitude_gain_meter": 315.37122,
+      "altitude_gain_meter": 9.082934,
       "altitude_change_meter": 0.633391,
       "zone_durations": {
         "zone_zero_milli": 24000,
@@ -1877,7 +1908,7 @@
       "kilojoule": 2516.933,
       "percent_recorded": 0.99985886,
       "distance_meter": 9905.899,
-      "altitude_gain_meter": 240.27484,
+      "altitude_gain_meter": 10.037938,
       "altitude_change_meter": -1.839548,
       "zone_durations": {
         "zone_zero_milli": 21000,
@@ -2435,7 +2466,7 @@
       "kilojoule": 2495.3794,
       "percent_recorded": 1.0,
       "distance_meter": 9943.472,
-      "altitude_gain_meter": 246.83609,
+      "altitude_gain_meter": 7.558685,
       "altitude_change_meter": 3.991424,
       "zone_durations": {
         "zone_zero_milli": 15000,
@@ -3427,7 +3458,7 @@
       "kilojoule": 2613.8115,
       "percent_recorded": 0.99986255,
       "distance_meter": 9928.579,
-      "altitude_gain_meter": 245.00035,
+      "altitude_gain_meter": 7.765291,
       "altitude_change_meter": -1.078394,
       "zone_durations": {
         "zone_zero_milli": 5000,
@@ -3830,7 +3861,7 @@
       "kilojoule": 2491.1802,
       "percent_recorded": 1.0,
       "distance_meter": 9919.395,
-      "altitude_gain_meter": 224.03177,
+      "altitude_gain_meter": 9.220859,
       "altitude_change_meter": 0.211423,
       "zone_durations": {
         "zone_zero_milli": 16000,
@@ -4140,7 +4171,7 @@
       "kilojoule": 2629.4832,
       "percent_recorded": 0.9999997,
       "distance_meter": 9820.609,
-      "altitude_gain_meter": 229.28963,
+      "altitude_gain_meter": 11.990243,
       "altitude_change_meter": -0.762258,
       "zone_durations": {
         "zone_zero_milli": 22000,
@@ -5473,7 +5504,7 @@
       "kilojoule": 2667.7646,
       "percent_recorded": 1.0,
       "distance_meter": 9849.373,
-      "altitude_gain_meter": 274.73682,
+      "altitude_gain_meter": 4.798708,
       "altitude_change_meter": 0.619414,
       "zone_durations": {
         "zone_zero_milli": 29000,
@@ -6031,7 +6062,7 @@
       "kilojoule": 2844.8423,
       "percent_recorded": 0.9999723,
       "distance_meter": 10019.349,
-      "altitude_gain_meter": 283.90024,
+      "altitude_gain_meter": 6.455249,
       "altitude_change_meter": 3.413507,
       "zone_durations": {
         "zone_zero_milli": 23000,
@@ -6961,7 +6992,7 @@
       "kilojoule": 2606.4658,
       "percent_recorded": 0.9997584,
       "distance_meter": 9924.831,
-      "altitude_gain_meter": 240.6794,
+      "altitude_gain_meter": 7.290406,
       "altitude_change_meter": -1.893569,
       "zone_durations": {
         "zone_zero_milli": 22000,
@@ -7767,7 +7798,7 @@
       "kilojoule": 1658.6232,
       "percent_recorded": 1.0,
       "distance_meter": 413.20895,
-      "altitude_gain_meter": 48.750668,
+      "altitude_gain_meter": 3.534776,
       "altitude_change_meter": 6.389037,
       "zone_durations": {
         "zone_zero_milli": 32000,
@@ -8263,7 +8294,7 @@
       "kilojoule": 2179.71,
       "percent_recorded": 1.0,
       "distance_meter": 87.8676,
-      "altitude_gain_meter": 14.460293,
+      "altitude_gain_meter": 7.803215,
       "altitude_change_meter": 0.0,
       "zone_durations": {
         "zone_zero_milli": 174000,
@@ -8697,7 +8728,7 @@
       "kilojoule": 2889.2427,
       "percent_recorded": 0.9998856,
       "distance_meter": 9899.584,
-      "altitude_gain_meter": 273.53308,
+      "altitude_gain_meter": 6.536353,
       "altitude_change_meter": -0.422498,
       "zone_durations": {
         "zone_zero_milli": 20000,
@@ -8790,7 +8821,7 @@
       "kilojoule": 257.96988,
       "percent_recorded": 1.0,
       "distance_meter": 4487.889,
-      "altitude_gain_meter": 167.37384,
+      "altitude_gain_meter": 3.936889,
       "altitude_change_meter": 0.571271,
       "zone_durations": {
         "zone_zero_milli": 3512940,
@@ -8852,7 +8883,7 @@
       "kilojoule": 388.62732,
       "percent_recorded": 1.0,
       "distance_meter": 6072.1123,
-      "altitude_gain_meter": 172.50868,
+      "altitude_gain_meter": 3.356865,
       "altitude_change_meter": -0.257046,
       "zone_durations": {
         "zone_zero_milli": 4933920,
@@ -9007,7 +9038,7 @@
       "kilojoule": 2754.333,
       "percent_recorded": 1.0,
       "distance_meter": 10001.549,
-      "altitude_gain_meter": 320.1435,
+      "altitude_gain_meter": 7.891906,
       "altitude_change_meter": 0.99637,
       "zone_durations": {
         "zone_zero_milli": 42000,
@@ -9999,7 +10030,7 @@
       "kilojoule": 437.42334,
       "percent_recorded": 1.0,
       "distance_meter": 7296.7905,
-      "altitude_gain_meter": 365.57355,
+      "altitude_gain_meter": 10.00204,
       "altitude_change_meter": 6.570385,
       "zone_durations": {
         "zone_zero_milli": 5650900,
@@ -10061,7 +10092,7 @@
       "kilojoule": 472.95584,
       "percent_recorded": 1.0,
       "distance_meter": 7581.659,
-      "altitude_gain_meter": 338.40784,
+      "altitude_gain_meter": 8.720614,
       "altitude_change_meter": -5.074587,
       "zone_durations": {
         "zone_zero_milli": 5174910,
@@ -10247,7 +10278,7 @@
       "kilojoule": 345.3213,
       "percent_recorded": 1.0,
       "distance_meter": 5547.752,
-      "altitude_gain_meter": 304.4968,
+      "altitude_gain_meter": 9.09673,
       "altitude_change_meter": -0.200997,
       "zone_durations": {
         "zone_zero_milli": 4433930,
@@ -10309,7 +10340,7 @@
       "kilojoule": 99.387344,
       "percent_recorded": 1.0,
       "distance_meter": 1574.9653,
-      "altitude_gain_meter": 62.647205,
+      "altitude_gain_meter": 4.799498,
       "altitude_change_meter": -2.906984,
       "zone_durations": {
         "zone_zero_milli": 1199980,
@@ -10340,7 +10371,7 @@
       "kilojoule": 189.27681,
       "percent_recorded": 1.0,
       "distance_meter": 1480.7418,
-      "altitude_gain_meter": 91.97155,
+      "altitude_gain_meter": 8.674301,
       "altitude_change_meter": 12.592167,
       "zone_durations": {
         "zone_zero_milli": 965980,
@@ -10402,7 +10433,7 @@
       "kilojoule": 577.3072,
       "percent_recorded": 0.99997103,
       "distance_meter": 7642.6763,
-      "altitude_gain_meter": 349.84604,
+      "altitude_gain_meter": 11.668172,
       "altitude_change_meter": 10.62899,
       "zone_durations": {
         "zone_zero_milli": 5218910,
@@ -10433,7 +10464,7 @@
       "kilojoule": 199.84598,
       "percent_recorded": 1.0,
       "distance_meter": 3535.7627,
-      "altitude_gain_meter": 184.39526,
+      "altitude_gain_meter": 9.7527,
       "altitude_change_meter": 4.427534,
       "zone_durations": {
         "zone_zero_milli": 2692950,
@@ -10464,7 +10495,7 @@
       "kilojoule": 170.84991,
       "percent_recorded": 0.99975985,
       "distance_meter": 2943.1135,
-      "altitude_gain_meter": 184.41232,
+      "altitude_gain_meter": 6.879589,
       "altitude_change_meter": 6.327904,
       "zone_durations": {
         "zone_zero_milli": 2145970,
@@ -10588,7 +10619,7 @@
       "kilojoule": 347.63608,
       "percent_recorded": 0.9998489,
       "distance_meter": 3993.3486,
-      "altitude_gain_meter": 184.1079,
+      "altitude_gain_meter": 5.550638,
       "altitude_change_meter": 3.664456,
       "zone_durations": {
         "zone_zero_milli": 2725970,
@@ -10681,7 +10712,7 @@
       "kilojoule": 2518.252,
       "percent_recorded": 0.99990416,
       "distance_meter": 10067.263,
-      "altitude_gain_meter": 262.98727,
+      "altitude_gain_meter": 10.688318,
       "altitude_change_meter": 0.298771,
       "zone_durations": {
         "zone_zero_milli": 42000,
@@ -10712,7 +10743,7 @@
       "kilojoule": 294.1526,
       "percent_recorded": 0.99999696,
       "distance_meter": 5132.175,
-      "altitude_gain_meter": 271.24207,
+      "altitude_gain_meter": 13.491916,
       "altitude_change_meter": 0.399752,
       "zone_durations": {
         "zone_zero_milli": 3933930,
@@ -10774,7 +10805,7 @@
       "kilojoule": 255.16592,
       "percent_recorded": 0.99988025,
       "distance_meter": 4564.972,
-      "altitude_gain_meter": 182.97005,
+      "altitude_gain_meter": 7.498986,
       "altitude_change_meter": -0.255274,
       "zone_durations": {
         "zone_zero_milli": 3431950,
@@ -10867,7 +10898,7 @@
       "kilojoule": 294.41547,
       "percent_recorded": 1.0,
       "distance_meter": 5036.2256,
-      "altitude_gain_meter": 240.25359,
+      "altitude_gain_meter": 5.714562,
       "altitude_change_meter": 1.441488,
       "zone_durations": {
         "zone_zero_milli": 3885930,
@@ -10929,7 +10960,7 @@
       "kilojoule": 186.78906,
       "percent_recorded": 1.0,
       "distance_meter": 2775.4727,
-      "altitude_gain_meter": 153.00645,
+      "altitude_gain_meter": 12.72522,
       "altitude_change_meter": 13.187429,
       "zone_durations": {
         "zone_zero_milli": 2386950,
@@ -11177,7 +11208,7 @@
       "kilojoule": 265.56573,
       "percent_recorded": 0.9998208,
       "distance_meter": 3926.0945,
-      "altitude_gain_meter": 198.3941,
+      "altitude_gain_meter": 8.895587,
       "altitude_change_meter": 4.88136,
       "zone_durations": {
         "zone_zero_milli": 2686960,
@@ -11208,7 +11239,7 @@
       "kilojoule": 341.01566,
       "percent_recorded": 1.0,
       "distance_meter": 5448.344,
-      "altitude_gain_meter": 312.51584,
+      "altitude_gain_meter": 10.252407,
       "altitude_change_meter": -4.302505,
       "zone_durations": {
         "zone_zero_milli": 3950930,
@@ -11270,7 +11301,7 @@
       "kilojoule": 195.02611,
       "percent_recorded": 1.0,
       "distance_meter": 2888.2144,
-      "altitude_gain_meter": 180.20457,
+      "altitude_gain_meter": 11.354966,
       "altitude_change_meter": 0.54763,
       "zone_durations": {
         "zone_zero_milli": 2386960,
@@ -11301,7 +11332,7 @@
       "kilojoule": 607.4905,
       "percent_recorded": 1.0,
       "distance_meter": 7589.683,
-      "altitude_gain_meter": 348.93127,
+      "altitude_gain_meter": 18.266766,
       "altitude_change_meter": -6.248583,
       "zone_durations": {
         "zone_zero_milli": 5247910,
@@ -11425,7 +11456,7 @@
       "kilojoule": 2521.6082,
       "percent_recorded": 0.9997288,
       "distance_meter": 9965.208,
-      "altitude_gain_meter": 258.16876,
+      "altitude_gain_meter": 6.822939,
       "altitude_change_meter": -3.285303,
       "zone_durations": {
         "zone_zero_milli": 24000,
@@ -11766,7 +11797,7 @@
       "kilojoule": 266.51852,
       "percent_recorded": 0.9999748,
       "distance_meter": 3891.8179,
-      "altitude_gain_meter": 167.55544,
+      "altitude_gain_meter": 12.430478,
       "altitude_change_meter": 0.010754,
       "zone_durations": {
         "zone_zero_milli": 2937950,
@@ -11828,7 +11859,7 @@
       "kilojoule": 527.9452,
       "percent_recorded": 0.9999464,
       "distance_meter": 7565.975,
-      "altitude_gain_meter": 441.3416,
+      "altitude_gain_meter": 12.333526,
       "altitude_change_meter": -0.42976,
       "zone_durations": {
         "zone_zero_milli": 5619880,
@@ -11952,7 +11983,7 @@
       "kilojoule": 2481.3723,
       "percent_recorded": 1.0,
       "distance_meter": 10006.099,
-      "altitude_gain_meter": 271.44604,
+      "altitude_gain_meter": 5.665193,
       "altitude_change_meter": 1.860767,
       "zone_durations": {
         "zone_zero_milli": 58000,
@@ -12014,7 +12045,7 @@
       "kilojoule": 594.18,
       "percent_recorded": 0.9998641,
       "distance_meter": 5751.7217,
-      "altitude_gain_meter": 180.81288,
+      "altitude_gain_meter": 9.703053,
       "altitude_change_meter": -11.186337,
       "zone_durations": {
         "zone_zero_milli": 5794900,
@@ -12045,7 +12076,7 @@
       "kilojoule": 302.2523,
       "percent_recorded": 1.0,
       "distance_meter": 3014.4922,
-      "altitude_gain_meter": 168.66019,
+      "altitude_gain_meter": 12.310997,
       "altitude_change_meter": 1.210495,
       "zone_durations": {
         "zone_zero_milli": 2116970,
@@ -12076,7 +12107,7 @@
       "kilojoule": 446.47083,
       "percent_recorded": 1.0,
       "distance_meter": 7532.1895,
-      "altitude_gain_meter": 418.8479,
+      "altitude_gain_meter": 9.907565,
       "altitude_change_meter": 0.87371,
       "zone_durations": {
         "zone_zero_milli": 5966890,
@@ -12138,7 +12169,7 @@
       "kilojoule": 261.5459,
       "percent_recorded": 0.99993086,
       "distance_meter": 3930.2302,
-      "altitude_gain_meter": 201.89098,
+      "altitude_gain_meter": 6.825047,
       "altitude_change_meter": -2.551247,
       "zone_durations": {
         "zone_zero_milli": 3075950,
@@ -12169,7 +12200,7 @@
       "kilojoule": 401.7872,
       "percent_recorded": 1.0,
       "distance_meter": 4068.6125,
-      "altitude_gain_meter": 200.17963,
+      "altitude_gain_meter": 14.345443,
       "altitude_change_meter": 3.28286,
       "zone_durations": {
         "zone_zero_milli": 2813960,
@@ -12231,7 +12262,7 @@
       "kilojoule": 506.58505,
       "percent_recorded": 1.0,
       "distance_meter": 5761.044,
-      "altitude_gain_meter": 306.07224,
+      "altitude_gain_meter": 11.215807,
       "altitude_change_meter": 1.485748,
       "zone_durations": {
         "zone_zero_milli": 4060930,
@@ -12355,7 +12386,7 @@
       "kilojoule": 534.21747,
       "percent_recorded": 0.9999409,
       "distance_meter": 3597.7668,
-      "altitude_gain_meter": 197.21767,
+      "altitude_gain_meter": 8.997608,
       "altitude_change_meter": -1.082836,
       "zone_durations": {
         "zone_zero_milli": 1133970,
@@ -12417,7 +12448,7 @@
       "kilojoule": 541.5383,
       "percent_recorded": 0.9999095,
       "distance_meter": 3709.8127,
-      "altitude_gain_meter": 280.6947,
+      "altitude_gain_meter": 21.861397,
       "altitude_change_meter": -0.215875,
       "zone_durations": {
         "zone_zero_milli": 1569970,
@@ -12448,7 +12479,7 @@
       "kilojoule": 2957.869,
       "percent_recorded": 1.0,
       "distance_meter": 9793.64,
-      "altitude_gain_meter": 288.1118,
+      "altitude_gain_meter": 12.24067,
       "altitude_change_meter": -1.719589,
       "zone_durations": {
         "zone_zero_milli": 36000,
@@ -12541,7 +12572,7 @@
       "kilojoule": 714.0144,
       "percent_recorded": 0.99994165,
       "distance_meter": 7995.54,
-      "altitude_gain_meter": 448.91214,
+      "altitude_gain_meter": 22.149187,
       "altitude_change_meter": 2.381337,
       "zone_durations": {
         "zone_zero_milli": 5130910,
@@ -12572,7 +12603,7 @@
       "kilojoule": 437.5791,
       "percent_recorded": 1.0,
       "distance_meter": 5629.719,
-      "altitude_gain_meter": 287.1101,
+      "altitude_gain_meter": 7.744183,
       "altitude_change_meter": -0.89485,
       "zone_durations": {
         "zone_zero_milli": 3986940,
@@ -12665,7 +12696,7 @@
       "kilojoule": 549.7214,
       "percent_recorded": 1.0,
       "distance_meter": 7074.4263,
-      "altitude_gain_meter": 385.94797,
+      "altitude_gain_meter": 12.561652,
       "altitude_change_meter": -1.336277,
       "zone_durations": {
         "zone_zero_milli": 5134900,
@@ -12696,7 +12727,7 @@
       "kilojoule": 381.42743,
       "percent_recorded": 1.0,
       "distance_meter": 4548.6895,
-      "altitude_gain_meter": 271.92563,
+      "altitude_gain_meter": 8.985748,
       "altitude_change_meter": 5.049093,
       "zone_durations": {
         "zone_zero_milli": 4215940,
@@ -12727,7 +12758,7 @@
       "kilojoule": 482.6201,
       "percent_recorded": 0.99997246,
       "distance_meter": 5751.252,
-      "altitude_gain_meter": 356.00266,
+      "altitude_gain_meter": 10.45652,
       "altitude_change_meter": -6.185668,
       "zone_durations": {
         "zone_zero_milli": 3788930,
@@ -12789,7 +12820,7 @@
       "kilojoule": 323.31717,
       "percent_recorded": 0.99999225,
       "distance_meter": 2724.4639,
-      "altitude_gain_meter": 132.12062,
+      "altitude_gain_meter": 7.020994,
       "altitude_change_meter": -0.469853,
       "zone_durations": {
         "zone_zero_milli": 1173970,
@@ -12820,7 +12851,7 @@
       "kilojoule": 413.36783,
       "percent_recorded": 1.0,
       "distance_meter": 3247.5195,
-      "altitude_gain_meter": 166.32088,
+      "altitude_gain_meter": 7.393597,
       "altitude_change_meter": 0.766665,
       "zone_durations": {
         "zone_zero_milli": 1171980,
@@ -12882,7 +12913,7 @@
       "kilojoule": 210.48883,
       "percent_recorded": 0.999762,
       "distance_meter": 2772.1245,
-      "altitude_gain_meter": 119.99081,
+      "altitude_gain_meter": 10.287411,
       "altitude_change_meter": 7.883959,
       "zone_durations": {
         "zone_zero_milli": 2264960,
@@ -12913,7 +12944,7 @@
       "kilojoule": 2656.1353,
       "percent_recorded": 1.0,
       "distance_meter": 9662.519,
-      "altitude_gain_meter": 256.2244,
+      "altitude_gain_meter": 6.959314,
       "altitude_change_meter": 0.979885,
       "zone_durations": {
         "zone_zero_milli": 25000,
@@ -12975,7 +13006,7 @@
       "kilojoule": 423.42496,
       "percent_recorded": 0.9999918,
       "distance_meter": 5359.577,
-      "altitude_gain_meter": 148.9324,
+      "altitude_gain_meter": 5.656585,
       "altitude_change_meter": 0.191135,
       "zone_durations": {
         "zone_zero_milli": 3481940,
@@ -13006,7 +13037,7 @@
       "kilojoule": 209.2158,
       "percent_recorded": 0.99993926,
       "distance_meter": 3735.0308,
-      "altitude_gain_meter": 148.02267,
+      "altitude_gain_meter": 3.410155,
       "altitude_change_meter": 2.784595,
       "zone_durations": {
         "zone_zero_milli": 2846950,
@@ -13037,7 +13068,7 @@
       "kilojoule": 316.04355,
       "percent_recorded": 1.0,
       "distance_meter": 5968.7085,
-      "altitude_gain_meter": 175.53995,
+      "altitude_gain_meter": 3.711911,
       "altitude_change_meter": -0.611984,
       "zone_durations": {
         "zone_zero_milli": 4225920,
@@ -13130,7 +13161,7 @@
       "kilojoule": 160.19122,
       "percent_recorded": 0.9998674,
       "distance_meter": 1325.378,
-      "altitude_gain_meter": 51.41178,
+      "altitude_gain_meter": 2.469209,
       "altitude_change_meter": 0.998467,
       "zone_durations": {
         "zone_zero_milli": 1044980,
@@ -13161,7 +13192,7 @@
       "kilojoule": 344.0948,
       "percent_recorded": 1.0,
       "distance_meter": 2036.4799,
-      "altitude_gain_meter": 81.11231,
+      "altitude_gain_meter": 3.422934,
       "altitude_change_meter": -0.213492,
       "zone_durations": {
         "zone_zero_milli": 619980,
@@ -13223,7 +13254,7 @@
       "kilojoule": 402.3856,
       "percent_recorded": 0.9999946,
       "distance_meter": 5435.442,
-      "altitude_gain_meter": 144.10059,
+      "altitude_gain_meter": 2.662927,
       "altitude_change_meter": 1.43888,
       "zone_durations": {
         "zone_zero_milli": 3767940,
@@ -13254,7 +13285,7 @@
       "kilojoule": 209.16951,
       "percent_recorded": 1.0,
       "distance_meter": 2162.3496,
-      "altitude_gain_meter": 59.08094,
+      "altitude_gain_meter": 3.000773,
       "altitude_change_meter": 1.174573,
       "zone_durations": {
         "zone_zero_milli": 1792990,
@@ -13285,7 +13316,7 @@
       "kilojoule": 310.82648,
       "percent_recorded": 1.0,
       "distance_meter": 5067.382,
-      "altitude_gain_meter": 151.83475,
+      "altitude_gain_meter": 7.46529,
       "altitude_change_meter": 0.564789,
       "zone_durations": {
         "zone_zero_milli": 3494930,
@@ -13409,7 +13440,7 @@
       "kilojoule": 571.2591,
       "percent_recorded": 1.0,
       "distance_meter": 5490.7915,
-      "altitude_gain_meter": 150.41182,
+      "altitude_gain_meter": 3.043803,
       "altitude_change_meter": -0.514713,
       "zone_durations": {
         "zone_zero_milli": 3318910,
@@ -13440,7 +13471,7 @@
       "kilojoule": 764.072,
       "percent_recorded": 0.99998593,
       "distance_meter": 6787.2593,
-      "altitude_gain_meter": 264.69617,
+      "altitude_gain_meter": 5.027444,
       "altitude_change_meter": -1.124313,
       "zone_durations": {
         "zone_zero_milli": 4634930,
@@ -13471,7 +13502,7 @@
       "kilojoule": 338.6879,
       "percent_recorded": 1.0,
       "distance_meter": 5363.6304,
-      "altitude_gain_meter": 154.72357,
+      "altitude_gain_meter": 4.123081,
       "altitude_change_meter": 0.877828,
       "zone_durations": {
         "zone_zero_milli": 3944930,
@@ -13502,7 +13533,7 @@
       "kilojoule": 194.63806,
       "percent_recorded": 1.0,
       "distance_meter": 2846.0198,
-      "altitude_gain_meter": 67.48795,
+      "altitude_gain_meter": 2.842447,
       "altitude_change_meter": -0.521701,
       "zone_durations": {
         "zone_zero_milli": 1887970,
@@ -13564,7 +13595,7 @@
       "kilojoule": 298.86884,
       "percent_recorded": 1.0,
       "distance_meter": 5332.4165,
-      "altitude_gain_meter": 149.63635,
+      "altitude_gain_meter": 2.617748,
       "altitude_change_meter": 2.021119,
       "zone_durations": {
         "zone_zero_milli": 4029930,
@@ -13595,7 +13626,7 @@
       "kilojoule": 301.17917,
       "percent_recorded": 0.999937,
       "distance_meter": 3961.4602,
-      "altitude_gain_meter": 174.97504,
+      "altitude_gain_meter": 3.571618,
       "altitude_change_meter": 0.85,
       "zone_durations": {
         "zone_zero_milli": 3283960,
@@ -13657,7 +13688,7 @@
       "kilojoule": 341.13818,
       "percent_recorded": 0.9999086,
       "distance_meter": 5267.0635,
-      "altitude_gain_meter": 255.46739,
+      "altitude_gain_meter": 4.640709,
       "altitude_change_meter": -1.840581,
       "zone_durations": {
         "zone_zero_milli": 3786930,
@@ -13719,7 +13750,7 @@
       "kilojoule": 259.04138,
       "percent_recorded": 0.9999887,
       "distance_meter": 4969.143,
-      "altitude_gain_meter": 156.22403,
+      "altitude_gain_meter": 3.542665,
       "altitude_change_meter": -0.617854,
       "zone_durations": {
         "zone_zero_milli": 3357940,
@@ -13750,7 +13781,7 @@
       "kilojoule": 464.34525,
       "percent_recorded": 0.9999903,
       "distance_meter": 5258.325,
-      "altitude_gain_meter": 268.61316,
+      "altitude_gain_meter": 3.905041,
       "altitude_change_meter": -5.743065,
       "zone_durations": {
         "zone_zero_milli": 3915920,
@@ -13781,7 +13812,7 @@
       "kilojoule": 2417.7605,
       "percent_recorded": 1.0,
       "distance_meter": 9731.299,
-      "altitude_gain_meter": 246.62088,
+      "altitude_gain_meter": 4.82794,
       "altitude_change_meter": -17.777126,
       "zone_durations": {
         "zone_zero_milli": 21000,
@@ -13812,7 +13843,7 @@
       "kilojoule": 164.61203,
       "percent_recorded": 0.99992156,
       "distance_meter": 2879.846,
-      "altitude_gain_meter": 111.60291,
+      "altitude_gain_meter": 2.557856,
       "altitude_change_meter": -11.820306,
       "zone_durations": {
         "zone_zero_milli": 2166960,
@@ -13843,7 +13874,7 @@
       "kilojoule": 204.99463,
       "percent_recorded": 0.99984735,
       "distance_meter": 3227.4446,
-      "altitude_gain_meter": 140.3516,
+      "altitude_gain_meter": 3.214948,
       "altitude_change_meter": -0.592912,
       "zone_durations": {
         "zone_zero_milli": 2789950,
@@ -13936,7 +13967,7 @@
       "kilojoule": 269.04788,
       "percent_recorded": 1.0,
       "distance_meter": 3886.9377,
-      "altitude_gain_meter": 109.48138,
+      "altitude_gain_meter": 3.291595,
       "altitude_change_meter": -2.925004,
       "zone_durations": {
         "zone_zero_milli": 2723960,
@@ -13967,7 +13998,7 @@
       "kilojoule": 677.5781,
       "percent_recorded": 1.0,
       "distance_meter": 5451.8506,
-      "altitude_gain_meter": 176.79912,
+      "altitude_gain_meter": 3.435142,
       "altitude_change_meter": 1.531251,
       "zone_durations": {
         "zone_zero_milli": 2948940,
@@ -14029,7 +14060,7 @@
       "kilojoule": 649.39746,
       "percent_recorded": 0.99997157,
       "distance_meter": 5990.3516,
-      "altitude_gain_meter": 192.41272,
+      "altitude_gain_meter": 5.345639,
       "altitude_change_meter": 0.177249,
       "zone_durations": {
         "zone_zero_milli": 3176920,
@@ -14060,7 +14091,7 @@
       "kilojoule": 507.8533,
       "percent_recorded": 1.0,
       "distance_meter": 7538.769,
-      "altitude_gain_meter": 277.5294,
+      "altitude_gain_meter": 4.176796,
       "altitude_change_meter": -0.260263,
       "zone_durations": {
         "zone_zero_milli": 5449890,
@@ -14091,7 +14122,7 @@
       "kilojoule": 602.203,
       "percent_recorded": 0.9998992,
       "distance_meter": 5481.839,
-      "altitude_gain_meter": 189.46808,
+      "altitude_gain_meter": 4.001658,
       "altitude_change_meter": -0.718603,
       "zone_durations": {
         "zone_zero_milli": 3272950,
@@ -14122,7 +14153,7 @@
       "kilojoule": 118.4436,
       "percent_recorded": 0.99970615,
       "distance_meter": 1810.3394,
-      "altitude_gain_meter": 69.22342,
+      "altitude_gain_meter": 5.71344,
       "altitude_change_meter": -0.86147,
       "zone_durations": {
         "zone_zero_milli": 1523970,
@@ -14215,7 +14246,7 @@
       "kilojoule": 899.58295,
       "percent_recorded": 0.99994856,
       "distance_meter": 340.64557,
-      "altitude_gain_meter": 79.6519,
+      "altitude_gain_meter": 4.208413,
       "altitude_change_meter": -0.213616,
       "zone_durations": {
         "zone_zero_milli": 516990,
@@ -14246,7 +14277,7 @@
       "kilojoule": 377.5189,
       "percent_recorded": 1.0,
       "distance_meter": 5169.432,
-      "altitude_gain_meter": 165.18056,
+      "altitude_gain_meter": 4.161969,
       "altitude_change_meter": 0.544192,
       "zone_durations": {
         "zone_zero_milli": 3855930,
@@ -14277,7 +14308,7 @@
       "kilojoule": 131.06015,
       "percent_recorded": 0.9992989,
       "distance_meter": 1030.965,
-      "altitude_gain_meter": 43.44232,
+      "altitude_gain_meter": 2.630758,
       "altitude_change_meter": -0.603093,
       "zone_durations": {
         "zone_zero_milli": 615990,
@@ -14370,7 +14401,7 @@
       "kilojoule": 2150.425,
       "percent_recorded": 1.0,
       "distance_meter": 10107.65,
-      "altitude_gain_meter": 200.77605,
+      "altitude_gain_meter": 4.620409,
       "altitude_change_meter": -1.118292,
       "zone_durations": {
         "zone_zero_milli": 31000,
@@ -14432,7 +14463,7 @@
       "kilojoule": 996.1838,
       "percent_recorded": 1.0,
       "distance_meter": 284.83432,
-      "altitude_gain_meter": 37.464104,
+      "altitude_gain_meter": 2.772909,
       "altitude_change_meter": -1.359946,
       "zone_durations": {
         "zone_zero_milli": 11000,
@@ -14494,7 +14525,7 @@
       "kilojoule": 178.66747,
       "percent_recorded": 1.0,
       "distance_meter": 1848.7261,
-      "altitude_gain_meter": 109.24058,
+      "altitude_gain_meter": 4.923041,
       "altitude_change_meter": -1.412734,
       "zone_durations": {
         "zone_zero_milli": 1359970,
@@ -14587,7 +14618,7 @@
       "kilojoule": 371.6424,
       "percent_recorded": 1.0,
       "distance_meter": 5336.8315,
-      "altitude_gain_meter": 161.61955,
+      "altitude_gain_meter": 4.544974,
       "altitude_change_meter": 0.500617,
       "zone_durations": {
         "zone_zero_milli": 3871930,
@@ -14618,7 +14649,7 @@
       "kilojoule": 346.13388,
       "percent_recorded": 0.9999022,
       "distance_meter": 5732.8154,
-      "altitude_gain_meter": 195.71721,
+      "altitude_gain_meter": 4.984415,
       "altitude_change_meter": 1.952446,
       "zone_durations": {
         "zone_zero_milli": 3759930,
@@ -14649,7 +14680,7 @@
       "kilojoule": 270.07434,
       "percent_recorded": 1.0,
       "distance_meter": 4167.5063,
-      "altitude_gain_meter": 232.45839,
+      "altitude_gain_meter": 5.194873,
       "altitude_change_meter": -0.663538,
       "zone_durations": {
         "zone_zero_milli": 3487950,
@@ -14680,7 +14711,7 @@
       "kilojoule": 198.46172,
       "percent_recorded": 1.0,
       "distance_meter": 1865.379,
-      "altitude_gain_meter": 73.992424,
+      "altitude_gain_meter": 6.011669,
       "altitude_change_meter": 0.904956,
       "zone_durations": {
         "zone_zero_milli": 1624970,
@@ -14742,7 +14773,7 @@
       "kilojoule": 526.0637,
       "percent_recorded": 1.0,
       "distance_meter": 5771.7407,
-      "altitude_gain_meter": 264.16333,
+      "altitude_gain_meter": 5.568741,
       "altitude_change_meter": -0.710587,
       "zone_durations": {
         "zone_zero_milli": 4176920,
@@ -14773,7 +14804,7 @@
       "kilojoule": 2197.402,
       "percent_recorded": 1.0,
       "distance_meter": 646.0685,
-      "altitude_gain_meter": 57.762207,
+      "altitude_gain_meter": 3.010865,
       "altitude_change_meter": -0.728261,
       "zone_durations": {
         "zone_zero_milli": 370000,
@@ -14804,7 +14835,7 @@
       "kilojoule": 162.8915,
       "percent_recorded": 1.0,
       "distance_meter": 2877.6687,
-      "altitude_gain_meter": 160.21759,
+      "altitude_gain_meter": 5.5192,
       "altitude_change_meter": -0.185519,
       "zone_durations": {
         "zone_zero_milli": 2207970,
@@ -14866,7 +14897,7 @@
       "kilojoule": 608.73895,
       "percent_recorded": 0.99999845,
       "distance_meter": 5768.1284,
-      "altitude_gain_meter": 333.7724,
+      "altitude_gain_meter": 6.374304,
       "altitude_change_meter": -3.854564,
       "zone_durations": {
         "zone_zero_milli": 7633870,
@@ -14928,7 +14959,7 @@
       "kilojoule": 245.75009,
       "percent_recorded": 1.0,
       "distance_meter": 3664.8425,
-      "altitude_gain_meter": 162.95068,
+      "altitude_gain_meter": 4.461109,
       "altitude_change_meter": 0.966899,
       "zone_durations": {
         "zone_zero_milli": 2747960,
@@ -14959,7 +14990,7 @@
       "kilojoule": 352.48105,
       "percent_recorded": 1.0,
       "distance_meter": 5246.0894,
-      "altitude_gain_meter": 252.4366,
+      "altitude_gain_meter": 4.584788,
       "altitude_change_meter": -0.65941,
       "zone_durations": {
         "zone_zero_milli": 4052940,
@@ -15021,7 +15052,7 @@
       "kilojoule": 436.02103,
       "percent_recorded": 1.0,
       "distance_meter": 5708.866,
-      "altitude_gain_meter": 204.23706,
+      "altitude_gain_meter": 4.556368,
       "altitude_change_meter": 5.476164,
       "zone_durations": {
         "zone_zero_milli": 3983930,
@@ -15083,7 +15114,7 @@
       "kilojoule": 398.91898,
       "percent_recorded": 1.0,
       "distance_meter": 5204.871,
-      "altitude_gain_meter": 181.6827,
+      "altitude_gain_meter": 9.343235,
       "altitude_change_meter": -7.660952,
       "zone_durations": {
         "zone_zero_milli": 3581940,
@@ -15114,7 +15145,7 @@
       "kilojoule": 552.09045,
       "percent_recorded": 1.0,
       "distance_meter": 5803.1245,
-      "altitude_gain_meter": 217.75072,
+      "altitude_gain_meter": 9.53727,
       "altitude_change_meter": 2.30503,
       "zone_durations": {
         "zone_zero_milli": 4135910,
@@ -15145,7 +15176,7 @@
       "kilojoule": 797.4238,
       "percent_recorded": 0.9999701,
       "distance_meter": 3167.005,
-      "altitude_gain_meter": 142.27907,
+      "altitude_gain_meter": 6.189495,
       "altitude_change_meter": -0.779497,
       "zone_durations": {
         "zone_zero_milli": 1367980,
@@ -15207,7 +15238,7 @@
       "kilojoule": 298.97305,
       "percent_recorded": 0.9998639,
       "distance_meter": 3917.8992,
-      "altitude_gain_meter": 195.98799,
+      "altitude_gain_meter": 5.616569,
       "altitude_change_meter": 2.827283,
       "zone_durations": {
         "zone_zero_milli": 2501960,
@@ -15269,7 +15300,7 @@
       "kilojoule": 195.13081,
       "percent_recorded": 0.9997117,
       "distance_meter": 2561.178,
-      "altitude_gain_meter": 134.77249,
+      "altitude_gain_meter": 6.320574,
       "altitude_change_meter": 0.896402,
       "zone_durations": {
         "zone_zero_milli": 1780970,
@@ -15300,7 +15331,7 @@
       "kilojoule": 617.69714,
       "percent_recorded": 1.0,
       "distance_meter": 2563.4995,
-      "altitude_gain_meter": 65.49313,
+      "altitude_gain_meter": 6.712262,
       "altitude_change_meter": -74.574974,
       "zone_durations": {
         "zone_zero_milli": 35000,
@@ -15331,7 +15362,7 @@
       "kilojoule": 506.4672,
       "percent_recorded": 1.0,
       "distance_meter": 2113.2908,
-      "altitude_gain_meter": 147.6856,
+      "altitude_gain_meter": 14.836146,
       "altitude_change_meter": 68.67933,
       "zone_durations": {
         "zone_zero_milli": 33000,
@@ -15362,7 +15393,7 @@
       "kilojoule": 2061.8655,
       "percent_recorded": 1.0,
       "distance_meter": 9071.831,
-      "altitude_gain_meter": 359.02155,
+      "altitude_gain_meter": 23.911877,
       "altitude_change_meter": 7.573982,
       "zone_durations": {
         "zone_zero_milli": 361980,
@@ -15393,7 +15424,7 @@
       "kilojoule": 418.67172,
       "percent_recorded": 1.0,
       "distance_meter": 5362.6904,
-      "altitude_gain_meter": 281.3846,
+      "altitude_gain_meter": 8.014695,
       "altitude_change_meter": -1.921101,
       "zone_durations": {
         "zone_zero_milli": 3530950,
@@ -15424,7 +15455,7 @@
       "kilojoule": 2610.8428,
       "percent_recorded": 0.9999266,
       "distance_meter": 10041.681,
-      "altitude_gain_meter": 248.4398,
+      "altitude_gain_meter": 6.145088,
       "altitude_change_meter": -0.479645,
       "zone_durations": {
         "zone_zero_milli": 22000,
@@ -15455,7 +15486,7 @@
       "kilojoule": 475.76898,
       "percent_recorded": 0.9999941,
       "distance_meter": 7355.3594,
-      "altitude_gain_meter": 406.51987,
+      "altitude_gain_meter": 12.116663,
       "altitude_change_meter": 2.828296,
       "zone_durations": {
         "zone_zero_milli": 5416910,
@@ -15486,7 +15517,7 @@
       "kilojoule": 407.10233,
       "percent_recorded": 1.0,
       "distance_meter": 6644.4414,
-      "altitude_gain_meter": 322.2465,
+      "altitude_gain_meter": 11.708853,
       "altitude_change_meter": -9.560711,
       "zone_durations": {
         "zone_zero_milli": 4969910,
@@ -15548,7 +15579,7 @@
       "kilojoule": 605.49347,
       "percent_recorded": 0.9998647,
       "distance_meter": 4482.277,
-      "altitude_gain_meter": 300.06326,
+      "altitude_gain_meter": 12.702511,
       "altitude_change_meter": 1.018947,
       "zone_durations": {
         "zone_zero_milli": 2369970,
@@ -15579,7 +15610,7 @@
       "kilojoule": 2859.04,
       "percent_recorded": 0.9999772,
       "distance_meter": 10586.423,
-      "altitude_gain_meter": 314.4617,
+      "altitude_gain_meter": 8.643661,
       "altitude_change_meter": 3.337359,
       "zone_durations": {
         "zone_zero_milli": 19000,
@@ -15610,7 +15641,7 @@
       "kilojoule": 235.51418,
       "percent_recorded": 1.0,
       "distance_meter": 3694.4822,
-      "altitude_gain_meter": 216.96156,
+      "altitude_gain_meter": 13.603386,
       "altitude_change_meter": 1.100657,
       "zone_durations": {
         "zone_zero_milli": 2751960,
@@ -15672,7 +15703,7 @@
       "kilojoule": 360.31757,
       "percent_recorded": 1.0,
       "distance_meter": 5786.847,
-      "altitude_gain_meter": 369.80246,
+      "altitude_gain_meter": 15.63,
       "altitude_change_meter": -1.762124,
       "zone_durations": {
         "zone_zero_milli": 4333930,
@@ -15703,7 +15734,7 @@
       "kilojoule": 772.98706,
       "percent_recorded": 0.9999906,
       "distance_meter": 5810.885,
-      "altitude_gain_meter": 325.16037,
+      "altitude_gain_meter": 8.234141,
       "altitude_change_meter": -4.427748,
       "zone_durations": {
         "zone_zero_milli": 1963960,
@@ -15734,7 +15765,7 @@
       "kilojoule": 2480.9133,
       "percent_recorded": 0.99999803,
       "distance_meter": 9288.933,
-      "altitude_gain_meter": 331.8508,
+      "altitude_gain_meter": 10.698826,
       "altitude_change_meter": -6.340926,
       "zone_durations": {
         "zone_zero_milli": 19000,
@@ -15765,7 +15796,7 @@
       "kilojoule": 532.7352,
       "percent_recorded": 1.0,
       "distance_meter": 7332.865,
-      "altitude_gain_meter": 436.59195,
+      "altitude_gain_meter": 9.838907,
       "altitude_change_meter": -1.354753,
       "zone_durations": {
         "zone_zero_milli": 5540900,
@@ -15858,7 +15889,7 @@
       "kilojoule": 453.0984,
       "percent_recorded": 1.0,
       "distance_meter": 3848.018,
-      "altitude_gain_meter": 174.94788,
+      "altitude_gain_meter": 9.377625,
       "altitude_change_meter": 3.689707,
       "zone_durations": {
         "zone_zero_milli": 3073950,
@@ -15920,7 +15951,7 @@
       "kilojoule": 2359.4666,
       "percent_recorded": 1.0,
       "distance_meter": 9891.03,
-      "altitude_gain_meter": 291.6033,
+      "altitude_gain_meter": 5.72911,
       "altitude_change_meter": 4.906147,
       "zone_durations": {
         "zone_zero_milli": 18000,
@@ -15951,7 +15982,7 @@
       "kilojoule": 497.08002,
       "percent_recorded": 0.9999429,
       "distance_meter": 5366.786,
-      "altitude_gain_meter": 353.4558,
+      "altitude_gain_meter": 12.370372,
       "altitude_change_meter": -1.864123,
       "zone_durations": {
         "zone_zero_milli": 3885940,
@@ -16044,7 +16075,7 @@
       "kilojoule": 382.91568,
       "percent_recorded": 0.99981374,
       "distance_meter": 5113.281,
-      "altitude_gain_meter": 315.48972,
+      "altitude_gain_meter": 9.88622,
       "altitude_change_meter": 0.331289,
       "zone_durations": {
         "zone_zero_milli": 3806940,
@@ -16075,7 +16106,7 @@
       "kilojoule": 212.47978,
       "percent_recorded": 1.0,
       "distance_meter": 3389.0676,
-      "altitude_gain_meter": 292.20557,
+      "altitude_gain_meter": 12.80862,
       "altitude_change_meter": 0.838174,
       "zone_durations": {
         "zone_zero_milli": 2679960,
@@ -16137,7 +16168,7 @@
       "kilojoule": 406.21298,
       "percent_recorded": 0.9999637,
       "distance_meter": 6650.807,
-      "altitude_gain_meter": 512.9287,
+      "altitude_gain_meter": 12.547241,
       "altitude_change_meter": 0.351907,
       "zone_durations": {
         "zone_zero_milli": 5197910,
@@ -16199,7 +16230,7 @@
       "kilojoule": 359.2096,
       "percent_recorded": 1.0,
       "distance_meter": 5388.963,
-      "altitude_gain_meter": 345.05182,
+      "altitude_gain_meter": 14.318119,
       "altitude_change_meter": 0.767014,
       "zone_durations": {
         "zone_zero_milli": 4358910,
@@ -16230,7 +16261,7 @@
       "kilojoule": 349.96628,
       "percent_recorded": 1.0,
       "distance_meter": 5505.7305,
-      "altitude_gain_meter": 366.06528,
+      "altitude_gain_meter": 16.271133,
       "altitude_change_meter": 15.187692,
       "zone_durations": {
         "zone_zero_milli": 3968930,
@@ -16261,7 +16292,7 @@
       "kilojoule": 292.06836,
       "percent_recorded": 0.9999444,
       "distance_meter": 4985.5513,
-      "altitude_gain_meter": 232.75957,
+      "altitude_gain_meter": 7.031652,
       "altitude_change_meter": -0.693765,
       "zone_durations": {
         "zone_zero_milli": 3956930,
@@ -16323,7 +16354,7 @@
       "kilojoule": 161.72098,
       "percent_recorded": 0.9999361,
       "distance_meter": 3017.603,
-      "altitude_gain_meter": 111.053055,
+      "altitude_gain_meter": 4.099654,
       "altitude_change_meter": -1.742481,
       "zone_durations": {
         "zone_zero_milli": 2190960,
@@ -16354,7 +16385,7 @@
       "kilojoule": 280.27618,
       "percent_recorded": 0.9999094,
       "distance_meter": 3856.391,
-      "altitude_gain_meter": 167.81099,
+      "altitude_gain_meter": 5.393897,
       "altitude_change_meter": -0.537408,
       "zone_durations": {
         "zone_zero_milli": 3176950,
@@ -16385,7 +16416,7 @@
       "kilojoule": 2177.9536,
       "percent_recorded": 0.99996436,
       "distance_meter": 8660.728,
-      "altitude_gain_meter": 185.84007,
+      "altitude_gain_meter": 5.592507,
       "altitude_change_meter": -1.764777,
       "zone_durations": {
         "zone_zero_milli": 35000,
@@ -16416,7 +16447,7 @@
       "kilojoule": 223.88693,
       "percent_recorded": 0.99996,
       "distance_meter": 3555.7942,
-      "altitude_gain_meter": 128.25227,
+      "altitude_gain_meter": 3.494435,
       "altitude_change_meter": -1.067093,
       "zone_durations": {
         "zone_zero_milli": 2551960,
@@ -16478,7 +16509,7 @@
       "kilojoule": 324.5515,
       "percent_recorded": 1.0,
       "distance_meter": 5756.4053,
-      "altitude_gain_meter": 179.5284,
+      "altitude_gain_meter": 4.572429,
       "altitude_change_meter": 0.460126,
       "zone_durations": {
         "zone_zero_milli": 4053930,
@@ -16509,7 +16540,7 @@
       "kilojoule": 1863.5948,
       "percent_recorded": 0.99998283,
       "distance_meter": 380.66776,
-      "altitude_gain_meter": 52.13969,
+      "altitude_gain_meter": 3.800585,
       "altitude_change_meter": 1.682086,
       "zone_durations": {
         "zone_zero_milli": 79000,
@@ -16571,7 +16602,7 @@
       "kilojoule": 400.39923,
       "percent_recorded": 0.9999854,
       "distance_meter": 6111.3984,
-      "altitude_gain_meter": 258.15808,
+      "altitude_gain_meter": 3.97719,
       "altitude_change_meter": 0.109138,
       "zone_durations": {
         "zone_zero_milli": 4120930,
@@ -16633,7 +16664,7 @@
       "kilojoule": 346.4286,
       "percent_recorded": 0.999986,
       "distance_meter": 5811.742,
-      "altitude_gain_meter": 200.8299,
+      "altitude_gain_meter": 4.574012,
       "altitude_change_meter": -0.224451,
       "zone_durations": {
         "zone_zero_milli": 4702910,
@@ -16664,7 +16695,7 @@
       "kilojoule": 357.26126,
       "percent_recorded": 1.0,
       "distance_meter": 4978.3857,
-      "altitude_gain_meter": 184.0711,
+      "altitude_gain_meter": 6.562584,
       "altitude_change_meter": 7.750107,
       "zone_durations": {
         "zone_zero_milli": 3772930,
@@ -16726,7 +16757,7 @@
       "kilojoule": 159.54396,
       "percent_recorded": 1.0,
       "distance_meter": 1543.1268,
-      "altitude_gain_meter": 59.77505,
+      "altitude_gain_meter": 3.865559,
       "altitude_change_meter": 0.474863,
       "zone_durations": {
         "zone_zero_milli": 1458970,
@@ -16757,7 +16788,7 @@
       "kilojoule": 326.22064,
       "percent_recorded": 0.99997973,
       "distance_meter": 2257.8567,
-      "altitude_gain_meter": 131.82353,
+      "altitude_gain_meter": 5.268885,
       "altitude_change_meter": 0.362979,
       "zone_durations": {
         "zone_zero_milli": 1384970,
@@ -16788,7 +16819,7 @@
       "kilojoule": 2308.6897,
       "percent_recorded": 1.0,
       "distance_meter": 8180.522,
-      "altitude_gain_meter": 246.0564,
+      "altitude_gain_meter": 6.229046,
       "altitude_change_meter": 3.394587,
       "zone_durations": {
         "zone_zero_milli": 22000,
@@ -16850,7 +16881,7 @@
       "kilojoule": 211.96393,
       "percent_recorded": 1.0,
       "distance_meter": 3575.6611,
-      "altitude_gain_meter": 237.05045,
+      "altitude_gain_meter": 14.610594,
       "altitude_change_meter": -2.344227,
       "zone_durations": {
         "zone_zero_milli": 2755960,
@@ -16943,7 +16974,7 @@
       "kilojoule": 660.3333,
       "percent_recorded": 1.0,
       "distance_meter": 4506.5938,
-      "altitude_gain_meter": 245.06183,
+      "altitude_gain_meter": 7.361137,
       "altitude_change_meter": -1.617733,
       "zone_durations": {
         "zone_zero_milli": 1883950,
@@ -17005,7 +17036,7 @@
       "kilojoule": 469.44965,
       "percent_recorded": 1.0,
       "distance_meter": 5697.374,
-      "altitude_gain_meter": 444.73965,
+      "altitude_gain_meter": 11.877181,
       "altitude_change_meter": -1.752677,
       "zone_durations": {
         "zone_zero_milli": 4427920,
@@ -17067,7 +17098,7 @@
       "kilojoule": 442.5027,
       "percent_recorded": 1.0,
       "distance_meter": 5663.889,
-      "altitude_gain_meter": 360.43546,
+      "altitude_gain_meter": 17.203562,
       "altitude_change_meter": 16.447968,
       "zone_durations": {
         "zone_zero_milli": 4479930,
@@ -17160,7 +17191,7 @@
       "kilojoule": 396.63156,
       "percent_recorded": 0.99994326,
       "distance_meter": 4274.834,
-      "altitude_gain_meter": 208.84381,
+      "altitude_gain_meter": 8.613615,
       "altitude_change_meter": 3.275646,
       "zone_durations": {
         "zone_zero_milli": 3037960,
@@ -17284,7 +17315,7 @@
       "kilojoule": 2125.5874,
       "percent_recorded": 1.0,
       "distance_meter": 7703.8,
-      "altitude_gain_meter": 258.56003,
+      "altitude_gain_meter": 6.938075,
       "altitude_change_meter": 1.319365,
       "zone_durations": {
         "zone_zero_milli": 2000,
@@ -17315,7 +17346,7 @@
       "kilojoule": 378.33163,
       "percent_recorded": 1.0,
       "distance_meter": 5540.817,
-      "altitude_gain_meter": 385.0601,
+      "altitude_gain_meter": 14.75476,
       "altitude_change_meter": 9.418655,
       "zone_durations": {
         "zone_zero_milli": 3980940,
@@ -17377,7 +17408,7 @@
       "kilojoule": 487.58765,
       "percent_recorded": 0.9999579,
       "distance_meter": 5620.6523,
-      "altitude_gain_meter": 314.54306,
+      "altitude_gain_meter": 7.78418,
       "altitude_change_meter": -4.168339,
       "zone_durations": {
         "zone_zero_milli": 3464940,
@@ -17439,7 +17470,7 @@
       "kilojoule": 502.6277,
       "percent_recorded": 0.9999015,
       "distance_meter": 4223.7773,
-      "altitude_gain_meter": 223.20529,
+      "altitude_gain_meter": 8.476289,
       "altitude_change_meter": -1.755156,
       "zone_durations": {
         "zone_zero_milli": 1651970,
@@ -17563,7 +17594,7 @@
       "kilojoule": 383.68658,
       "percent_recorded": 1.0,
       "distance_meter": 5287.1064,
-      "altitude_gain_meter": 312.55386,
+      "altitude_gain_meter": 14.634722,
       "altitude_change_meter": 10.546094,
       "zone_durations": {
         "zone_zero_milli": 3795940,
@@ -17625,7 +17656,7 @@
       "kilojoule": 491.80048,
       "percent_recorded": 1.0,
       "distance_meter": 5466.768,
-      "altitude_gain_meter": 357.92404,
+      "altitude_gain_meter": 10.771824,
       "altitude_change_meter": 4.289107,
       "zone_durations": {
         "zone_zero_milli": 4609930,
@@ -17687,7 +17718,7 @@
       "kilojoule": 721.13,
       "percent_recorded": 1.0,
       "distance_meter": 5907.073,
-      "altitude_gain_meter": 359.21307,
+      "altitude_gain_meter": 13.086755,
       "altitude_change_meter": 0.726431,
       "zone_durations": {
         "zone_zero_milli": 3073980,
@@ -17749,7 +17780,7 @@
       "kilojoule": 573.38745,
       "percent_recorded": 0.99989986,
       "distance_meter": 7127.716,
-      "altitude_gain_meter": 386.52304,
+      "altitude_gain_meter": 16.712278,
       "altitude_change_meter": 15.160851,
       "zone_durations": {
         "zone_zero_milli": 5044900,
@@ -17780,7 +17811,7 @@
       "kilojoule": 1286.6261,
       "percent_recorded": 0.9998243,
       "distance_meter": 10800.617,
-      "altitude_gain_meter": 535.95734,
+      "altitude_gain_meter": 11.40239,
       "altitude_change_meter": -1.76788,
       "zone_durations": {
         "zone_zero_milli": 6169870,
@@ -17842,7 +17873,7 @@
       "kilojoule": 450.51526,
       "percent_recorded": 1.0,
       "distance_meter": 4431.4644,
-      "altitude_gain_meter": 246.65504,
+      "altitude_gain_meter": 9.165063,
       "altitude_change_meter": -13.002617,
       "zone_durations": {
         "zone_zero_milli": 3238950,
@@ -17873,7 +17904,7 @@
       "kilojoule": 205.2935,
       "percent_recorded": 1.0,
       "distance_meter": 1540.4829,
-      "altitude_gain_meter": 80.2276,
+      "altitude_gain_meter": 5.255023,
       "altitude_change_meter": 12.446848,
       "zone_durations": {
         "zone_zero_milli": 788980,
@@ -17935,7 +17966,7 @@
       "kilojoule": 359.4569,
       "percent_recorded": 1.0,
       "distance_meter": 3635.3162,
-      "altitude_gain_meter": 173.1847,
+      "altitude_gain_meter": 6.302435,
       "altitude_change_meter": -1.020734,
       "zone_durations": {
         "zone_zero_milli": 2483960,
@@ -17966,7 +17997,7 @@
       "kilojoule": 1027.6898,
       "percent_recorded": 0.9999778,
       "distance_meter": 7733.6924,
-      "altitude_gain_meter": 399.682,
+      "altitude_gain_meter": 15.39379,
       "altitude_change_meter": 2.520753,
       "zone_durations": {
         "zone_zero_milli": 4146920,
@@ -18028,7 +18059,7 @@
       "kilojoule": 670.93646,
       "percent_recorded": 1.0,
       "distance_meter": 6275.0977,
-      "altitude_gain_meter": 439.83398,
+      "altitude_gain_meter": 11.718759,
       "altitude_change_meter": 1.196636,
       "zone_durations": {
         "zone_zero_milli": 5495900,
@@ -18090,7 +18121,7 @@
       "kilojoule": 609.5445,
       "percent_recorded": 0.99988914,
       "distance_meter": 5264.5186,
-      "altitude_gain_meter": 369.9915,
+      "altitude_gain_meter": 11.479223,
       "altitude_change_meter": 0.844105,
       "zone_durations": {
         "zone_zero_milli": 3762930,
@@ -18152,7 +18183,7 @@
       "kilojoule": 444.2226,
       "percent_recorded": 1.0,
       "distance_meter": 4765.509,
-      "altitude_gain_meter": 282.0569,
+      "altitude_gain_meter": 14.431073,
       "altitude_change_meter": 14.876407,
       "zone_durations": {
         "zone_zero_milli": 3162960,
@@ -18214,7 +18245,7 @@
       "kilojoule": 731.3781,
       "percent_recorded": 0.99995965,
       "distance_meter": 7886.706,
-      "altitude_gain_meter": 376.43515,
+      "altitude_gain_meter": 13.921033,
       "altitude_change_meter": 0.870122,
       "zone_durations": {
         "zone_zero_milli": 5496910,
@@ -18276,7 +18307,7 @@
       "kilojoule": 356.69492,
       "percent_recorded": 0.99998677,
       "distance_meter": 4375.6313,
-      "altitude_gain_meter": 203.53308,
+      "altitude_gain_meter": 11.529143,
       "altitude_change_meter": -2.33901,
       "zone_durations": {
         "zone_zero_milli": 2773940,
@@ -18338,7 +18369,7 @@
       "kilojoule": 210.70903,
       "percent_recorded": 1.0,
       "distance_meter": 2862.2646,
-      "altitude_gain_meter": 200.85637,
+      "altitude_gain_meter": 10.534494,
       "altitude_change_meter": -0.819903,
       "zone_durations": {
         "zone_zero_milli": 2167950,
@@ -18400,7 +18431,7 @@
       "kilojoule": 383.92612,
       "percent_recorded": 1.0,
       "distance_meter": 5089.7534,
-      "altitude_gain_meter": 310.7755,
+      "altitude_gain_meter": 12.354884,
       "altitude_change_meter": 1.964157,
       "zone_durations": {
         "zone_zero_milli": 4159930,
@@ -18493,7 +18524,7 @@
       "kilojoule": 353.3821,
       "percent_recorded": 0.9999734,
       "distance_meter": 4293.8296,
-      "altitude_gain_meter": 270.41806,
+      "altitude_gain_meter": 10.334569,
       "altitude_change_meter": 1.468228,
       "zone_durations": {
         "zone_zero_milli": 3729940,
@@ -18555,7 +18586,7 @@
       "kilojoule": 2020.0844,
       "percent_recorded": 0.99994487,
       "distance_meter": 157.71112,
-      "altitude_gain_meter": 49.724903,
+      "altitude_gain_meter": 4.852586,
       "altitude_change_meter": 2.098775,
       "zone_durations": {
         "zone_zero_milli": 549980,
@@ -18617,7 +18648,7 @@
       "kilojoule": 969.43896,
       "percent_recorded": 1.0,
       "distance_meter": 129.45015,
-      "altitude_gain_meter": 45.870655,
+      "altitude_gain_meter": 9.40759,
       "altitude_change_meter": 3.461709,
       "zone_durations": {
         "zone_zero_milli": 129000,
@@ -18741,7 +18772,7 @@
       "kilojoule": 1069.6016,
       "percent_recorded": 0.99989897,
       "distance_meter": 183.55579,
-      "altitude_gain_meter": 63.95679,
+      "altitude_gain_meter": 10.467727,
       "altitude_change_meter": 9.254811,
       "zone_durations": {
         "zone_zero_milli": 102000,
@@ -18803,7 +18834,7 @@
       "kilojoule": 954.21594,
       "percent_recorded": 1.0,
       "distance_meter": 181.17703,
-      "altitude_gain_meter": 36.720406,
+      "altitude_gain_meter": 2.968645,
       "altitude_change_meter": 3.406936,
       "zone_durations": {
         "zone_zero_milli": 111000,
@@ -18865,7 +18896,7 @@
       "kilojoule": 946.92377,
       "percent_recorded": 0.9997522,
       "distance_meter": 202.60527,
-      "altitude_gain_meter": 43.24484,
+      "altitude_gain_meter": 14.90815,
       "altitude_change_meter": 15.165668,
       "zone_durations": {
         "zone_zero_milli": 65000,
@@ -18896,7 +18927,7 @@
       "kilojoule": 374.23712,
       "percent_recorded": 0.9999744,
       "distance_meter": 5871.435,
-      "altitude_gain_meter": 262.384,
+      "altitude_gain_meter": 5.136958,
       "altitude_change_meter": 4.595628,
       "zone_durations": {
         "zone_zero_milli": 4639920,
@@ -18927,7 +18958,7 @@
       "kilojoule": 266.55106,
       "percent_recorded": 1.0,
       "distance_meter": 3831.471,
-      "altitude_gain_meter": 172.51384,
+      "altitude_gain_meter": 4.362321,
       "altitude_change_meter": -3.930147,
       "zone_durations": {
         "zone_zero_milli": 3061950,
@@ -18958,7 +18989,7 @@
       "kilojoule": 204.66238,
       "percent_recorded": 1.0,
       "distance_meter": 2956.1904,
-      "altitude_gain_meter": 132.48848,
+      "altitude_gain_meter": 4.767992,
       "altitude_change_meter": 1.121695,
       "zone_durations": {
         "zone_zero_milli": 2310960,
@@ -18989,7 +19020,7 @@
       "kilojoule": 298.60794,
       "percent_recorded": 0.99997467,
       "distance_meter": 3983.7432,
-      "altitude_gain_meter": 176.38957,
+      "altitude_gain_meter": 5.423547,
       "altitude_change_meter": 3.352846,
       "zone_durations": {
         "zone_zero_milli": 3460940,
@@ -19051,7 +19082,7 @@
       "kilojoule": 587.72546,
       "percent_recorded": 1.0,
       "distance_meter": 5247.927,
-      "altitude_gain_meter": 213.09483,
+      "altitude_gain_meter": 3.730192,
       "altitude_change_meter": 1.827458,
       "zone_durations": {
         "zone_zero_milli": 3107930,
@@ -19113,7 +19144,7 @@
       "kilojoule": 554.76215,
       "percent_recorded": 0.9998784,
       "distance_meter": 5782.6133,
-      "altitude_gain_meter": 200.63388,
+      "altitude_gain_meter": 3.721596,
       "altitude_change_meter": 3.806795,
       "zone_durations": {
         "zone_zero_milli": 4035920,
@@ -19144,7 +19175,7 @@
       "kilojoule": 2041.5273,
       "percent_recorded": 0.9999329,
       "distance_meter": 289.38,
-      "altitude_gain_meter": 43.63586,
+      "altitude_gain_meter": 3.027862,
       "altitude_change_meter": 1.073834,
       "zone_durations": {
         "zone_zero_milli": 485990,
@@ -19237,7 +19268,7 @@
       "kilojoule": 939.77496,
       "percent_recorded": 1.0,
       "distance_meter": 228.79065,
-      "altitude_gain_meter": 33.025852,
+      "altitude_gain_meter": 3.66923,
       "altitude_change_meter": 1.362374,
       "zone_durations": {
         "zone_zero_milli": 69990,
@@ -19330,7 +19361,7 @@
       "kilojoule": 1986.6156,
       "percent_recorded": 1.0,
       "distance_meter": 296.32407,
-      "altitude_gain_meter": 53.24259,
+      "altitude_gain_meter": 2.023051,
       "altitude_change_meter": -0.818753,
       "zone_durations": {
         "zone_zero_milli": 58000,
@@ -19454,7 +19485,7 @@
       "kilojoule": 913.05225,
       "percent_recorded": 1.0,
       "distance_meter": 199.50797,
-      "altitude_gain_meter": 27.684406,
+      "altitude_gain_meter": 2.56286,
       "altitude_change_meter": 0.063721,
       "zone_durations": {
         "zone_zero_milli": 94000,
@@ -19547,7 +19578,7 @@
       "kilojoule": 1670.9646,
       "percent_recorded": 1.0,
       "distance_meter": 347.34982,
-      "altitude_gain_meter": 62.05245,
+      "altitude_gain_meter": 2.375393,
       "altitude_change_meter": -1.651498,
       "zone_durations": {
         "zone_zero_milli": 177990,
@@ -19578,7 +19609,7 @@
       "kilojoule": 1986.4395,
       "percent_recorded": 0.9998072,
       "distance_meter": 387.74045,
-      "altitude_gain_meter": 60.02889,
+      "altitude_gain_meter": 10.025662,
       "altitude_change_meter": 9.590807,
       "zone_durations": {
         "zone_zero_milli": 55990,
@@ -19640,7 +19671,7 @@
       "kilojoule": 758.37225,
       "percent_recorded": 0.99976385,
       "distance_meter": 600.6057,
-      "altitude_gain_meter": 27.070316,
+      "altitude_gain_meter": 2.099723,
       "altitude_change_meter": -1.028536,
       "zone_durations": {
         "zone_zero_milli": 92990,
@@ -19733,7 +19764,7 @@
       "kilojoule": 797.91003,
       "percent_recorded": 0.99969167,
       "distance_meter": 179.62265,
-      "altitude_gain_meter": 32.093803,
+      "altitude_gain_meter": 12.580077,
       "altitude_change_meter": 9.498425,
       "zone_durations": {
         "zone_zero_milli": 62000,
@@ -19826,7 +19857,7 @@
       "kilojoule": 2177.7188,
       "percent_recorded": 1.0,
       "distance_meter": 322.02063,
-      "altitude_gain_meter": 123.1805,
+      "altitude_gain_meter": 9.364012,
       "altitude_change_meter": -2.319284,
       "zone_durations": {
         "zone_zero_milli": 65000,
@@ -19888,7 +19919,7 @@
       "kilojoule": 753.46826,
       "percent_recorded": 0.99995744,
       "distance_meter": 198.34483,
-      "altitude_gain_meter": 61.331932,
+      "altitude_gain_meter": 8.544049,
       "altitude_change_meter": -6.26,
       "zone_durations": {
         "zone_zero_milli": 220000,
@@ -20012,7 +20043,7 @@
       "kilojoule": 458.88202,
       "percent_recorded": 0.9992693,
       "distance_meter": 143.01985,
-      "altitude_gain_meter": 55.47896,
+      "altitude_gain_meter": 5.97905,
       "altitude_change_meter": -9.532737,
       "zone_durations": {
         "zone_zero_milli": 145010,
@@ -20074,7 +20105,7 @@
       "kilojoule": 1922.1222,
       "percent_recorded": 1.0,
       "distance_meter": 656.06165,
-      "altitude_gain_meter": 140.7265,
+      "altitude_gain_meter": 8.511962,
       "altitude_change_meter": 6.584363,
       "zone_durations": {
         "zone_zero_milli": 52000,
@@ -20198,7 +20229,7 @@
       "kilojoule": 467.6376,
       "percent_recorded": 0.99989593,
       "distance_meter": 229.44957,
-      "altitude_gain_meter": 55.718304,
+      "altitude_gain_meter": 7.093164,
       "altitude_change_meter": 0.101614,
       "zone_durations": {
         "zone_zero_milli": 50000,
@@ -20322,7 +20353,7 @@
       "kilojoule": 478.48773,
       "percent_recorded": 0.9998025,
       "distance_meter": 285.80197,
-      "altitude_gain_meter": 130.85335,
+      "altitude_gain_meter": 53.613037,
       "altitude_change_meter": -16.52,
       "zone_durations": {
         "zone_zero_milli": 122000,
@@ -20477,7 +20508,7 @@
       "kilojoule": 2070.8972,
       "percent_recorded": 1.0,
       "distance_meter": 381.78613,
-      "altitude_gain_meter": 54.12425,
+      "altitude_gain_meter": 3.297629,
       "altitude_change_meter": 1.729532,
       "zone_durations": {
         "zone_zero_milli": 42000,
@@ -21190,7 +21221,7 @@
       "kilojoule": 2198.5066,
       "percent_recorded": 1.0,
       "distance_meter": 481.198,
-      "altitude_gain_meter": 180.40096,
+      "altitude_gain_meter": 10.087831,
       "altitude_change_meter": 6.780475,
       "zone_durations": {
         "zone_zero_milli": 24000,
@@ -21655,7 +21686,7 @@
       "kilojoule": 695.7574,
       "percent_recorded": 1.0,
       "distance_meter": 28.2606,
-      "altitude_gain_meter": 0.582384,
+      "altitude_gain_meter": 0.473749,
       "altitude_change_meter": 0.125908,
       "zone_durations": {
         "zone_zero_milli": 0,
@@ -21841,7 +21872,7 @@
       "kilojoule": 649.3801,
       "percent_recorded": 0.980837,
       "distance_meter": 485.85376,
-      "altitude_gain_meter": 45.724957,
+      "altitude_gain_meter": 6.091716,
       "altitude_change_meter": 1.264392,
       "zone_durations": {
         "zone_zero_milli": 44000,
@@ -22027,7 +22058,7 @@
       "kilojoule": 3457.8262,
       "percent_recorded": 1.0,
       "distance_meter": 12972.207,
-      "altitude_gain_meter": 357.0022,
+      "altitude_gain_meter": 6.40928,
       "altitude_change_meter": -2.791085,
       "zone_durations": {
         "zone_zero_milli": 69990,
@@ -22244,7 +22275,7 @@
       "kilojoule": 2979.7864,
       "percent_recorded": 1.0,
       "distance_meter": 8128.506,
-      "altitude_gain_meter": 743.357,
+      "altitude_gain_meter": 35.727364,
       "altitude_change_meter": 8.622644,
       "zone_durations": {
         "zone_zero_milli": 3347940,
@@ -22523,7 +22554,7 @@
       "kilojoule": 4010.5962,
       "percent_recorded": 1.0,
       "distance_meter": 13254.685,
-      "altitude_gain_meter": 377.6504,
+      "altitude_gain_meter": 9.077756,
       "altitude_change_meter": 18.128483,
       "zone_durations": {
         "zone_zero_milli": 46000,
